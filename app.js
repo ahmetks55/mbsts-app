@@ -82,6 +82,23 @@ class MBSTSApp {
         this.renderBank();
         this.renderStats();
         this.renderDashboard();
+        this.loadExtraQuestions();
+    }
+
+    async loadExtraQuestions() {
+        try {
+            const res = await fetch('questions-ek.json');
+            if (!res.ok) return;
+            const extra = await res.json();
+            const existing = new Set(this.questions.map(q => q.id));
+            const added = extra.filter(q => !existing.has(q.id));
+            if (added.length > 0) {
+                this.questions = this.questions.concat(added);
+                this.saveToStorage('mbsts_questions', this.questions);
+                this.renderBank();
+                this.renderStats();
+            }
+        } catch (e) {}
     }
 
     loadFromStorage(key, fallback) {
