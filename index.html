@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBSTS Prep | Diyanet Mesleki Bilgiler Sınavı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" title="Tema Değiştir">🌙</button>
+
+    <!-- Mobile Menu -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-icon">📚</div>
+            <div class="brand-text">
+                <h1>MBSTS</h1>
+                <span>Hazırlık Platformu</span>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-link active" data-page="dashboard">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Kontrol Paneli</span>
+            </a>
+            <a href="#" class="nav-link" data-page="quiz">
+                <span class="nav-icon">📝</span>
+                <span class="nav-label">Test Çöz</span>
+            </a>
+            <a href="#" class="nav-link" data-page="bank">
+                <span class="nav-icon">🗃️</span>
+                <span class="nav-label">Soru Bankası</span>
+            </a>
+            <a href="#" class="nav-link" data-page="sources">
+                <span class="nav-icon">📖</span>
+                <span class="nav-label">Kaynaklar</span>
+            </a>
+            <a href="#" class="nav-link" data-page="stats">
+                <span class="nav-icon">📊</span>
+                <span class="nav-label">İstatistikler</span>
+            </a>
+            <a href="#" class="nav-link" data-page="info">
+                <span class="nav-icon">ℹ️</span>
+                <span class="nav-label">Sınav Rehberi</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="footer-badge">2026 Güncel</div>
+            <p>v2.0 — DİB & TDV Kaynakları</p>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main" id="main">
+
+        <!-- ==================== DASHBOARD ==================== -->
+        <section class="page active" id="page-dashboard">
+            <div class="page-hero">
+                <div class="hero-content">
+                    <h1>Merhaba! 👋</h1>
+                    <p>MBSTS sınavına hazırlanmaya devam edin. Bugün bir test çözün veya kaynakları inceleyin.</p>
+                </div>
+                <div class="hero-illustration">
+                    <div class="hero-circle"></div>
+                    <span class="hero-emoji">🕌</span>
+                </div>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-card gradient-blue">
+                    <div class="stat-icon">📚</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="statSources">15</span>
+                        <span class="stat-label">Kaynak Kitap</span>
+                    </div>
+                </div>
+                <div class="stat-card gradient-green">
+                    <div class="stat-icon">❓</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="statQuestions">35</span>
+                        <span class="stat-label">Soru Havuzu</span>
+                    </div>
+                </div>
+                <div class="stat-card gradient-purple">
+                    <div class="stat-icon">✅</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="statSolved">0</span>
+                        <span class="stat-label">Çözülen</span>
+                    </div>
+                </div>
+                <div class="stat-card gradient-orange">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="statRate">%0</span>
+                        <span class="stat-label">Başarı</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>📅 2026 Sınav Takvimi</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="timeline">
+                            <div class="timeline-item completed">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">11-19 Şubat</span>
+                                    <span class="timeline-text">Başvuru Dönemi</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item active">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">29 Mart 2026</span>
+                                    <span class="timeline-text">Sınav Tarihi</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">16 Nisan 2026</span>
+                                    <span class="timeline-text">Sonuç Açıklanması</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>⚡ Hızlı İşlemler</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="quick-grid">
+                            <button class="quick-action" onclick="app.navigate('quiz')">
+                                <span class="qa-icon">📝</span>
+                                <span class="qa-text">Hızlı Test</span>
+                                <span class="qa-desc">10 soru, 15 dk</span>
+                            </button>
+                            <button class="quick-action" onclick="app.navigate('quiz', {count:60, timer:90})">
+                                <span class="qa-icon">🎯</span>
+                                <span class="qa-text">Tam Sınav</span>
+                                <span class="qa-desc">60 soru, 90 dk</span>
+                            </button>
+                            <button class="quick-action" onclick="app.navigate('sources')">
+                                <span class="qa-icon">📖</span>
+                                <span class="qa-text">Kaynaklar</span>
+                                <span class="qa-desc">PDF indir</span>
+                            </button>
+                            <button class="quick-action" onclick="app.navigate('bank')">
+                                <span class="qa-icon">➕</span>
+                                <span class="qa-text">Soru Ekle</span>
+                                <span class="qa-desc">Havuza katkı</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>📊 Konulara Göre Başarı</h3>
+                </div>
+                <div class="card-body">
+                    <div class="subject-bars" id="dashboardBars">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== QUIZ ==================== -->
+        <section class="page" id="page-quiz">
+            <!-- Setup -->
+            <div id="quizSetup" class="quiz-setup">
+                <div class="page-title">
+                    <h1>📝 Test Ayarları</h1>
+                    <p>Tercihlerinizi belirleyin ve teste başlayın</p>
+                </div>
+
+                <div class="card" style="max-width:600px; margin:0 auto;">
+                    <div class="card-body">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Soru Sayısı</label>
+                                <select id="qCount">
+                                    <option value="10">10 Soru</option>
+                                    <option value="20">20 Soru</option>
+                                    <option value="30">30 Soru</option>
+                                    <option value="60" selected>60 Soru (Tam Sınav)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Konu</label>
+                                <select id="qSubject">
+                                    <option value="all">Tüm Konular</option>
+                                    <option value="kur-an-bilgisi">Kur'an Bilgisi (7)</option>
+                                    <option value="tefsir">Tefsir (7)</option>
+                                    <option value="akaid-kelam">Akaid ve Kelam (7)</option>
+                                    <option value="fikih-ilmihal">Fıkıh ve İlmihal (20)</option>
+                                    <option value="hadis">Hadis (7)</option>
+                                    <option value="siyer">Siyer ve İslam Tarihi (7)</option>
+                                    <option value="dinler-tarihi">Dinler ve Mezhepler (5)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Süre</label>
+                                <select id="qTimer">
+                                    <option value="0">Süresiz</option>
+                                    <option value="15">15 Dakika</option>
+                                    <option value="30">30 Dakika</option>
+                                    <option value="60">60 Dakika</option>
+                                    <option value="90" selected>90 Dakika (Gerçek Sınav)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Sıralama</label>
+                                <select id="qOrder">
+                                    <option value="random">Rastgele</option>
+                                    <option value="subject">Konuya Göre</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-lg btn-full" onclick="app.startQuiz()">
+                            🚀 Teste Başla
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Quiz -->
+            <div id="quizActive" style="display:none;">
+                <div class="quiz-topbar">
+                    <div class="quiz-progress-info">
+                        <span id="quizQNum">1</span> / <span id="quizQTotal">60</span>
+                    </div>
+                    <div class="quiz-timer" id="quizTimerDisplay">90:00</div>
+                    <button class="btn btn-danger btn-sm" onclick="app.finishQuiz()">Bitir</button>
+                </div>
+
+                <div class="quiz-progress-bar">
+                    <div class="quiz-progress-fill" id="quizProgressFill"></div>
+                </div>
+
+                <div class="quiz-question-card" id="quizQuestionCard">
+                    <!-- Filled by JS -->
+                </div>
+
+                <div class="quiz-nav">
+                    <button class="btn btn-outline" id="prevQBtn" onclick="app.prevQuestion()">◀ Önceki</button>
+                    <button class="btn btn-primary" id="nextQBtn" onclick="app.nextQuestion()">Sonraki ▶</button>
+                </div>
+
+                <div class="quiz-dots" id="quizDots"></div>
+            </div>
+
+            <!-- Results -->
+            <div id="quizResults" style="display:none;">
+                <!-- Filled by JS -->
+            </div>
+        </section>
+
+        <!-- ==================== QUESTION BANK ==================== -->
+        <section class="page" id="page-bank">
+            <div class="page-title">
+                <h1>🗃️ Soru Bankası</h1>
+                <p>Kendi sorularınızı ekleyin, yönetin, dışa/içe aktarın</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>➕ Yeni Soru Ekle</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="addQuestionForm">
+                            <div class="form-group">
+                                <label>Konu</label>
+                                <select id="aSubject" required>
+                                    <option value="">Seçiniz...</option>
+                                    <option value="kur-an-bilgisi">Kur'an Bilgisi</option>
+                                    <option value="tefsir">Tefsir</option>
+                                    <option value="akaid-kelam">Akaid ve Kelam</option>
+                                    <option value="fikih-ilmihal">Fıkıh ve İlmihal</option>
+                                    <option value="hadis">Hadis</option>
+                                    <option value="siyer">Siyer ve İslam Tarihi</option>
+                                    <option value="dinler-tarihi">Dinler ve Mezhepler Tarihi</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Soru Metni</label>
+                                <textarea id="aText" rows="3" required placeholder="Sorunuzu yazın..."></textarea>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group"><label>A)</label><input id="aA" required placeholder="Seçenek A"></div>
+                                <div class="form-group"><label>B)</label><input id="aB" required placeholder="Seçenek B"></div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group"><label>C)</label><input id="aC" required placeholder="Seçenek C"></div>
+                                <div class="form-group"><label>D)</label><input id="aD" required placeholder="Seçenek D"></div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group"><label>E)</label><input id="aE" required placeholder="Seçenek E"></div>
+                                <div class="form-group">
+                                    <label>Doğru Cevap</label>
+                                    <select id="aCorrect" required>
+                                        <option value="">Seçiniz</option>
+                                        <option value="A">A</option><option value="B">B</option>
+                                        <option value="C">C</option><option value="D">D</option>
+                                        <option value="E">E</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Açıklama (Opsiyonel)</label>
+                                <textarea id="aExpl" rows="2" placeholder="Doğru cevabın açıklaması..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-full">✅ Soruyu Ekle</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>📋 Sorularım (<span id="myQCount">0</span>)</h3>
+                        <div class="card-actions">
+                            <select id="bankFilter" class="select-sm" onchange="app.renderBank()">
+                                <option value="all">Tümü</option>
+                                <option value="kur-an-bilgisi">Kur'an Bilgisi</option>
+                                <option value="tefsir">Tefsir</option>
+                                <option value="akaid-kelam">Akaid ve Kelam</option>
+                                <option value="fikih-ilmihal">Fıkıh ve İlmihal</option>
+                                <option value="hadis">Hadis</option>
+                                <option value="siyer">Siyer</option>
+                                <option value="dinler-tarihi">Dinler Tarihi</option>
+                            </select>
+                            <button class="btn btn-sm btn-outline" onclick="app.exportQuestions()">📥 Dışa Aktar</button>
+                            <label class="btn btn-sm btn-outline" style="cursor:pointer;">
+                                📤 İçeri Aktar
+                                <input type="file" accept=".json" onchange="app.importQuestions(event)" hidden>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="card-body" id="bankList">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SOURCES ==================== -->
+        <section class="page" id="page-sources">
+            <div class="page-title">
+                <h1>📖 Kaynaklar</h1>
+                <p>MBSTS sınavı için DİB ve TDV resmi yayınları</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="tefsir">Tefsir</button>
+                <button class="filter-btn" data-filter="fikih">Fıkıh</button>
+                <button class="filter-btn" data-filter="hadis">Hadis</button>
+                <button class="filter-btn" data-filter="siyer">Siyer</button>
+                <button class="filter-btn" data-filter="tecvit">Tecvid</button>
+                <button class="filter-btn" data-filter="diger">Diğer</button>
+            </div>
+
+            <div class="sources-grid" id="sourcesGrid"></div>
+
+            <div class="card" style="margin-top:30px;">
+                <div class="card-header">
+                    <h3>📥 Toplu İndirme</h3>
+                </div>
+                <div class="card-body">
+                    <div class="download-links">
+                        <a href="https://archive.org/details/diyanet-dib-yayinlari" target="_blank" class="download-card">
+                            <span class="dl-icon">📦</span>
+                            <div><strong>TÜM DİB YAYINLARI</strong><br><small>3.8 GB RAR — Tüm kitaplar</small></div>
+                        </a>
+                        <a href="https://archive.org/details/diyanet-kuran-kitapligi" target="_blank" class="download-card">
+                            <span class="dl-icon">📖</span>
+                            <div><strong>Kur'an Kütüphanesi</strong><br><small>40+ Kitap PDF</small></div>
+                        </a>
+                        <a href="https://archive.org/details/HadisKitapligi" target="_blank" class="download-card">
+                            <span class="dl-icon">📜</span>
+                            <div><strong>Hadis Kütüphanesi</strong><br><small>143+ Kitap</small></div>
+                        </a>
+                        <a href="https://archive.org/details/TDV_IslamAnsiklopedisi1-44" target="_blank" class="download-card">
+                            <span class="dl-icon">📕</span>
+                            <div><strong>İslam Ansiklopedisi</strong><br><small>44 Cilt PDF</small></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== STATS ==================== -->
+        <section class="page" id="page-stats">
+            <div class="page-title">
+                <h1>📊 İstatistikler</h1>
+                <p>Gelişiminizi takip edin</p>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-card gradient-blue">
+                    <div class="stat-icon">📝</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="totalQuizCount">0</span>
+                        <span class="stat-label">Toplam Test</span>
+                    </div>
+                </div>
+                <div class="stat-card gradient-green">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="avgPercent">0%</span>
+                        <span class="stat-label">Ortalama</span>
+                    </div>
+                </div>
+                <div class="stat-card gradient-purple">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="bestPercent">0%</span>
+                        <span class="stat-label">En İyi</span>
+                    </div>
+                </div>
+                <div class="stat-card gradient-orange">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-body">
+                        <span class="stat-value" id="totalQAnswered">0</span>
+                        <span class="stat-label">Toplam Soru</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>📈 Konulara Göre Başarı</h3>
+                </div>
+                <div class="card-body">
+                    <div class="subject-bars" id="statsBars"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>📋 Geçmiş Testler</h3>
+                    <button class="btn btn-sm btn-danger" onclick="app.clearHistory()">🗑️ Temizle</button>
+                </div>
+                <div class="card-body" id="historyList"></div>
+            </div>
+        </section>
+
+        <!-- ==================== INFO ==================== -->
+        <section class="page" id="page-info">
+            <div class="page-title">
+                <h1>ℹ️ Sınav Rehberi</h1>
+                <p>MBSTS hakkında bilmeniz gereken her şey</p>
+            </div>
+
+            <div class="info-grid">
+                <div class="card info-card">
+                    <div class="card-header"><h3>📋 Sınav Hakkında</h3></div>
+                    <div class="card-body">
+                        <p><strong>MBSTS</strong> (Mesleki Bilgiler Seviye Tespit Sınavı), Diyanet İşleri Başkanlığı tarafından yılda düzenlenen mesleki bilgi sınavıdır.</p>
+                        <p>Sözleşmeli ve kadrolu <strong>imam, müezzin ve Kur'an kursu öğretmenleri</strong> bu sınava girer.</p>
+                    </div>
+                </div>
+                <div class="card info-card">
+                    <div class="card-header"><h3>🎯 Sınavın Amacı</h3></div>
+                    <div class="card-body">
+                        <ul class="check-list">
+                            <li>Yurt dışı görevlendirme</li>
+                            <li>Görev yeri değişikliği</li>
+                            <li>Hac ve Umre görevlendirmesi</li>
+                            <li>Terfi ve advancement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-header"><h3>📊 Soru Dağılımı (60 Soru)</h3></div>
+                <div class="card-body">
+                    <div class="distribution-grid">
+                        <div class="dist-item"><div class="dist-bar" style="--h:35%"><span>20</span></div><p>Fıkıh ve İlmihal</p></div>
+                        <div class="dist-item"><div class="dist-bar" style="--h:12%"><span>7</span></div><p>Kur'an Bilgisi</p></div>
+                        <div class="dist-item"><div class="dist-bar" style="--h:12%"><span>7</span></div><p>Tefsir</p></div>
+                        <div class="dist-item"><div class="dist-bar" style="--h:12%"><span>7</span></div><p>Akaid ve Kelam</p></div>
+                        <div class="dist-item"><div class="dist-bar" style="--h:12%"><span>7</span></div><p>Hadis</p></div>
+                        <div class="dist-item"><div class="dist-bar" style="--h:12%"><span>7</span></div><p>Siyer</p></div>
+                        <div class="dist-item"><div class="dist-bar" style="--h:8%"><span>5</span></div><p>Dinler Tarihi</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-header"><h3>📚 Resmi Kaynak Kitaplar</h3></div>
+                <div class="card-body">
+                    <ol class="numbered-list">
+                        <li>Kur'an Yolu Türkçe Meal ve Tefsiri — Komisyon (DİB)</li>
+                        <li>Tefsir Usulü — Prof. Dr. İsmail Cerrahoğlu (TDV)</li>
+                        <li>İlmihal I. ve II. Cilt — Komisyon (TDV)</li>
+                        <li>Hac İlmihali — Doç. Dr. İsmail Karagöz vd. (DİB)</li>
+                        <li>Fetvalar — Din İşleri Yüksek Kurulu (DİB)</li>
+                        <li>Dini Kavramlar Sözlüğü — Komisyon (DİB)</li>
+                        <li>Hz. Muhammed ve Evrensel Mesajı — Prof. Dr. İbrahim Sarıçam (DİB)</li>
+                        <li>Hadis Usûlü — Prof. Dr. Talat Koçyiğit (TDV)</li>
+                        <li>Hadis Tarihi — Prof. Dr. Talat Koçyiğit (TDV)</li>
+                        <li>Riyazü's-Sâlihîn — İmam Nevevî (DİB)</li>
+                        <li>Yaşayan Dünya Dinleri — Komisyon (DİB)</li>
+                        <li>Tecvidli Kur'an Okuma Rehberi — Davut Kaya (DİB)</li>
+                        <li>Kur'an-ı Kerim'in Tecvidi — Demirhan Ünlü (TDV)</li>
+                        <li>Diyanet İslam Ansiklopedisi (TDV)</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-header"><h3>🔗 Resmi Linkler</h3></div>
+                <div class="card-body">
+                    <div class="link-grid">
+                        <a href="https://www.osym.gov.tr" target="_blank" class="link-card">🏛️ ÖSYM</a>
+                        <a href="https://www.osym.gov.tr/TR,33858/2026-dib-mbsts-kilavuz-ve-basvuru-bilgileri.html" target="_blank" class="link-card">📋 2026 Kılavuz</a>
+                        <a href="https://esinav.osym.gov.tr" target="_blank" class="link-card">💻 e-Sınav</a>
+                        <a href="https://www.diyanet.gov.tr" target="_blank" class="link-card">🕌 Diyanet</a>
+                        <a href="https://yayin.diyanet.gov.tr" target="_blank" class="link-card">📚 Dijital Yayınlar</a>
+                        <a href="https://islamansiklopedisi.org.tr" target="_blank" class="link-card">📕 İslam Ansiklopedisi</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
