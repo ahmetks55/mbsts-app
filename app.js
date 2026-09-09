@@ -87,11 +87,15 @@ class MBSTSApp {
 
     async loadExtraQuestions() {
         try {
-            const res = await fetch('questions-ek.json');
-            if (!res.ok) return;
-            const extra = await res.json();
+            const urls = ['questions-ek.json', 'questions-2024.json'];
+            const responses = await Promise.all(urls.map(u => fetch(u).catch(() => null)));
             const existing = new Set(this.questions.map(q => q.id));
-            const added = extra.filter(q => !existing.has(q.id));
+            const added = [];
+            for (const res of responses) {
+                if (!res || !res.ok) continue;
+                const extra = await res.json();
+                added.push(...extra.filter(q => !existing.has(q.id)));
+            }
             if (added.length > 0) {
                 this.questions = this.questions.concat(added);
                 this.saveToStorage('mbsts_questions', this.questions);
@@ -247,6 +251,7 @@ class MBSTSApp {
             <div class="bank-item">
                 <div class="bi-head">
                     <span class="bi-badge">${SUBJECTS[q.subject]?.name || q.subject}</span>
+                    ${q.year ? `<span class="bi-badge" style="background:var(--primary);color:#fff">${q.source || q.year}</span>` : ''}
                     <button class="btn btn-sm btn-danger" onclick="app.deleteQuestion(${q.id})">Sil</button>
                 </div>
                 <div class="bi-text">${q.text}</div>
@@ -383,7 +388,7 @@ class MBSTSApp {
         const card = document.getElementById('quizQuestionCard');
         card.innerHTML = `
             <div class="q-number">Soru ${qs.currentIndex + 1}</div>
-            <div class="q-subject-badge">${SUBJECTS[q.subject]?.name || q.subject}</div>
+            <div class="q-subject-badge">${SUBJECTS[q.subject]?.name || q.subject}${q.year ? ` · ${q.source || q.year}` : ''}</div>
             <div class="q-text">${q.text}</div>
             <div class="quiz-options">
                 ${q.options.map((opt, i) => `
