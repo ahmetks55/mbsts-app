@@ -323,6 +323,39 @@ body {
 .btn-lg { padding: 14px 28px; font-size: 1rem; }
 .btn-full { width: 100%; }
 
+/* ===== PWA INSTALL ===== */
+.pwa-install {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(120px);
+    background: var(--surface);
+    border: 2px solid var(--primary);
+    border-radius: var(--radius);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: var(--shadow-lg);
+    z-index: 1500;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    max-width: 400px;
+    width: calc(100% - 40px);
+}
+.pwa-install.show { transform: translateX(-50%) translateY(0); }
+.pwa-icon { font-size: 2rem; }
+.pwa-text { flex: 1; }
+.pwa-text strong { display: block; font-size: 0.9rem; }
+.pwa-text span { font-size: 0.75rem; color: var(--text-secondary); }
+.pwa-close {
+    border: none;
+    background: none;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 4px;
+}
+
 /* ===== FORMS ===== */
 .form-group { margin-bottom: 14px; }
 .form-group label { display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 5px; }

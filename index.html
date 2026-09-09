@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MBSTS Prep | Diyanet Mesleki Bilgiler Sınavı</title>
+    <meta name="description" content="MBSTS sınavına hazırlık uygulaması - test çöz, soru bankası, kaynaklar">
+    <meta name="theme-color" content="#1a5276">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MBSTS">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -11,6 +19,17 @@
 <body>
     <!-- Theme Toggle -->
     <button class="theme-toggle" id="themeToggle" title="Tema Değiştir">🌙</button>
+
+    <!-- PWA Install -->
+    <div class="pwa-install" id="pwaInstall">
+        <div class="pwa-icon">📱</div>
+        <div class="pwa-text">
+            <strong>Uygulamayı Kur</strong>
+            <span>Ana ekrana ekle, çevrimdışı kullan</span>
+        </div>
+        <button class="btn btn-success btn-sm" id="pwaInstallBtn">Kur</button>
+        <button class="pwa-close" id="pwaClose">✕</button>
+    </div>
 
     <!-- Mobile Menu -->
     <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
@@ -491,6 +510,22 @@
             </div>
 
             <div class="card" style="margin-top:20px;">
+                <div class="card-header"><h3>📱 Uygulamayı Kur</h3></div>
+                <div class="card-body">
+                    <p style="margin-bottom:16px;color:var(--text-secondary);">Bu uygulamayı ana ekranınıza ekleyerek <strong>çevrimdışı</strong> kullanabilirsiniz. Telefinizda aşağıdaki adımları izleyin:</p>
+                    <ol class="numbered-list">
+                        <li><strong>Android (Chrome):</strong> Menü (⋮) → "Ana ekrana ekle" veya "Uygulamayı yükle"</li>
+                        <li><strong>iPhone/iPad (Safari):</strong> Paylaş (⬆️) → "Ana Ekrana Ekle"</li>
+                        <li><strong>Windows (Edge/Chrome):</strong> Menü (⋯) → "Uygulamalar" → "Bu siteyi uygulama olarak yükle"</li>
+                        <li><strong>macOS (Safari):</strong> Dosya → "Dock'a Ekle"</li>
+                    </ol>
+                    <div style="margin-top:16px;padding:14px;background:var(--primary-bg);border-radius:var(--radius-sm);">
+                        <strong>💡 İpucu:</strong> Uygulama kurulduktan sonra internet bağlantısı olmadan da çalışır.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
                 <div class="card-header"><h3>📊 Soru Dağılımı (60 Soru)</h3></div>
                 <div class="card-body">
                     <div class="distribution-grid">
@@ -544,5 +579,43 @@
     </main>
 
     <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').catch(() => {});
+            });
+        }
+
+        // PWA Install Prompt
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('pwaInstall').classList.add('show');
+        });
+
+        document.getElementById('pwaInstallBtn').addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                await deferredPrompt.userChoice;
+                deferredPrompt = null;
+            }
+            document.getElementById('pwaInstall').classList.remove('show');
+        });
+
+        document.getElementById('pwaClose').addEventListener('click', () => {
+            document.getElementById('pwaInstall').classList.remove('show');
+        });
+
+        // Show install hint on mobile after 3s if not installed
+        setTimeout(() => {
+            if (!window.matchMedia('(display-mode: standalone)').matches) {
+                const detected = window.navigator.userAgent.match(/Android|iPhone|iPad|Windows Phone/i);
+                if (detected && !localStorage.getItem('mbsts_install_dismissed')) {
+                    document.getElementById('pwaInstall').classList.add('show');
+                }
+            }
+        }, 3000);
+    </script>
 </body>
 </html>

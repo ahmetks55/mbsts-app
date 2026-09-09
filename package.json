@@ -1,0 +1,16 @@
+{
+  "name": "mbsts-app",
+  "version": "2.1.0",
+  "description": "MBSTS sinavi hazirlik uygulamasi - Diyanet Mesleki Bilgiler Sinavi",
+  "main": "index.html",
+  "scripts": {
+    "icons": "node generate-icons.js",
+    "dev": "npx serve ."
+  },
+  "keywords": ["mbsts", "diyanet", "sinav", "hazirlik", "pwa"],
+  "author": "ahmetks55",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}
