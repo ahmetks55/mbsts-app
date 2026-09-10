@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mbsts-v4';
+const CACHE_NAME = 'mbsts-v5';
 const ASSETS = [
   '/',
   '/index.html',
@@ -8,6 +8,7 @@ const ASSETS = [
   '/questions-ek.json',
   '/questions-2024.json',
   '/questions-2023.json',
+  '/questions-2022.json',
   '/manifest.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png'
