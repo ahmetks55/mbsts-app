@@ -87,7 +87,7 @@ class MBSTSApp {
 
     async loadExtraQuestions() {
         try {
-            const urls = ['questions-ek.json', 'questions-2024.json', 'questions-2023.json', 'questions-2022.json'];
+            const urls = ['questions-ek.json', 'questions-2024.json', 'questions-2023.json', 'questions-2022.json', 'questions-2021.json'];
             const responses = await Promise.all(urls.map(u => fetch(u).catch(() => null)));
             const existing = new Set(this.questions.map(q => q.id));
             const added = [];
