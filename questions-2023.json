@@ -1,0 +1,962 @@
+[
+  {
+    "id": 261,
+    "subject": "kur-an-bilgisi",
+    "text": "Hafızlık eğitimi alan ve Arapça bilen Mehmet, gittiği bir camide imamın namazda okuduğu yerleri dinlerken anlamları üzerinde düşünür. İmamın kıyam hâlinde Bakara Suresi'nin 59. ayetini okuyup 60. ayete geçtiğinde rükü yapmaması üzerine Mehmet, önceki ayette bahsedilen konunun tamamlandığını ve bir başka konunun başladığını; bu iki konunun birbirinden farklı olması sebebiyle rükü yapılmasının daha iyi olacağını düşünür.\n\nMehmet'in fark ettiği bu durum Kur'an-ı Kerim'de aşağıdaki vakf işaretlerinden hangisiyle gösterilir?",
+    "options": [
+      "“ج” (cevâz vakfı)",
+      "“ق” (vakf-ı kâfî)",
+      "“لا” (vakf-ı lâ)",
+      "“م” (vâcib vakf)",
+      "“ط” (mutlak vakf)"
+    ],
+    "correct": 1,
+    "explanation": "Burada durmanın daha iyi olduğunu gösteren kâf (ق) işaretine vakf-ı kâfî denir. Ayetin konusu tamamlanıp yeni bir konuya geçildiğinde bu işarette durulması uygundur.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 262,
+    "subject": "kur-an-bilgisi",
+    "text": "Kur'an-ı Kerim dersinde öğretmen, tecvit kurallarından birini anlatırken tahtaya \"مُصَدِّقًا\" kelimesini yazar. Kural uygulandıktan sonra kelimenin gunnesiz idgam yapılarak okunması gerektiğini ifade eder.\n\nÖğretmenin derste anlattığı bu idgam türü aşağıdakilerden hangisidir?",
+    "options": [
+      "Mütekâribeyn",
+      "Mütecâniseyn",
+      "Şemsiyye",
+      "Bilâ ğunne",
+      "Meal-ğunne"
+    ],
+    "correct": 3,
+    "explanation": "İki ayrı kelimede yan yana gelen harflerden idgamın gunnesiz gerçekleştirilmesine idgam-ı bilâ ğunne denir. Bu idgam türünde gunne sıfatı yer almaz.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 263,
+    "subject": "tefsir",
+    "text": "Kur'an-ı Kerim'deki bazı ayetler doğrudan o dönemde yaşanmış olaylar üzerine nazil olmuş ve söz konusu olaylar yer aldıkları surelere ad olarak verilmiştir.\n\nAşağıdakilerden hangisi bu surelere örnek verilemez?",
+    "options": [
+      "Abese",
+      "Mümtehine",
+      "Nasr",
+      "Tebbet",
+      "Kâria"
+    ],
+    "correct": 4,
+    "explanation": "Abese, Mümtehine, Nasr ve Tebbet sureleri; nüzul sebeplerine konu olan birer olay üzerine isimlendirilmiştir. Kâria ise kıyamet gününü ifade eden bir isimdir ve doğrudan bir olay üzerine nazil olduğu için bu surelere örnek gösterilemez.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 264,
+    "subject": "fikih-ilmihal",
+    "text": "Kur'an-ı Kerim'de bazı hükümler bir anda değil aşama aşama gelmiştir. Örneğin faiz; \"İnsanların malları içinde artsın diye faizle her ne verirseniz, Allah katında artmaz.\" (Rûm, 30/39), \"Ey iman edenler! Kat kat arttırılmış olarak faiz yemeyin...\" (Âl-i İmrân, 3/130) ve \"Faiz yiyenler, ancak şeytanın çarptığı kimsenin kalktığı gibi kalkarlar...\" (Bakara, 2/275) ayetlerinin nüzulü ile tedrici olarak yasaklanmıştır.\n\nAşağıdaki yasaklardan hangisinde benzer bir durumun olduğu söylenebilir?",
+    "options": [
+      "Domuz eti",
+      "Kumar",
+      "İçki",
+      "Hırsızlık",
+      "İftira"
+    ],
+    "correct": 2,
+    "explanation": "İçki de Bakara 219, Nisâ 43 ve Mâide 90-91. ayetlerle kademeli olarak yasaklanmıştır; bu yönüyle faizin tedrici yasaklanışına benzer.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 265,
+    "subject": "tefsir",
+    "text": "\"...Onu, insanlara ağır ağır okuyasın diye ayırdık ve azar azar indirdik.\" (İsrâ, 17/105-106) ve \"...Biz onu parça parça indirdik.\" (Furkân, 25/32) ayetlerinde Kur'an'ın bir defada değil, belirli aralıklarla ve karşılaşılan durumlara binaen indirildiği anlatılmaktadır.\n\nBu parçada anlatılan durum aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
+    "options": [
+      "Tesbitü'l-Kur'ân",
+      "İ'câzü'l-Kur'ân",
+      "Tencîmü'l-Kur'ân",
+      "Levh-i mahfûz",
+      "İstinsâhü'l-Kur'ân"
+    ],
+    "correct": 2,
+    "explanation": "Kur'an'ın yirmi üç yıllık süreçte âyet âyet, sûre sûre, aralıklarla ve parça parça inmesine tencîmü'l-Kur'ân denir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 266,
+    "subject": "tefsir",
+    "text": "Kur'an-ı Kerim'de, yaptıkları çeşitli suçlardan bahsedilerek kınanan; bu dünyada helak olduğu veya ahirette azap göreceği dile getirilen çeşitli gruplardan bahsedilmektedir. Ashâb-ı Nâr bunlara örnek verilebilir.\n\nAşağıdakilerden hangisi bu parçada bahsedilen türden gruplar arasında yer almaz?",
+    "options": [
+      "Ashâbü'l-Cahîm",
+      "Ashâbü'l-Meymene",
+      "Ashâbü'l-Eyke",
+      "Ashâbü'l-Hicr",
+      "Ashâbü's-Sâir"
+    ],
+    "correct": 1,
+    "explanation": "Ashâbü'l-Cahîm, Ashâbü'l-Eyke, Ashâbü'l-Hicr ve Ashâbü's-Sâir Kur'an'da kınanan topluluklar arasında zikredilir. Ashâbü'l-Meymene ise mutluluk içinde olanlar anlamında olumlu bir gruptur.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 267,
+    "subject": "fikih-ilmihal",
+    "text": "Kur'an-ı Kerim'de genellikle ana hatlarıyla değinilen ibadete ve muamelata ilişkin hususların ayrıntıları Hz. Muhammed'in sünneti ve içtihatları sayesinde açıklığa kavuşmuştur.\n\nAşağıdakilerden hangisi bu şekilde açıklığa kavuşan hususlara örnek verilemez?",
+    "options": [
+      "Hangi mallardan zekât verileceği",
+      "Kurban edilecek hayvanların özellikleri",
+      "Orucun hangi durumlarda bozulacağı",
+      "Yemin bozmanın kefareti",
+      "Gusül abdestinin nasıl alınacağı"
+    ],
+    "correct": 3,
+    "explanation": "Zekât malları, kurbanlığın özellikleri, orucu bozan durumlar ve guslün alınışı sünnetle açıklanan hususlardır. Yemin keffareti ise bizzat Kur'an'da (Mâide, 5/89) açıkça belirlenmiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 268,
+    "subject": "tefsir",
+    "text": "Hz. Muhammed'in vefatından sonra tefsir çalışmaları belirli bölgelerde yoğunlaşmıştır. Bu bölgelerin başında Mekke, Medine ve Kûfe (Irak) şehirleri bulunmaktadır. Bu şehirlerde bazı sahabeler tefsir çalışmalarının gelişmesine öncülük etmiştir.\n\nBu sahabeler aşağıdakilerin hangisinde sırasıyla verilmiştir?",
+    "options": [
+      "Abdullah b. Abbâs – Übey b. Kâ'b – Abdullah b. Mes'ûd",
+      "Abdullah b. Abbâs – İkrime – Übey b. Kâ'b",
+      "Abdullah b. Mes'ûd – Mücâhid – Übey b. Kâ'b",
+      "Abdullah b. Abbâs – İkrime – Mücâhid",
+      "Abdullah b. Mes'ûd – İkrime – Mücâhid"
+    ],
+    "correct": 0,
+    "explanation": "Mekke'de Abdullah b. Abbâs, Medine'de Übey b. Kâ'b ve Kûfe'de Abdullah b. Mes'ûd; tefsir çalışmalarının gelişmesine öncülük eden sahâbe ekollerini temsil eder.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 269,
+    "subject": "tefsir",
+    "text": "Yazıldıkları dönemin akîde, fıkıh, kelâm ve hadis meselelerine dair farklı fikirleri yansıtan bazı tefsir eserleri şunlardır:\n\nI. Rûhu'l-Me'ânî – Şihâbeddin Âlûsî\nII. ed-Dürrü'l-Mensûr – Celâleddin es-Süyûtî\nIII. Hak Dini Kur'an Dili – Muhammed Esed\n\nBuna göre eser-yazar eşleştirmelerinden hangileri doğrudur?",
+    "options": [
+      "Yalnız I",
+      "Yalnız III",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "correct": 2,
+    "explanation": "Rûhu'l-Me'ânî Âlûsî'nin, ed-Dürrü'l-Mensûr ise Süyûtî'nin eseridir. Hak Dini Kur'an Dili, Elmalılı Muhammed Hamdi Yazır'a aittir; bu sebeple III. eşleştirme yanlıştır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 270,
+    "subject": "tefsir",
+    "text": "Taberî'nin Câmiu'l-Beyân adlı tefsiriyle ilgili,\n\nI. Kıraat vecihlerini zikretmiştir.\nII. İsrâiliyat rivayetlerine yer vermemiştir.\nIII. Arap şiirinden ve dilinden istifade etmiştir.\nIV. Ayetlerin fıkhî hükümlerine dair ayrıntıya inmiştir.\n\nyargılarından hangileri doğrudur?",
+    "options": [
+      "I ve II",
+      "I ve IV",
+      "II ve III",
+      "III ve IV",
+      "I, II, III ve IV"
+    ],
+    "correct": 2,
+    "explanation": "Câmiu'l-Beyân'da kıraat vecihlerine, rivayetlerin yanında Arap şiirine de geniş yer verilmiştir. DİB cevap anahtarına göre bu parçadaki doğru yargılar II ve III'tür.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 271,
+    "subject": "tefsir",
+    "text": "Beyzâvî, Envârü't-Tenzîl ve Esrârü't-Te'vîl adlı tefsirini yazarken özellikle belâgat ve i'câz yönüne ağırlık veren bir tefsirden büyük oranda istifade etmiştir.\n\nBeyzâvî'nin istifade ettiği bu eser aşağıdakilerden hangisidir?",
+    "options": [
+      "Fethu'l-Kadîr – Şevkânî",
+      "el-Keşşâf – Zemahşerî",
+      "Tefsîru'l-Kebîr – Fahreddin er-Râzî",
+      "Bahrü'l-Muhît – Ebû Hayyân",
+      "Mefâtîhu'l-Gayb – Fahreddin er-Râzî"
+    ],
+    "correct": 1,
+    "explanation": "Zemahşerî'nin el-Keşşâf'ı belâgat ve i'câzü'l-Kur'ân yönüyle öne çıkan bir tefsirdir; Beyzâvî, Envârü't-Tenzîl'inde bu eserden büyük oranda istifade etmiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 272,
+    "subject": "tefsir",
+    "text": "Kur'an-ı Kerim'de bir kelime, farklı âyetlerde farklı anlamlarda kullanılmıştır. Bu ilmin konusu; aynı kelimenin geçtiği yere göre hangi anlama geldiğini tespit etmektir.\n\nBu parçada tanıtılan Kur'an ilmi aşağıdakilerden hangisidir?",
+    "options": [
+      "Nâsih-mensûh",
+      "Vücûhü'l-Kur'ân",
+      "Esbâbü'n-nüzûl",
+      "Mübhemâtü'l-Kur'ân",
+      "İ'câzü'l-Kur'ân"
+    ],
+    "correct": 1,
+    "explanation": "Bir lafzın Kur'an'da farklı yerlerde kazandığı farklı manaları konu edinen ilme vücûhü'l-Kur'ân; bu manaların kendisine ise nezâiru'l-Kur'ân denir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 273,
+    "subject": "kur-an-bilgisi",
+    "text": "Hz. Âişe'den nakledilen bir rivayette Hz. Peygamber'in yatağına girdiğinde Müavvizât (Felak ve Nâs) surelerini okuyarak ellerine üflediği bildirilmiştir. Hz. Peygamber'in bu davranışı hangi sebebe bağlı olarak yaptığını konu edinen bir inceleme, aşağıdaki Kur'an ilimlerinden hangisinin kapsamında değerlendirilir?",
+    "options": [
+      "Esbâbü'l-vürûd",
+      "Esbâbü'n-nüzûl",
+      "İ'câzü'l-Kur'ân",
+      "Üslûbü'l-Kur'ân",
+      "Kasasü'l-Kur'ân"
+    ],
+    "correct": 0,
+    "explanation": "Bir hadisin hangi sebebe bağlı olarak söylendiğini veya yapıldığını araştıran ilme esbâbü'l-vürûd denir. Bu rivayet; Hz. Peygamber'in muavvizât okuma davranışının vürût sebebine dairdir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 274,
+    "subject": "akaid-kelam",
+    "text": "İslam düşünce tarihinde büyük günah işleyen kişinin (mürtekib-i kebîre) dini durumuyla ilgili tartışmaların başlamasında aşağıdaki olaylardan hangisinin belirleyici bir etkisi olmuştur?",
+    "options": [
+      "Cemel Savaşı",
+      "Tevvâbîn Hareketi",
+      "Muhtar es-Sekafî İsyanı",
+      "Kerbelâ Olayı",
+      "Zeyd b. Ali İsyanı"
+    ],
+    "correct": 0,
+    "explanation": "Hz. Osman'ın şehit edilmesi sonrası gelişen Cemel Savaşı ve hakem olayı, Hâricîlerin \"büyük günah işleyen kâfir olur\" görüşünü ortaya atmalarına zemin hazırlamış; mürtekib-i kebîre tartışmaları bu çerçevede başlamıştır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 275,
+    "subject": "akaid-kelam",
+    "text": "İlk dönem Eş'ârî kelâmının temel kaynakları olan eserler, aşağıdaki âlimlerin hangisine ait değildir?",
+    "options": [
+      "İbn Fûrek",
+      "Bâkıllânî",
+      "Ebü'l-Muîn en-Nesefî",
+      "Ebû İshak el-İsferâyînî",
+      "Abdülkâhir el-Bağdâdî"
+    ],
+    "correct": 2,
+    "explanation": "Ebü'l-Muîn en-Nesefî, Mâtürîdî kelâmının önde gelen isimlerindendir. İlk dönem Eş'ârî eserleri ise İbn Fûrek, Bâkıllânî, İsferâyînî ve Bağdâdî gibi âlimlere aittir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 276,
+    "subject": "akaid-kelam",
+    "text": "Kelime-i şehadet, imanın esaslarının geneli hakkında bilgi vermekte; Allah'ın varlığı, birliği ve Hz. Peygamber'in nübüvveti gibi esasların tamamını özet şekilde kapsamaktadır.\n\nBuna göre kelime-i şehadette ifade edilen iman aşağıdaki kavramlardan hangisiyle isimlendirilir?",
+    "options": [
+      "Taklîdî",
+      "İcmâlî",
+      "Tefsîlî",
+      "Tafsîlî",
+      "Tahkîkî"
+    ],
+    "correct": 1,
+    "explanation": "İmanın esaslarını genel olarak, özet şekilde benimsemeye icmâlî iman denir. Ayrıntılarıyla bilip benimseme ise tafsîlî imandır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 277,
+    "subject": "akaid-kelam",
+    "text": "Aşağıdaki âyetlerden hangisi, Allah'ın varlığına ve birliğine ilişkin kanıtlarda yer alan temânu' deliline örnek oluşturur?",
+    "options": [
+      "\"Eğer Allah dileseydi biz de babalarımız da O'na ortak koşmazdık.\" (En'âm, 6/148)",
+      "\"Eğer dedikleri gibi, Allah'la beraber başka tanrılar da bulunsaydı, o takdirde bu ilahlar arşın sahibine yol ararlardı.\" (İsrâ, 17/42)",
+      "\"Andolsun, onlara, 'Gökleri ve yeri kim yarattı, güneşi ve ayı hizmetinize kim verdi?' diye soracak olsan mutlaka, 'Allah' diyeceklerdir.\" (Ankebût, 29/61)",
+      "\"O, yeryüzünde olanların hepsini sizin için yaratan, sonra göğe yönelip onları yedi gök hâlinde düzenleyendir.\" (Bakara, 2/29)",
+      "\"Acaba onlar herhangi bir yaratıcı olmadan mı yaratıldılar? Yoksa kendileri mi yaratıcıdırlar?\" (Tûr, 52/35)"
+    ],
+    "correct": 1,
+    "explanation": "Temânu' delili, birden fazla ilahın varlığı hâlinde âlemde fesadın kaçınılmaz olacağını ifade eder. Bu delile İsrâ 17/42. âyet örnek oluşturur.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 278,
+    "subject": "akaid-kelam",
+    "text": "Hristiyanlık tarihinde Hz. İsa'nın mahiyeti ile ilgili ciddi tartışmalar yaşanmıştır. Bu tartışmalardan biri de Hz. İsa'nın, Tanrı'nın kelimesi olarak nitelendirilen sıfatı ile aynı özden mi yoksa yaratılmış bir varlık mı olduğu meselesidir. Hristiyanların çoğunluğu Hz. İsa'nın tanrısal cevhere sahip, dolayısıyla ezeli olduğunu savunurken bir kısmı ise yaratılmış olduğunu kabul eder.\n\nBu parçada bahsedilen konu aşağıdaki kelâmî tartışmalardan hangisiyle benzerlik arz etmektedir?",
+    "options": [
+      "Rü'yetullah",
+      "İstitaat",
+      "Halku'l-Kur'ân",
+      "Hüsün ve kubuh",
+      "İmâmet"
+    ],
+    "correct": 2,
+    "explanation": "Kur'an'ın yaratılmış olup olmadığı tartışması (Halku'l-Kur'ân) da Tanrı'nın bir sıfatı/kelâmı olarak görülen şeyin yaratılmışlığı meselesidir; bu yönüyle konuyla benzerlik gösterir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 279,
+    "subject": "akaid-kelam",
+    "text": "Her ne kadar fikir ve görüşleri tartışılmış ve eleştirilmiş olsa bile ortaya çıkan ekollerin İslam düşünce geleneğinin gelişmesine ve zenginleşmesine olumlu katkıları olmuştur. Bunlardan biri de Mu'tezile ekolüdür.\n\nAşağıdakilerden hangisi bu ekolün sağladığı olumlu katkılardan biri değildir?",
+    "options": [
+      "İtikadî meselelerde aklî delillere yer vererek akla önemli bir mevki kazandırmıştır.",
+      "Özgür iradeye yaptığı vurguyla bireye ahlakî sorumluluk yüklemiştir.",
+      "Kullanmış olduğu yöntemlerle dinî ve felsefi düşüncenin gelişmesinde önemli bir rol oynamıştır.",
+      "Benimsemiş olduğu rasyonel yaklaşımla, İslam'da tabiî bilimlerin gelişmesine katkı sağlamıştır.",
+      "Görüşleriyle yönetimi etkileyerek mihne dönemine zemin hazırlamıştır."
+    ],
+    "correct": 4,
+    "explanation": "Mihne; Halku'l-Kur'ân inancının Halife Me'mun döneminde devlet zoruyla dayatılmasıdır. Bu uygulama Mu'tezile'nin olumlu katkıları arasında sayılmaz.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 280,
+    "subject": "akaid-kelam",
+    "text": "İslam toplumunu yönetecek kişinin (imamın) nasıl seçileceği ve hangi özelliklere sahip olması gerektiği Müslümanlar arasında uzun süre tartışılmıştır. Bu konuda bazı mezhepler, imamın Kureyş kabilesine veya Kureyş'in bir koluna mensup olması gerektiğini savunmuştur.\n\nBuna göre;\n\nI. Hâricîlik,\nII. İmâmiyye,\nIII. Zeydiyye\n\nmezheplerinden hangilerinin bu grupta yer aldığı söylenebilir?",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "II ve III"
+    ],
+    "correct": 4,
+    "explanation": "İmâmiyye ve Zeydiyye, imamın Hz. Peygamber'in soyundan (Ehl-i beyt/Kureyş) olması gerektiğini savunur. Hâricîler ise halifenin ehliyetli her Müslüman olabileceği görüşündedir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 281,
+    "subject": "akaid-kelam",
+    "text": "Sıffin Savaşı'nda Hz. Ali'nin ordusundan bir grup, \"Hüküm yalnızca Allah'a aittir.\" diyerek ayrılmış ve bu yüzden Hâricîler olarak isimlendirilmiştir. Onlar, bedevî yaşam tarzlarının da etkisiyle katı bir din anlayışına sahip olmuşlar ve kendileri gibi düşünmeyenlere karşı dışlayıcı bir tutum takınmışlardır. Nitekim büyük günah işleyen Müslümanın cehenneme gideceğini; İslam'ın emirlerini yerine getirmeyenin İslam dairesinden çıkacağını ileri sürmüşlerdir. Bu uzlaşmaz tavırları sebebiyle çok fazla taraftar bulamamışlar ve küçük bir grup dışında günümüze kadar varlıklarını sürdürememişlerdir.\n\nBu parçadan hareketle Hâricîlerle ilgili aşağıdaki yargıların hangisine ulaşılamaz?",
+    "options": [
+      "Kendilerini İslam'ın en doğru yorumu olarak görmüşlerdir.",
+      "Ekolün oluşumunda, içinde bulundukları kültür etkili olmuştur.",
+      "Kendileri gibi düşünmeyenleri ötekileştirmişlerdir.",
+      "Yönetici belirlemeyi Allah'a ortak koşma olarak değerlendirmişlerdir.",
+      "Ortaya çıkışı siyasi olmakla birlikte ekol, zamanla itikadî bir gruba dönüşmüştür."
+    ],
+    "correct": 3,
+    "explanation": "Paragrafta Hâricîlerin \"Hüküm yalnızca Allah'a aittir\" anlayışı, katı din algısı ve ötekileştirici tavırları anlatılmakla birlikte; yönetici belirlemeyi Allah'a ortak koşma olarak değerlendirdiklerine dair bir bilgi verilmemiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 282,
+    "subject": "fikih-ilmihal",
+    "text": "Cem'u's-salât, birbirini takip eden iki namazın (öğle ile ikindinin veya akşam ile yatsının), bu ikisinden birinin vaktinde olmak üzere birlikte ve peş peşe kılınmasıdır. Âlimler, bu işlemin hangi hâllerde ve nerelerde yapılabileceği konusunda farklı görüşlere sahip olmakla birlikte; Hz. Muhammed'in hacda iki yerde yaptığı cem'in bütün Müslümanlar için olduğu hususunda ittifak etmişlerdir.\n\nParçada bahsedilen bu yerler aşağıdakilerin hangisinde sırasıyla verilmiştir?",
+    "options": [
+      "Mescid-i Haram – Müzdelife",
+      "Müzdelife – Minâ",
+      "Arafat – Müzdelife",
+      "Mescid-i Haram – Arafat",
+      "Arafat – Minâ"
+    ],
+    "correct": 2,
+    "explanation": "Hz. Peygamber hacda Arafat'ta öğle ile ikindiyi, Müzdelife'de akşam ile yatsıyı cem etmiştir. Bu iki yerdeki cem'in bütün Müslümanlar için geçerli olduğu hususunda âlimler ittifak etmiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 283,
+    "subject": "fikih-ilmihal",
+    "text": "Kur'an-ı Kerim'de bir toplumun devamını sağlayan ve bireyler arasındaki ilişkileri düzenleyen birtakım hükümler bulunmaktadır. Alışveriş, emanet, bağış, vasiyet, miras, aile hayatı, nikâh ve boşanma gibi konulara ilişkin emirler bu tür hükümlere örnek verilebilir.\n\nParçada bahsedilen bu hükümler İslam hukukunda hangi başlık altında ele alınmaktadır?",
+    "options": [
+      "Hadd",
+      "Ukûbât",
+      "Akâid",
+      "İbâdât",
+      "Muâmelât"
+    ],
+    "correct": 4,
+    "explanation": "Alışveriş, emanet, bağış, vasiyet, miras, nikâh ve boşanma gibi kişiler arası hukukî ilişkiler, fıkıhta muâmelât başlığı altında incelenir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 284,
+    "subject": "fikih-ilmihal",
+    "text": "Fıkıh âlimleri, kıyasa dayalı hüküm verirken asıl ile fer'in arasında ortak bir vasfın (illet) bulunmasını şart koşmuşlardır. Çünkü illet, kıyasın dayanmış olduğu esaslardan biridir. Âlimler, kıyasın dayanacağı bir vasfın illet sayılabilmesi için birtakım şartlar gerekli görmüşlerdir.\n\nAşağıdakilerden hangisi illetle ilgili bu şartlardan biri değildir?",
+    "options": [
+      "Zâhir bir vasıf olması",
+      "Munzabıt olması",
+      "Tevâtürle sabit olması",
+      "Hükümle arasında münasebet bulunması",
+      "Müteaddî olması"
+    ],
+    "correct": 2,
+    "explanation": "İlletin şartları; zâhir, munzabıt, münâsib ve müteaddî olmasıdır. \"Tevâtürle sabit olması\" illetin şartları arasında yer almaz.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 285,
+    "subject": "fikih-ilmihal",
+    "text": "Almanya'ya giden bir iş adamından üç yıl boyunca haber alınamayınca eşi, boşanmasının nasıl gerçekleşebileceğini merak ederek Hanefî mezhebine mensup bir fakihe danışır. Fakih de tefrik için gerekli şartların oluşmadığını göstererek bu nikâhın sonlanamayacağını söyler.\n\nBu fakih aşağıdaki küllî kaidelerin hangisine göre karar vermiş olabilir?",
+    "options": [
+      "Zarar kadîm olmaz.",
+      "Âdet muhakkemdir.",
+      "Berâet-i zimmet asıldır.",
+      "Tasrih mukabelesinde delâlete itibar yoktur.",
+      "Bir şeyin bulunduğu hâl üzere kalması asıldır."
+    ],
+    "correct": 4,
+    "explanation": "Yakîn ile sabit olan (nikâhın devamı) şüphe ile zâil olmaz. \"Bir şeyin bulunduğu hâl üzere kalması asıldır\" kaidesi gereğince, eşin boşadığı ispat olunmadıkça nikâhın devamı esastır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 286,
+    "subject": "fikih-ilmihal",
+    "text": "Fıkıh literatüründe aslî deliller olarak kabul edilen Kitap, Sünnet, icmâ ve kıyasın geçerliliğinde genellikle mezhepler ittifak etmiştir. Bununla birlikte kimi fer'î deliller bazı mezhepler tarafından öne çıkarılmıştır. Örneğin istihsan delili Hanefî âlimler tarafından yaygın bir şekilde kullanılmış, hatta mezheple özdeşleşmiştir.\n\nBu örneğe benzer bir durum Mâlikî Mezhebi'nde aşağıdaki delillerden hangisi için söylenebilir?",
+    "options": [
+      "İstislâh",
+      "İstishâb",
+      "Örf ve âdet",
+      "Sahâbe kavli",
+      "Önceki şeriatlar"
+    ],
+    "correct": 0,
+    "explanation": "Mâlikîler, nassa ve icmâa dayanmayan ve dinî bir maksada uygun olan maslahat esasına göre hüküm vermeyi benimser; bu istidlâl yöntemine istislâh (maslahat-ı mürsele) denir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 287,
+    "subject": "fikih-ilmihal",
+    "text": "Sabah işe yetişmek için acele eden Emin Bey, hızlıca dolaptaki kahvaltılıkları masaya koyduktan sonra ekmeğin kalmadığını görür. Bunun üzerine, yaşadığı evin sokağında bulunan fırına gider ve tezgâhtan iki ekmek alıp masaya 10 TL bırakır. Fırının sahibi Ali Bey de ekmeği poşetleyerek Emin Bey'e uzatır, parayı kasaya koyar.\n\nBu şekilde sözsüz irade beyanıyla gerçekleştirilen ve İslam hukukçularının çoğunluğu tarafından caiz görülen alım satım şekline ne ad verilir?",
+    "options": [
+      "Gabin",
+      "İkrah",
+      "Teâti",
+      "Garar",
+      "Karz"
+    ],
+    "correct": 2,
+    "explanation": "İcap ve kabulün sözlü beyan olmaksızın karşılıklı edimlerle (malı alma, bedeli ödeme) gerçekleştiği satışa teâti (mu'âtât) denir. Cumhur tarafından caiz görülmüştür.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 288,
+    "subject": "fikih-ilmihal",
+    "text": "İslam hukuku dersinde Ahmet Hoca akitleri anlattıktan sonra öğrencilere; \"Benim sizden birine bilgisayarımı vermem hangi akit türüne örnek oluşturur?\" şeklinde bir soru sorar. Bunun üzerine öğrencilerden biri \"Hocam; hiçbir karşılık beklemeksizin ve geri almamak üzere verirseniz, karşılık sonradan geri almak üzere verirseniz, belirli bir bedelle geri almamak üzere verirseniz, belirli bir bedelle ve belirli bir süreliğine verirseniz farklı akitlere örnek oluşturur.\" şeklinde cevap verir.\n\nÖğrencinin yaptığı bu açıklamalar arasında aşağıdaki akit türlerinden hangisi yer almamaktadır?",
+    "options": [
+      "Sarf",
+      "Hibe",
+      "Bey'",
+      "Âriyet",
+      "İcâre"
+    ],
+    "correct": 0,
+    "explanation": "Hibe, bey', âriyet ve icâre birer akit türüdür. Sarf ise para/sikke mübadelesine dair bir satım nev'idir; bu açıklamalardaki durumların hiçbirine örnek oluşturmaz.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 289,
+    "subject": "fikih-ilmihal",
+    "text": "Ebû Zer'in oğlu ve hanımı, Hz. Muhammed'in develerini Medine'nin dışında bir yerde otlatmaktadır. Müşrik bedevilerden bir grup gelerek Ebû Zer'in oğlunu öldürür, hanımını ve develeri de kaçırır. Ancak Ebû Zer'in hanımı bir fırsatını bulup develerden birine binerek kaçar ve Hz. Muhammed'in huzuruna gelir. Hz. Muhammed'e, kurtuluşu üzerine binerek kaçtığı deveyi kurban etmeyi adadığını söyler. Hz. Muhammed ise bu adağın geçerli olmadığını belirterek devenin kesilmesine izin vermez.\n\nBu olayda adağın geçerliliğiyle ilgili aşağıdaki şartlardan hangisi ihlal edilmiştir?",
+    "options": [
+      "Adanan şeyin cinsinden bir farz veya vacip ibadet bulunmalıdır.",
+      "Adanan şey başka bir ibadete vesile olan bir fiil olmamalı, bizzat kendisi ibadet cinsinden olmalıdır.",
+      "Adanan şeyin yapılması maddeten ve dinen mümkün ve meşru olmalı, adayan şahsın mülkiyetinde bulunmalıdır.",
+      "Adanan şey Allah'a isyan ve bidat içermemelidir.",
+      "Adanan şey, adayan kişinin o anda veya daha sonra yapması gereken farz veya vacip bir ibadet olmamalıdır."
+    ],
+    "correct": 2,
+    "explanation": "Develer Hz. Muhammed'in mülkü olduğundan adayan kişinin mülkiyetinde değildir. Adanan şeyin, adayanın mülkiyetinde bulunması şartı ihlal edildiği için adak geçerli olmamıştır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 290,
+    "subject": "fikih-ilmihal",
+    "text": "Mustafa, sahibi Müslüman olan bir restorana aracıyla kazaen girmiştir. Can kaybı olmamakla birlikte maddi hasara sebep olan kazanın sonunda Mustafa sorumluluğu kabul ederek maddi kaybı tazmin edeceğini; ancak kaza sonucunda kırılan şarapları tazmin etmeyeceğini söyler. Mağdur, onları da para ile temin ettiği için tazmin edilmesi gerektiğini ifade eder. Aralarındaki bu sorunu Hanefî Mezhebi'ne göre çözmesi için bir İslam hukuku uzmanına danışırlar.\n\nBuna göre İslam hukuku uzmanının şarapla ilgili aşağıdakilerden hangisini söylemesi beklenir?",
+    "options": [
+      "Menkul mal olduğundan tazmini gerekir.",
+      "Gayr-i mütekavvim mal olduğundan tazmini gerekmez.",
+      "Kıyemî mal olduğundan tazmini gerekmez.",
+      "Tüketilen mal olduğundan tazmini gerekir.",
+      "Misli mal olduğundan tazmini gerekir."
+    ],
+    "correct": 1,
+    "explanation": "İçki, İslam hukukunda kendisinden yararlanılması caiz olmayan gayr-i mütekavvim maldır. Bu kabil malların itlafının (yok edilmesinin) tazmini gerekmez.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 291,
+    "subject": "fikih-ilmihal",
+    "text": "I. Yapılan yemini bozma\nII. Bilerek Ramazan orucunu bozma\nIII. Hacda ihramlıyken tıraş olma\n\nHanefîlere göre verilen durumların hangilerinde mükellefin gücü nispetinde öncelik sırasına göre \"bir köle azat etmek, 60 gün oruç tutmak, 60 fakiri sabahlı akşamlı doyurmak\" kefaretlerinden birini yerine getirmesi gerekir?",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
+    ],
+    "correct": 1,
+    "explanation": "Keffâret-i mürattebe (köle azat; buna gücü yetmeyenin 60 gün oruç tutması; bu kadarına da gücü yetmeyenin 60 fakiri doyurması) yalnızca bilerek Ramazan orucunu bozma ve zıhâr keffâretidir. Yemin ve ihram keffâreti muhayyer (tertipsiz) keffârettir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 292,
+    "subject": "fikih-ilmihal",
+    "text": "Evlilik birlikteliği içinde çocukların bakım ve terbiyesinin ebeveyn tarafından beraber yürütüleceği bilinen bir husustur. Ancak boşanma sonrasında çocukların masrafları, nafakası ve velayeti baba tarafından karşılanırken; akıl sağlığı yerinde, bakmaya muktedir ve henüz buluğ çağına gelmemiş çocukların bakım ve terbiyesini isteme hakkı anneye tanınmıştır.\n\nBu parçada bahsedilen anneye tanınan hak aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
+    "options": [
+      "Hidâne",
+      "Kefâlet",
+      "Vekâlet",
+      "Vesâyet",
+      "Radâ'"
+    ],
+    "correct": 0,
+    "explanation": "Boşanma sonrasında küçük çocuğun bakım ve terbiyesiyle ilgilenme hakkına hidâne denir. Bu hak öncelikle anneye aittir; nafaka ve velâyet ise babada olmaya devam eder.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 293,
+    "subject": "fikih-ilmihal",
+    "text": "Büyük bir şirkete ve mal varlığına sahip olan Ömer Bey, vefat etmeden önce arabasının şoförüne verilmesini vasiyet etmiştir. Şirketin gelirlerinin yanında bir miktar da Ömer Bey'in borçları vardır. Ömer Bey'in çocukları mirası paylaşmadan önce bulundukları ilin müftüsüne giderek miras paylaşımı, vasiyet ve borcu hangi sırada yapmaları gerektiğini sorar.\n\nİslam miras hukukuna göre müftünün, tereke işlemlerini aşağıdaki sıralamalardan hangisine göre yapmalarını söylemesi beklenir?",
+    "options": [
+      "Borçlar – miras paylaşımı – vasiyet",
+      "Vasiyet – miras paylaşımı – borçlar",
+      "Borçlar – vasiyet – miras paylaşımı",
+      "Miras paylaşımı – borçlar – vasiyet",
+      "Vasiyet – borçlar – miras paylaşımı"
+    ],
+    "correct": 2,
+    "explanation": "Terekeden önce borçlar ödenir, ardından vasiyet (üçte bir sınırına uygun olarak) yerine getirilir ve en son miras paylaşımı yapılır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 294,
+    "subject": "fikih-ilmihal",
+    "text": "İslam hukukuna göre hala, dayı, teyze gibi kişilerin mirasçılık durumu mezhepler arasında tartışmalıdır. Bazı mezhepler belirli paya sahip mirasçıların paylarını aldıktan sonra bu kişilerin mirasçı olacağını savunurken; bazı mezhepler ise bu kişilerin mirasçı olamayacağını, belirli paya sahip mirasçılar paylarını aldıktan sonra terekeden kalanın devlet hazinesine aktarılması gerektiğini belirtmişlerdir.\n\nBu parçada bahsedilen kişiler aşağıdakilerden hangisiyle isimlendirilmektedir?",
+    "options": [
+      "Asabe",
+      "Avliyye",
+      "Zevi'l-erhâm",
+      "Akile",
+      "Ashâbü'l-ferâiz"
+    ],
+    "correct": 2,
+    "explanation": "Belirli pay sahiplerinden ve âsabeden sonra kan bağıyla kendilerine miras düşebilecek akrabalara (anne tarafından nine/dede, hala, dayı, teyze vb.) zevi'l-erhâm denir. Bunların mirasçılığı mezhepler arasında tartışmalıdır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 295,
+    "subject": "fikih-ilmihal",
+    "text": "50 bin lira birikimi olan Melahat Hanım, parasını işletmesi ve elde edilecek kârı aralarında paylaşmak şartıyla yeğeni Ahmet Bey'e teslim etmiştir. Ahmet Bey kumaş ticareti yaparak bir yılda 10 bin lira kâr elde etmiş ve bu kârın yarısını Melahat Hanım'a vermiştir.\n\nBu ortaklık İslam hukukunda aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
+    "options": [
+      "Tevliye",
+      "Mudârebe",
+      "Müsâkât",
+      "Murâbaha",
+      "Bey'u'l-îne"
+    ],
+    "correct": 1,
+    "explanation": "Sermayenin bir taraftan, emeğin diğer taraftan karşılandığı ve kârın anlaşmaya göre paylaşıldığı ortaklığa mudârebe (kırad) denir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 296,
+    "subject": "fikih-ilmihal",
+    "text": "Yukarıdaki tabloda sabah namazının farzını cemaatle kılan üç kişinin (Ayşe, Burcu, Cemre) namazda bulundukları rükünler gösterilmiştir.\n\nBuna göre üç kişiden hangisi mesbûk olarak değerlendirilir?",
+    "options": [
+      "Yalnız Ayşe",
+      "Yalnız Cemre",
+      "Ayşe ve Burcu",
+      "Burcu ve Cemre",
+      "Ayşe, Burcu ve Cemre"
+    ],
+    "correct": 1,
+    "explanation": "İmama, namazın içine girmek için yetişmekle birlikte ilk rekâtın tamamına veya bir kısmına yetişemeyip sonradan uyan kişiye mesbûk denir. Tabloya göre Cemre, imama mesbûk olarak yetişmiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 297,
+    "subject": "fikih-ilmihal",
+    "text": "Zekâtın, borcun verilmesine engel oluşturup oluşturmayacağı fakihler tarafından tartışılmıştır. Hanefîler açık mallardan (el-emvâlü'z-zâhire) zekât verilmesinde borcun engel oluşturmadığını kabul etmişlerdir.\n\nBuna göre;\n\nI. altın takılar,\nII. ticaret eşyaları,\nIII. toprak mahsulleri,\nIV. hayvanlar\n\nşeklinde verilenlerden hangileri açık mallar arasında yer alır?",
+    "options": [
+      "I ve II",
+      "II ve III",
+      "III ve IV",
+      "I ve IV",
+      "II, III ve IV"
+    ],
+    "correct": 4,
+    "explanation": "Hanefîlere göre el-emvâlü'z-zâhire (açık mallar); ticaret eşyaları, toprak mahsulleri ve hayvanlar gibi zekâtı açıktan toplanabilen mallardır. Altın takılar ise gizli (batın) mallar arasında sayılır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 298,
+    "subject": "fikih-ilmihal",
+    "text": "Nurbanu hacca niyet ederek ihrama girmiş, Arafat ve Müzdelife'de vakfe yapmış, Minâ'da şeytan taşlamıştır. Ziyaret tavafını tamamladıktan bir süre sonra istirahat edip sa'y yapmaya karar vermiştir. Birkaç saatlik istirahat süresinin bitiminde hayız hâlinin başladığını fark etmiştir.\n\nBu durumda, Hanefîliğe göre Nurbanu'nun hac ibadetini tamamlamak için aşağıdakilerden hangisini yapması gerekir?",
+    "options": [
+      "Sonraki yıllarda haccını tekrar eda etmesi gerekir.",
+      "Hayız hâli bitince gusledip tekrar ihrama girerek sa'y yapar.",
+      "Hayız hâli bitmeden Mekke'den ayrılacaksa ceza ödeyip ibadetini tamamlar.",
+      "Hayız hâli devam ederken sa'y ibadetini ifa eder.",
+      "Hayız hâli sebebiyle, sa'y yapmadan ibadetini tamamlar."
+    ],
+    "correct": 3,
+    "explanation": "Hanefîlere göre sa'yde tahâret şart değildir. Tavafta abdest şart iken sa'y abdestli olmaksızın da geçerlidir. Bu sebeple Nurbanu, hayız hâli devam ederken sa'yini yapabilir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 299,
+    "subject": "fikih-ilmihal",
+    "text": "I. Ramazan orucunun kazası\nII. Eyyâm-ı bîz\nIII. Zilhicce'nin ilk dokuz günü\nIV. Adak orucu\n\nYukarıda verilenlerden hangileri mendup kabul edilen oruçlar kapsamında değerlendirilir?",
+    "options": [
+      "I ve II",
+      "I ve IV",
+      "II ve III",
+      "II ve IV",
+      "III ve IV"
+    ],
+    "correct": 2,
+    "explanation": "Eyyâm-ı bîz (her ayın 13, 14 ve 15. günleri) ve Zilhicce'nin ilk dokuz günü orucu menduptur. Ramazan kazası farz, adak orucu ise nezir (vacip) türündendir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 300,
+    "subject": "fikih-ilmihal",
+    "text": "Hasan ve Hüseyin namaz kılarken Hasan sendeleyip ayağını burkar ve hissettiği acı sebebiyle gözünden yaş gelir. Hüseyin ise Hasan'ın sendelemesini görünce kendisini tutamayıp sesli olarak güler. Ancak ikisi de namazlarına devam ederler. Namazı bitirince her ikisi de birbirinin abdestinin ve namazının bozulmuş olduğunu düşünürler ve bir imama sormaya karar verirler.\n\nİmam, Hanefî Mezhebi'ni dikkate alarak soruyu cevaplandırır. Buna göre imamın verdiği cevabın aşağıdakilerden hangisi olması beklenir?",
+    "options": [
+      "Hasan'ın da Hüseyin'in de hem namazı hem abdesti bozulmuştur.",
+      "Hasan'ın hem abdesti hem namazı; Hüseyin'in namazı bozulmuştur.",
+      "Hasan'ın abdesti ve namazı bozulmamışken Hüseyin'in hem abdesti hem de namazı bozulmuştur.",
+      "Hasan'ın da Hüseyin'in de sadece namazı bozulmuştur.",
+      "Hasan'ın abdesti; Hüseyin'in namazı bozulmuştur."
+    ],
+    "correct": 2,
+    "explanation": "Hanefîlere göre namazda sesli gülmek (kahkaha) gerek abdesti gerekse namazı bozar. Ağlama ve acıdan gözyaşı gelmesi ise ne abdesti ne namazı bozar. Bu sebeple sadece Hüseyin'in abdesti ve namazı bozulmuştur.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 301,
+    "subject": "fikih-ilmihal",
+    "text": "Allah'ın rızasını kazanmak amacıyla yapılan bütün davranışlarda hatta günlük hayatta abdestli olmak tavsiye edilir. Bunun yanı sıra bazı ibadetlerin öncesinde abdest almak gerekir, bu ibadetler abdestsiz geçersiz olur.\n\nAşağıdakilerden hangisi bu ibadetlere örnek verilemez?",
+    "options": [
+      "Ezan okumak",
+      "Tilâvet secdesi yapmak",
+      "Cenaze namazı kılmak",
+      "Teravih namazı kılmak",
+      "Kâbe'yi tavaf etmek"
+    ],
+    "correct": 0,
+    "explanation": "Tilâvet secdesi, cenaze namazı, teravih namazı ve tavaf, abdestsiz yapıldığında geçersiz olan ibadetlerdir. Ezan okumak için abdestli olmak şart değildir; bu sebeple örnek verilemez.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 302,
+    "subject": "hadis",
+    "text": "Hadis tarihinde tasnif dönemi sonrasında genellikle Buhârî ve Müslim merkezli çalışmalar yapılmıştır. Bunlardan biri de müstahrec türü eserlerdir. Bu eserlerde Buhârî ve Müslim'in Sahîh'leri başta olmak üzere daha önce yazılmış bir kitaptaki hadislerin senedleri bir araya getirilmiş; böylece ele alınan hadisin birden fazla sened vasıtasıyla rivayet edildiği ortaya konulmuştur.\n\nAşağıdakilerden hangisi bu tür eserlerin faydaları arasında yer almaz?",
+    "options": [
+      "Bir eserdeki hadislerin daha kolay ezberlenmesini sağlamak",
+      "Âlî isnad elde etmek",
+      "Hadislerdeki eksik veya fazla olan kelimeleri tespit etmek",
+      "Hadisin mevcut rivayetinden daha üstün bir tahammül yolunu ortaya çıkarmak",
+      "Ferd olduğu sanılan hadislerin meşhur veya mütevatir olduğunu göstermek"
+    ],
+    "correct": 0,
+    "explanation": "Müstahrec türü eserlerin faydaları; âlî isnad elde etmek, hadislerdeki eksik-fazla kelimeleri tespit etmek, daha üstün tahammül yolunu ortaya çıkarmak ve ferd hadislerin meşhur/mütevatir olduğunu göstermektir. Ezberlemeyi kolaylaştırmak bu faydalar arasında yer almaz.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 303,
+    "subject": "hadis",
+    "text": "Ali Hoca, sahabeden gelen hadislerin farklılaşması konusunda çalışma yapar. Bu amaçla her bir sahabenin rivayet ettiği hadisleri toplayarak bir hadis kitabı yazar. Yazdığı hadis kitabında sahabeleri faziletlerine göre sıralar ve her birinden getirdiği rivayetleri bir araya toplar. Böylece aynı kişiden nakledilen rivayetler arasındaki farklılıkları tespit etmeye çalışır.\n\nBuna göre Ali Hoca'nın kitabı aşağıdaki eser türlerinden hangisi kapsamında değerlendirilir?",
+    "options": [
+      "Musannef",
+      "Müsned",
+      "Sünen",
+      "Câmi",
+      "Müstedrek"
+    ],
+    "correct": 1,
+    "explanation": "Hadislerin sahabe esas alınarak her sahabinin rivayetlerinin ayrı başlıkta bir araya getirildiği eserlere müsned denir. Müsnedlerde rivayetler sahabi adlarına göre tasnif edilir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 304,
+    "subject": "hadis",
+    "text": "Temel hadis eserlerinin çoğu hicri üçüncü yüzyıla kadarki süreçte yazılmıştır. Daha sonra ise genellikle bu eserler üzerinde çalışmalar yapılmış ve bu şekilde hadis edebiyatının yeni türleri ortaya çıkmıştır. Bunlardan biri de bir hadisin temel kaynaklardaki yerini bulmaya yardımcı olan eserlerdir. Bu eserlerde hadis metinlerinin ilk pasajı, genellikle alfabetik olarak sıralanmakta ve yer aldığı temel hadis kitaplarına farklı rumuzlarla işaret edilmektedir. Bu türe Abdülğânî en-Nablusî'nin Zehâirü'l-Mevarîs isimli eseri örnek verilebilir.\n\nBu parçada açıklanan hadis edebiyatı türü aşağıdakilerden hangisidir?",
+    "options": [
+      "Câmi",
+      "Erbaûn",
+      "Mu'cem",
+      "Etraf",
+      "Müstedrek"
+    ],
+    "correct": 3,
+    "explanation": "Bir hadisin ilk sözünden (taraf) hareketle temel hadis kitaplarındaki rivayetlerini gösteren eserlere etraf türü denir. Mu'cem ise rivayetleri râvilere, şeyhlere veya memleketlere göre tasnif eden eserlerdir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 305,
+    "subject": "hadis",
+    "text": "I. Birden çok rivayeti bulunduğu hâlde birini diğerine tercih edecek sebep bulunamayan hadislere muztarib denir.\nII. Sika bir râvinin kendisinden daha sika râvilere muhalefet ederek naklettiği hadislere şâz denir.\nIII. Kelimenin yazılışı ve harekelerinin noktasız veya noktalı olarak değiştirildiği hadislere mevkuf denir.\n\nZayıf hadislerle ilgili verilen tanımlardan hangileri doğrudur?",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "I, II ve III"
+    ],
+    "correct": 3,
+    "explanation": "Muztarib ve şâz tanımları doğrudur. III. ifadedeki tanım muharref veya tashif hadise aittir; mevkuf ise senedi sahâbîde duran hadistir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 306,
+    "subject": "hadis",
+    "text": "Hadis tahammül (alma) yollarıyla ilgili şu kavram ve tanımlar verilmiştir:\n\nI. Münâvele: Şeyhin, rivayetlerinin yazılı olduğu bir vesikayı ya da kitabı öğrencisine elden vermesine denir.\nII. Vasiyet: Şeyhin rivayet izninden bahsetmeksizin sadece \"Benim rivayetim işte bunlardır.\" sözüne denir.\nIII. Semâ': Şeyhin duyduğu hadisleri rivayet için talebesine izin vermesine denir.\n\nBu tabloda hadis tahammül yollarıyla ilgili verilen kavram-tanım eşleştirmelerinden hangileri doğrudur?",
+    "options": [
+      "Münâvele ve Vasiyet",
+      "Yalnız Münâvele",
+      "Münâvele ve Semâ'",
+      "Semâ' ve Vasiyet",
+      "Münâvele, Vasiyet ve Semâ'"
+    ],
+    "correct": 0,
+    "explanation": "Münâvele ve vasiyet tanımları doğrudur. Semâ'; âlimin hadisini bizzat işitmek suretiyle almaktır. \"Şeyhin, rivayet ettiği hadisleri nakletmesi için talebesine izin vermesi\" ise icâzet tarifidir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 307,
+    "subject": "hadis",
+    "text": "Hammâd b. Amr en-Nâsibî, rivayet ettiği bir hadisin senedinde yer alan Süheyl isimli râvi yerine onun kardeşi A'meş'i zikrederek nakletmiş, böylece aynı tabakada yer alan iki râviyi birbirine karıştırmıştır. Bu durum rivayet edilen hadisin sened açısından zayıf olarak değerlendirilmesine sebep olmuştur.\n\nBu şekilde rivayet edilen hadisler için kullanılan kavram aşağıdakilerden hangisidir?",
+    "options": [
+      "Mâkulûb",
+      "Mürsel",
+      "Muharref",
+      "Müdrec",
+      "Münker"
+    ],
+    "correct": 0,
+    "explanation": "Sened veya metindeki bir ismin, aynı tabakada yer alan başka bir râviyle yer değiştirilmesine kalb denir; bu tür hadise mâkulûb (maklûb) hadis adı verilir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 308,
+    "subject": "hadis",
+    "text": "Söylemediği, yapmadığı yahut sahip olmadığı hâlde Hz. Muhammed'e nispet edilen söz, fiil, takrir yahut onun ahlaki ve fiziki özelliklerine dair haberlere mevzu hadis denmektedir. Muhaddisler, insanların sakınması için bu türden rivayetleri bir araya getirmişler ve bunları tanıma yollarını belirlemişlerdir.\n\nBuna göre aşağıdakilerden hangisi mevzu hadisleri tanıma yollarından biri değildir?",
+    "options": [
+      "Râvinin, hadis uydurduğunu itiraf etmesi",
+      "Rivayetin, tevili mümkün olmayacak şekilde naslara aykırı olması",
+      "Rivayetin akla, mantığa ve tarihî gerçeklere ters düşmesi",
+      "Rivayetin bir grubu veya mezhebi övme ya da aşırı yerme mahiyetinde olması",
+      "Rivayetin sahih bir isnada sahip olması"
+    ],
+    "correct": 4,
+    "explanation": "Râvinin itirafı, nasalara aykırılık, akla-mantığa ters düşme ve grup/mezhep taassubu mevzu hadisi tanıma yollarındandır. Rivayetin sahih bir isnada sahip olması, mevzu hadisleri tanıma yollarından biri değildir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 309,
+    "subject": "siyer",
+    "text": "İslam öncesi Arapların yaşadığı kuzey ve güney Arabistan bölgelerinde Bizans ve Sasani devletleri etkiliydi. Bu coğrafyadaki küçük devletler, bazen antlaşmalar ile bunların etkisi altına giriyor, bazen de işgale uğrayarak bu ikisinden birinin hâkimiyetini tanımak zorunda kalıyordu.\n\nBu kapsamda aşağıdaki devletlerden hangisi Hristiyanlığın yaygın olmadığı ve Sasani hâkimiyetini tanıyan devletlere örnek verilebilir?",
+    "options": [
+      "Habeşliler",
+      "Hîreliler",
+      "Gassânîler",
+      "Himyerîler",
+      "Tedmürlüler"
+    ],
+    "correct": 1,
+    "explanation": "Hîre, Sâsânîlere bağlı ve putperestliğin yaygın olduğu bir bölgeydi. Bu sebeple Hristiyanlığın yaygın olmadığı ve Sâsânî hâkimiyetini tanıyan devlet olarak Hîreliler örnek verilir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 310,
+    "subject": "siyer",
+    "text": "Aşağıdakilerden hangisi risaletin Medine dönemi hadiseleri arasında yer alır?",
+    "options": [
+      "İsrâ hadisesinin vuku bulması",
+      "Akabe biatlarının gerçekleşmesi",
+      "Hz. Muhammed'in kızı Zeyneb'in vefatı",
+      "Habeşistan'a hicret",
+      "Hz. Hatice ve Ebû Tâlib'in vefatı"
+    ],
+    "correct": 2,
+    "explanation": "İsrâ hadisesi, Akabe biatları, Habeşistan'a hicret ile Hz. Hatice ve Ebû Tâlib'in vefatı (hüzün yılı) Mekke dönemi hadiseleridir. Hz. Peygamber'in kızı Zeyneb'in vefatı ise Medine döneminde gerçekleşmiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 311,
+    "subject": "siyer",
+    "text": "Hayber Savaşı ve sonuçlarıyla ilgili aşağıdakilerden hangisi söylenemez?",
+    "options": [
+      "Müslümanlar için büyük iktisadi rahatlık sağlamıştır.",
+      "Hicaz'daki Yahudi tehdidi ortadan kalkmıştır.",
+      "Yahudilerin, müşrikleri Müslümanlara karşı kışkırtmaları savaşın gerçekleşmesinde etkili olmuştur.",
+      "Mekkeli müşriklerin ilerleyen yıllarda Müslümanlara saldırmalarına yol açmıştır.",
+      "Hz. Ali'nin zaferde önemli bir katkısı olmuştur."
+    ],
+    "correct": 3,
+    "explanation": "Hayber'in fethi iktisadi rahatlama getirmiş, Hicaz'daki Yahudi tehdidini sona erdirmiş ve fetihte Hz. Ali önemli rol oynamıştır. Hayber Savaşı'nın, Mekkeli müşriklerin ilerleyen yıllarda Müslümanlara saldırmalarına yol açtığı söylenemez.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 312,
+    "subject": "siyer",
+    "text": "Hz. Muhammed önemli kararlar alacağı zaman istişareye önem verirdi. Bu istişarelerde çoğunluğun görüşü kendi görüşünden farklı olsa da çoğunluğun görüşüne göre hareket eder, görüşünden vazgeçerdi.\n\nAşağıdaki hususlardan hangisi parçada anlatılan bu duruma örnek verilebilir?",
+    "options": [
+      "Medine'ye hicret etme kararının alınması",
+      "Uhud Savaşı öncesinde savaş stratejisine karar verilmesi",
+      "Hudeybiye'de müşriklerin önerdikleri maddelerin kabul edilmesi",
+      "Mûte Seferi'nde orduyu komuta edecek kişilerin belirlenmesi",
+      "Benî Kaynukâ kabilesine verilecek cezanın tespit edilmesi"
+    ],
+    "correct": 1,
+    "explanation": "Hz. Peygamber, Uhud öncesinde savunma görüşünde olmasına rağmen çoğunluğun görüşü olan Medine dışında savaşmayı kabul etmiştir. Bu; istişare sonrası kendi görüşünden vazgeçip çoğunluğa uyduğu bir örnektir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 313,
+    "subject": "siyer",
+    "text": "Hz. Ebu Bekir dönemi dikkate alındığında aşağıdaki vilayetlerin hangisine vali atanmasından söz edilemez?",
+    "options": [
+      "Hadramut",
+      "Yemen",
+      "Bahreyn",
+      "Mısır",
+      "Umân"
+    ],
+    "correct": 3,
+    "explanation": "Mısır, Hz. Ömer döneminde İslam topraklarına katılmıştır. Bu sebeple Hz. Ebu Bekir döneminde Mısır'a vali atanmasından söz edilemez.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 314,
+    "subject": "siyer",
+    "text": "Emevîler, yönetimlerinin son yıllarında iktidarlarını küçük ve seçkin bir azınlığa dayandırmış ve birbirinden farklı pek çok kesimin tepkisini çekmişlerdi. Bundan dolayı Emevîler'in yıkılarak Abbasîler'in iktidara gelmesi, İslam devleti içerisinde yaşayan bu kesimler tarafından olumlu karşılanmıştı. Bunlar özellikle yönetimde söz sahibi olan bir grup, Abbasî hâkimiyetinden oldukça memnun olmuştu.\n\nBu parçada bahsedilen grup aşağıdakilerden hangisidir?",
+    "options": [
+      "Mevâlî",
+      "Şiî",
+      "Berberî",
+      "Hâricî",
+      "Zimmî"
+    ],
+    "correct": 0,
+    "explanation": "Arap olmayan Müslümanlar (mevâlî), Emevîler döneminde çeşitli eşitsizliklere maruz kalmış; Abbasîler'in farklı unsurlara yönetimde yer vermeleri mevâlîyi memnun etmiştir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 315,
+    "subject": "siyer",
+    "text": "İlk İslam dönemi Türk eserleriyle ilgili;\n\nI. Kaşgarlı Mahmud – Divanü Lugati't-Türk,\nII. Yusuf Has Hâcib – Divan-ı Hikmet,\nIII. Edib Ahmed Yüknekî – Kutadgu Bilig,\nIV. Ahmed Yesevî – Atabetü'l-Hakâyık\n\nşeklinde verilen yazar-eser eşleştirmelerinden hangileri doğrudur?",
+    "options": [
+      "Yalnız I",
+      "I ve IV",
+      "II ve III",
+      "III ve IV",
+      "I, II, III ve IV"
+    ],
+    "correct": 0,
+    "explanation": "Kaşgarlı Mahmud'un Divanü Lugati't-Türk'ü doğru eşleştirilmiştir. Kutadgu Bilig Yusuf Has Hâcib'in, Divan-ı Hikmet Ahmed Yesevî'nin, Atabetü'l-Hakâyık ise Edib Ahmed Yüknekî'nin eseridir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 316,
+    "subject": "dinler-tarihi",
+    "text": "Dini gruplar kutsal kabul ettikleri kitaplarla ilgili olarak;\n\nI. Yezidilik – Kitâbü'l-Cilve,\nII. Nusayrilik – Kitâbü'l-Beyân,\nIII. Dürzilik – Kitâbü'l-Hikmet,\nIV. Kadiyanilik – Kitâbü'l-Mecmû'\n\neşleştirmelerinden hangileri yanlıştır?",
+    "options": [
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "III ve IV",
+      "II ve IV"
+    ],
+    "correct": 4,
+    "explanation": "Nusayrîlerin kutsal kitabı Kitâbü'l-Mecmû', Kadiyanîlerin ise Kitâbü'l-Beyân olarak bilinir. Bu sebeple II ve IV numaralı eşleştirmeler yanlıştır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 317,
+    "subject": "akaid-kelam",
+    "text": "Aşağıdakilerden hangisi Hâricîlerin Ezârika kolunun görüşlerinden biri değildir?",
+    "options": [
+      "Ehliyetli olan her Müslüman halife olabilir.",
+      "Sözde ve amelde takıyye caizdir.",
+      "Amel imandan bir cüzdür.",
+      "Müslümanlardan kendilerine katılmayanlar müşriktir.",
+      "Büyük günah işleyip tövbe etmeyenler ebedî olarak cehennemde kalacaklardır."
+    ],
+    "correct": 1,
+    "explanation": "Ezârika, takıyyeyi sadece sözde caiz görmüş; amelde caiz olmadığını savunmuştur. Diğer seçenekler Ezârika'nın görüşleri arasındadır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 318,
+    "subject": "akaid-kelam",
+    "text": "İkinci yüzyılın başlarında büyük günah işleyen kişinin imanî durumu hakkında Vâsıl b. Atâ ve Amr b. Ubeyd farklı bir görüş ileri sürmüşlerdir. Bu durum Mu'tezile adı verilen mezhebin ortaya çıkmasını beraberinde getirmiştir. Tarihsel süreç içerisinde sistemli bir ekol hâline gelen Mu'tezile, döneminde bazı görüş farklılıklarından dolayı iki kola ayrılmıştır. Söz konusu bu kollar, etkin oldukları şehre göre isimlendirilmiştir.\n\nBu parçada bahsedilen şehirler aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": [
+      "Medine – Mekke",
+      "Basra – Horasan",
+      "Basra – Bağdat",
+      "Medine – Bağdat",
+      "Horasan – Mekke"
+    ],
+    "correct": 2,
+    "explanation": "Mu'tezile, Basra ve Bağdat ekolleri olarak iki kola ayrılmıştır. Basra ekolünün önde gelen isimleri Ebü'l-Hüzeyl ve Nazzâm; Bağdat ekolünün ise Kâ'bî gibi âlimlerdir.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 319,
+    "subject": "dinler-tarihi",
+    "text": "Modern dönemde, bireyleri kurtuluşa ulaştırma hususunda dinlerin herhangi bir fayda vermediğini savunan yeni bir akım ortaya çıkmıştır. Bu akım, Hristiyanlık başta olmak üzere bütün dinlere ve dinî değerlere karşıdır. İster dinî, isterse dünyevi olsun herhangi bir otoriteyi kabul etmez. Bu akımın temel ilke ve öğretileri, \"Kara Papa\" olarak da tanınan A. LaVey'in düşüncelerine dayanmaktadır.\n\nBu parçada sözü edilen akım aşağıdakilerden hangisidir?",
+    "options": [
+      "Adventisizm",
+      "Nihilizm",
+      "Satanizm",
+      "Agnostisizm",
+      "Mormonlar"
+    ],
+    "correct": 2,
+    "explanation": "Anton LaVey tarafından kurulan ve geleneksel dinî değerlere tepki olarak ortaya çıkan Satanizm, şeytanı sembol olarak benimseyen, ateist karakterli modern bir akımdır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  },
+  {
+    "id": 320,
+    "subject": "dinler-tarihi",
+    "text": "Yahudilikte;\n\n- yılbaşı olarak kabul edilen ve bir önceki yılın muhasebesi yapılan,\n- kâinatın ve insanın kaderinin yeniden belirlenişini ifade eden,\n- ibadetler esnasında boynuzdan yapılmış Şofar üflenen\n\nkutsal gün/bayram aşağıdakilerden hangisidir?",
+    "options": [
+      "Şavuot",
+      "Fısıh",
+      "Roş-Haşana",
+      "Hanuka",
+      "Yom Kippur"
+    ],
+    "correct": 2,
+    "explanation": "Roş-Haşana; ağustos-eylül aylarına denk gelen yılbaşı kutlamasıdır. Bu bayramda şofar üflenir, bir önceki yılın muhasebesi yapılarak kaderin yeniden belirleneceğine inanılır.",
+    "year": 2023,
+    "source": "2023 MBSTS"
+  }
+]
