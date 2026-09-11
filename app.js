@@ -99,19 +99,38 @@ class MBSTSApp {
             if (added.length > 0) {
                 this.questions = this.questions.concat(added);
                 this.saveToStorage('mbsts_questions', this.questions);
+                console.log('[MBSTS] Extra questions loaded:', added.length, 'Total:', this.questions.length);
                 this.renderBank();
                 this.renderStats();
+            } else {
+                console.log('[MBSTS] No new extra questions found');
             }
-        } catch (e) {}
+        } catch (e) {
+            console.error('[MBSTS] loadExtraQuestions error:', e);
+        }
     }
 
     loadFromStorage(key, fallback) {
-        try { return JSON.parse(localStorage.getItem(key)) || fallback; }
-        catch { return fallback; }
+        try {
+            const raw = localStorage.getItem(key);
+            if (!raw) return fallback;
+            const parsed = JSON.parse(raw);
+            if (!Array.isArray(parsed)) throw new Error('Not an array');
+            console.log('[MBSTS] Loaded from storage:', key, parsed.length);
+            return parsed;
+        } catch (e) {
+            console.warn('[MBSTS] loadFromStorage failed for', key, e);
+            return fallback;
+        }
     }
 
     saveToStorage(key, data) {
-        localStorage.setItem(key, JSON.stringify(data));
+        try {
+            localStorage.setItem(key, JSON.stringify(data));
+            console.log('[MBSTS] Saved to storage:', key, data.length);
+        } catch (e) {
+            console.error('[MBSTS] saveToStorage failed for', key, e);
+        }
     }
 
     applyTheme() {
