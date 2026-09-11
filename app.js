@@ -94,7 +94,8 @@ class MBSTSApp {
             for (const res of responses) {
                 if (!res || !res.ok) continue;
                 const extra = await res.json();
-                added.push(...extra.filter(q => !existing.has(q.id)));
+                const normalizedExtra = extra.map(q => this.normalizeQuestion(q));
+                added.push(...normalizedExtra.filter(q => !existing.has(q.id)));
             }
             if (added.length > 0) {
                 this.questions = this.questions.concat(added);
@@ -110,14 +111,35 @@ class MBSTSApp {
         }
     }
 
+    normalizeQuestion(q) {
+        if (q.options && !Array.isArray(q.options)) {
+            const optsObj = q.options;
+            const order = ['A','B','C','D','E'];
+            q.options = order.map(k => optsObj[k]).filter(v => v !== undefined);
+        }
+        if (typeof q.correct === 'string' && /^[A-E]$/.test(q.correct)) {
+            q.correct = 'ABCDE'.indexOf(q.correct.toUpperCase());
+        }
+        q.id = q.id || Date.now() + Math.random();
+        q.subject = q.subject || 'genel';
+        q.text = q.text || '';
+        q.options = q.options || [];
+        q.correct = Number.isInteger(q.correct) ? q.correct : 0;
+        q.explanation = q.explanation || '';
+        q.year = q.year || new Date().getFullYear();
+        q.source = q.source || `${q.year} MBSTS`;
+        return q;
+    },
+
     loadFromStorage(key, fallback) {
         try {
             const raw = localStorage.getItem(key);
             if (!raw) return fallback;
             const parsed = JSON.parse(raw);
             if (!Array.isArray(parsed)) throw new Error('Not an array');
-            console.log('[MBSTS] Loaded from storage:', key, parsed.length);
-            return parsed;
+            const normalized = parsed.map(q => this.normalizeQuestion(q));
+            console.log('[MBSTS] Loaded from storage:', key, normalized.length);
+            return normalized;
         } catch (e) {
             console.warn('[MBSTS] loadFromStorage failed for', key, e);
             return fallback;
@@ -126,8 +148,9 @@ class MBSTSApp {
 
     saveToStorage(key, data) {
         try {
-            localStorage.setItem(key, JSON.stringify(data));
-            console.log('[MBSTS] Saved to storage:', key, data.length);
+            const normalized = (Array.isArray(data) ? data : []).map(q => this.normalizeQuestion(q));
+            localStorage.setItem(key, JSON.stringify(normalized));
+            console.log('[MBSTS] Saved to storage:', key, normalized.length);
         } catch (e) {
             console.error('[MBSTS] saveToStorage failed for', key, e);
         }
