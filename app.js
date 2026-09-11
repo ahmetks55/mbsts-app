@@ -129,7 +129,7 @@ class MBSTSApp {
         q.year = q.year || new Date().getFullYear();
         q.source = q.source || `${q.year} MBSTS`;
         return q;
-    },
+    }
 
     loadFromStorage(key, fallback) {
         try {
