@@ -445,13 +445,33 @@
                 </div>
             </div>
 
-            <div class="card hidden-section" id="kuranArsiv" style="margin-top:20px;">
+            <div class="card hidden-section" id="meallerGrid" style="margin-top:20px;">
                 <div class="card-header">
-                    <h3>📖 Kur'an Üzerine — Meal ve Tefsir Arşivi</h3>
-                    <small style="color:var(--text-secondary);">PDF formatında — İstediğiniz dosyayı indirin</small>
+                    <h3>📖 Kur'an Mealleri</h3>
+                    <small style="color:var(--text-secondary);">7 Meal PDF — İstediğiniz mealı indirin</small>
                 </div>
                 <div class="card-body">
-                    <div class="volume-grid" id="kuranGrid"></div>
+                    <div class="volume-grid" id="mealGrid"></div>
+                </div>
+            </div>
+
+            <div class="card hidden-section" id="raziGrid" style="margin-top:20px;">
+                <div class="card-header">
+                    <h3>📕 Fahruddin er-Razi — Tefsir-i Kebir</h3>
+                    <small style="color:var(--text-secondary);">23 Cilt, PDF — İstediğiniz cildi indirin</small>
+                </div>
+                <div class="card-body">
+                    <div class="volume-grid" id="raziCiltlerGrid"></div>
+                </div>
+            </div>
+
+            <div class="card hidden-section" id="kesfGrid" style="margin-top:20px;">
+                <div class="card-header">
+                    <h3>📗 Keşf Tefsiri</h3>
+                    <small style="color:var(--text-secondary);">6 Cilt, PDF — İstediğiniz cildi indirin</small>
+                </div>
+                <div class="card-body">
+                    <div class="volume-grid" id="kesfCiltlerGrid"></div>
                 </div>
             </div>
         </section>
@@ -707,9 +727,9 @@
             });
         })();
 
-        // Kur'an Üzerine - Meal/Tefsir Grid
+        // Kur'an Mealleri Grid
         (function() {
-            const grid = document.getElementById('kuranGrid');
+            var grid = document.getElementById('mealGrid');
             if (!grid) return;
             var base = 'https://archive.org/download/kuran_uzerine/';
             var books = [
@@ -719,36 +739,7 @@
                 { file: 'Ali%20Bula%C3%A7%20Meali.pdf', name: 'Ali Bulaç Meali', size: '1.6 MB' },
                 { file: 'Bayraktar%20Bayrakl%C4%B1%20Meali.pdf', name: 'Bayraktar Bayraklı Meali', size: '2.4 MB' },
                 { file: 'Edip%20Y%C3%BCksel%20Meali.pdf', name: 'Edip Yüksel Meali', size: '3.2 MB' },
-                { file: 'Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rmal%C4%B1%20Meal.pdf', name: 'Karşılaştırmalı Meal', size: 'PDF' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2001.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 1)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2002.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 2)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2003.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 3)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2004.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 4)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2005.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 5)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2006.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 6)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2007.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 7)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2008.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 8)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2009.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 9)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2010.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 10)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2011.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 11)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2012.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 12)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2013.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 13)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2014.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 14)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2015.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 15)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2016.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 16)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2017.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 17)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2018.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 18)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2019.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 19)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2020.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 20)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2021.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 21)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2022.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 22)', size: '16.4 MB' },
-                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2023.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 23)', size: '16.4 MB' },
-                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%201.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 1)', size: 'PDF' },
-                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%202.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 2)', size: 'PDF' },
-                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%203.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 3)', size: 'PDF' },
-                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%204.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 4)', size: 'PDF' },
-                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%205.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 5)', size: 'PDF' },
-                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%206.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 6)', size: 'PDF' }
+                { file: 'Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rmal%C4%B1%20Meal.pdf', name: 'Karşılaştırmalı Meal', size: 'PDF' }
             ];
             books.forEach(function(b) {
                 var url = base + b.file;
@@ -759,6 +750,41 @@
                 btn.onclick = function() { showDownloadModal(b.name, url, b.size); };
                 grid.appendChild(btn);
             });
+        })();
+
+        // Fahruddin er-Razi Tefsir-i Kebir Grid
+        (function() {
+            var grid = document.getElementById('raziCiltlerGrid');
+            if (!grid) return;
+            var base = 'https://archive.org/download/kuran_uzerine/';
+            for (var i = 1; i <= 23; i++) {
+                var cilt = i.toString().padStart(2, '0');
+                var file = 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%20' + cilt + '.pdf';
+                var url = base + file;
+                var btn = document.createElement('button');
+                btn.className = 'volume-item';
+                btn.innerHTML = '<span class="vol-num">' + cilt + '</span><span class="vol-name">Tefsir-i Kebir (Cilt ' + i + ')</span><span class="vol-dl">📥 İndir</span>';
+                btn.title = 'Tefsir-i Kebir Cilt ' + i + ' — 16.4 MB';
+                btn.onclick = (function(u, n) { return function() { showDownloadModal(n, u, '16.4 MB'); }; })(url, 'Tefsir-i Kebir Cilt ' + i);
+                grid.appendChild(btn);
+            }
+        })();
+
+        // Keşf Tefsiri Grid
+        (function() {
+            var grid = document.getElementById('kesfCiltlerGrid');
+            if (!grid) return;
+            var base = 'https://archive.org/download/kuran_uzerine/';
+            for (var i = 1; i <= 6; i++) {
+                var file = 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%20' + i + '.%20Cilt.pdf';
+                var url = base + file;
+                var btn = document.createElement('button');
+                btn.className = 'volume-item';
+                btn.innerHTML = '<span class="vol-num">' + i + '</span><span class="vol-name">Keşf Tefsiri (Cilt ' + i + ')</span><span class="vol-dl">📥 İndir</span>';
+                btn.title = 'Keşf Tefsiri Cilt ' + i + ' — PDF';
+                btn.onclick = (function(u, n) { return function() { showDownloadModal(n, u, 'PDF'); }; })(url, 'Keşf Tefsiri Cilt ' + i);
+                grid.appendChild(btn);
+            }
         })();
 
         // Download confirmation modal
