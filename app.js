@@ -76,6 +76,8 @@ class MBSTSApp {
     }
 
     init() {
+        if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+        window.scrollTo(0, 0);
         this.applyTheme();
         this.setupEventListeners();
         this.renderSources();
@@ -212,6 +214,7 @@ class MBSTSApp {
         document.querySelectorAll('.nav-link').forEach(l => {
             l.classList.toggle('active', l.dataset.page === page);
         });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
 
         if (page === 'dashboard') this.renderDashboard();
         if (page === 'stats') this.renderStats();
