@@ -1,0 +1,1410 @@
+[
+  {
+    "id": 1126,
+    "subject": "kur-an-bilgisi",
+    "text": "Tecvid ilmine göre (4) zamiri hangi durumda uzatılarak okunur?",
+    "options": [
+      "(4) zamiri harekesiz olursa",
+      "(4) zamirinden önceki harf harekeli olursa",
+      "(4) zamirinden önceki harf harekesiz olursa",
+      "(4) zamirinden önceki harf kalın harf olursa",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1127,
+    "subject": "kur-an-bilgisi",
+    "text": "Tecvid kaidelerine göre Vakf-ı Mutlak hangi harfle gösterilir?",
+    "options": [
+      "Mim (ۧ)",
+      "Cim ( Jamal)",
+      "Sad (楔)",
+      "Kaf (感じ)",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1128,
+    "subject": "kur-an-bilgisi",
+    "text": "Lam-ı Tarif (ال) takısından sonra (ن) harfi gelmesi halinde ortaya çıkan tecvid hükmü aşağıdakilerden hangisidir?",
+    "options": [
+      "İdgam-ı Mitekâribeyn",
+      "İdgam-ı Mütrecâniseyn",
+      "İzhar-ı Kameriye",
+      "İdgam-ı Şemsiye",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1129,
+    "subject": "kur-an-bilgisi",
+    "text": "(الله) ve (الرحمن) kelimeleri üzerinde durulduğunda (ح) harfi nasıl okunur?",
+    "options": [
+      "İnce",
+      "Kalın",
+      "Hem ince hem kalın",
+      "Kalın okumak evlâdır",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1130,
+    "subject": "kur-an-bilgisi",
+    "text": "Sâkin Nûn'dan (ن) sonra aynı kelimede (ر) veya (ل) harflerinden birisi geldiğinde ortaya çıkan tecvid hükmü aşağıdakilerden hangisidir?",
+    "options": [
+      "İklab",
+      "İdgam-ı Bilâ Cünne",
+      "İdgam-ı Maal Cünne",
+      "İzhar-ı Kelime-i Vâhıde",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1131,
+    "subject": "kur-an-bilgisi",
+    "text": "Mahrec veya sıfat bakımından yakınlığı olan harfler arasında meydana gelen idgama ne ad verilir?",
+    "options": [
+      "İdgam-ı Misleyn",
+      "İdgam-ı Şemsiye",
+      "İdgam-ı Mitekâribeyn",
+      "İdgam-ı Mütrecâniseyn",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1132,
+    "subject": "kur-an-bilgisi",
+    "text": "Aşağıdakilerden hangisinde İdgam-ı Misleyn Maal Cünne vardır?",
+    "options": [
+      "Sâkin Mîm'den sonra, (ب) harfi gelirse",
+      "Sâkin Mîm'den sonra, (م) harfi gelirse",
+      "Sâkin Mîm'den sonra, (ن) harfi gelirse",
+      "Sâkin Nûn'dan sonra, (ل) harfi gelirse",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1133,
+    "subject": "kur-an-bilgisi",
+    "text": "'Elif-Lam-Mim'in (الم) Mîm'i, Medd-ı Lazım'ın hangi bölümüne girer?",
+    "options": [
+      "Kelime-i Musakkale",
+      "Harf-i Muhaffefe",
+      "Harf-i Musakkale",
+      "Kelime-i Muhaffefe",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1134,
+    "subject": "kur-an-bilgisi",
+    "text": "Medd-ı Munfasıl'da 'asıl med' üzerine med ilave etmenin hükmü aşağıdakilerden hangisidir?",
+    "options": [
+      "Caiz",
+      "Vacip",
+      "Mekrûh",
+      "Müfsid",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1135,
+    "subject": "kur-an-bilgisi",
+    "text": "'Kul hũvellâhü ehad' ve 'Kul e'ûzü bi-rabbi'l-felek' kelimelerinde Lafzatullah nasıl okunur?",
+    "options": [
+      "İnce olarak",
+      "Kalın olarak",
+      "Hem ince hem kalın",
+      "Kalın okumak evlâdır",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1136,
+    "subject": "kur-an-bilgisi",
+    "text": "Mushaf'ın tedvini ve göğaltılmasında komisyon başkanlığı yapan Sahabi aşağıdakilerden hangisidir?",
+    "options": [
+      "Zübeyr b. Avvam",
+      "Zeyd b. Sâbit",
+      "Ebû Hüreyre",
+      "Hüzeyfe b. Yeman",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1137,
+    "subject": "tefsir",
+    "text": "Kur'an-ı Kerim'in daha çok ayet, hadis ve sahabe sözlerine dayanılarak yapılan tefsiri aşağıdakilerden hangisidir?",
+    "options": [
+      "İşârî Tefsir",
+      "Ahkâm Tefsiri",
+      "Dirâyet Tefsiri",
+      "Rivâyet Tefsiri",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1138,
+    "subject": "kur-an-bilgisi",
+    "text": "Kur'an-ı Kerim'de en son nazil olan sure aşağıdakilerden hangisidir?",
+    "options": [
+      "Nasr",
+      "Fâtiha",
+      "Kıyame",
+      "Tevbe",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1139,
+    "subject": "kur-an-bilgisi",
+    "text": "Aşağıdakilerden hangisi Kur'an'ın ana konuları arasında yer almamaktadır?",
+    "options": [
+      "İman",
+      "Avianma",
+      "İbadet",
+      "Ahlâk",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1140,
+    "subject": "kur-an-bilgisi",
+    "text": "Aşağıdakilerden hangisi Âyetel-Kürsî'de (Bakara, 2/255) değinilen konular arasında yer almaz?",
+    "options": [
+      "Allah'tan başka tanrının olmadığı",
+      "Allah'ın, inananların dostu olduğu",
+      "Göklerde ve yerde ne varsa her şeyin Allah'ın olduğu",
+      "Allah'ın izni olmadan kimsenin şefaat edemeyeceği",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1141,
+    "subject": "tefsir",
+    "text": "Elmalı Muhammed Hamdi Yazır'ın kaleme almış olduğu tefsirin adı nedir?",
+    "options": [
+      "Kur'an Mesajı",
+      "Hak Dini Kur'an Dili",
+      "Yüce Kur'an'ın Çağdaş Tefsiri",
+      "Kur'an-ı Kerim'in Türkçe Meal ve Tefsiri",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1142,
+    "subject": "kur-an-bilgisi",
+    "text": "Aşağıdakilerden hangisi Kur'an ayetlerinin doğru anlaşılmasında ayetlerin indirildiği bağlamı ifade eden terimdir?",
+    "options": [
+      "Siyak-Sibâk",
+      "Tahsis",
+      "Te'sânid",
+      "Sebeb-i Nüzûl",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1143,
+    "subject": "kur-an-bilgisi",
+    "text": "'Hâlâ Kur'an üzerinde gereği gibi düşünmeyecekler mi? Eğer o, Allah'tan başkası tarafından gelmiş olsaydı onda birçok tutarsızlık bulurlardı.' (Nisa 4/82) ayetinden aşağıdaki hangi hüküm çıkarılamaz?",
+    "options": [
+      "Kur'an, Allah katındandır.",
+      "Kur'an, açıklanması gereken bir kitaptır.",
+      "Kur'an, çelişkilerden uzak ilahi bir kitaptır.",
+      "Kur'an ayetleri üzerinde düşünülmesi gerekir.",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1144,
+    "subject": "kur-an-bilgisi",
+    "text": "Bazı surelerin başında bulunan 'Elif-Lam-Mim' (الام) gibi harflerden oluşan ayetlere ne ad verilir?",
+    "options": [
+      "Hurûf-ı Mukattaa",
+      "Hurûf-ı Seb'a",
+      "Hurûf-ı Safîre",
+      "Hurûf-ı Mintefiha",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1145,
+    "subject": "kur-an-bilgisi",
+    "text": "Bu Ayet (Âl-i İmrân, 3/7) hakkında, aşağıdakilerden hangisi söylenemez?",
+    "options": [
+      "Kur'an-ı Kerim'in bir kısmı ayetleri muhkemdir ki bunlar Kitabın esasıdır.",
+      "İlimde derinleşen (rûsukh sahibi) kimseler 'O'na inandık hepsi Rabbimizin katındandır' derler.",
+      "Muhkem ayetleri 'ilimde derinleşen (rûsukh sahibi) kimseler' anlayamazlar.",
+      "Kur'an'ın bazı ayetleri muhkemdir, bazıları da müteşâbihdir.",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1146,
+    "subject": "kur-an-bilgisi",
+    "text": "Mü'minûn Suresi 23/1-4 ayetlerinde mü'minlerin hangi özelliği zikredilmemiştir?",
+    "options": [
+      "Zekât vermek",
+      "İffeti korumak",
+      "Namazıhusû ile kılmak",
+      "Boş ve anlamsız şeylerden yüz çevirmek",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1147,
+    "subject": "kur-an-bilgisi",
+    "text": "Aşağıdakilerden hangisi bir sureye ad olarak verilen Ahzâb kelimesinin anlamını içermektedir?",
+    "options": [
+      "Tevkifilik",
+      "Hendekler",
+      "Mü'min topluluklar",
+      "Kur'an'daki mucizeler",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1148,
+    "subject": "hadis",
+    "text": "Bir ravinin 'güvenilir, muteber kimse' olduğunu ifade etmek için kullanılan hadis terimi aşağıdakilerden hangisidir?",
+    "options": [
+      "Zâhid",
+      "Kâvî",
+      "Emin",
+      "Sıkā",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1149,
+    "subject": "hadis",
+    "text": "Aklen, yalan üzerinde birleşmeleri mümkün olmayan bir topluluğun, yine kendileri gibi bir topluluktan rivayet ettikleri hadise ne ad verilir?",
+    "options": [
+      "Meşhur",
+      "Mütevâtir",
+      "Ahad",
+      "Mevzû'",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1150,
+    "subject": "hadis",
+    "text": "Aşağıdakilerden hangisi ravinin 'adâleti ile ilgili' tenkit sebeplerinden biri değildir?",
+    "options": [
+      "İttihamu'r-râvi bi'l-kizb",
+      "Fisku'r-râvi",
+      "Bid'atu'r-râvi",
+      "Vehm",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1151,
+    "subject": "hadis",
+    "text": "Aşağıdakilerden hangisi bir rivayetin uydurma olduğunu belirlemede metin tenkidi ilkelerinden biri değildir?",
+    "options": [
+      "Örf ve adetlere ters düşmesi",
+      "Tarihi gerçeklere ters düşmesi",
+      "Dinin temel ilkelerine aykırı olması",
+      "Kur'an'ın açık hükümlerine ters düşmesi",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1152,
+    "subject": "hadis",
+    "text": "'Maktû Hadis' teriminin anlamı aşağıdakilerden hangisidir?",
+    "options": [
+      "Eksik aktarılmış hadis",
+      "Tabiîlerden gelen hadis",
+      "Sahabeden gelen hadis",
+      "Sened kısımı düşürülmüş hadis",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1153,
+    "subject": "hadis",
+    "text": "'Adalet ve zabt sıfatını taşıyan ravilerin muttasıl bir senedle rivayet ettikleri, sahih ve illetli olmayan hadis' tanımı aşağıdaki hangi hadis türünü karşılar?",
+    "options": [
+      "Mütevâtir",
+      "Sahîh",
+      "Meşhur",
+      "Ahad",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1154,
+    "subject": "hadis",
+    "text": "Hz. Peygamberin vefatından sonra hadislerin bir araya getirilmesi için yapılan çalışmalara Hadis ilminde ne ad verilir?",
+    "options": [
+      "Tedvin",
+      "Tevhîd",
+      "Cem'",
+      "Telvîh",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1155,
+    "subject": "hadis",
+    "text": "Aşağıdakilerden hangisi Mâlik b. Enes tarafından tasnif edilmiştir?",
+    "options": [
+      "Ümm",
+      "Muvatta",
+      "Kitâbü'z-Zühd",
+      "Müsned",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1156,
+    "subject": "hadis",
+    "text": "'Kütüb-i Sitte' olarak isimlendirilen temel hadis kaynakları aşağıdakilerden hangisinde doğru olarak sıralanmıştır?",
+    "options": [
+      "Buhârî — Müslim — Ebû Dâvûd — Tirmizî — İbn Mâce — Nesâî",
+      "Ahmed — Abdürrazzâk — Buhârî — Müslim — Nesâî — İbn Huzeyme",
+      "Ahmed — Buhârî — Dârimî — Müslim — Ebû Dâvûd — Beyhakî",
+      "Ebû Dâvûd — Tirmizî — Nesâî — İbn Hibbân — Dârekutnî — Buhârî",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1157,
+    "subject": "hadis",
+    "text": "'Kim Allah için hacceder de (Allah'ın rızasına uymayan) kötü söz ve davranışlardan, Allah'a karşı gelmekten sakınırsa, (kul hakkı hariç) cennetten出去 olarak döner.' hadisinde boş bırakılan yere gelecek doğru ifade aşağıdakilerden hangisidir?",
+    "options": [
+      "Kârlı bir ticaretle döner.",
+      "Cehennemden kurtulmuş olarak döner.",
+      "Affedilmiş ve müjdelenmiş olarak döner.",
+      "Annesinden doğduğu gün gibi (günahtız) döner.",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1158,
+    "subject": "akaid-kelam",
+    "text": "Aşağıdakilerden hangisi meleklerin özelliklerinden biri olarak kabul edilir?",
+    "options": [
+      "Melekler gaybı bilirler.",
+      "Meleklerde cinsiyet yoktur.",
+      "Melekler de günah işler.",
+      "Melekler ateşten yaratılmıştır.",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1159,
+    "subject": "akaid-kelam",
+    "text": "Kur'an'da, Allah'ı ve mü'minleri aldatmaya çalışan, inanmadıkları halde 'Allah'a ve Ahiret gününe inandık' diyen kimseler dînî literatürde nasıl adlandırılır?",
+    "options": [
+      "Müşrik",
+      "Münâfık",
+      "Murted",
+      "Kâfir",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1160,
+    "subject": "akaid-kelam",
+    "text": "Kur'an'da 'Kirâmen Kâtibîn' diye adlandırılan ve insanların amellerini yazmakla görevli meleklere verilen diğer isim aşağıdakilerden hangisidir?",
+    "options": [
+      "Mukarrabîn",
+      "Hafaza",
+      "Hamele-i Arş",
+      "Münker-Nekir",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1161,
+    "subject": "akaid-kelam",
+    "text": "'Kıyamet günü yeniden diriltildikten sonra bir araya toplanma' anlamına gelen terim aşağıdakilerden hangisidir?",
+    "options": [
+      "Berzah",
+      "Ba's",
+      "Haşr",
+      "Nüşûr",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1162,
+    "subject": "akaid-kelam",
+    "text": "Delillere, bilgiye, araştırma ve kavramaya dayalı imana ne ad verilir?",
+    "options": [
+      "Taklidi iman",
+      "İlmel iman",
+      "Tahkiki iman",
+      "Tafsili iman",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1163,
+    "subject": "akaid-kelam",
+    "text": "Allah'ın varlığını ispat etmek için İslam bilginleri tarafından ortaya konulan ve 'Varlığı ve yokluğu eşit bir varlık olan alemın var olması için bir sebebe ihtiyaç vardır' şeklinde tanımlanan delil aşağıdakilerden hangisidir?",
+    "options": [
+      "İmkân",
+      "Nizam",
+      "Hüdûs",
+      "Temanu'",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1164,
+    "subject": "akaid-kelam",
+    "text": "Mutezile'nin gücü olduğu dönemde yetişmiş, akılcılık konusunda önde gelenlerden olmuş ve Beyti'l-Hikme'ye girmiştir. 'Risâle fi'l-Akl' adlı eseri yazarak akıl konusunu müstakil bir kitap olarak ele alan ilk alimdir. İlimleri ilk tasnif eden odur.",
+    "options": [
+      "İbn Sînâ",
+      "İbn Rüşd",
+      "Fârâbî",
+      "Kindî",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1165,
+    "subject": "akaid-kelam",
+    "text": "Cemaleddin Afganî ile birlikte netleşmeye başlayan ve 19. yüzyılın ikinci yarısından itibaren, İslamiyet çerçevesinde Müslüman dünyanın geri kalmışlığı üzerine düşünmeye başlayan, Kur'an ve Sünnet'in mecrasına ulaşma talebini dile getiren dini eğilim aşağıdakilerden hangisidir?",
+    "options": [
+      "Yeni Selefilik",
+      "Bahâîlik",
+      "Mütezile",
+      "Gelenekçilik",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1166,
+    "subject": "akaid-kelam",
+    "text": "'Yeni İlmi Kelâm' adlı eseri ile kelâm ilminin yeniden ihyasına destek veren bilgin aşağıdakilerden hangisidir?",
+    "options": [
+      "İbn-i Kemâl",
+      "Şeyh Galip",
+      "Ebussuud Efendi",
+      "İzmîrlî İsmail Hakkı",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1167,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi kaynaklardan hüküm çıkarılırken kullanılan yöntemlerden biri değildir?",
+    "options": [
+      "İstişâre",
+      "İştihâb",
+      "İstinsân",
+      "İstişhâd",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1168,
+    "subject": "fikih-ilmihal",
+    "text": "Fıkıh literatüründe zaruret ve mazerete bağlı olarak işlenmesine izin verilen hususlara ne ad verilir?",
+    "options": [
+      "Ruhsat",
+      "Şart",
+      "Azîmet",
+      "Vacip",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1169,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi abdesti bozar?",
+    "options": [
+      "Gülmek",
+      "Konuşmak",
+      "Ağlamak",
+      "Sarhoş olmak",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1170,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi sehiv secdesi yapmayı gerektirir?",
+    "options": [
+      "Farzın üç veya dördüncü rekatında Fâtiha'yı terk etmek",
+      "Tahiyat duasını okumayı unutarak terk etmek",
+      "Süb-hâneke duasını terk etmek",
+      "İftitah tekbirinde elleri kaldırmamak",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1171,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisinde verilen kavram ve karşılığı yanlış eşleştirilmiştir?",
+    "options": [
+      "Cem-i Takdîm: İki namazı ilk namazın vaktinde birleştirerek kılmak",
+      "Cem-i Te'hîr: İki namazı sonrakinin vaktinde birleştirerek kılmak",
+      "Vatan-ı Aslî: 15 günden veya daha fazla kalmaya niyet edilen yer",
+      "Vatan-ı Suknâ: 15 günden az kalmak üzere gidilen yer",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1172,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisinde, oruç keffaretiyle ilgili yaptırımlar sırasıyla verilmiştir?",
+    "options": [
+      "Kulûl azâd etmek — 60 fakiri doyurmak — İki ay peşpeşe oruç tutmak",
+      "Kulûl azâd etmek — İki ay peşpeşe oruç tutmak — 60 fakiri doyurmak",
+      "60 fakiri doyurmak — İki ay peşpeşe oruç tutmak — Kulûl azâd etmek",
+      "İki ay peşpeşe oruç tutmak — Kulûl azâd etmek — 60 fakiri doyurmak",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1173,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdaki kişilerden hangisine zekât verilebilir?",
+    "options": [
+      "Dede",
+      "Baba",
+      "Torun",
+      "Kardeş",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1174,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisinde dört mezhep imam vefat tarihlerine göre kronolojik olarak doğru sıralanmıştır?",
+    "options": [
+      "İmam Mâlik — İmam Şâfiî — İmam Ebû Hanîfe — Ahmed b. Hanbel",
+      "İmam Şâfiî — İmam Ebû Hanîfe — İmam Mâlik — Ahmed b. Hanbel",
+      "İmam Ebû Hanîfe — İmam Mâlik — İmam Şâfiî — Ahmed b. Hanbel",
+      "İmam Ebû Hanîfe — İmam Mâlik — Ahmed b. Hanbel — İmam Şâfiî",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1175,
+    "subject": "fikih-ilmihal",
+    "text": "Tevbe Suresi'nin 60. ayeti, hangi konuyu düzenlemektedir?",
+    "options": [
+      "Sadaka-i Fır",
+      "Zekât oranları",
+      "Zekât verecek kimseler",
+      "Zekât verilecek kimseler",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1176,
+    "subject": "fikih-ilmihal",
+    "text": "Adak (nezir) orucunun hükmü aşağıdakilerden hangisidir?",
+    "options": [
+      "Farz",
+      "Mustehab",
+      "Vacip",
+      "Sünnet",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1177,
+    "subject": "fikih-ilmihal",
+    "text": "Yukarıda tarifleri verilen yemin çeşitleri aşağıdakilerden hangisinde doğru olarak sıralanmıştır? I- Yanlışlıkla doğru olduğu sanılarak yapılan yemin II- Mümkün olan ve geleceğe ait bir şey hakkında yapılan yemin III- Geçmiş zamanda yapılmış veya yapılmamış bir iş hakkında bile bile kasten ve yalan yere yapılan yemin",
+    "options": [
+      "I- Gammîz, II- Mün'akid, III- Lâğv",
+      "I- Lâğv, II- Mün'akid, III- Gammîz",
+      "I- Lâğv, II- Gammîz, III- Mün'akid",
+      "I- Mün'akid, II- Lâğv, III- Gammîz",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1178,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi bazı ibadetlerin yapılmasına mani olan hükmî kirliliktir?",
+    "options": [
+      "Rics",
+      "Hâdes",
+      "Necâset-i Hafîfe",
+      "Necâset-i Galîza",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1179,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi cünûp bir kişi tarafından yapılabilir?",
+    "options": [
+      "Dua etmek",
+      "Namaz kılmak",
+      "Kâbe'yi tavaf yapmak",
+      "Tilâvet secdesi etmek",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1180,
+    "subject": "fikih-ilmihal",
+    "text": "Fıkıh literatüründe 'Harama düşmemek için bazı mubahları ve şüpheli şeyleri yasaklamak' anlamına gelen ilke aşağıdakilerden hangisidir?",
+    "options": [
+      "İstişlâh",
+      "İstinsân",
+      "Narh Koyma",
+      "Sedd-i Zerâi'",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1181,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi yeni doğan çocuktan dolayı Allah'a olan şükrünü göstermek için kesilen kurbandır?",
+    "options": [
+      "Adak Kurbanı",
+      "Akîka Kurbanı",
+      "Udhiye Kurbanı",
+      "Hedy Kurbanı",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1182,
+    "subject": "fikih-ilmihal",
+    "text": "Oruçlu iken kan verme konusunda aşağıdaki verilen bilgilerden hangisi doğrudur?",
+    "options": [
+      "Orucu bozar, hem kaza hem de kefaret gerektirir.",
+      "Orucu bozar, kefaret gerektirir.",
+      "Orucu bozar, kaza gerektirir.",
+      "Orucu bozmaz.",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1183,
+    "subject": "fikih-ilmihal",
+    "text": "Peygamberimizin (sav) bir düzende içerisinde, belirli zamanlarda ve farz ibadetlere bağlı olarak yaptığı nafile ibadetler aşağıdaki terimlerden hangisiyle ifade edilir?",
+    "options": [
+      "Revâtib Sünnet",
+      "Zevâid Sünnet",
+      "Sünnet-i Adet",
+      "Sünnet-i Regâib",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1184,
+    "subject": "fikih-ilmihal",
+    "text": "Sadaka-i Fır ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Nisab aranmaz.",
+      "Ergenlik şartı yoktur.",
+      "Malda yıllanma şartı yoktur.",
+      "Verilecek miktarın alt sınırı belli değildir.",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1185,
+    "subject": "fikih-ilmihal",
+    "text": "Şâfiî ve Hanbelî mezheplerine göre, Bayram'ın birinci gününden şeytan taşlamanın vakti ne zaman başlar?",
+    "options": [
+      "Fecri Sâdık'tan itibaren",
+      "Gece yarısından itibaren",
+      "Güneşin doğmasından itibaren",
+      "Tan yerinin ağarmasından itibaren",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1186,
+    "subject": "fikih-ilmihal",
+    "text": "Mâlikî mezhebine göre, Müzdelife vakfesinin zamanı aşağıdakilerden hangisidir?",
+    "options": [
+      "Gece yarısından itibaren Bayram sabahı Fecri Sâdık'a kadar",
+      "Bayramın birinci gününden tan yerinin ağarmaya başlamasından güneşin doğmasına kadar",
+      "Arefe günü aksamı güneşin batısından Bayram sabahı Fecri Sâdık'a kadar",
+      "Arefe günü aksamı güneşin batısından Bayram birinci gün zeval vaktine kadar",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1187,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıda verilen tavaf çeşitlerinden hangisi hac ile ilgili değildir?",
+    "options": [
+      "Nezir Tavafı",
+      "Ziyaret Tavafı",
+      "Vedâ Tavafı",
+      "Kudûm Tavafı",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1188,
+    "subject": "fikih-ilmihal",
+    "text": "Hac ve Umre'de ihrama girmek için kaç mikat mahalli vardır?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1189,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisinde hac ayları doğru olarak sıralanmıştır?",
+    "options": [
+      "Şevvâl - Zilkade - Zilhicce",
+      "Muharrem - Zilkade - Zilhicce",
+      "Zilkade - Zilhicce - Receb",
+      "Rebîulevvel - Zilkade - Zilhicce",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1190,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi Arafat vakfesinin geçerli olmasının şartlarından biri değildir?",
+    "options": [
+      "Vakfeyi Arafat'ta yapmak",
+      "Hac için ihrama girmiş olmak",
+      "Öğle ile ikindiyi öğle vaktinde cem-i takdim ile kılmak",
+      "Vakfeyi Arefe günü güneşin zeval noktasına gelmesinden Kurban Bayramı'nın birinci günü Fecri Sâdık'a kadar olan süre içinde yapmak",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1191,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi hac menasikinin yapıldığı mekanlar arasında yer almaz?",
+    "options": [
+      "Metaf",
+      "Mes'a",
+      "Mina",
+      "Medîne",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1192,
+    "subject": "fikih-ilmihal",
+    "text": "İhrama girerken niyet ve telbiyeden önce vücuda güzel koku sürmenin hükmü aşağıdakilerden hangisidir?",
+    "options": [
+      "Haramdır.",
+      "Vaciptir.",
+      "Mustehaptır.",
+      "Mekrûhtur.",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1193,
+    "subject": "fikih-ilmihal",
+    "text": "Harem bölgesi ile mikat yerleri/sınırları arasında kalan alana ne denir?",
+    "options": [
+      "Hill Bölgesi",
+      "Hicaz Bölgesi",
+      "Arafat Bölgesi",
+      "Afak Bölgesi",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1194,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi İslam öncesi dönemde hacılara verilen hizmetlerden biri değildir?",
+    "options": [
+      "Sıkâye",
+      "Rifâde",
+      "İlâr",
+      "İcâze",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1195,
+    "subject": "fikih-ilmihal",
+    "text": "Aşağıdakilerden hangisi hicretin ikinci yılında Müslümanların yükümlü tutulduğu ibadetlerden biri değildir?",
+    "options": [
+      "Zekât",
+      "Ramazan Orucu",
+      "Sadaka-i Fır",
+      "Hac",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1196,
+    "subject": "siyer",
+    "text": "Aşağıdaki sahabilerden hangisi Mekke'de İslam'ı kabul eden ilk Müslümanlar arasında yer almaz?",
+    "options": [
+      "Hz. Osman",
+      "Zübeyr İbn Avvâm",
+      "Talha İbn Ubeydullah",
+      "Ebû Eyyûb el-Ensârî",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1197,
+    "subject": "siyer",
+    "text": "Haricilik ilk olarak hangi dönemde ortaya çıkmıştır?",
+    "options": [
+      "Hz. Ali döneminde",
+      "Hz. Ömer döneminde",
+      "Hz. Osman döneminde",
+      "Velid İbn Abdülmelik döneminde",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1198,
+    "subject": "siyer",
+    "text": "Aşağıdaki kavramlardan hangisi 'Güzel Ahlak' anlamına gelir?",
+    "options": [
+      "Killet-i Edeb",
+      "Hısnü'l-Hulûk",
+      "Ahlâk-ı Âlâî",
+      "Ahlâk-ı Zemîme",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1199,
+    "subject": "siyer",
+    "text": "Aşağıdakilerden hangisi 'Amel-i Sâlih' kavramını en kuşatıcı şekilde ihtiva eder?",
+    "options": [
+      "Cömertlik ve yardımseverlik",
+      "Sağlık kurallarına uygun davranmak",
+      "Kâr ve fayda peşinde gösterilen gayret",
+      "Allah'ın hoşnutluğunu kazanmak için yapılan faydalı işler",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1200,
+    "subject": "siyer",
+    "text": "Peygamberliğin 10. senesine 'Hüzün Yılı' denilmesinin sebebi aşağıdakilerden hangisidir?",
+    "options": [
+      "Müşriklerin Kâbe'yi yıkmaları",
+      "Hz. Hamza'nın şehit edilmesi",
+      "Ebû Tâlib ve Hz. Hatice'nin vefat etmeleri",
+      "Müşriklerin Müslümanlara boykot uygulamaları",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1201,
+    "subject": "siyer",
+    "text": "'Yardımlaşma' kavramı, din dilinde aşağıdaki terimlerden hangisi ile ifade edilir?",
+    "options": [
+      "Müsâamaha",
+      "Teavün",
+      "İkrâh",
+      "Müsâlahâ",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1202,
+    "subject": "fikih-ilmihal",
+    "text": "Cuma Namazında hutbe okunmasının hükmü aşağıdakilerden hangisidir?",
+    "options": [
+      "Mustehab",
+      "Vacip",
+      "Sünnet",
+      "Farz",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1203,
+    "subject": "siyer",
+    "text": "Akabe Biatı'nın ardından Medîne'ye gönderilen ve oradaki Müslümanlara imamlik yapan sahabi aşağıdakilerden hangisidir?",
+    "options": [
+      "Mus'ab bin Umeyr",
+      "Amr bin Selime",
+      "Salim bin Avf",
+      "Ebû Hüzeyfe",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1204,
+    "subject": "dinler-tarihi",
+    "text": "Orta Asya Türk Cumhuriyetleri içerisinde en geniş topraklara sahiptir. 1991 yılında Sovyetlerin dağılmasından sonra yeniden bağımsızlığına kavuşan bu ülke aşağıdakilerden hangisidir?",
+    "options": [
+      "Kırgızistan",
+      "Türkmenistan",
+      "Kazakistan",
+      "Özbekistan",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1205,
+    "subject": "dinler-tarihi",
+    "text": "İslam kültür ve medeniyetine hizmet eden Buhâra, Semerkant, Taşkent ve Mergînân gibi kentlerin yer aldığı ülke aşağıdakilerden hangisidir?",
+    "options": [
+      "Türkmenistan",
+      "Afganistan",
+      "Azerbaycan",
+      "Özbekistan",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1206,
+    "subject": "dinler-tarihi",
+    "text": "Konfüçyanizm'in kurucusu aşağıdakilerden hangisidir?",
+    "options": [
+      "K'ung Fu-tzu",
+      "Chuang Tzu",
+      "Lao Tsu",
+      "Li-Ch'ang-ling",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1207,
+    "subject": "dinler-tarihi",
+    "text": "Eski Ahid'e göre, Yahudi mabedini ilk kez kim inşa etmiştir?",
+    "options": [
+      "Hz. Süleyman",
+      "Hz. Yakub",
+      "Hz. Davut",
+      "Hz. Harun",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1208,
+    "subject": "dinler-tarihi",
+    "text": "2009 Yılı 'Kutlu Doğum Haftası'nın konusu aşağıdakilerden hangisidir?",
+    "options": [
+      "Hicret ve Getirdikleri",
+      "Din ve Adalet Duygusu",
+      "Birlikte Yaşama Tecribesi",
+      "Rahmet Peygamberi ve Aile",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1209,
+    "subject": "dinler-tarihi",
+    "text": "Üçüncü Diyanet İşleri Başkanı ve aynı zamanda 'İslam Dini' adlı eserin müellifi aşağıdakilerden hangisidir?",
+    "options": [
+      "Ahmet Hamdi Akseki",
+      "Hasan Hüsnü Erdem",
+      "Şerafettin Yaltkaya",
+      "Ömer Nasuhi Bilmen",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1210,
+    "subject": "dinler-tarihi",
+    "text": "Diyanet İşleri Başkanlığı'nın anayasal bir kurum olması ilk olarak hangi Anayasa ile belirlenmiştir?",
+    "options": [
+      "1924",
+      "1950",
+      "1961",
+      "1982",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1211,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdakilerden hangisi Başkanlığın yürüttüğü kamu hizmetine dahil değildir?",
+    "options": [
+      "İbadet ve Cami",
+      "İrsad ve Tebliğ",
+      "Fetva",
+      "Vakıf",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1212,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdakilerden hangisi Başkanlığın danışma ve denetim birimlerinden biri değildir?",
+    "options": [
+      "Hukuk Müşavirliği",
+      "Teftiş Kurulu Başkanlığı",
+      "Personel Dairesi Başkanlığı",
+      "Strateji Geliştirme Daire Başkanlığı",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1213,
+    "subject": "dinler-tarihi",
+    "text": "Din İşleri Yüksek Kurulu kaç üyeden oluşur?",
+    "options": [
+      "20",
+      "16",
+      "14",
+      "12",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  }
+]
