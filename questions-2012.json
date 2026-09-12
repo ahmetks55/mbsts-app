@@ -613,13 +613,13 @@
     "text": "Aşağıdaki kavramlardan hangisi yemin ile ilgili değildir?",
     "options": [
       "Lian",
-      "Bed','Mün'akide",
-      "İla",
-      "",
-      ""
+      "Bed",
+      "Mun'akide",
+      "Ila",
+      "Kaffaret"
     ],
     "correct": 1,
-    "explanation": "2012 MBSTS",
+    "explanation": "Lian, Mun'akide, Ila ve Kaffaret yemin ile ilgili kavramlardir. Bed (baslama) yemin ile ilgili degildir.",
     "year": 2012,
     "source": "2012 MBSTS"
   },
