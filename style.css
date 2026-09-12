@@ -564,6 +564,52 @@ body {
 .dl-icon { font-size: 2rem; }
 .download-card small { color: var(--text-secondary); }
 
+/* ===== VOLUME GRID ===== */
+.volume-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+.volume-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--surface-hover);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.85em;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.volume-item:hover { border-color: var(--primary); background: var(--primary-bg); }
+.vol-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.8em;
+    flex-shrink: 0;
+}
+.vol-name {
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
 /* ===== SUBJECT BARS ===== */
 .subject-bars { display: flex; flex-direction: column; gap: 12px; }
 .sbar { display: flex; align-items: center; gap: 12px; }

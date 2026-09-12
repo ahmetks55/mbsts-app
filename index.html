@@ -417,11 +417,17 @@
                             <span class="dl-icon">📜</span>
                             <div><strong>Hadis Kütüphanesi</strong><br><small>143+ Kitap — Listeden seçin</small></div>
                         </a>
-                        <a href="https://archive.org/download/TDV_IslamAnsiklopedisi1-44/c01metin.pdf" class="download-card" download>
-                            <span class="dl-icon">📕</span>
-                            <div><strong>İslam Ansiklopedisi</strong><br><small>44 Cilt PDF — Cilt 1 (55 MB)</small></div>
-                        </a>
                     </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-header">
+                    <h3>📕 İslam Ansiklopedisi — Cilt Seçimi</h3>
+                    <small style="color:var(--text-secondary);">44 Cilt, PDF formatında — İstediğiniz cildi indirin</small>
+                </div>
+                <div class="card-body">
+                    <div class="volume-grid" id="volumeGrid"></div>
                 </div>
             </div>
         </section>
@@ -617,6 +623,36 @@
                 }
             }
         }, 3000);
+
+        // Volume grid for İslam Ansiklopedisi
+        (function() {
+            const grid = document.getElementById('volumeGrid');
+            if (!grid) return;
+            const base = 'https://archive.org/download/TDV_IslamAnsiklopedisi1-44/';
+            const subjects = [
+                'ÂB-ı HAYAT','AHLÂK','AMASYA','ÂŞIK MÛSİKİSİ','BALABAN BEŞİR AĞA',
+                'BEŞİR AĞA CAMİİ','CA\'FER es-SÂDIK','CİLVE','DÂRÜSAÂDE','DÛMETÜLCENDEL',
+                'ELBİSTAN','EYS','FIKIH','GELİBOLU','HADES',
+                'HANEFÎ MEZHEBİ','HAYAL','HİLÂL','HÜSEYİN MİRZA','İBN HALDÛN',
+                'İBNÜ\'l-CEZERÎ','İHVÂN-ı SAFÂ','İSLÂM','KĀÂNÎ','KASTAMONU',
+                'KİLİ','KÜTAHYA','MANİSA','MEKTEB','MISRA',
+                'MUHAMMEDİYYE','el-MÜNCİD','NESİH','OSMANLILAR','RESÛLÎLER',
+                'SAKAL','SEVR ANTLAŞMASI','SUVEYLİH','ŞERİF PAŞA','TANZİMAT',
+                'TEVECCÜH','TÜTÜN','VEKÂLET','YÛSUF ZWEMER'
+            ];
+            for (let i = 1; i <= 44; i++) {
+                const cilt = i.toString().padStart(2, '0');
+                const name = subjects[i - 1] || 'Cilt ' + i;
+                const url = base + 'c' + cilt + 'metin.pdf';
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = '';
+                a.className = 'volume-item';
+                a.innerHTML = '<span class="vol-num">' + cilt + '</span><span class="vol-name">' + name + '</span>';
+                a.title = 'Cilt ' + cilt + ': ' + name + ' — PDF İndir';
+                grid.appendChild(a);
+            }
+        })();
     </script>
 </body>
 </html>
