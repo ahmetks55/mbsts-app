@@ -9,22 +9,16 @@ const SUBJECTS = {
 };
 
 const SOURCES = [
-    { id: 1, title: "Kur'an Yolu Turkce Meal ve Tefsiri", author: "Komisyon", pub: "DIB", year: "2019", category: "tefsir", scrollTo: "meallerGrid" },
-    { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" },
-    { id: 3, title: "Ilmihal I. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 4, title: "Ilmihal II. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 5, title: "Hac Ilmihali", author: "Doc. Dr. Ismail Karagoz vd.", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 6, title: "Fetvalar", author: "Din Isleri Yuksek Kurulu", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 7, title: "Dini Kavramlar Sozlugu", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 8, title: "Hz. Muhammed ve Evrensel Mesaji", author: "Prof. Dr. Ibrahim Saricam", pub: "DIB", year: "2019", category: "siyer", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 9, title: "Hadis Usulu", author: "Prof. Dr. Talat Kocyigit", pub: "TDV", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
-    { id: 10, title: "Hadis Tarihi", author: "Prof. Dr. Talat Kocyigit", pub: "TDV", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
-    { id: 11, title: "Riyazus-Salihin", author: "Imam Nevevi", pub: "DIB", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
-    { id: 12, title: "Yasayan Dunya Dinleri", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 13, title: "Tecvidli Kur'an Okuma Rehberi", author: "Davut Kaya", pub: "DIB", year: "2019", category: "tecvit", scrollTo: "meallerGrid" },
-    { id: 14, title: "Kur'an-ı Kerim'in Tecvidi", author: "Demirhan Unlu", pub: "TDV", year: "2019", category: "tecvit", scrollTo: "meallerGrid" },
-    { id: 15, title: "Diyanet Islam Ansiklopedisi (44 Cilt)", author: "TDV", pub: "TDV", year: "2019", category: "diger", scrollTo: "ciltSecimi" },
-    { id: 16, title: "Tefsirler — Razi & Keşf (29 Cilt)", author: "Fahruddin er-Razi / Zemahşeri", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" }
+    { id: 1, title: "Kur'an Yolu Türkçe Meal ve Tefsiri", author: "Komisyon", pub: "DİB", year: "2019", category: "tefsir", scrollTo: "kurAnYoluGrid" },
+    { id: 2, title: "İlmihal (I. ve II. Cilt)", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", scrollTo: "ilmihalGrid" },
+    { id: 3, title: "Tefsir Usulü", author: "Prof. Dr. İsmail Cerrahoğlu", pub: "TDV", year: "2019", category: "tefsir", url: "https://archive.org/download/elmalili-muhammed-hamdi-yazir-original-hak-dini-kuran-dili/Ismail%20Cerrahoglu%20-%20Tefsir%20Usulu.pdf", fileSize: "PDF" },
+    { id: 4, title: "Hadis Usûlü", author: "Prof. Dr. Talat Koçyiğit", pub: "TDV", year: "2019", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Talat%20Kocyigit%20-%20Hadis%20Usulu.pdf", fileSize: "PDF" },
+    { id: 5, title: "Hadis Tarihi", author: "Prof. Dr. Talat Koçyiğit", pub: "TDV", year: "2019", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Talat%20Kocyigit%20-%20Hadis%20Tarihi.pdf", fileSize: "PDF" },
+    { id: 6, title: "Riyazü's-Sâlihîn", author: "Ebû Zekeriyya en-Nevevî", pub: "DİB", year: "2019", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Imam%20Nevevi%20-%20Riyazus%20Salihin%208-cilt.pdf", fileSize: "8 Cilt PDF" },
+    { id: 7, title: "Hz. Muhammed ve Evrensel Mesajı", author: "Prof. Dr. İbrahim Sarıçam", pub: "DİB", year: "2019", category: "siyer", url: "https://archive.org/download/diyanet-dib-yayinlari/D%C4%B0YANET.rar", fileSize: "3.8 GB (RAR)" },
+    { id: 8, title: "Dini Kavramlar Sözlüğü", author: "Komisyon", pub: "DİB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/D%C4%B0YANET.rar", fileSize: "3.8 GB (RAR)" },
+    { id: 9, title: "Hac İlmihali", author: "DİB Yayınları", pub: "DİB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-ilmihal-kitaplari/Hac_ilmihali_2007_yerimli.pdf", fileSize: "PDF" },
+    { id: 10, title: "Fetvalar", author: "Din İşleri Yüksek Kurulu", pub: "DİB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-ilmihal-kitaplari/Fetvalar_Diyanet-yerimli.pdf", fileSize: "PDF" }
 ];
 
 const SAMPLE_QUESTIONS = [

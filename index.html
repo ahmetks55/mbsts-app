@@ -398,73 +398,23 @@
 
             <div class="sources-grid" id="sourcesGrid"></div>
 
-            <div class="card hidden-section" id="topluArsivler" style="margin-top:30px;">
+            <div class="card hidden-section" id="kurAnYoluGrid" style="margin-top:20px;">
                 <div class="card-header">
-                    <h3>📥 Toplu Arşivler</h3>
+                    <h3>📖 Kur'an Yolu Türkçe Meal ve Tefsiri</h3>
+                    <small style="color:var(--text-secondary);">Komisyon (DİB) — 1 Meal + 5 Cilt Tefsir PDF</small>
                 </div>
                 <div class="card-body">
-                    <p style="margin-bottom:16px;color:var(--text-secondary);font-size:0.9em;">Tüm collection'lar archive.org üzerindedir. Her birini collection sayfasından indirin.</p>
-                    <div class="download-links">
-                        <a href="https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" class="download-card" download>
-                            <span class="dl-icon">📦</span>
-                            <div><strong>TÜM DİB YAYINLARI</strong><br><small>3.8 GB RAR — Tüm DİB kitapları</small></div>
-                        </a>
-                        <a href="https://archive.org/details/kuran_uzerine" class="download-card" target="_blank">
-                            <span class="dl-icon">📖</span>
-                            <div><strong>Kur'an Kütüphanesi</strong><br><small>40+ Tefsir/Meal PDF</small></div>
-                        </a>
-                        <a href="https://archive.org/details/KUTUB-E-SITTAH" class="download-card" target="_blank">
-                            <span class="dl-icon">📜</span>
-                            <div><strong>Kütüb-i Sitte</strong><br><small>6 Büyük Hadis Kitabı</small></div>
-                        </a>
-                        <a href="https://archive.org/details/kuran-kurslari-kitaplari" class="download-card" target="_blank">
-                            <span class="dl-icon">🏫</span>
-                            <div><strong>Kur'an Kursları Kitapları</strong><br><small>Diyanet Eğitim Materialları</small></div>
-                        </a>
-                    </div>
+                    <div class="volume-grid" id="kurAnYoluItems"></div>
                 </div>
             </div>
 
-            <div class="card hidden-section" id="ciltSecimi" style="margin-top:20px;">
+            <div class="card hidden-section" id="ilmihalGrid" style="margin-top:20px;">
                 <div class="card-header">
-                    <h3>📕 İslam Ansiklopedisi — Cilt Seçimi</h3>
-                    <small style="color:var(--text-secondary);">44 Cilt, PDF — İstediğiniz cildi indirin</small>
+                    <h3>📕 İlmihal (I. ve II. Cilt)</h3>
+                    <small style="color:var(--text-secondary);">Komisyon (TDV) — Fıkıh ve ibadetler</small>
                 </div>
                 <div class="card-body">
-                    <div class="volume-grid" id="volumeGrid"></div>
-                </div>
-            </div>
-
-            <div class="card hidden-section" id="hadisKitaplari" style="margin-top:20px;">
-                <div class="card-header">
-                    <h3>📜 Kütüb-i Sitte — Hadis Kitapları</h3>
-                    <small style="color:var(--text-secondary);">6 Büyük Hadis Kitabı, Arapça + İngilizce PDF</small>
-                </div>
-                <div class="card-body">
-                    <div class="volume-grid" id="hadisGrid"></div>
-                </div>
-            </div>
-
-            <div class="card hidden-section" id="tefsirlerGrid" style="margin-top:20px;">
-                <div class="card-header">
-                    <h3>📕 Tefsirler — Razi & Keşf</h3>
-                    <small style="color:var(--text-secondary);">29 Cilt PDF — İstediğiniz tefsiri seçin</small>
-                </div>
-                <div class="card-body">
-                    <p style="margin-bottom:12px;font-weight:600;color:var(--text);">Fahruddin er-Razi — Tefsir-i Kebir (23 Cilt)</p>
-                    <div class="volume-grid" id="raziCiltlerGrid"></div>
-                    <p style="margin:16px 0 12px;font-weight:600;color:var(--text);">Keşf Tefsiri — Zemahşeri (6 Cilt)</p>
-                    <div class="volume-grid" id="kesfCiltlerGrid"></div>
-                </div>
-            </div>
-
-            <div class="card hidden-section" id="meallerGrid" style="margin-top:20px;">
-                <div class="card-header">
-                    <h3>📖 Kur'an Mealleri</h3>
-                    <small style="color:var(--text-secondary);">7 Meal PDF — İstediğiniz mealı indirin</small>
-                </div>
-                <div class="card-body">
-                    <div class="volume-grid" id="mealGrid"></div>
+                    <div class="volume-grid" id="ilmihalItems"></div>
                 </div>
             </div>
         </section>
@@ -622,7 +572,7 @@
         </section>
     </main>
 
-    <script src="app.js?v=17"></script>
+    <script src="app.js?v=18"></script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -661,78 +611,18 @@
             }
         }, 3000);
 
-        // Volume grid for İslam Ansiklopedisi
+        // Kur'an Yolu Grid (6 PDF)
         (function() {
-            const grid = document.getElementById('volumeGrid');
+            var grid = document.getElementById('kurAnYoluItems');
             if (!grid) return;
-            const base = 'https://archive.org/download/TDV_IslamAnsiklopedisi1-44/';
-            const subjects = [
-                'ÂB-ı HAYAT','AHLÂK','AMASYA','ÂŞIK MÛSİKİSİ','BALABAN BEŞİR AĞA',
-                'BEŞİR AĞA CAMİİ','CA\'FER es-SÂDIK','CİLVE','DÂRÜSAÂDE','DÛMETÜLCENDEL',
-                'ELBİSTAN','EYS','FIKIH','GELİBOLU','HADES',
-                'HANEFÎ MEZHEBİ','HAYAL','HİLÂL','HÜSEYİN MİRZA','İBN HALDÛN',
-                'İBNÜ\'l-CEZERÎ','İHVÂN-ı SAFÂ','İSLÂM','KĀÂNÎ','KASTAMONU',
-                'KİLİ','KÜTAHYA','MANİSA','MEKTEB','MISRA',
-                'MUHAMMEDİYYE','el-MÜNCİD','NESİH','OSMANLILAR','RESÛLÎLER',
-                'SAKAL','SEVR ANTLAŞMASI','SUVEYLİH','ŞERİF PAŞA','TANZİMAT',
-                'TEVECCÜH','TÜTÜN','VEKÂLET','YÛSUF ZWEMER'
-            ];
-            for (let i = 1; i <= 44; i++) {
-                const cilt = i.toString().padStart(2, '0');
-                const name = subjects[i - 1] || 'Cilt ' + i;
-                const url = base + 'c' + cilt + 'metin.pdf';
-                const btn = document.createElement('button');
-                btn.className = 'volume-item';
-                btn.innerHTML = '<span class="vol-num">' + cilt + '</span><span class="vol-name">' + name + '</span><span class="vol-dl">📥 İndir</span>';
-                btn.title = 'Cilt ' + cilt + ': ' + name + ' — PDF İndir';
-                btn.onclick = function() { showDownloadModal('Cilt ' + cilt + ': ' + name, url, 'PDF'); };
-                grid.appendChild(btn);
-            }
-        })();
-
-        // Kutub-i Sitte - Hadis Kitapları Grid
-        (function() {
-            const grid = document.getElementById('hadisGrid');
-            if (!grid) return;
-            const base = 'https://archive.org/download/KUTUB-E-SITTAH/';
-            const books = [
-                { file: 'BUHARI-ar.pdf', name: 'Sahih Buhari', vol: 'Arapça PDF' },
-                { file: 'BUHARI-en.pdf', name: 'Sahih Buhari', vol: 'İngilizce PDF' },
-                { file: 'MUSLIM-ar.pdf', name: 'Sahih Müslim', vol: 'Arapça PDF' },
-                { file: 'MUSLIM-en.pdf', name: 'Sahih Müslim', vol: 'İngilizce PDF' },
-                { file: 'ABUDAWUD-ar.pdf', name: 'Ebû Dâvûd', vol: 'Arapça PDF' },
-                { file: 'ABUDAWUD-en.pdf', name: 'Ebû Dâvûd', vol: 'İngilizce PDF' },
-                { file: 'TIRMIDHI-ar.pdf', name: 'Tirmizî', vol: 'Arapça PDF' },
-                { file: 'TIRMIDHI-en.pdf', name: 'Tirmizî', vol: 'İngilizce PDF' },
-                { file: 'NASAI-ar.pdf', name: 'Nesâî', vol: 'Arapça PDF' },
-                { file: 'NASAI-en.pdf', name: 'Nesâî', vol: 'İngilizce PDF' },
-                { file: 'IBNMAJAH-ar.pdf', name: 'İbn Mâce', vol: 'Arapça PDF' },
-                { file: 'IBNMAJAH-en.pdf', name: 'İbn Mâce', vol: 'İngilizce PDF' }
-            ];
-            books.forEach(function(b) {
-                const url = base + b.file;
-                const btn = document.createElement('button');
-                btn.className = 'volume-item';
-                btn.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.vol + '</small></span><span class="vol-dl">📥 İndir</span>';
-                btn.title = b.name + ' — ' + b.vol;
-                btn.onclick = function() { showDownloadModal(b.name + ' (' + b.vol + ')', url, 'PDF'); };
-                grid.appendChild(btn);
-            });
-        })();
-
-        // Kur'an Mealleri Grid
-        (function() {
-            var grid = document.getElementById('mealGrid');
-            if (!grid) return;
-            var base = 'https://archive.org/download/kuran_uzerine/';
+            var base = 'https://archive.org/download/diyanet-kuran-kitapligi/';
             var books = [
-                { file: 'Diyanet%20%C4%B0%C5%9Fleri%20Meali.pdf', name: 'Diyanet İşleri Meali', size: '3.8 MB' },
-                { file: 'Elmal%C4%B1l%C4%B1%20Hak%20Dini%20Kur%27an%20Dili.pdf', name: 'Elmalılı Hak Dini Kur\'an Dili', size: '37.9 MB' },
-                { file: 'Elmal%C4%B1l%C4%B1%20Hamdi%20Yaz%C4%B1r%20Meali.pdf', name: 'Elmalılı Hamdi Yazır Meali', size: '1.4 MB' },
-                { file: 'Ali%20Bula%C3%A7%20Meali.pdf', name: 'Ali Bulaç Meali', size: '1.6 MB' },
-                { file: 'Bayraktar%20Bayrakl%C4%B1%20Meali.pdf', name: 'Bayraktar Bayraklı Meali', size: '2.4 MB' },
-                { file: 'Edip%20Y%C3%BCksel%20Meali.pdf', name: 'Edip Yüksel Meali', size: '3.2 MB' },
-                { file: 'Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rmal%C4%B1%20Meal.pdf', name: 'Karşılaştırmalı Meal', size: 'PDF' }
+                { file: 'Diyanet%20-%20KUR%E2%80%99AN%20YOLU%20KUR%E2%80%99AN-I%20KER%C4%B0M%20ME%C3%82L%C4%B0.pdf', name: 'Kur\'an Yolu Meali', size: 'PDF' },
+                { file: 'Kur%E2%80%99an%20Yolu%20T%C3%9CRK%C3%87E%20ME%C3%82L%20ve%20TEFS%C4%B0R%20-%201.Cilt.pdf', name: 'Tefsir Cilt 1 (Bakara-Nisa)', size: 'PDF' },
+                { file: 'Kur%E2%80%99an%20Yolu%20T%C3%9CRK%C3%87E%20ME%C3%82L%20ve%20TEFS%C4%B0R%20-%202.Cilt.pdf', name: 'Tefsir Cilt 2 (Maide-Enfal)', size: 'PDF' },
+                { file: 'Kur%E2%80%99an%20Yolu%20T%C3%9CRK%C3%87E%20ME%C3%82L%20ve%20TEFS%C4%B0R%20-%203.Cilt.pdf', name: 'Tefsir Cilt 3 (Tevbe-İsra)', size: 'PDF' },
+                { file: 'Kur%E2%80%99an%20Yolu%20T%C3%9CRK%C3%87E%20ME%C3%82L%20ve%20TEFS%C4%B0R%20-%204.Cilt.pdf', name: 'Tefsir Cilt 4 (Kehf-Mü'minun)', size: 'PDF' },
+                { file: 'Kur%E2%80%99an%20Yolu%20T%C3%9CRK%C3%87E%20ME%C3%82L%20ve%20TEFS%C4%B0R%20-%205.Cilt.pdf', name: 'Tefsir Cilt 5 (Nur-Tahrim)', size: 'PDF' }
             ];
             books.forEach(function(b) {
                 var url = base + b.file;
@@ -745,39 +635,24 @@
             });
         })();
 
-        // Fahruddin er-Razi Tefsir-i Kebir Grid
+        // İlmihal Grid (2 PDF)
         (function() {
-            var grid = document.getElementById('raziCiltlerGrid');
+            var grid = document.getElementById('ilmihalItems');
             if (!grid) return;
-            var base = 'https://archive.org/download/kuran_uzerine/';
-            for (var i = 1; i <= 23; i++) {
-                var cilt = i.toString().padStart(2, '0');
-                var file = 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%20' + cilt + '.pdf';
-                var url = base + file;
+            var base = 'https://archive.org/download/diyanet-ilmihal-kitaplari/';
+            var books = [
+                { file: 'diyanet_ilmihali_1_yerimli.pdf', name: 'İlmihal I. Cilt — İman ve İbadetler', size: 'PDF' },
+                { file: 'diyanet_ilmihali_2_yerimli.pdf', name: 'İlmihal II. Cilt — Hukuk ve Toplum', size: 'PDF' }
+            ];
+            books.forEach(function(b) {
+                var url = base + b.file;
                 var btn = document.createElement('button');
                 btn.className = 'volume-item';
-                btn.innerHTML = '<span class="vol-num">' + cilt + '</span><span class="vol-name">Tefsir-i Kebir (Cilt ' + i + ')</span><span class="vol-dl">📥 İndir</span>';
-                btn.title = 'Tefsir-i Kebir Cilt ' + i + ' — 16.4 MB';
-                btn.onclick = (function(u, n) { return function() { showDownloadModal(n, u, '16.4 MB'); }; })(url, 'Tefsir-i Kebir Cilt ' + i);
+                btn.innerHTML = '<span class="vol-num" style="font-size:1em">📕</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.size + '</small></span><span class="vol-dl">📥 İndir</span>';
+                btn.title = b.name + ' — ' + b.size;
+                btn.onclick = function() { showDownloadModal(b.name, url, b.size); };
                 grid.appendChild(btn);
-            }
-        })();
-
-        // Keşf Tefsiri Grid
-        (function() {
-            var grid = document.getElementById('kesfCiltlerGrid');
-            if (!grid) return;
-            var base = 'https://archive.org/download/kuran_uzerine/';
-            for (var i = 1; i <= 6; i++) {
-                var file = 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%20' + i + '.%20Cilt.pdf';
-                var url = base + file;
-                var btn = document.createElement('button');
-                btn.className = 'volume-item';
-                btn.innerHTML = '<span class="vol-num">' + i + '</span><span class="vol-name">Keşf Tefsiri (Cilt ' + i + ')</span><span class="vol-dl">📥 İndir</span>';
-                btn.title = 'Keşf Tefsiri Cilt ' + i + ' — PDF';
-                btn.onclick = (function(u, n) { return function() { showDownloadModal(n, u, 'PDF'); }; })(url, 'Keşf Tefsiri Cilt ' + i);
-                grid.appendChild(btn);
-            }
+            });
         })();
 
         // Download confirmation modal
