@@ -9,7 +9,7 @@ const SUBJECTS = {
 };
 
 const SOURCES = [
-    { id: 1, title: "Kur'an Yolu Turkce Meal ve Tefsiri", author: "Komisyon", pub: "DIB", year: "2019", category: "tefsir", url: "https://archive.org/details/kuran_uzerine" },
+    { id: 1, title: "Kur'an Yolu Turkce Meal ve Tefsiri", author: "Komisyon", pub: "DIB", year: "2019", category: "tefsir", scrollTo: "kuranArsiv" },
     { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "ciltSecimi" },
     { id: 3, title: "Ilmihal I. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 4, title: "Ilmihal II. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
@@ -21,8 +21,8 @@ const SOURCES = [
     { id: 10, title: "Hadis Tarihi", author: "Prof. Dr. Talat Kocyigit", pub: "TDV", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
     { id: 11, title: "Riyazus-Salihin", author: "Imam Nevevi", pub: "DIB", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
     { id: 12, title: "Yasayan Dunya Dinleri", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
-    { id: 13, title: "Tecvidli Kur'an Okuma Rehberi", author: "Davut Kaya", pub: "DIB", year: "2019", category: "tecvit", url: "https://archive.org/details/kuran_uzerine" },
-    { id: 14, title: "Kur'an-ı Kerim'in Tecvidi", author: "Demirhan Unlu", pub: "TDV", year: "2019", category: "tecvit", url: "https://archive.org/details/kuran_uzerine" },
+    { id: 13, title: "Tecvidli Kur'an Okuma Rehberi", author: "Davut Kaya", pub: "DIB", year: "2019", category: "tecvit", scrollTo: "kuranArsiv" },
+    { id: 14, title: "Kur'an-ı Kerim'in Tecvidi", author: "Demirhan Unlu", pub: "TDV", year: "2019", category: "tecvit", scrollTo: "kuranArsiv" },
     { id: 15, title: "Diyanet Islam Ansiklopedisi (44 Cilt)", author: "TDV", pub: "TDV", year: "2019", category: "diger", scrollTo: "ciltSecimi" }
 ];
 

@@ -444,6 +444,16 @@
                     <div class="volume-grid" id="hadisGrid"></div>
                 </div>
             </div>
+
+            <div class="card hidden-section" id="kuranArsiv" style="margin-top:20px;">
+                <div class="card-header">
+                    <h3>📖 Kur'an Üzerine — Meal ve Tefsir Arşivi</h3>
+                    <small style="color:var(--text-secondary);">PDF formatında — İstediğiniz dosyayı indirin</small>
+                </div>
+                <div class="card-body">
+                    <div class="volume-grid" id="kuranGrid"></div>
+                </div>
+            </div>
         </section>
 
         <!-- ==================== STATS ==================== -->
@@ -695,6 +705,61 @@
                 a.className = 'volume-item';
                 a.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.vol + '</small></span>';
                 a.title = b.name + ' — ' + b.vol;
+                grid.appendChild(a);
+            });
+        })();
+
+        // Kur'an Üzerine - Meal/Tefsir Grid
+        (function() {
+            const grid = document.getElementById('kuranGrid');
+            if (!grid) return;
+            var base = 'https://archive.org/download/kuran_uzerine/';
+            var books = [
+                { file: 'Diyanet%20%C4%B0%C5%9Fleri%20Meali.pdf', name: 'Diyanet İşleri Meali', size: '3.8 MB' },
+                { file: 'Elmal%C4%B1l%C4%B1%20Hak%20Dini%20Kur%27an%20Dili.pdf', name: 'Elmalılı Hak Dini Kur\'an Dili', size: '37.9 MB' },
+                { file: 'Elmal%C4%B1l%C4%B1%20Hamdi%20Yaz%C4%B1r%20Meali.pdf', name: 'Elmalılı Hamdi Yazır Meali', size: '1.4 MB' },
+                { file: 'Ali%20Bula%C3%A7%20Meali.pdf', name: 'Ali Bulaç Meali', size: '1.6 MB' },
+                { file: 'Bayraktar%20Bayrakl%C4%B1%20Meali.pdf', name: 'Bayraktar Bayraklı Meali', size: '2.4 MB' },
+                { file: 'Edip%20Y%C3%BCksel%20Meali.pdf', name: 'Edip Yüksel Meali', size: '3.2 MB' },
+                { file: 'Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rmal%C4%B1%20Meal.pdf', name: 'Karşılaştırmalı Meal', size: 'PDF' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2001.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 1)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2002.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 2)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2003.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 3)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2004.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 4)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2005.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 5)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2006.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 6)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2007.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 7)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2008.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 8)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2009.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 9)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2010.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 10)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2011.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 11)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2012.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 12)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2013.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 13)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2014.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 14)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2015.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 15)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2016.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 16)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2017.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 17)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2018.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 18)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2019.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 19)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2020.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 20)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2021.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 21)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2022.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 22)', size: '16.4 MB' },
+                { file: 'Fahruddin%20er-Razi%20Tefsir-i%20Kebir%20-%2023.pdf', name: 'Fahruddin er-Razi Tefsir-i Kebir (Cilt 23)', size: '16.4 MB' },
+                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%201.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 1)', size: 'PDF' },
+                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%202.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 2)', size: 'PDF' },
+                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%203.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 3)', size: 'PDF' },
+                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%204.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 4)', size: 'PDF' },
+                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%205.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 5)', size: 'PDF' },
+                { file: 'Ke%C5%9F%C5%9F%C3%A2f%20Tefsiri%206.%20Cilt.pdf', name: 'Keşf Tefsiri (Cilt 6)', size: 'PDF' }
+            ];
+            books.forEach(function(b) {
+                var url = base + b.file;
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = '';
+                a.className = 'volume-item';
+                a.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.size + '</small></span>';
+                a.title = b.name + ' — ' + b.size;
                 grid.appendChild(a);
             });
         })();
