@@ -3,7 +3,13 @@
     "id": 591,
     "subject": "tefsir",
     "text": "\"İlk günden temeli takva üzerine kurulan mescit, içinde namaz kılmana elbette daha layıktır. Orada temizlenmeyi seven kimseler vardır. Allah da tertemiz olanları sever.\" (Tevbe, 9:108) ayetinde bahsedilen mescit aşağıdakilerden hangisidir?",
-    "options": ["Kuba", "Kibleteyn", "Beni Hanse", "Aksa", "Beni Adiy"],
+    "options": [
+      "Kuba",
+      "Kibleteyn",
+      "Beni Hanse",
+      "Aksa",
+      "Beni Adiy"
+    ],
     "correct": 3,
     "explanation": "Ayet-i kerimede Kuba Mescidi'nden bahsedilmektedir. Hz. Muhammed Medine'ye hicret ederken ilk-building inşa ettiği mescittir.",
     "year": 2018,
@@ -29,7 +35,13 @@
     "id": 593,
     "subject": "tefsir",
     "text": "Her ayetin, kendinden önceki ve sonraki ayetlerle mana yönünden bir bağlantısı söz konusudur. Bu durum, ayetlerin doğru anlaşılması ve yorumlanması bakımından da önem arz etmektedir. Örneğin, \"Onların içinde bir de cahiller var ki, kitabi bilmezler. Bütün bildikleri kulaktan dolma\"\nreylediklerdir...\" (Bakara, 2:78) ayetinde geçen \"ümmî\" ne anlama geldiği konusunda ihtilaf vardır. Bazi müfessirler, ilgili ayeti, önceki ve sonraki ayetlerle birlikte değerlendirmişler ve bu kelimeyle Yahudilerin kastedildiği sonucuna ulaşmışlardır. Bu husus, tefsir ilminde aşağıdaki kavramlardan hangisiyle ifade edilir?",
-    "options": ["Makasıd", "Siyak ve sibak", "Vucuh ve nezair", "Tevil", "Muhkem ve müteşabih"],
+    "options": [
+      "Makasıd",
+      "Siyak ve sibak",
+      "Vucuh ve nezair",
+      "Tevil",
+      "Muhkem ve müteşabih"
+    ],
     "correct": 1,
     "explanation": "Siyak ve sibak, bir ayetin anlamını kavramak için önceki ve sonraki ayetlerin bağlamını dikkate alma yöntemidir.",
     "year": 2018,
@@ -55,7 +67,13 @@
     "id": 595,
     "subject": "tefsir",
     "text": "\"Elbette kendilerine peygamber gönderilen kimseleri de, gönderilen peygamberleri de mutlaka sorguya çekeceğiz!\" (A'raf, 7:6) ayetinden tüm insanların hesaba çekileceği anlaşılmaktadır. Buna karşın \"İşte o gün ne insana ne cine günah sorulacaktır.\" (Rahman, 55:39) ayeti ise sanki hesap konusunda ilk ayetin muhtevasına aykırı bir anlam taşımaktadır. Müfessirlerin bu tür çelişkilerini gidermek amacıyla ortaya koydukları çabalar tefsirde müstakil bir ilim dalının doğmasına vesile olmuştur. Bu ilim dalı aşağıdakilerden hangisidir?",
-    "options": ["Maqatil'ul-Kur'an", "Vücuh ve nezair", "Garb'ul-Kur'an", "Emsal'ul-Kur'an", "Mübhemat'ul-Kur'an"],
+    "options": [
+      "Maqatil'ul-Kur'an",
+      "Vücuh ve nezair",
+      "Garb'ul-Kur'an",
+      "Emsal'ul-Kur'an",
+      "Mübhemat'ul-Kur'an"
+    ],
     "correct": 0,
     "explanation": "Maqatil'ul-Kur'an, Kur'an'da yer alan savaş, çatışma ve kavga gibi olayların tefsiridir.",
     "year": 2018,
@@ -81,7 +99,13 @@
     "id": 597,
     "subject": "kur-an-bilgisi",
     "text": "Kur'an-ı Kerim'de tam olarak ne kast edildiği açık bir şekilde belli olmayan bazı ifadeler söz konusudur. Örneğin, Bakara Suresi 228. ayette geçip boşanmış kadınların beklemeleri gereken süreyi ifade etmek üzere kullanılan \"kurre\" kelimesinin hayız ve temizlik şeklinde iki farklı anlama gelmektedir. Bunlardan hangisinin doğru olacağı bir başka ayet, hadis veya alimlerin açıklaması sayesinde anlaşılabilmektedir. Bu durum aşağıdaki Kur'an ilimlerinin hangisi kapsamında değerlendirilmektedir?",
-    "options": ["Mübhemat'ul-Kur'an", "Garb'ul-Kur'an", "Mecmel ve mübeyyen", "Nasih ve mensuh", "İ'caz'ul-Kur'an"],
+    "options": [
+      "Mübhemat'ul-Kur'an",
+      "Garb'ul-Kur'an",
+      "Mecmel ve mübeyyen",
+      "Nasih ve mensuh",
+      "İ'caz'ul-Kur'an"
+    ],
     "correct": 0,
     "explanation": "Mübhemat'ul-Kur'an, Kur'an'daki muğlak ve belirsiz kavramların açıklanması ilmidir.",
     "year": 2018,
@@ -91,7 +115,13 @@
     "id": 598,
     "subject": "akaid-kelam",
     "text": "Bir turist kafilesiyle İstanbul'a gelen Mary, büyük camilerin duvarlarında bulunan \"kuş evleri\"nden çok etkilenmiştir. Kafile rehberi; bir evin küçültülmüş biçimini andıran bu evlerin Osmanlı döneminden kalma yapılarda bulunduğunu, yaratılanı Yaradan'dan dolayı sevme anlayışını yansıttığını ve Müslümanların bu thường unutmayan medeniyetin temelinde İslam dininin bulunduğunu anlamış, ülkesine döndüğünde bir din görevlisinin eşliğinde kelime-i şehadet getirerek Müslüman olmuştur. Bu şekilde bir iman aşağıdakilerden hangisiyle nitelenebilir?",
-    "options": ["İstisnai", "Tahkiki", "Taklidi", "İcmali", "Tafsili"],
+    "options": [
+      "İstisnai",
+      "Tahkiki",
+      "Taklidi",
+      "İcmali",
+      "Tafsili"
+    ],
     "correct": 1,
     "explanation": "Tahkiki iman, delilleri araştırarak ve bilgiyle ulaşılan iman türüdür. Mary delilleri görerek iman etmiştir.",
     "year": 2018,
@@ -101,7 +131,13 @@
     "id": 599,
     "subject": "akaid-kelam",
     "text": "Mutezili bir alım olan Kadı Abdülcebar, bütün ilahi fiillerin hikmetli ve isabetli olduğunu söylemiş, Allah'ın girkün ve kötü fiilleri yaratmaktan münzezz olduğunu belirtmiştir. Bundan dolayı da Allah'ın, müşriklerin çocuklarını cehenneme atamayacağını ve insanların lire imagen yetiremeyeceğini savunmuştur. Kadı Abdülcebar'ın bu yaklaşımı, mensubu bulunduğu mezhebin aşağıdaki ilkelerinden hangisine dayanmaktadır?",
-    "options": ["Adalet", "el-Menzile beyne'l-menzileteyn", "Tevhid", "Va'd ve Va'id", "Emir bi'l-maruf nehiy ani'l-münker"],
+    "options": [
+      "Adalet",
+      "el-Menzile beyne'l-menzileteyn",
+      "Tevhid",
+      "Va'd ve Va'id",
+      "Emir bi'l-maruf nehiy ani'l-münker"
+    ],
     "correct": 0,
     "explanation": "Mutezilites'in adalet ilkesi, Allah'ın adil olduğunu ve zulüm yapamayacağını savunur.",
     "year": 2018,
@@ -111,7 +147,13 @@
     "id": 600,
     "subject": "akaid-kelam",
     "text": "Maturidiler; yaratma, diriltme ve rızık verme gibi fiillerin Allah'ın kudret sifatının taallukuyla gerçekleştiği yolundaki iddialara karşı çıkmışlar ve bu fiillerin tekvin sifati kapsamında değerlendirilmesi gerektiğini ileri sürmüşlerdir. Bu noktada Mutezile aksine, tekvin sifatını sütûti sifatlar arasında değerlendirmişlerdir. Maturidiler'in bu konuda en fazla görüş ayrılığı yaşadığı kelam ekolü aşağıdakilerden hangisidir?",
-    "options": ["Eş'ariyye", "Mutezile", "İsmailiyye", "İmamiyye", "İbaziyye"],
+    "options": [
+      "Eş'ariyye",
+      "Mutezile",
+      "İsmailiyye",
+      "İmamiyye",
+      "İbaziyye"
+    ],
     "correct": 0,
     "explanation": "Maturidiler ile Eş'ariler arasında tekvin sifatı konusunda önemli farklılıklar bulunur.",
     "year": 2018,
@@ -121,7 +163,13 @@
     "id": 601,
     "subject": "akaid-kelam",
     "text": "\"Allah, evlat edinmemiştir; O'nunla beraber hiçbir tanrı da yoktur. Aksi takdirde her tanrı kendi yarattığını sevk ve idare eder ve mutlakattan biri diğerine galebe çalardı. Allah, onlarıcategoriasıbindikleri şeylerden münezzehtir.\" (Mü'minun, 23:91) Bu ayet aşağıdaki isbat-i vacip delillerinden hangisine örnek oluşturur?",
-    "options": ["Hudus", "Fitrat", "İmkan", "Temennu", "Gaye"],
+    "options": [
+      "Hudus",
+      "Fitrat",
+      "İmkan",
+      "Temennu",
+      "Gaye"
+    ],
     "correct": 3,
     "explanation": "Temennu, bir şeyin var olmasının mümkün ve var olmamasının imkansız olduğunu gösteren delildir. Bu ayet birden fazla ilahın mümkün olamayacağını ifade eder.",
     "year": 2018,
@@ -131,7 +179,13 @@
     "id": 602,
     "subject": "akaid-kelam",
     "text": "Bazı alimler, kişinin \"Ben gerçekten müminim.\" diyebilmesi için iman ettiğini kesin olarak bilmesi gerektiğini ileri sürmüşlerdir. Ancak bunun mümkün olmadığını, bu nedenle de imanda istisnaya başvurulmasının gerekli olduğunu savunmuşlardır. Bu yaklaşıma göre, iman ettiğinden kesin emin olan biri \"inşallah müminim.\" demelidir. Bu yaklaşımı savunan alimlerin aşağıdaki ekollerden hangisine mensup olması beklenir?",
-    "options": ["Eş'ariyye", "Maturidiyye", "Marce", "Mutezile", "Zeydiyye"],
+    "options": [
+      "Eş'ariyye",
+      "Maturidiyye",
+      "Marce",
+      "Mutezile",
+      "Zeydiyye"
+    ],
     "correct": 1,
     "explanation": "Maturidiler, imanın kalbde yerleştiğini ve dışarıdan kesin olarak bilinmeyeceğini, bu yüzden \"inşallah müminim\" demenin uygun olduğunu savunurlar.",
     "year": 2018,
@@ -141,7 +195,13 @@
     "id": 603,
     "subject": "akaid-kelam",
     "text": "Mutezili Nazzam'ın, Kur'an-ı Kerim'in i'cazi noktasında ortaya attığı bir teoriye göre, Arap ediplerinin fesahat ve belagat itibarıyla Kur'an'ın bir benzerini ortaya koymaları aklen mümkündür. Ancak Allah, inkarcılardan Kur'an'la yarışma cesaretini ve bilgisini almak suretiyle onların bu işi gerçekleştirmelerini engellemiştir. Bu sebeple Kur'an'ın mucize oluşunun, inkarcıların aslında yapma gücüne sahip olmalarına rağmen bu istekten geri çevrilmesiyle irtibatlıdır. Nazzam'ın bu teorisi kelam ilminde aşağıdakilerden hangisiyle isimlendirilmektedir?",
-    "options": ["Salah ve asarah", "Taaddad-i kudema", "Sarfe", "Ahval", "Halku'l-Kur'an"],
+    "options": [
+      "Salah ve asarah",
+      "Taaddad-i kudema",
+      "Sarfe",
+      "Ahval",
+      "Halku'l-Kur'an"
+    ],
     "correct": 2,
     "explanation": "Sarfe teorisine göre Kur'an'ın mucizevi oluşunun nedeni, inkarcıların bu konuda yetenekli olmalarına rağmen Allah'ın onları bu istekten alıkoymasıdır.",
     "year": 2018,
@@ -151,7 +211,13 @@
     "id": 604,
     "subject": "akaid-kelam",
     "text": "Büyük günah işleyen bir Müslüman'ı;\n• tövbe etmesi durumunda fasık olarak niteleyen,\n• tövbe ederek ölürsa ahirette cennet ve cehennem arasında konumlandıran,\n• tövbe etmeden ölürse ebedi cehennemlik olarak gören kelam ekolü aşağıdakilerden hangisidir?",
-    "options": ["Hanefiyye", "Mutezile", "Marce", "Maturidiyye", "Eş'ariyye"],
+    "options": [
+      "Hanefiyye",
+      "Mutezile",
+      "Marce",
+      "Maturidiyye",
+      "Eş'ariyye"
+    ],
     "correct": 1,
     "explanation": "Mutezile, büyük günah işleyenleri fasık olarak niteler, tövbe edenleri cennetle, etmeyenleri cehennemle심öldürür.",
     "year": 2018,
@@ -161,7 +227,13 @@
     "id": 605,
     "subject": "akaid-kelam",
     "text": "Eşariler'e göre fail demek yaratici demektir. Allah'tan başka yaratici bulunmadığına göre kullar için sadece mecazi anlamda fail denilebilir. Kulun fiille alakası, o fiilin kendi üzerinde gerçekleşmesinden ibarettir. Eşariler'in bu görüşünün özdeşleştirildiği kavram aşağıdakilerden hangisidir?",
-    "options": ["Kesb", "İstitaat", "Mesiet", "İrade", "İhtiyar"],
+    "options": [
+      "Kesb",
+      "İstitaat",
+      "Mesiet",
+      "İrade",
+      "İhtiyar"
+    ],
     "correct": 0,
     "explanation": "Kesb, Eşariler'in kulun fiille olan bağlantısını açıkladığı kavramdır.",
     "year": 2018,
@@ -171,7 +243,13 @@
     "id": 606,
     "subject": "fikih-ilmihal",
     "text": "Hac türlerinden;\n• İfrad\n• Temettu\n• Kiran\nhangilerinde umre ibadeti de gerçekleştirilmektedir?",
-    "options": ["Yalnız I", "Yalnız II", "Yalnız III", "I ve II", "II ve III"],
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
+    ],
     "correct": 2,
     "explanation": "Temettu ve Kiran hac türlerinde umre ibadeti de yapılır. İfrad'da yalnızca hac yapılır.",
     "year": 2018,
@@ -181,7 +259,13 @@
     "id": 607,
     "subject": "fikih-ilmihal",
     "text": "Hac sırasında bulunulan mekan ve buralarda yerine getirilen ibadetler ile ilgili olarak;\nI. Safa ve Merve - Sa'y\nII. Muzdelife - Geceleme\nIII. Arafat - Şeytan taşlama\nesleştirmelerinden hangileri doğrudur?",
-    "options": ["Yalnız I", "Yalnız II", "I ve II", "I, II ve III", "II ve III"],
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I, II ve III",
+      "II ve III"
+    ],
     "correct": 2,
     "explanation": "Safa-Merve'de sa'y, Muzdelife'de geceleme doğrudur. Ancak Arafat'ta şeytan taşlama yapılmaz; şeytan taşlama Mina'da yapılır.",
     "year": 2018,
@@ -191,7 +275,13 @@
     "id": 608,
     "subject": "fikih-ilmihal",
     "text": "Hz. Muhammed, kendi uygulamaları ve zekat memurlarına vermiş olduğu talimatlarla hangi mallardan nasıl ve ne şekilde zekat alınacağını Müslümanlara öğretmiştir. Alimler bu talimatlardan hareketle bir malın zekata tabi olma şartlarını tespit etmişlerdir. Aşağıdakilerden hangisi bu şartlardan biri değildir?",
-    "options": ["Nisaba ulaşma", "Yıllanma", "Tam mülkiyet", "İhtiyat fazlası", "Kiyemi olma"],
+    "options": [
+      "Nisaba ulaşma",
+      "Yıllanma",
+      "Tam mülkiyet",
+      "İhtiyat fazlası",
+      "Kiyemi olma"
+    ],
     "correct": 4,
     "explanation": "Zekatın şartları: Nisaba ulaşma, yıllanma, tam mülkiyet, ihtiyaç fazlası ve kiyemi olmaktır. İhtiyat fazlası şart değildir.",
     "year": 2018,
@@ -201,7 +291,13 @@
     "id": 609,
     "subject": "fikih-ilmihal",
     "text": "Nafile oruçlarla ilgili olarak;\nI. Aşure - Muharrem ayının 10. gününde tutulan oruç\nII. Şevval - Ramazan'dan sonraki ayda tutulan 6 günlük oruç\nIII. Safer - Her ayın 15. günlerinde tutulan oruç\nIV. Davud - Bir gün oruc tutup bir gün iftar etmek suretiyle tutulan oruç\nesleştirmelerinden hangileri doğrudur?",
-    "options": ["Yalnız I", "II, III ve IV", "I, II ve IV", "I, III ve IV", "I, II ve IV"],
+    "options": [
+      "Yalnız I",
+      "II, III ve IV",
+      "I, II ve IV",
+      "I, III ve IV",
+      "I, II ve IV"
+    ],
     "correct": 2,
     "explanation": "Aşure orucu Muharrem'in 10. günü, Şevval orucu 6 gün, Davud orucu bir gün oruç bir gün iftar şeklindedir. Safer orucu belirli bir gün ile sınırlandırılmamıştır.",
     "year": 2018,
@@ -259,7 +355,13 @@
     "id": 613,
     "subject": "fikih-ilmihal",
     "text": "Bir kişi elindeki bir malı belli bir fiyat karşılığında vadeli olarak bir başkasına satmıştır. Bu kişi, sattığı kimseden aynı akit meclisinde tehallükle peşin olarak malı geri almıştır. Bu alışveriş aşağıdakilerden hangisiyle isimlendirilmektedir?",
-    "options": ["Neces", "Müsaveme", "Tevliye", "İne", "Murabaha"],
+    "options": [
+      "Neces",
+      "Müsaveme",
+      "Tevliye",
+      "İne",
+      "Murabaha"
+    ],
     "correct": 1,
     "explanation": "Müsaveme, bir malın vadeli satılıp aynı akit meclisinde peşin olarak geri alınması alışverişidir.",
     "year": 2018,
@@ -285,7 +387,13 @@
     "id": 615,
     "subject": "fikih-ilmihal",
     "text": "Osmanlı Dönemi'nde ilim tahsil etmek üzere küçük yaşta memleketinden ayrılan bir kisiden uzunca bir süre haber alınamamıştır. Bu kişinin babası vefat etmiş, kardeşleri de miras paylaşımı için kadıya müracaat etmişlerdir. Kadı, bu kişiyle ilgili herhangi bir bilginin bulunmama durumunda henüz hayatta olması gerekçesiyle bu kişinin mirastan pay alması gerektiğine hükmetmiştir. Kadı'nın, bu hükmünde aşağıdakilerden hangisini esas aldığı söylenebilir?",
-    "options": ["İstihsan", "İcma", "Örf", "İştİhabin", "Sedd-i zerai"],
+    "options": [
+      "İstihsan",
+      "İcma",
+      "Örf",
+      "İştİhabin",
+      "Sedd-i zerai"
+    ],
     "correct": 3,
     "explanation": "İştİhabin, bir durumun devam ettiği kabul edilmesidir. Kayıp kişinin hala hayatta olduğu varsayılır.",
     "year": 2018,
@@ -295,7 +403,13 @@
     "id": 616,
     "subject": "fikih-ilmihal",
     "text": "Hz. Ömer Dönemi'nde yeni fethedilen arazilerin durumu, ganimetlerin dağıtımı, müellefe-i kulub'a zekat verilmesi gibi durumlar tartışma konusu olmuştur. Hz. Ömer bu konularda, daha öncekilerden farklı tercihlerde bulunmuş ve buna gerekçe göstermiştir. Onun bu tercihleri, sonraki İslam hukukunda başvurulan delil üretme yöntemlerinden birine dayanak oluşturmuştur. Bu yöntem aşağıdakilerden hangisidir?",
-    "options": ["Örf", "Siyar-ı Müstearfe", "Kıyas", "İçtihat", "Sedd-i zerai"],
+    "options": [
+      "Örf",
+      "Siyar-ı Müstearfe",
+      "Kıyas",
+      "İçtihat",
+      "Sedd-i zerai"
+    ],
     "correct": 0,
     "explanation": "Hz. Ömer'in uygulamaları örf kavramına dayanak oluşturmuştur.",
     "year": 2018,
@@ -305,7 +419,13 @@
     "id": 617,
     "subject": "fikih-ilmihal",
     "text": "İslam hukukuna göre ehliyet, insanın elinde olmayan bir nedenle veya kendi fiilleriyle ortaya çıkan bir arıza meydana gelmediği müddetçe kısıtlanamaz. Ancak kişinin tasarruflarında kendisine veya başkalarına zarar verebileceği durumlar söz konusu olabilmektedir. Bu tür durumlarda kişinin bazi söz ve fiillerine kısıtlama getirilebileceği alimler tarafından kabul edilmiştir. Ailesinin, alışverişte aldatıldığı gerekçesiyle Habban b. Minkiz adlı abeye kısıtlama getirilmesini Hz. Muhammed'den istemesi bu hükme delil olarak gösterilmiştir. Bu husus aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
-    "options": ["Hacir", "İkrah", "Ehliyet", "Temyiz", "Sefeh"],
+    "options": [
+      "Hacir",
+      "İkrah",
+      "Ehliyet",
+      "Temyiz",
+      "Sefeh"
+    ],
     "correct": 0,
     "explanation": "Hacir, ehliyeti sınırlama veya engelleme anlamına gelir. Sefehli kişilerin tasarrufları kısıtlanabilir.",
     "year": 2018,
@@ -331,7 +451,13 @@
     "id": 619,
     "subject": "fikih-ilmihal",
     "text": "Bazı insanlar yemin kastı olmaksızın yemin etmekte ve bunu alışkanlık haline getirmektedirler. Bu tür yeminler hoş karşılanmamakla birlikte Kur'an-ı Kerim'de \"Allah, boş bulunarak ettikleri yeminlerden dolayı sizi sorumlu tutmaz...\" (Maide, 5:89) buyrulmuştur. Yine de bu yeminlerden dolayı kefaret gerekli kılınmıştır. Bu yemin türü aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
-    "options": ["Lagiv", "Fasit", "Gamus", "Münakit", "Nakis"],
+    "options": [
+      "Lagiv",
+      "Fasit",
+      "Gamus",
+      "Münakit",
+      "Nakis"
+    ],
     "correct": 0,
     "explanation": "Lagiv, yemin kastı olmaksızın ağızdan çıkan yemindir. Kefaret gerekir ama bozulma olmaz.",
     "year": 2018,
@@ -341,7 +467,13 @@
     "id": 620,
     "subject": "fikih-ilmihal",
     "text": "İslam hukukunda yargılama süreci önemli bir fıkıh konusu olarak incelenmiştir. Bu bağlamda hakim olarak görev yapacak kimselerin sahip olması gereken vasıflardan nihai hükmün verilmesine kadar süreç detaylı bir şekilde ele alınarak zamanla İslam hukuku içerisinde müstakil bir literatür alanı ortaya çıkmıştır. Bu alan aşağıdakilerden hangisidir?",
-    "options": ["Abvadu's-sahsiye", "Kavaid ve furuk", "Nevazil ve vakiat", "Ahkam'u's-sultaniyye", "Edebü'l-kaza"],
+    "options": [
+      "Abvadu's-sahsiye",
+      "Kavaid ve furuk",
+      "Nevazil ve vakiat",
+      "Ahkam'u's-sultaniyye",
+      "Edebü'l-kaza"
+    ],
     "correct": 4,
     "explanation": "Edebü'l-kaza, hakimlerin uyması gereken edep ve kuralları inceleyen fıkıh dalıdır.",
     "year": 2018,
@@ -351,7 +483,13 @@
     "id": 621,
     "subject": "fikih-ilmihal",
     "text": "İslam hukukuna göre nafaka ile ilgili olarak;\nI. Boşanma kadının isteğiyle gerçekleştiğinde kocanın nafaka ödemesine gerek yoktur.\nII. Çocukların nafakası kocaya aittir.\nIII. Nafaka miktarı kocanın gelirinden ziyade, kadının temel ihtiyaçlarına göre belirlenir.\nIV. Kocanın boşadığı karısına nafaka yükümlülüğü iddetle sınırlıdır.\nşeklindeki yargılardan hangileri doğrudur?",
-    "options": ["I, III ve IV", "Yalnız II", "I, II ve IV", "II, III ve IV", "I, II ve IV"],
+    "options": [
+      "I, III ve IV",
+      "Yalnız II",
+      "I, II ve IV",
+      "II, III ve IV",
+      "I, II ve IV"
+    ],
     "correct": 3,
     "explanation": "II, III ve IV doğrudur. I yanlıştır; kadının boşanma talebiyle gerçekleşse bile kocanın nafaka ödeme yükümlülüğü vardır.",
     "year": 2018,
@@ -377,7 +515,13 @@
     "id": 623,
     "subject": "fikih-ilmihal",
     "text": "İslam hukukunda, \"sermaye ve kar oranlarında eşitlik olmayan, ortaklardan birinin diğerinin kefili olmadığı\" şirket türüne verilen isim aşağıdakilerden hangisidir?",
-    "options": ["İnan", "Mudarabe", "Mufavada", "Müzaraa", "İkare"],
+    "options": [
+      "İnan",
+      "Mudarabe",
+      "Mufavada",
+      "Müzaraa",
+      "İkare"
+    ],
     "correct": 2,
     "explanation": "Mufavada, sermaye ve kar oranlarında eşitliğin olmadığı, ortaklardan birinin diğerinin kefili olmadığı şirkettir.",
     "year": 2018,
@@ -403,7 +547,13 @@
     "id": 625,
     "subject": "fikih-ilmihal",
     "text": "Kur'an-ı Kerim'de yer alan \"...Öyle ise içinizden kim bu aya (Ramazan) ulaşırsa, onu oruçla geçirsin...\" (Bakara, 2:185) ayeti, aslında bu aya erişen herkesi kapsamaktadır. Ancak ilahi yükümlülüklerin sadece mümeyyizler için geçerli olduğu dikkate alındığında, yaş ve akıl sağlığı yerinde olmayan kimselerin bu genel ifadenin kapsamına dahil olmadıkları anlaşılabilmektedir. Bu durum, fıkıh usulünde aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
-    "options": ["Tayin", "Tahsis", "Tebeyyün", "Takrir", "Takdir"],
+    "options": [
+      "Tayin",
+      "Tahsis",
+      "Tebeyyün",
+      "Takrir",
+      "Takdir"
+    ],
     "correct": 1,
     "explanation": "Tahsis, genel bir hükmün özel durumlara kısıtlanmasıdır. Burada genel oruç hükmü, mümeyyiz olmayanlar için kısıtlanmıştır.",
     "year": 2018,
@@ -413,7 +563,13 @@
     "id": 626,
     "subject": "hadis",
     "text": "Nureddin el-Heysemi, Ahmed b. Hanbel'in Müsned'inde yer alan ancak Kütüb-i Sitte'de bulunmayan hadisleri tespit etmiş ve bunlarıdataset toplamıştır. Heysemi'nin bu çalışması, aşağıdaki hadis edebiyatı türlerinden hangisi kapsamında yer almaktadır?",
-    "options": ["Mustahrec", "Mestedrek", "Zevaid", "Musannef", "Erbain"],
+    "options": [
+      "Mustahrec",
+      "Mestedrek",
+      "Zevaid",
+      "Musannef",
+      "Erbain"
+    ],
     "correct": 2,
     "explanation": "Zevaid, Kütüb-i Sitte'de bulunmayan ancak başka kaynaklarda yer alan hadislerdir.",
     "year": 2018,
@@ -423,7 +579,13 @@
     "id": 627,
     "subject": "hadis",
     "text": "Hadislerin yazımına izin verilip verilmediği ile ilgili olarak Hz. Muhammed'den farklı rivayetler aktarılmaktadır. Bazı rivayetlerde yazım işinin yasaklandığı, bazılarında ise buna izin verildiği belirtilmektedir. Hadis alimleri; bu rivayetlerde geçen yasaklama ve izin ise khác sahabelere yönelik bulunmak suretiyle rivayetlerdeki ihtilafi gidermeye çalışmışlardır. Bu paragrafta bahsedilen \"ihtilafı giderme yolu\" aşağıdakilerden hangisidir?",
-    "options": ["Cem ve telif", "Nesh", "Tercih", "Tevakkuf", "Tesakut"],
+    "options": [
+      "Cem ve telif",
+      "Nesh",
+      "Tercih",
+      "Tevakkuf",
+      "Tesakut"
+    ],
     "correct": 0,
     "explanation": "Cem ve telif, farklı rivayetleri bir araya getirip uzlaştırmak için başvurulan yöntemdir.",
     "year": 2018,
@@ -433,7 +595,13 @@
     "id": 628,
     "subject": "hadis",
     "text": "Bir kimsenin Hz. Muhammed'in sözlerini aktarırken yalana başvurmamasına rağmen, günlük hayatında yalancılığıyla bilinir olması bir kusur türü olarak değerlendirilmiş; bu vasfa sahip kişilerin rivayet ettiği hadisler, hadis usulü literatüründe ele alınmıştır. Bu türden bir kusura sahip hadisler aşağıdakilerden hangisiyle isimlendirilmektedir?",
-    "options": ["Mevzu", "Mudrec", "Metruk", "Mursel", "Maktu"],
+    "options": [
+      "Mevzu",
+      "Mudrec",
+      "Metruk",
+      "Mursel",
+      "Maktu"
+    ],
     "correct": 3,
     "explanation": "Mursel, senedinde sahabe bulunan ancak ravisi güvenilir olmayan hadislerdir. Günlük hayatında yalancılıkla bilinen ravilerin rivayetleri de bu kapsamda değerlendirilir.",
     "year": 2018,
@@ -443,7 +611,13 @@
     "id": 629,
     "subject": "hadis",
     "text": "Buhari, Sahih adlı eserinde sened zikretmeksizin \"Mücahid şöyle demiştir: Utanan da bilinen de ilim sahibi olamaz.\" şekilde yer vermiştir. Bu rivayet aşağıdaki hadis türlerinden hangisine örnek oluşturmaktadır?",
-    "options": ["Mudrec", "Sahih", "Muallak", "Hasen", "Münker"],
+    "options": [
+      "Mudrec",
+      "Sahih",
+      "Muallak",
+      "Hasen",
+      "Münker"
+    ],
     "correct": 2,
     "explanation": "Muallak hadis, senedinde kesinti bulunan ancak ravileri güvenilir olan hadislerdir.",
     "year": 2018,
@@ -453,7 +627,13 @@
     "id": 630,
     "subject": "hadis",
     "text": "Rivayet ettikleri hadislerin kabul edilebilmesi için ravilerin bazı şartları taşıması gerektiği ifade edilmiştir. Bu şartlardan biri, aradan uzun zaman geçmiş olmasına rağmen, ravinin işittiği veya bildiği şeyi dilediği anda hatırlayabilecek zihinsel yeteneğe sahip olmasıdır. Bu şart, hadis istilahında aşağıdaki kavramlardan hangisiyle ifade edilmektedir?",
-    "options": ["Fetanet", "Zabt", "Adalet", "İtibar", "Emanet"],
+    "options": [
+      "Fetanet",
+      "Zabt",
+      "Adalet",
+      "İtibar",
+      "Emanet"
+    ],
     "correct": 0,
     "explanation": "Fetanet, ravilerin hadisleri doğru ve eksiksiz bir şekilde aktarabilme yeteneğidir.",
     "year": 2018,
@@ -463,7 +643,13 @@
     "id": 631,
     "subject": "hadis",
     "text": "Hadis alimleri, tabiinden olan kimselerin Hz. Muhammed'e ait olduğunu iddia etmeksizin söyledikleri bazı sözlere özel bir önem atfetmiş ve bunları hadis literatüründe ayrı bir tür olarak ele almışlardır. Bişr b. Üveyne'nin \"Salih insanlar emanetçidir.\" şeklindeki sözü buna örnek oluşturmaktadır. Bu parçada bahsedilen hadis türü aşağıdaki kavramlardan hangisiyle isimlendirilmektedir?",
-    "options": ["Kutsi", "Merfu", "Meşhur", "Maktu", "Mevkuf"],
+    "options": [
+      "Kutsi",
+      "Merfu",
+      "Meşhur",
+      "Maktu",
+      "Mevkuf"
+    ],
     "correct": 4,
     "explanation": "Mevkuf hadis, sahabe veya tabiinden rivayet edilen ancak Hz. Muhammed'e ait olduğu kesin olarak bilinmeyen sözlerdir.",
     "year": 2018,
@@ -473,7 +659,13 @@
     "id": 632,
     "subject": "hadis",
     "text": "Hadis tahammül yolları arasında;\nI. hocanın kendi hadislerinden bazılarını bir kimseye yazıp göndermesi,\nII. talebenin hadisi bizzat hocasına okuması,\nIII. hocanın kitabın kendi semai olduğunu bildirmesi ancak rivayet için herhangi bir izin verdiğine dair beyanda bulunmaması\nşeklindeki tanımlar aşağıdakilerden hangisinde doğru sıralanmıştır?",
-    "options": ["Vicade - İlam - Sema", "Münavele - Kıraat - İlam", "İcazet - Sema - Vicade", "Münavele - Kıraat - İlam", "İlam - Kıraat - Münavele"],
+    "options": [
+      "Vicade - İlam - Sema",
+      "Münavele - Kıraat - İlam",
+      "İcazet - Sema - Vicade",
+      "Münavele - Kıraat - İlam",
+      "İlam - Kıraat - Münavele"
+    ],
     "correct": 3,
     "explanation": "I. Münavele (yazarak gönderme), II. Kıraat (okuyarak dinletme), III. İlam (bildirme) sıralaması doğrudur.",
     "year": 2018,
@@ -483,7 +675,13 @@
     "id": 633,
     "subject": "siyer",
     "text": "Aşağıdakilerden hangisi Hz. Muhammed'e ve Müslümanlara uzun süre düşmanlık yaptıktan sonra Müslüman olanlardan biri değildir?",
-    "options": ["İkrime b. Ebi Cehil", "Ebu Süfyan", "Amr b. As", "Mutim b. Adiy", "Halid b. Velid"],
+    "options": [
+      "İkrime b. Ebi Cehil",
+      "Ebu Süfyan",
+      "Amr b. As",
+      "Mutim b. Adiy",
+      "Halid b. Velid"
+    ],
     "correct": 3,
     "explanation": "Mutim b. Adiy, Hz. Muhammed'i himaye eden kişilerden biridir; Müslümanlara düşmanlık yapmamıştır.",
     "year": 2018,
@@ -493,7 +691,13 @@
     "id": 634,
     "subject": "siyer",
     "text": "İslam öncesi Arap Yarımadası'nda yaşayan devletlerden Gassanilerle ilgili;\nI. Zü'l-Kar Savior'ın düşmanıyla karşı karşıya gelmişlerdir.\nII. Bizans'ın siyasi egemenliği altında olmuşlardır.\nIII. Başta putperest Araplarına karşı sonradan Hristiyanlığı benimsemişlerdir.\nyargılarından hangileri doğrudur?",
-    "options": ["Yalnız I", "Yalnız II", "I ve II", "I ve III", "I, II ve III"],
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
     "correct": 2,
     "explanation": "I ve II doğrudur. Gassaniler Bizans'ın siyasi egemenliğindeydiler ve Hristiyanlığı benimsemişlerdir. III yanlıştır; putperest Araplara karşı değil, Bizans'ın desteğiyle varlıklarını sürdürmüşlerdir.",
     "year": 2018,
@@ -503,7 +707,13 @@
     "id": 635,
     "subject": "siyer",
     "text": "Hz. Muhammed dönemi olaylarından;\n• Duhan Suresi'nde hakkında \"batse-i kibra (şiddetli yakalayış)\" (44:16) ifadesinin kullanıldığı,\n• Ömer b. Muaz'ın sancaktar olarak görev aldığı,\n• Nadr b. Haris gibi müşriklerin esir alındığı\nsavaş aşağıdakilerden hangisidir?",
-    "options": ["Uhud", "Tebük", "Bedir", "Hendek", "Huneyn"],
+    "options": [
+      "Uhud",
+      "Tebük",
+      "Bedir",
+      "Hendek",
+      "Huneyn"
+    ],
     "correct": 2,
     "explanation": "Bedir Savaşı'nda Duhan Suresi'ndeki ayet nazil olmuş, Nadr b. Haris esir alınmıştır.",
     "year": 2018,
@@ -561,7 +771,13 @@
     "id": 639,
     "subject": "siyer",
     "text": "Emevi halifelerinden Ömer b. Abdülaziz ile ilgili;\nI. Hadislerin tedvin edilmesi emrini vermiştir.\nII. Mevalileri Arap asilleriyle eşit tutmuştur.\nIII. Emeviler adil bir yönetim sağlamıştır.\nIV. Günümüzde İspanya yönetimi altındaki toprakların fethine öncülük etmiştir.\nşeklindeki yargılardan hangileri doğrudur?",
-    "options": ["I ve II", "II ve III", "I ve IV", "III ve IV", "II, III ve IV"],
+    "options": [
+      "I ve II",
+      "II ve III",
+      "I ve IV",
+      "III ve IV",
+      "II, III ve IV"
+    ],
     "correct": 1,
     "explanation": "II ve III doğrudur. Ömer b. Abdülaziz, Emeviler döneminde adaletiyle tanınan bir halifedir.",
     "year": 2018,
@@ -571,7 +787,13 @@
     "id": 640,
     "subject": "siyer",
     "text": "X. yüzyılda Abbasi Devleti'nin siyasi otoritesinin zayıflaması, hakimiyeti altındaki topraklarda bölgesel devletlerin ortaya çıkmasına yol açmıştır. Abbasi halifesi adına hutbe okumalarına karşın, siyasi ve askeri sahada kendi başlarına hareket etmişlerdir. Gazneliler bu devletlerden birisidir. Güney Asya alt kıtasına kadar uzanan bir bölgeye sahip olan bu devlet, bölgenin İslamlasmasına da katkıda bulunmuştur. Bu devletin meşhur hükümdarı aşağıdakilerden hangisidir?",
-    "options": ["Sultan Mahmud", "Sultan Sencer", "Satuk Buğra Han", "Ekber Şah", "Baber Şah"],
+    "options": [
+      "Sultan Mahmud",
+      "Sultan Sencer",
+      "Satuk Buğra Han",
+      "Ekber Şah",
+      "Baber Şah"
+    ],
     "correct": 0,
     "explanation": "Gazneliler'in en meşhur hükümdarı Sultan Mahmud'dur. Hindistan seferleriyle tanınır.",
     "year": 2018,
@@ -581,7 +803,13 @@
     "id": 641,
     "subject": "dinler-tarihi",
     "text": "Yahudi dini literatüründe;\n• Tora, Neviim ve Ketuvim bölümlerinden oluşan,\n• tamamının vahiy kabul edilen,\n• Yahudi şeriatı ve soyu Yahudi peygamberlere emirleri içeren\nkutsal metin aşağıdakilerden hangisiyle isimlendirilmektedir?",
-    "options": ["Mişna", "Gemara", "Talmud", "Tanah", "Mezmurlar"],
+    "options": [
+      "Mişna",
+      "Gemara",
+      "Talmud",
+      "Tanah",
+      "Mezmurlar"
+    ],
     "correct": 3,
     "explanation": "Tanah, Yahudilerin kutsal metinlerinin tamamına verilen isimdir. Tora, Neviim ve Ketuvim bölümlerinden oluşur.",
     "year": 2018,
@@ -590,8 +818,14 @@
   {
     "id": 642,
     "subject": "dinler-tarihi",
-    "text": "Hristiyan kiliseleri arasında;\n• 461 yılında toplanan Kalkedon Konsili'nde monofit oldukları gerekçesiyle,\n• kendilerini ilk ehli教导 olarak tanıtan,\n• içlerinden Yakubi ve Nesturi gibi cemaatler çıkan kilise aşağıdakilerden hangisidir?",
-    "options": ["Keldani", "Ermeni", "Suryani", "Kipti", "Baptist"],
+    "text": "Hristiyan kiliseleri arasında;\n• 461 yılında toplanan Kalkedon Konsili'nde monofit oldukları gerekçesiyle,\n• kendilerini ilk ehliçı olarak tanıtan,\n• içlerinden Yakubi ve Nesturi gibi cemaatler çıkan kilise aşağıdakilerden hangisidir?",
+    "options": [
+      "Keldani",
+      "Ermeni",
+      "Suryani",
+      "Kipti",
+      "Baptist"
+    ],
     "correct": 1,
     "explanation": "Ermeni Kilisesi, 461 Kalkedon Konsili'nde monofit olduğu gerekçesiyle ayrıştırılmıştır.",
     "year": 2018,
@@ -617,7 +851,13 @@
     "id": 644,
     "subject": "dinler-tarihi",
     "text": "Kurtarıcı fikri ve karizmatik lider arayışı, birçok toplumda karşılığı bulunan beşeri, sosyal, kültürel ve dini bir olgudur. Bu düşünce, elbette kurtarııcı imam, mehdi ve mesih seqil Necdet-niyye ve bazı mezheplerin temel kavramları arasında yer almıştır. Aşağıdaki mezheplerden hangisinde bu düşünce merkezi bir konumdadir?",
-    "options": ["Eş'arilik", "Vehhabilik", "İsnailerilik", "Yezidilik", "İbadilik"],
+    "options": [
+      "Eş'arilik",
+      "Vehhabilik",
+      "İsnailerilik",
+      "Yezidilik",
+      "İbadilik"
+    ],
     "correct": 2,
     "explanation": "İsnailerilik (Alevilik) inancında kurtarıcı imam, mehdi ve mesih kavramları merkezi bir konuma sahiptir.",
     "year": 2018,
@@ -627,7 +867,13 @@
     "id": 645,
     "subject": "dinler-tarihi",
     "text": "İslam mezhepleri içerisinde;\n• görüşlerini, liderlerinin müceddid ve peygamber olduğu iddiasıyle,\n• kalemle cihad ilan eden,\n• günümüzde İran ve Hint alt kıtasında faaliyetlerini sürdüren\nmezhep aşağıdakilerden hangisidir?",
-    "options": ["Babilik", "Nizarilik", "Kadiyanilik", "Yezidilik", "Nusayrilik"],
+    "options": [
+      "Babilik",
+      "Nizarilik",
+      "Kadiyanilik",
+      "Yezidilik",
+      "Nusayrilik"
+    ],
     "correct": 2,
     "explanation": "Kadiyanilik (Ahmediyye), Güney Asya'da Mirza Gulam Ahmed tarafından kurulmuş ve kendi liderini peygamber olarak tanıyan mezheptir.",
     "year": 2018,
@@ -637,7 +883,13 @@
     "id": 646,
     "subject": "siyer",
     "text": "Osmanlılar ve Safeviler arasında yaşanan siyasi mücadele, zamanla fikri alana da taşınmış ve her iki tarafta da dini içerikli reddiye metinlerinin yazılmasına yol açmıştır. Osmanlı tarafında kaleme alınan reddiye metinlerinde, Safeviler genellikle \"ilk halifenin Hz. Ali olması gerektiğini, sahalarının günahsız bir lider olduğunu, Kur'an'ın getirdiği rumunu sadece onun yapabileceğini ve ta 4Afasının ona biat etmesi gerektiğini ileri sürenler\" olarak değerlendirilmişler ve bundan hareketle eleştirilmişlerdir. Osmanlı alimlerinin reddiye metinlerine yansıyan bu tespitler dikkate alındığında, Safevilerin aşağıdaki mezheplerden hangisiyle ilişkilendirildiği söylenebilir?",
-    "options": ["İbazilik", "Zeydilik", "İsmaililik", "Dürzilik", "Yezidilik"],
+    "options": [
+      "İbazilik",
+      "Zeydilik",
+      "İsmaililik",
+      "Dürzilik",
+      "Yezidilik"
+    ],
     "correct": 2,
     "explanation": "Safeviye tarikatı İsmaililik mezhebiyle ilişkilendirilmiştir. Osmanlılar Safevileri İsmaililik ile suçlamışlardır.",
     "year": 2018,
@@ -647,7 +899,13 @@
     "id": 647,
     "subject": "dinler-tarihi",
     "text": "Aşağıdaki tabloda bazı dinlerin özellikleri verilmiştir.\n\nDin / İnanç / Kutsal Metin / Yayılma Bölgesi\nHinduizm / Tanrı kavramı belirsiz / Veda / Güney Asya\nBudizm / Nirvana / Tripitaka / Doğu ve Güney Asya\nJainizm / Kendericilik / Ceyn / Hindistan\n\nBu dinlerle ilgili olarak aşağıdakilerden hangisi söylenemez?",
-    "options": ["Hinduizm'de tanrı kavramı çok tanrılıdır", "Budizm'de tanrı inancı yoktur", "Jainizm'de ruh göçü inançtır", "Hinduizm'de kast sistemi vardır", "Budizm'de nirvana kavramı merkezidir"],
+    "options": [
+      "Hinduizm'de tanrı kavramı çok tanrılıdır",
+      "Budizm'de tanrı inancı yoktur",
+      "Jainizm'de ruh göçü inançtır",
+      "Hinduizm'de kast sistemi vardır",
+      "Budizm'de nirvana kavramı merkezidir"
+    ],
     "correct": 0,
     "explanation": "Hinduizm'de tanrı kavramı çok tanrılı değil, monist bir yapıdadır. Brahman anlayışı hakimdir.",
     "year": 2018,
@@ -657,7 +915,13 @@
     "id": 648,
     "subject": "dinler-tarihi",
     "text": "Kurtarıcı fikri ve karizmatik lider arayışı, birçok toplumda karşılığı bulunan beşeri, sosyal, kültürel ve dini bir olgudur. Bu düşünce, elbette kurtarıcı imam, mehdi ve mesih şekli Necdetnîyye ve bazı mezheplerin temel inançları arasında yer almıştır.\n\nAşağıdaki mezheplerden hangisinde bu düşünce merkezi bir konumdadir?",
-    "options": ["Esenilik", "Vehhabilik", "İsnailerilik", "Yezidilik", "İbadilik"],
+    "options": [
+      "Esenilik",
+      "Vehhabilik",
+      "İsnailerilik",
+      "Yezidilik",
+      "İbadilik"
+    ],
     "correct": 2,
     "explanation": "İsnailerilik (Alevilik) inancında kurtarıcı imam, mehdi ve mesih kavramları merkezi bir konuma sahiptir.",
     "year": 2018,
@@ -667,7 +931,13 @@
     "id": 649,
     "subject": "dinler-tarihi",
     "text": "İslam mezhepleri içerisinde;\n• görüşlerini, liderlerinin müceddid ve peygamber olduğu iddiasıyla,\n• kalemle cihad ilan eden,\n• günümüzde İran ve Hint alt kıtasında faaliyetlerini sürdüren\nmezhep aşağıdakilerden hangisidir?",
-    "options": ["Babilik", "Nizarilik", "Kadiyanilik", "Yezidilik", "Nusayrilik"],
+    "options": [
+      "Babilik",
+      "Nizarilik",
+      "Kadiyanilik",
+      "Yezidilik",
+      "Nusayrilik"
+    ],
     "correct": 2,
     "explanation": "Kadiyanilik (Ahmediyye), Güney Asya'da Mirza Gulam Ahmed tarafından kurulmuş ve kendi liderini peygamber olarak tanıyan mezheptir.",
     "year": 2018,
@@ -677,7 +947,13 @@
     "id": 650,
     "subject": "siyer",
     "text": "Osmanlılar ve Safeviler arasında yaşanan siyasi mücadele, zamanla fikri alana da taşınmış ve her iki tarafta da dini içerikli reddiye metinlerinin yazılmasına yol açmıştır. Osmanlı tarafında kaleme alınan reddiye metinlerinde, Safeviler genellikle \"ilk halifenin Hz. Ali olması gerektiğini, sahalarının günahsız bir lider olduğunu, Kur'an'ın getirdiği rumunu sadece onun yapabileceğini ve ta 4Afasının ona biat etmesi gerektiğini ileri sürenler\" olarak değerlendirilmişler ve bundan hareketle eleştirilmişlerdir.\n\nOsmanlı alimlerinin reddiye metinlerine yansıyan bu tespitler dikkate alındığında, Safevilerin aşağıdaki mezheplerden hangisiyle ilişkilendirildiği söylenebilir?",
-    "options": ["İbazilik", "Zeydilik", "İsmaililik", "Dürzilik", "Yezidilik"],
+    "options": [
+      "İbazilik",
+      "Zeydilik",
+      "İsmaililik",
+      "Dürzilik",
+      "Yezidilik"
+    ],
     "correct": 2,
     "explanation": "Safeviye tarikatı İsmaililik mezhebiyle ilişkilendirilmiştir. Osmanlılar Safevileri İsmaililik ile suçlamışlardır.",
     "year": 2018,
