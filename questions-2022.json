@@ -18,7 +18,7 @@
   {
     "id": 322,
     "subject": "kur-an-bilgisi",
-    "text": "Kur'an-ı Kerim dersinde bir öğretmen kelime sonlarında nasıl durulacağına dair öğrencilerine bilgi verdikten sonra tahtaya aşağıdaki tabloyu çizer. Bu tabloda, bir kelimenin durulduğunda almış olduğu hâli karşısına yazar ve bir öğrencisinden, doğru olan duruş hâllerini işaretlemesini ister.\n\nBuna göre öğrencinin cevabının doğru olması için hangilerini işaretlemesi beklenir?",
+    "text": "Kur'an-i Kerim dersinde bir ogretmen kelime sonlarinda nasil durulacagina dair ogrencilerine bilgi verdikten sonra asagidaki tabloda uc durus (vakif) hali gosterilmistir. Buna gore ogrencinin cevabinin dogru olmasi icin hangilerini isaretlemesi beklenir?\n\n<table border='1' cellpadding='6' cellspacing='0' style='border-collapse:collapse;text-align:center;width:100%'><tr><th></th><th>Hareke durumu</th><th>Sukun durumu</th></tr><tr><td><b>I</b></td><td>Hareke duser</td><td>Harf sukuna gecer</td></tr><tr><td><b>II</b></td><td>Tenvinsiz kelime sonu</td><td>Son harf sukunla okunur</td></tr><tr><td><b>III</b></td><td>Tenvin-i feth ile biten kelime</td><td>En okunarak durulur</td></tr></table>",
     "options": [
       "Yalnız I",
       "Yalnız II",
@@ -354,7 +354,7 @@
   {
     "id": 343,
     "subject": "fikih-ilmihal",
-    "text": "Bir öğretmen abdestin şartlarını mezhebe göre anlattıktan sonra konunun anlaşılıp anlaşılmadığını değerlendirmek amacıyla tahtaya yukarıdaki tabloyu çizmiş ve öğrencilerinden yanlış işaretlenen bölümü bulmalarını istemiştir.\n\nBuna göre yanlış işaretlenmiş bölüm aşağıdakilerden hangisidir?",
+    "text": "Bir ogretmen abdestin sartlarini mezhebe gore anlattiktan sonra konunun anlasilip anlasilmadigini degerlendirmek amaciyla asagidaki tabloyu cizmis ve ogrencilerinden yanlis isaretlenen bolumu bulmalarini istemistir.\n\n<table border='1' cellpadding='6' cellspacing='0' style='border-collapse:collapse;text-align:center;width:100%'><tr><th>Sart</th><th>Senfi</th><th>Maliki</th><th>Hanbeli</th><th>Hanefi</th></tr><tr><td><b>Niyet</b></td><td>X</td><td>X</td><td>X</td><td>-</td></tr><tr><td><b>Tertib</b></td><td>X</td><td>X</td><td>X</td><td>-</td></tr><tr><td><b>Muvalat</b></td><td>-</td><td>X</td><td>X</td><td>-</td></tr></table>\n\nBuna gore yanlis isaretlenmis bolum asagidakilerden hangisidir?",
     "options": [
       "Şafiiliğin niyet şartı",
       "Malikiliğin tertib şartı",
