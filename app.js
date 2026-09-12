@@ -10,7 +10,7 @@ const SUBJECTS = {
 
 const SOURCES = [
     { id: 1, title: "Kur'an Yolu Turkce Meal ve Tefsiri", author: "Komisyon", pub: "DIB", year: "2019", category: "tefsir", scrollTo: "meallerGrid" },
-    { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "meallerGrid" },
+    { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" },
     { id: 3, title: "Ilmihal I. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 4, title: "Ilmihal II. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 5, title: "Hac Ilmihali", author: "Doc. Dr. Ismail Karagoz vd.", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
@@ -24,8 +24,8 @@ const SOURCES = [
     { id: 13, title: "Tecvidli Kur'an Okuma Rehberi", author: "Davut Kaya", pub: "DIB", year: "2019", category: "tecvit", scrollTo: "meallerGrid" },
     { id: 14, title: "Kur'an-ı Kerim'in Tecvidi", author: "Demirhan Unlu", pub: "TDV", year: "2019", category: "tecvit", scrollTo: "meallerGrid" },
     { id: 15, title: "Diyanet Islam Ansiklopedisi (44 Cilt)", author: "TDV", pub: "TDV", year: "2019", category: "diger", scrollTo: "ciltSecimi" },
-    { id: 16, title: "Fahruddin er-Razi Tefsir-i Kebir (23 Cilt)", author: "Fahruddin er-Razi", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "raziGrid" },
-    { id: 17, title: "Keşf Tefsiri (6 Cilt)", author: "Zemahşeri", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "kesfGrid" }
+    { id: 16, title: "Fahruddin er-Razi Tefsir-i Kebir (23 Cilt)", author: "Fahruddin er-Razi", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" },
+    { id: 17, title: "Keşf Tefsiri (6 Cilt)", author: "Zemahşeri", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" }
 ];
 
 const SAMPLE_QUESTIONS = [
