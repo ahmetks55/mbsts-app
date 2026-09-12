@@ -24,8 +24,7 @@ const SOURCES = [
     { id: 13, title: "Tecvidli Kur'an Okuma Rehberi", author: "Davut Kaya", pub: "DIB", year: "2019", category: "tecvit", scrollTo: "meallerGrid" },
     { id: 14, title: "Kur'an-ı Kerim'in Tecvidi", author: "Demirhan Unlu", pub: "TDV", year: "2019", category: "tecvit", scrollTo: "meallerGrid" },
     { id: 15, title: "Diyanet Islam Ansiklopedisi (44 Cilt)", author: "TDV", pub: "TDV", year: "2019", category: "diger", scrollTo: "ciltSecimi" },
-    { id: 16, title: "Fahruddin er-Razi Tefsir-i Kebir (23 Cilt)", author: "Fahruddin er-Razi", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" },
-    { id: 17, title: "Keşf Tefsiri (6 Cilt)", author: "Zemahşeri", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" }
+    { id: 16, title: "Tefsirler — Razi & Keşf (29 Cilt)", author: "Fahruddin er-Razi / Zemahşeri", pub: "Diyanet", year: "2019", category: "tefsir", scrollTo: "tefsirlerGrid" }
 ];
 
 const SAMPLE_QUESTIONS = [
