@@ -584,6 +584,8 @@ body {
     text-decoration: none;
     color: var(--text);
     font-size: 0.85em;
+    font-family: inherit;
+    text-align: left;
     transition: all 0.2s;
     cursor: pointer;
 }

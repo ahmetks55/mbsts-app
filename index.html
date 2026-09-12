@@ -668,13 +668,12 @@
                 const cilt = i.toString().padStart(2, '0');
                 const name = subjects[i - 1] || 'Cilt ' + i;
                 const url = base + 'c' + cilt + 'metin.pdf';
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = '';
-                a.className = 'volume-item';
-                a.innerHTML = '<span class="vol-num">' + cilt + '</span><span class="vol-name">' + name + '</span>';
-                a.title = 'Cilt ' + cilt + ': ' + name + ' — PDF İndir';
-                grid.appendChild(a);
+                const btn = document.createElement('button');
+                btn.className = 'volume-item';
+                btn.innerHTML = '<span class="vol-num">' + cilt + '</span><span class="vol-name">' + name + '</span>';
+                btn.title = 'Cilt ' + cilt + ': ' + name + ' — PDF İndir';
+                btn.onclick = function() { showDownloadModal('Cilt ' + cilt + ': ' + name, url, 'PDF'); };
+                grid.appendChild(btn);
             }
         })();
 
@@ -699,13 +698,12 @@
             ];
             books.forEach(function(b) {
                 const url = base + b.file;
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = '';
-                a.className = 'volume-item';
-                a.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.vol + '</small></span>';
-                a.title = b.name + ' — ' + b.vol;
-                grid.appendChild(a);
+                const btn = document.createElement('button');
+                btn.className = 'volume-item';
+                btn.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.vol + '</small></span>';
+                btn.title = b.name + ' — ' + b.vol;
+                btn.onclick = function() { showDownloadModal(b.name + ' (' + b.vol + ')', url, 'PDF'); };
+                grid.appendChild(btn);
             });
         })();
 
@@ -754,13 +752,12 @@
             ];
             books.forEach(function(b) {
                 var url = base + b.file;
-                var a = document.createElement('a');
-                a.href = url;
-                a.download = '';
-                a.className = 'volume-item';
-                a.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.size + '</small></span>';
-                a.title = b.name + ' — ' + b.size;
-                grid.appendChild(a);
+                var btn = document.createElement('button');
+                btn.className = 'volume-item';
+                btn.innerHTML = '<span class="vol-num" style="font-size:1em">📖</span><span class="vol-name">' + b.name + '<br><small style="opacity:0.7">' + b.size + '</small></span>';
+                btn.title = b.name + ' — ' + b.size;
+                btn.onclick = function() { showDownloadModal(b.name, url, b.size); };
+                grid.appendChild(btn);
             });
         })();
 
