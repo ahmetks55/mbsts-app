@@ -1,9 +1,8 @@
-const CACHE_NAME = 'mbsts-v9';
+const CACHE_NAME = 'mbsts-v11';
 const ASSETS = [
   '/',
   '/index.html',
   '/style.css',
-  '/app.js',
   '/questions.json',
   '/questions-ek.json',
   '/questions-2024.json',
@@ -11,6 +10,7 @@ const ASSETS = [
   '/questions-2022.json',
   '/questions-2021.json',
   '/questions-2020.json',
+  '/questions-2019.json',
   '/manifest.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png'
@@ -35,8 +35,13 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cached) => {
-      return cached || fetch(event.request).then((response) => {
-        if (response.status === 200 && response.type === 'basic') {
+      if (cached) {
+        // app.js is never served from cache – always fresh from network
+        if (event.request.url.includes('app.js')) return fetch(event.request);
+        return cached;
+      }
+      return fetch(event.request).then((response) => {
+        if (response.status === 200 && response.type === 'basic' && !event.request.url.includes('app.js')) {
           const clone = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         }

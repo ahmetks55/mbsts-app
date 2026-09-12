@@ -89,16 +89,19 @@ class MBSTSApp {
         try {
             const urls = ['questions-ek.json', 'questions-2024.json', 'questions-2023.json', 'questions-2022.json', 'questions-2021.json', 'questions-2020.json', 'questions-2019.json'];
             const responses = await Promise.all(urls.map(u => fetch(u).catch(() => null)));
-            const existing = new Set(this.questions.map(q => q.id));
             const added = [];
+            let replaced = false;
+            const idMap = new Map(this.questions.map(q => [q.id, q]));
             for (const res of responses) {
                 if (!res || !res.ok) continue;
                 const extra = await res.json();
-                const normalizedExtra = extra.map(q => this.normalizeQuestion(q));
-                added.push(...normalizedExtra.filter(q => !existing.has(q.id)));
+                for (const q of extra.map(qu => this.normalizeQuestion(qu))) {
+                    if (idMap.has(q.id)) replaced = true; else added.push(q);
+                    idMap.set(q.id, q);
+                }
             }
-            if (added.length > 0) {
-                this.questions = this.questions.concat(added);
+            if (added.length > 0 || replaced) {
+                this.questions = Array.from(idMap.values());
                 this.saveToStorage('mbsts_questions', this.questions);
                 console.log('[MBSTS] Extra questions loaded:', added.length, 'Total:', this.questions.length);
                 this.renderBank();
