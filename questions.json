@@ -1,12 +1,162 @@
 [
-  {"id":1,"subject":"kur-an-bilgisi","text":"Kur'an-ı Kerim'de toplam kac sure bulunmaktadir?","options":["114","110","112","116","120"],"correct":0,"explanation":"Kur'an-ı Kerim 114 sureden olusmaktadir."},
-  {"id":2,"subject":"kur-an-bilgisi","text":"En uzun sure hangisidir?","options":["Ali Imran","Bakara","Nisa","Maide","Yasin"],"correct":1,"explanation":"Bakara Suresi 286 ayet ile en uzun suredir."},
-  {"id":3,"subject":"tefsir","text":"Tefsir'in kelime anlami nedir?","options":["Aciklama, yorumlama","Okuma, tilavet","Yazma, kayit","Ogretme, vaaz","Anlama, kavrama"],"correct":0,"explanation":"Tefsir, Kur'an ayetlerini aciklama ve yorumlama demektir."},
-  {"id":4,"subject":"akaid-kelam","text":"Islam'da imanin sartlari kac tanedir?","options":["5","6","7","4","8"],"correct":1,"explanation":"Imanin 6 sarti: Allah'a, Meleklere, Kitaplara, Peygamberlere, Ahiret gunune, Kadere iman."},
-  {"id":5,"subject":"fikih-ilmihal","text":"Namazin farz olan vaciplerinden hangisi degildir?","options":["Kibleye donmek","Kiyam","Kapali yerde kilmak","Son oturus","Kunut dualari"],"correct":2,"explanation":"Namazin vaciplerinden biri kapali yerde kilmak degildir."},
-  {"id":6,"subject":"hadis","text":"Hadis kitaplarinin en sahih olani hangisidir?","options":["Buhtari","Müslim","Tirmizi","Ibn Mace","Ebu Davud"],"correct":0,"explanation":"Buhtari, hadislerin sahihligi acisindan en ustun kabul edilen kitaptir."},
-  {"id":7,"subject":"siyer","text":"Hz. Muhammed (sav) kac yasinda peygamber olmustur?","options":["25","30","35","40","45"],"correct":3,"explanation":"Hz. Muhammed (sav) 40 yasinda peygamber olmustur."},
-  {"id":8,"subject":"dinler-tarihi","text":"Islam disindaki uc semavi din hangileridir?","options":["Hristiyanlik, Yahudilik, Hinduizm","Hristiyanlik, Yahudilik, Musevilik","Budizm, Hristiyanlik, Yahudilik","Zerdustluk, Hristiyanlik, Yahudilik","Sihizm, Hristiyanlik, Yahudilik"],"correct":1,"explanation":"Islam, Hristiyanlik ve Yahudilik (Musevilik) uc semavi dindir."},
-  {"id":9,"subject":"kur-an-bilgisi","text":"Kur'an-ı Kerim'de en kisa sure hangisidir?","options":["Kevser","Nas","Felak","Kafirun","Ihlas"],"correct":0,"explanation":"Kevser Suresi 3 ayet ile en kisa suredir."},
-  {"id":10,"subject":"tefsir","text":"Mutezilite mezhebinin tefsir yontemi nedir?","options":["Kelam","Rey","Kelam ve Rey","Tecdid","Tevil"],"correct":2,"explanation":"Mutezililer akla onem veren kelam ve rey yontemiyle tefsir yapmislaridir."}
+  {
+    "id": 1,
+    "subject": "kur-an-bilgisi",
+    "text": "Kur'an-ı Kerim'de toplam kac sure bulunmaktadir?",
+    "options": [
+      "114",
+      "110",
+      "112",
+      "116",
+      "120"
+    ],
+    "correct": 0,
+    "explanation": "Kur'an-ı Kerim 114 sureden olusmaktadir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 2,
+    "subject": "kur-an-bilgisi",
+    "text": "En uzun sure hangisidir?",
+    "options": [
+      "Ali Imran",
+      "Bakara",
+      "Nisa",
+      "Maide",
+      "Yasin"
+    ],
+    "correct": 1,
+    "explanation": "Bakara Suresi 286 ayet ile en uzun suredir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 3,
+    "subject": "tefsir",
+    "text": "Tefsir'in kelime anlami nedir?",
+    "options": [
+      "Aciklama, yorumlama",
+      "Okuma, tilavet",
+      "Yazma, kayit",
+      "Ogretme, vaaz",
+      "Anlama, kavrama"
+    ],
+    "correct": 0,
+    "explanation": "Tefsir, Kur'an ayetlerini aciklama ve yorumlama demektir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 4,
+    "subject": "akaid-kelam",
+    "text": "Islam'da imanin sartlari kac tanedir?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4",
+      "8"
+    ],
+    "correct": 1,
+    "explanation": "Imanin 6 sarti: Allah'a, Meleklere, Kitaplara, Peygamberlere, Ahiret gunune, Kadere iman.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 5,
+    "subject": "fikih-ilmihal",
+    "text": "Namazin farz olan vaciplerinden hangisi degildir?",
+    "options": [
+      "Kibleye donmek",
+      "Kiyam",
+      "Kapali yerde kilmak",
+      "Son oturus",
+      "Kunut dualari"
+    ],
+    "correct": 2,
+    "explanation": "Namazin vaciplerinden biri kapali yerde kilmak degildir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 6,
+    "subject": "hadis",
+    "text": "Hadis kitaplarinin en sahih olani hangisidir?",
+    "options": [
+      "Buhtari",
+      "Müslim",
+      "Tirmizi",
+      "Ibn Mace",
+      "Ebu Davud"
+    ],
+    "correct": 0,
+    "explanation": "Buhtari, hadislerin sahihligi acisindan en ustun kabul edilen kitaptir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 7,
+    "subject": "siyer",
+    "text": "Hz. Muhammed (sav) kac yasinda peygamber olmustur?",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correct": 3,
+    "explanation": "Hz. Muhammed (sav) 40 yasinda peygamber olmustur.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 8,
+    "subject": "dinler-tarihi",
+    "text": "Islam disindaki uc semavi din hangileridir?",
+    "options": [
+      "Hristiyanlik, Yahudilik, Hinduizm",
+      "Hristiyanlik, Yahudilik, Musevilik",
+      "Budizm, Hristiyanlik, Yahudilik",
+      "Zerdustluk, Hristiyanlik, Yahudilik",
+      "Sihizm, Hristiyanlik, Yahudilik"
+    ],
+    "correct": 1,
+    "explanation": "Islam, Hristiyanlik ve Yahudilik (Musevilik) uc semavi dindir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 9,
+    "subject": "kur-an-bilgisi",
+    "text": "Kur'an-ı Kerim'de en kisa sure hangisidir?",
+    "options": [
+      "Kevser",
+      "Nas",
+      "Felak",
+      "Kafirun",
+      "Ihlas"
+    ],
+    "correct": 0,
+    "explanation": "Kevser Suresi 3 ayet ile en kisa suredir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  },
+  {
+    "id": 10,
+    "subject": "tefsir",
+    "text": "Mutezilite mezhebinin tefsir yontemi nedir?",
+    "options": [
+      "Kelam",
+      "Rey",
+      "Kelam ve Rey",
+      "Tecdid",
+      "Tevil"
+    ],
+    "correct": 2,
+    "explanation": "Mutezililer akla onem veren kelam ve rey yontemiyle tefsir yapmislaridir.",
+    "year": 2016,
+    "source": "2016 MBSTS"
+  }
 ]

@@ -3,680 +3,1360 @@
     "id": 101,
     "subject": "akaid-kelam",
     "text": "Mâturîdiyye itikadî mezhebinin imamı aşağıdakilerden hangisidir?",
-    "options": ["Ebû Mansûr Muhammed b. Muhammed el-Mâturîdî", "Ebû’l-Hasan Ali el-Eş’arî", "Ebû Hanîfe Nûmân b. Sâbit", "Ahmed b. Hanbel", "Mâlik b. Enes"],
+    "options": [
+      "Ebû Mansûr Muhammed b. Muhammed el-Mâturîdî",
+      "Ebû’l-Hasan Ali el-Eş’arî",
+      "Ebû Hanîfe Nûmân b. Sâbit",
+      "Ahmed b. Hanbel",
+      "Mâlik b. Enes"
+    ],
     "correct": 0,
-    "explanation": "Mâturîdiyye’nin imamı Ebû Mansûr Muhammed b. Muhammed Mâturîdî’dir (h. 238-333). Ebû Hanîfe’nin ilim geleneğine mensuptur ve kelâmda daha akılcı bir yöntem uygulamıştır."
+    "explanation": "Mâturîdiyye’nin imamı Ebû Mansûr Muhammed b. Muhammed Mâturîdî’dir (h. 238-333). Ebû Hanîfe’nin ilim geleneğine mensuptur ve kelâmda daha akılcı bir yöntem uygulamıştır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 102,
     "subject": "akaid-kelam",
     "text": "Eş’ariyye mezhebi hangi mezhebe karşı bir tez olarak doğmuştur?",
-    "options": ["Mu’tezile", "Cebriyye", "Mürcie", "Haricîlik", "Şîa"],
+    "options": [
+      "Mu’tezile",
+      "Cebriyye",
+      "Mürcie",
+      "Haricîlik",
+      "Şîa"
+    ],
     "correct": 0,
-    "explanation": "İmam Eş’arî kırk yaşına kadar Mu’tezile’ye bağlı kalmış, sonra onlardan ayrılarak Eş’ariyye ekolünü kurmuştur. Eş’ariyye, Mu’tezile’ye karşı bir tez olarak doğmuştur (h. 260-324)."
+    "explanation": "İmam Eş’arî kırk yaşına kadar Mu’tezile’ye bağlı kalmış, sonra onlardan ayrılarak Eş’ariyye ekolünü kurmuştur. Eş’ariyye, Mu’tezile’ye karşı bir tez olarak doğmuştur (h. 260-324).",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 103,
     "subject": "akaid-kelam",
     "text": "Sünnî fıkıh ekollerinin ilki olan Hanefî mezhebinin imamı kimdir?",
-    "options": ["Ebû Hanîfe Nûmân b. Sâbit", "Mâlik b. Enes", "Ahmed b. Hanbel", "Ebû’l-Hasan el-Eş’arî", "Muhammed b. İdrîs eş-Şâfiî"],
+    "options": [
+      "Ebû Hanîfe Nûmân b. Sâbit",
+      "Mâlik b. Enes",
+      "Ahmed b. Hanbel",
+      "Ebû’l-Hasan el-Eş’arî",
+      "Muhammed b. İdrîs eş-Şâfiî"
+    ],
     "correct": 0,
-    "explanation": "Hanefî mezhebinin imamı Ebû Hanîfe Nûmân b. Sâbit’tir (h. 80-150). Nakil ile aklın yorumu arasında denge kurmaya çalışmış ve istihsan metodunu sıklıkla kullanmıştır."
+    "explanation": "Hanefî mezhebinin imamı Ebû Hanîfe Nûmân b. Sâbit’tir (h. 80-150). Nakil ile aklın yorumu arasında denge kurmaya çalışmış ve istihsan metodunu sıklıkla kullanmıştır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 104,
     "subject": "akaid-kelam",
     "text": "Mâlikî mezhebinin fıkhının en belirgin özelliği aşağıdakilerden hangisidir?",
-    "options": ["Medine halkının uygulamasına çok önem vermesi", "Hadise dayalı bir fıkıh anlayışına sahip olması", "Re’y ve istihsana ağırlık vermesi", "Maslahatı tamamen reddetmesi", "Sadece kıyasa başvurması"],
+    "options": [
+      "Medine halkının uygulamasına çok önem vermesi",
+      "Hadise dayalı bir fıkıh anlayışına sahip olması",
+      "Re’y ve istihsana ağırlık vermesi",
+      "Maslahatı tamamen reddetmesi",
+      "Sadece kıyasa başvurması"
+    ],
     "correct": 0,
-    "explanation": "İmam Mâlik b. Enes (h. 93-179) döneminde Medine fıkhının imamıdır. Fıkhının en belirgin özelliği Medine halkının uygulamasına çok önem vermesidir; maslahatı sıklıkla kullanır."
+    "explanation": "İmam Mâlik b. Enes (h. 93-179) döneminde Medine fıkhının imamıdır. Fıkhının en belirgin özelliği Medine halkının uygulamasına çok önem vermesidir; maslahatı sıklıkla kullanır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 105,
     "subject": "akaid-kelam",
     "text": "İmam Şâfiî’nin Irak’taki eski görüşlerine verilen ad aşağıdakilerden hangisidir?",
-    "options": ["Mezheb-i kadîm", "Mezheb-i cedîd", "Sünnet-i hüdâ", "Re’y ekolü", "Fıkhu’l-hadîs"],
+    "options": [
+      "Mezheb-i kadîm",
+      "Mezheb-i cedîd",
+      "Sünnet-i hüdâ",
+      "Re’y ekolü",
+      "Fıkhu’l-hadîs"
+    ],
     "correct": 0,
-    "explanation": "İmam Şâfiî (h. 150-204) Irak’taki eski görüşlerine mezheb-i kadîm, Mısır’daki yeni görüşlerine mezheb-i cedîd adını vermiştir. Fıkıh usulünde er-Risale, furûda el-Ümm önemli eserleridir."
+    "explanation": "İmam Şâfiî (h. 150-204) Irak’taki eski görüşlerine mezheb-i kadîm, Mısır’daki yeni görüşlerine mezheb-i cedîd adını vermiştir. Fıkıh usulünde er-Risale, furûda el-Ümm önemli eserleridir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 106,
     "subject": "akaid-kelam",
     "text": "Hadise dayalı fıkıh anlayışıyla öne çıkan Hanbelî mezhebinin imamı kimdir?",
-    "options": ["Ahmed b. Hanbel", "Ebû Hanîfe", "Mâlik b. Enes", "Ebû’l-Hasan el-Eş’arî", "Ebû Mansûr el-Mâturîdî"],
+    "options": [
+      "Ahmed b. Hanbel",
+      "Ebû Hanîfe",
+      "Mâlik b. Enes",
+      "Ebû’l-Hasan el-Eş’arî",
+      "Ebû Mansûr el-Mâturîdî"
+    ],
     "correct": 0,
-    "explanation": "Hanbelî mezhebinin imamı Ahmed b. Hanbel’dir (h. 164-241). Mezhepte hadise dayalı fıkıh anlayışı hakimdir; muamelatta ibaha-i asliyye kuralı temel alınır. Ahmed b. Hanbel, İmam Şâfiî’den ders almıştır."
+    "explanation": "Hanbelî mezhebinin imamı Ahmed b. Hanbel’dir (h. 164-241). Mezhepte hadise dayalı fıkıh anlayışı hakimdir; muamelatta ibaha-i asliyye kuralı temel alınır. Ahmed b. Hanbel, İmam Şâfiî’den ders almıştır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 107,
     "subject": "akaid-kelam",
     "text": "Aşağıdakilerden hangisi itikadî bir mezhep değil, amelî (fıkhî) bir mezheptir?",
-    "options": ["Hanefî", "Eş’ariyye", "Mâturîdiyye", "Selefiyye", "Cebriyye"],
+    "options": [
+      "Hanefî",
+      "Eş’ariyye",
+      "Mâturîdiyye",
+      "Selefiyye",
+      "Cebriyye"
+    ],
     "correct": 0,
-    "explanation": "Amelî (fıkhî) mezhepler Hanefî, Hanbelî, Şâfiî ve Mâlikî’dir. Eş’ariyye, Mâturîdiyye ve Selefiyye itikadî mezheplerdir."
+    "explanation": "Amelî (fıkhî) mezhepler Hanefî, Hanbelî, Şâfiî ve Mâlikî’dir. Eş’ariyye, Mâturîdiyye ve Selefiyye itikadî mezheplerdir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 108,
     "subject": "akaid-kelam",
     "text": "Aşağıdakilerden hangisi Ehl-i bid’at itikadî mezheplerinden biridir?",
-    "options": ["Mürcie", "Mâturîdiyye", "Eş’ariyye", "Selefiyye", "Hanefî"],
+    "options": [
+      "Mürcie",
+      "Mâturîdiyye",
+      "Eş’ariyye",
+      "Selefiyye",
+      "Hanefî"
+    ],
     "correct": 0,
-    "explanation": "Ehl-i bid’at itikadî mezhepler: Cebriyye, Kaderiyye, Haricîlik, Mu’tezile, Mürcie ve Şîa’dır. Ehl-i Sünnet itikadî mezhepleri ise Selefiyye, Eş’ariyye ve Mâturîdiyye’dir."
+    "explanation": "Ehl-i bid’at itikadî mezhepler: Cebriyye, Kaderiyye, Haricîlik, Mu’tezile, Mürcie ve Şîa’dır. Ehl-i Sünnet itikadî mezhepleri ise Selefiyye, Eş’ariyye ve Mâturîdiyye’dir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 109,
     "subject": "akaid-kelam",
     "text": "Aşağıdakilerden hangisi Allah’ın subûtî sıfatlarından biri değildir?",
-    "options": ["Vücud", "İlim", "Kudret", "İrade", "Tekvîn"],
+    "options": [
+      "Vücud",
+      "İlim",
+      "Kudret",
+      "İrade",
+      "Tekvîn"
+    ],
     "correct": 0,
-    "explanation": "Subûtî sıfatlar Hayat, İlim, Semi, Basar, Kudret, İrade, Kelâm ve Tekvîn’dir. Vücud, Allah’ın zatî sıfatlarındandır."
+    "explanation": "Subûtî sıfatlar Hayat, İlim, Semi, Basar, Kudret, İrade, Kelâm ve Tekvîn’dir. Vücud, Allah’ın zatî sıfatlarındandır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 110,
     "subject": "akaid-kelam",
     "text": "“Allah’ın varlığının başlangıcı yoktur” anlamına gelen zatî sıfat hangisidir?",
-    "options": ["Kıdem", "Beka", "Vahdaniyet", "Kıyam bi-nefsihi", "Muhâlefetün li’l-havâdis"],
+    "options": [
+      "Kıdem",
+      "Beka",
+      "Vahdaniyet",
+      "Kıyam bi-nefsihi",
+      "Muhâlefetün li’l-havâdis"
+    ],
     "correct": 0,
-    "explanation": "Kıdem: varlığının başlangıcı yoktur. Beka: varlığının sonu yoktur. Vahdaniyet: Allah tektir. Kıyam bi-nefsihi: varlığı başkasından değildir."
+    "explanation": "Kıdem: varlığının başlangıcı yoktur. Beka: varlığının sonu yoktur. Vahdaniyet: Allah tektir. Kıyam bi-nefsihi: varlığı başkasından değildir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 111,
     "subject": "akaid-kelam",
     "text": "Aşağıdakilerden hangisi Allah’ın subûtî sıfatlarındandır?",
-    "options": ["Hayat", "Vücud", "Kıdem", "Beka", "Muhâlefetün li’l-havâdis"],
+    "options": [
+      "Hayat",
+      "Vücud",
+      "Kıdem",
+      "Beka",
+      "Muhâlefetün li’l-havâdis"
+    ],
     "correct": 0,
-    "explanation": "Subûtî sıfatlar: Hayat, İlim, Semi, Basar, Kudret, İrade, Kelâm ve Tekvîn. Vücud, Kıdem, Beka ve Muhâlefetün li’l-havâdis ise zatî sıfatlardandır."
+    "explanation": "Subûtî sıfatlar: Hayat, İlim, Semi, Basar, Kudret, İrade, Kelâm ve Tekvîn. Vücud, Kıdem, Beka ve Muhâlefetün li’l-havâdis ise zatî sıfatlardandır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 112,
     "subject": "akaid-kelam",
     "text": "Allah’ın, peygamberlik iddiasında bulunan peygamberini doğrulamak için yarattığı, insanların benzerini getirmekten âciz kaldığı olağanüstü olaya ne denir?",
-    "options": ["Mucize", "Keramet", "İrhas", "İstidrac", "İhanet"],
+    "options": [
+      "Mucize",
+      "Keramet",
+      "İrhas",
+      "İstidrac",
+      "İhanet"
+    ],
     "correct": 0,
-    "explanation": "Mucize: Allah’ın, peygamberlik iddiasındaki peygamberini doğrulamak ve desteklemek için yarattığı, benzerini getirmekten insanların âciz kaldığı olağanüstü olaydır."
+    "explanation": "Mucize: Allah’ın, peygamberlik iddiasındaki peygamberini doğrulamak ve desteklemek için yarattığı, benzerini getirmekten insanların âciz kaldığı olağanüstü olaydır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 113,
     "subject": "akaid-kelam",
     "text": "Peygamberine gönülden bağlı olan velî kullardan sadır olan olağanüstü hallere ne denir?",
-    "options": ["Keramet", "Mucize", "İhanet", "İstidrac", "İrhas"],
+    "options": [
+      "Keramet",
+      "Mucize",
+      "İhanet",
+      "İstidrac",
+      "İrhas"
+    ],
     "correct": 0,
-    "explanation": "Keramet, peygamberine titizlikle uyan velî kullardan sadır olan olağanüstü hallerdir. Mucize peygamberlere, istidrac ise kâfir ve günahkâr kişilere ait olağanüstülüklerdir."
+    "explanation": "Keramet, peygamberine titizlikle uyan velî kullardan sadır olan olağanüstü hallerdir. Mucize peygamberlere, istidrac ise kâfir ve günahkâr kişilere ait olağanüstülüklerdir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 114,
     "subject": "akaid-kelam",
     "text": "Kâfir ve günahkâr kişilerden, arzu ve isteklerine uygun olarak meydana gelen olağanüstü olaylara ne denir?",
-    "options": ["İstidrac", "Mucize", "Keramet", "İrhas", "İhanet"],
+    "options": [
+      "İstidrac",
+      "Mucize",
+      "Keramet",
+      "İrhas",
+      "İhanet"
+    ],
     "correct": 0,
-    "explanation": "İstidrac, kâfir ve günahkâr kişilerden arzu ve isteklerine uygun olarak meydana gelen olağanüstü olaylardır. Peygamber olacak şahsın peygamberlikten önceki olağanüstü hallerine ise irhas denir."
+    "explanation": "İstidrac, kâfir ve günahkâr kişilerden arzu ve isteklerine uygun olarak meydana gelen olağanüstü olaylardır. Peygamber olacak şahsın peygamberlikten önceki olağanüstü hallerine ise irhas denir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 115,
     "subject": "akaid-kelam",
     "text": "Allah’ın, ezelden ebede kadar olacakların zaman ve yerini, niteliklerini ve özelliklerini önceden bilmesi ve takdir etmesine ne ad verilir?",
-    "options": ["Kader", "Kaza", "Ecel", "Rızık", "Beşâret"],
+    "options": [
+      "Kader",
+      "Kaza",
+      "Ecel",
+      "Rızık",
+      "Beşâret"
+    ],
     "correct": 0,
-    "explanation": "Kader: Allah’ın olacakların zaman, yer, nitelik ve özelliklerini önceden bilmesi ve takdir etmesidir. Kaza ise ezelde takdir edilenlerin zamanı gelince yaratılmasıdır."
+    "explanation": "Kader: Allah’ın olacakların zaman, yer, nitelik ve özelliklerini önceden bilmesi ve takdir etmesidir. Kaza ise ezelde takdir edilenlerin zamanı gelince yaratılmasıdır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 116,
     "subject": "akaid-kelam",
     "text": "Allah’ın, ezelde takdir buyurduğu şeyleri zamanı gelince takdir ettiği şekilde yaratmasına ne denir?",
-    "options": ["Kaza", "Kader", "İrhas", "İstidrac", "Mucize"],
+    "options": [
+      "Kaza",
+      "Kader",
+      "İrhas",
+      "İstidrac",
+      "Mucize"
+    ],
     "correct": 0,
-    "explanation": "Kaza: Allah’ın, ezelde takdir buyurduğu şeylerin zamanı gelince takdir ettiği şekilde onları yaratması demektir."
+    "explanation": "Kaza: Allah’ın, ezelde takdir buyurduğu şeylerin zamanı gelince takdir ettiği şekilde onları yaratması demektir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 117,
     "subject": "akaid-kelam",
     "text": "Dinî sorumluluğun temel şartı olan vücûb ehliyetinin unsurları aşağıdakilerden hangisidir?",
-    "options": ["İnsan olmak (hukukî kişilik) ve zimmet", "Akıl ve temyiz", "Bülûğ ve hürriyet", "İman ve niyet", "Sağlık ve mukimlik"],
+    "options": [
+      "İnsan olmak (hukukî kişilik) ve zimmet",
+      "Akıl ve temyiz",
+      "Bülûğ ve hürriyet",
+      "İman ve niyet",
+      "Sağlık ve mukimlik"
+    ],
     "correct": 0,
-    "explanation": "Vücûb ehliyeti; hukukî kişilik (insan olmak) ve zimmetten oluşur. Edâ ehliyeti ise akıl ve temyiz gücünün bulunmasıdır."
+    "explanation": "Vücûb ehliyeti; hukukî kişilik (insan olmak) ve zimmetten oluşur. Edâ ehliyeti ise akıl ve temyiz gücünün bulunmasıdır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 118,
     "subject": "fikih-ilmihal",
     "text": "Kesin delille sabit olan bir farzı inkâr eden kimse hakkında aşağıdakilerden hangisi söylenir?",
-    "options": ["Dinden çıkmış olur", "Vâcibi terk etmiş sayılır", "Sadece günahkâr olur", "Tenzihen mekruh işlemiş olur", "Dinden çıkmaz"],
+    "options": [
+      "Dinden çıkmış olur",
+      "Vâcibi terk etmiş sayılır",
+      "Sadece günahkâr olur",
+      "Tenzihen mekruh işlemiş olur",
+      "Dinden çıkmaz"
+    ],
     "correct": 0,
-    "explanation": "Farzı inkâr tekfir sebebidir; inkâr eden dinden çıkmış olur. Vâcibi inkâr etmek ise küfrü gerektirmez."
+    "explanation": "Farzı inkâr tekfir sebebidir; inkâr eden dinden çıkmış olur. Vâcibi inkâr etmek ise küfrü gerektirmez.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 119,
     "subject": "fikih-ilmihal",
     "text": "İnkâr edenin dinden çıkmaması, ancak özürsüz terkinde azap gerektiren hüküm aşağıdakilerden hangisidir?",
-    "options": ["Vâcip", "Farz-ı ayn", "Farz-ı kifâye", "Sünnet-i müekkede", "Müstehâb"],
+    "options": [
+      "Vâcip",
+      "Farz-ı ayn",
+      "Farz-ı kifâye",
+      "Sünnet-i müekkede",
+      "Müstehâb"
+    ],
     "correct": 0,
-    "explanation": "Vâcip, delil yönünden farz kadar kesin değildir; yapan sevap kazanır, özürsüz yapmayana azap gerekir. Vâcibi inkâr etmek kişiyi dinden çıkarmaz; kasten terki tahrimen mekruhtur."
+    "explanation": "Vâcip, delil yönünden farz kadar kesin değildir; yapan sevap kazanır, özürsüz yapmayana azap gerekir. Vâcibi inkâr etmek kişiyi dinden çıkarmaz; kasten terki tahrimen mekruhtur.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 120,
     "subject": "fikih-ilmihal",
     "text": "Bazı mükelleflerin yapmasıyla diğerlerinden sorumluluğun düştüğü farz türü aşağıdakilerden hangisidir?",
-    "options": ["Farz-ı kifâye", "Farz-ı ayn", "Vâcip", "Sünnet-i müekkede", "Müstehâb"],
+    "options": [
+      "Farz-ı kifâye",
+      "Farz-ı ayn",
+      "Vâcip",
+      "Sünnet-i müekkede",
+      "Müstehâb"
+    ],
     "correct": 0,
-    "explanation": "Farz-ı kifâye, bazı mükelleflerin yapmasıyla diğerlerinin yapma yükümlülüğünün kalktığı farzdır. Farz-ı ayn ise her mükellefin bizzat yapması gereken farzdır."
+    "explanation": "Farz-ı kifâye, bazı mükelleflerin yapmasıyla diğerlerinin yapma yükümlülüğünün kalktığı farzdır. Farz-ı ayn ise her mükellefin bizzat yapması gereken farzdır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 121,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi Peygamberimizin dinle ilgili uygulamaları olan sünen-i hüdâya örnektir?",
-    "options": ["Cemaatle namaz kılmak", "Oturması ve yatması", "Yemesi ve içmesi", "Giyim şekli", "Yürüme tarzı"],
+    "options": [
+      "Cemaatle namaz kılmak",
+      "Oturması ve yatması",
+      "Yemesi ve içmesi",
+      "Giyim şekli",
+      "Yürüme tarzı"
+    ],
     "correct": 0,
-    "explanation": "Sünen-i hüdâ, Peygamberimizin dinle ilgili uygulamalarıdır (cemaatle namaz, ezan gibi). Sünen-i zevaid ise beşer olarak adeten yaptığı davranışlardır (oturması, yatması, yemesi gibi)."
+    "explanation": "Sünen-i hüdâ, Peygamberimizin dinle ilgili uygulamalarıdır (cemaatle namaz, ezan gibi). Sünen-i zevaid ise beşer olarak adeten yaptığı davranışlardır (oturması, yatması, yemesi gibi).",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 122,
     "subject": "fikih-ilmihal",
     "text": "Kur’an’ın söz konusu etmediği yeni bir hükmü koyup ispat eden sünnet türü hangisidir?",
-    "options": ["Sünnet-i Teşrî’iyye", "Sünnet-i Beyâniyye", "Sünnet-i Muvâfık", "Sünnet-i Nâsiha", "Sünnet-i Zevaid"],
+    "options": [
+      "Sünnet-i Teşrî’iyye",
+      "Sünnet-i Beyâniyye",
+      "Sünnet-i Muvâfık",
+      "Sünnet-i Nâsiha",
+      "Sünnet-i Zevaid"
+    ],
     "correct": 0,
-    "explanation": "Sünnet-i Teşrî’iyye, Kur’an’ın söz konusu etmediği bir hükmü koyup ispat eder (altın ve ipeğin haram olması gibi). Beyâniyye Kur’an’ın mücmelini tefsir eder, mutlakını takyit eder."
+    "explanation": "Sünnet-i Teşrî’iyye, Kur’an’ın söz konusu etmediği bir hükmü koyup ispat eder (altın ve ipeğin haram olması gibi). Beyâniyye Kur’an’ın mücmelini tefsir eder, mutlakını takyit eder.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 123,
     "subject": "fikih-ilmihal",
     "text": "Hanefî fıkıh kitaplarında geçen icmâdan kasıt aşağıdakilerden hangisidir?",
-    "options": ["Sükûtî icmâ", "Sarih icmâ", "İcmâ-i ümmet", "İcmâ-i ehl-i Medîne", "İttifak-ı müctehidîn"],
+    "options": [
+      "Sükûtî icmâ",
+      "Sarih icmâ",
+      "İcmâ-i ümmet",
+      "İcmâ-i ehl-i Medîne",
+      "İttifak-ı müctehidîn"
+    ],
     "correct": 0,
-    "explanation": "Sarih icmâ, müctehidlerin görüşlerini tek tek açıklamasıyla oluşur. Sükûtî icmâ ise bir müctehidin görüşüne diğerlerinin itiraz etmeyip susmasıyla oluşur; Hanefî fıkıh kitaplarında icmâdan kasıt sükûtî icmâdır."
+    "explanation": "Sarih icmâ, müctehidlerin görüşlerini tek tek açıklamasıyla oluşur. Sükûtî icmâ ise bir müctehidin görüşüne diğerlerinin itiraz etmeyip susmasıyla oluşur; Hanefî fıkıh kitaplarında icmâdan kasıt sükûtî icmâdır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 124,
     "subject": "fikih-ilmihal",
     "text": "Kitap, Sünnet veya İcmâ’da hükmü bulunmayan bir meseleye, aralarındaki illet birliği sebebiyle bu kaynaklardan birindeki hükmü vermeye ne denir?",
-    "options": ["Kıyas", "İcmâ", "İstihsan", "Ruhsat", "İctihâd"],
+    "options": [
+      "Kıyas",
+      "İcmâ",
+      "İstihsan",
+      "Ruhsat",
+      "İctihâd"
+    ],
     "correct": 0,
-    "explanation": "Kıyas, illet birliği sebebiyle yeni bir meselenin, asıl kaynaktaki benzerinin hükmüne tâbi tutulmasıdır. Örnekte murisini öldüren mirasçının mirastan mahrum edilmesi, vasiyet edeni öldürene de uygulanır."
+    "explanation": "Kıyas, illet birliği sebebiyle yeni bir meselenin, asıl kaynaktaki benzerinin hükmüne tâbi tutulmasıdır. Örnekte murisini öldüren mirasçının mirastan mahrum edilmesi, vasiyet edeni öldürene de uygulanır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 125,
     "subject": "fikih-ilmihal",
     "text": "Azîmet hükmünü terketme imkânı veren, yalnızca ârızî durumla sınırlı, hafifletilmiş ve geçici hükme ne ad verilir?",
-    "options": ["Ruhsat", "Azîmet", "Keffâret", "Mübâh", "İstihsân"],
+    "options": [
+      "Ruhsat",
+      "Azîmet",
+      "Keffâret",
+      "Mübâh",
+      "İstihsân"
+    ],
     "correct": 0,
-    "explanation": "Ruhsat, azîmet hükmünü terketme imkânı veren, yalnız söz konusu ârızî durumla sınırlı bulunan hafifletilmiş ve geçici hükümdür."
+    "explanation": "Ruhsat, azîmet hükmünü terketme imkânı veren, yalnız söz konusu ârızî durumla sınırlı bulunan hafifletilmiş ve geçici hükümdür.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 126,
     "subject": "fikih-ilmihal",
     "text": "Necaset-i galizanın katı ise ibadete engel olan miktar aşağıdakilerden hangisidir?",
-    "options": ["2,08 gram", "Bir el ayası", "Elbisenin dörtte biri", "Bir tutam", "Bir miskal"],
+    "options": [
+      "2,08 gram",
+      "Bir el ayası",
+      "Elbisenin dörtte biri",
+      "Bir tutam",
+      "Bir miskal"
+    ],
     "correct": 0,
-    "explanation": "Necaset-i galizada katı ise ölçü 2,08 gram, sıvı ise el ayasıdır. Bu ölçüler ve daha fazlası ibadete engeldir; azı mekruh hükmündedir."
+    "explanation": "Necaset-i galizada katı ise ölçü 2,08 gram, sıvı ise el ayasıdır. Bu ölçüler ve daha fazlası ibadete engeldir; azı mekruh hükmündedir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 127,
     "subject": "fikih-ilmihal",
     "text": "Necaset-i hafifenin ibadete engel olma ölçüsü nedir?",
-    "options": ["Beden veya elbisenin dörtte birinden fazla olması", "2,08 gram olması", "Bir el ayası tutması", "Avuç içi kadar olması", "Her miktarı namaza engel olması"],
+    "options": [
+      "Beden veya elbisenin dörtte birinden fazla olması",
+      "2,08 gram olması",
+      "Bir el ayası tutması",
+      "Avuç içi kadar olması",
+      "Her miktarı namaza engel olması"
+    ],
     "correct": 0,
-    "explanation": "Necaset-i hafifede beden veya elbiseye bulaşan miktar dörtte birden fazla ise namaz sahih olmaz. Dörtte birden azı namaza engel değildir ancak mekruhtur."
+    "explanation": "Necaset-i hafifede beden veya elbiseye bulaşan miktar dörtte birden fazla ise namaz sahih olmaz. Dörtte birden azı namaza engel değildir ancak mekruhtur.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 128,
     "subject": "fikih-ilmihal",
     "text": "Tenasül organından şehvetsiz olarak çıkan beyaz ve ince sıvı olan mezi hakkında hangisi doğrudur?",
-    "options": ["Abdesti bozar, gusül gerektirmez", "Guslü gerektirir", "İbadete hiç engel değildir", "Yalnızca namazı bozar", "Abdesti bozmaz"],
+    "options": [
+      "Abdesti bozar, gusül gerektirmez",
+      "Guslü gerektirir",
+      "İbadete hiç engel değildir",
+      "Yalnızca namazı bozar",
+      "Abdesti bozmaz"
+    ],
     "correct": 0,
-    "explanation": "Mezi şehvetsiz olarak çıkan beyaz ve ince sıvıdır; abdesti bozar ama guslü gerektirmez. Meni ise şehvetle gelirse guslü gerektirir."
+    "explanation": "Mezi şehvetsiz olarak çıkan beyaz ve ince sıvıdır; abdesti bozar ama guslü gerektirmez. Meni ise şehvetle gelirse guslü gerektirir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 129,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre abdestin farzı kaç tanedir?",
-    "options": ["4", "6", "8", "3", "5"],
+    "options": [
+      "4",
+      "6",
+      "8",
+      "3",
+      "5"
+    ],
     "correct": 0,
-    "explanation": "Hanefî mezhebine göre abdestin farzları dörttür: yüzü yıkamak, kolları dirsekle beraber yıkamak, başın dörtte birini mesh etmek ve ayakları topuklarla beraber yıkamak."
+    "explanation": "Hanefî mezhebine göre abdestin farzları dörttür: yüzü yıkamak, kolları dirsekle beraber yıkamak, başın dörtte birini mesh etmek ve ayakları topuklarla beraber yıkamak.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 130,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre abdestte başın ne kadarı mesh edilmelidir?",
-    "options": ["Dörtte biri", "Yarısı", "Tamamı", "Üçte biri", "Üçte ikisi"],
+    "options": [
+      "Dörtte biri",
+      "Yarısı",
+      "Tamamı",
+      "Üçte biri",
+      "Üçte ikisi"
+    ],
     "correct": 0,
-    "explanation": "Hanefîlere göre başın dörtte birini bir defa mesh etmek farzdır. Mesh etmek için yeni su alınması gerekir; kullanılmış suyla mesh caiz olmaz."
+    "explanation": "Hanefîlere göre başın dörtte birini bir defa mesh etmek farzdır. Mesh etmek için yeni su alınması gerekir; kullanılmış suyla mesh caiz olmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 131,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi abdesti bozan eylemlerdendir?",
-    "options": ["Ağız dolusu kusmak", "Ağız dolusundan az kusmak", "Balgam tükürmek", "Dizüstü oturup uyumak", "Pıhtı hâlinde kan parçası kusmak"],
+    "options": [
+      "Ağız dolusu kusmak",
+      "Ağız dolusundan az kusmak",
+      "Balgam tükürmek",
+      "Dizüstü oturup uyumak",
+      "Pıhtı hâlinde kan parçası kusmak"
+    ],
     "correct": 0,
-    "explanation": "Abdesti bozanlar arasında ağız dolusu kusmak vardır. Ağız dolusundan az kusmak, balgam tükürmek ve dizüstü oturup uyumak abdesti bozmaz."
+    "explanation": "Abdesti bozanlar arasında ağız dolusu kusmak vardır. Ağız dolusundan az kusmak, balgam tükürmek ve dizüstü oturup uyumak abdesti bozmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 132,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi abdesti bozmaz?",
-    "options": ["Dizüstü veya bağdaş kurarak oturup uyumak", "Bayılmak", "Sarhoş olmak", "Namazda gülmek", "Yaslanarak uyumak"],
+    "options": [
+      "Dizüstü veya bağdaş kurarak oturup uyumak",
+      "Bayılmak",
+      "Sarhoş olmak",
+      "Namazda gülmek",
+      "Yaslanarak uyumak"
+    ],
     "correct": 0,
-    "explanation": "Yatarak, yaslanarak veya bir şeye dayanarak uyumak abdesti bozar. Dizüstü veya bağdaş kurarak oturup uyumak abdesti bozacak bir hal meydana gelmeyeceği için abdesti bozmaz."
+    "explanation": "Yatarak, yaslanarak veya bir şeye dayanarak uyumak abdesti bozar. Dizüstü veya bağdaş kurarak oturup uyumak abdesti bozacak bir hal meydana gelmeyeceği için abdesti bozmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 133,
     "subject": "fikih-ilmihal",
     "text": "Mest üzerine meshin müddeti ne zaman başlar?",
-    "options": ["Abdest bozulduktan sonra", "Mestin ayağa giyildiği andan itibaren", "Mest satın alındığında", "Sabah namazı vaktinde", "Yatsıdan sonra"],
+    "options": [
+      "Abdest bozulduktan sonra",
+      "Mestin ayağa giyildiği andan itibaren",
+      "Mest satın alındığında",
+      "Sabah namazı vaktinde",
+      "Yatsıdan sonra"
+    ],
     "correct": 0,
-    "explanation": "Meshin müddeti, mesti ayağa giydikten sonra değil abdest bozulduktan sonra başlar."
+    "explanation": "Meshin müddeti, mesti ayağa giydikten sonra değil abdest bozulduktan sonra başlar.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 134,
     "subject": "fikih-ilmihal",
     "text": "Sargı üzerine mesh ile ilgili aşağıdakilerden hangisi doğrudur?",
-    "options": ["Sargı iyileşinceye kadar süre sınırı olmadan mesh edilebilir", "Sargı üzerine meshin belirli bir günlük süresi vardır", "Sargıya mesh caiz değildir", "Yalnız cünüp olan mesh edebilir", "Her gün sargının açılması gerekir"],
+    "options": [
+      "Sargı iyileşinceye kadar süre sınırı olmadan mesh edilebilir",
+      "Sargı üzerine meshin belirli bir günlük süresi vardır",
+      "Sargıya mesh caiz değildir",
+      "Yalnız cünüp olan mesh edebilir",
+      "Her gün sargının açılması gerekir"
+    ],
     "correct": 0,
-    "explanation": "Üzerinde sargı bulunan organın yıkanması sağlığa zararlıysa sargı üzerine mesh edilir; bu mesh hükmen yıkama sayılır. Sargının çoğunluğunu bir defa meshetmek yeterlidir ve iyileşinceye kadar süre sınırı yoktur."
+    "explanation": "Üzerinde sargı bulunan organın yıkanması sağlığa zararlıysa sargı üzerine mesh edilir; bu mesh hükmen yıkama sayılır. Sargının çoğunluğunu bir defa meshetmek yeterlidir ve iyileşinceye kadar süre sınırı yoktur.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 135,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre teyemmümün farzları aşağıdakilerden hangisidir?",
-    "options": ["Niyet ve iki darp", "Besmele ve muvâlât", "Bir darp ve niyet", "Parmak aralarını açmak", "Elleri silkelemek ve üflemek"],
+    "options": [
+      "Niyet ve iki darp",
+      "Besmele ve muvâlât",
+      "Bir darp ve niyet",
+      "Parmak aralarını açmak",
+      "Elleri silkelemek ve üflemek"
+    ],
     "correct": 0,
-    "explanation": "Teyemmümün farzları niyet ve iki darptır: birinci vuruşta yüzü, ikinci vuruşta kolları mesh etmek. Besmele, muvâlât gibi hususlar teyemmümün sünnetleridir."
+    "explanation": "Teyemmümün farzları niyet ve iki darptır: birinci vuruşta yüzü, ikinci vuruşta kolları mesh etmek. Besmele, muvâlât gibi hususlar teyemmümün sünnetleridir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 136,
     "subject": "fikih-ilmihal",
     "text": "Cünüplük hâli aşağıdaki durumların hangisi sebebiyle oluşur?",
-    "options": ["Cinsî münasebet veya şehvetle meninin gelmesi", "Ağır kaldırma sebebiyle meni gelmesi", "Düşme sebebiyle meni gelmesi", "Hastalık sebebiyle meni gelmesi", "Şehvetsiz bir sıvının gelmesi"],
+    "options": [
+      "Cinsî münasebet veya şehvetle meninin gelmesi",
+      "Ağır kaldırma sebebiyle meni gelmesi",
+      "Düşme sebebiyle meni gelmesi",
+      "Hastalık sebebiyle meni gelmesi",
+      "Şehvetsiz bir sıvının gelmesi"
+    ],
     "correct": 0,
-    "explanation": "Cinsi münasebet veya şehvetle meninin gelmesi cünüplüğün sebebidir. Fakihlerin çoğunluğu ağır kaldırma, düşme, hastalık gibi sebeplerle gelen meniyi cünüplük sebebi saymazlar."
+    "explanation": "Cinsi münasebet veya şehvetle meninin gelmesi cünüplüğün sebebidir. Fakihlerin çoğunluğu ağır kaldırma, düşme, hastalık gibi sebeplerle gelen meniyi cünüplük sebebi saymazlar.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 137,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi cünüp olan kimseye haram olan hususlardan biridir?",
-    "options": ["Kur’an’a dokunmak ve okumak", "Zikretmek", "Tesbih etmek", "Salât ve selâm getirmek", "Gusletmeden yemek-içmek"],
+    "options": [
+      "Kur’an’a dokunmak ve okumak",
+      "Zikretmek",
+      "Tesbih etmek",
+      "Salât ve selâm getirmek",
+      "Gusletmeden yemek-içmek"
+    ],
     "correct": 0,
-    "explanation": "Cünüp olan kimseye namaz kılmak, tilâvet secdesi yapmak, Kâbe’yi tavaf etmek, Kur’an’a dokunmak ve okumak ile camiye girmek haramdır. Zikir, tesbih, salât-selâm getirmek caizdir."
+    "explanation": "Cünüp olan kimseye namaz kılmak, tilâvet secdesi yapmak, Kâbe’yi tavaf etmek, Kur’an’a dokunmak ve okumak ile camiye girmek haramdır. Zikir, tesbih, salât-selâm getirmek caizdir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 138,
     "subject": "fikih-ilmihal",
     "text": "Cünüp olan kimsenin gusletmeden yapması caiz olan husus aşağıdakilerden hangisidir?",
-    "options": ["Zikretmek, tesbih etmek, salât ve selâm getirmek", "Namaz kılmak", "Tilâvet secdesi yapmak", "Kâbe’yi tavaf etmek", "Camiye girmek"],
+    "options": [
+      "Zikretmek, tesbih etmek, salât ve selâm getirmek",
+      "Namaz kılmak",
+      "Tilâvet secdesi yapmak",
+      "Kâbe’yi tavaf etmek",
+      "Camiye girmek"
+    ],
     "correct": 0,
-    "explanation": "Gusletmeleri farz olanların gusülsüz olarak zikretmeleri, tesbih etmeleri, salât ve selâm getirmeleri caizdir. Elini ve ağzını yıkamak kaydıyla yemek ve içmek de caizdir."
+    "explanation": "Gusletmeleri farz olanların gusülsüz olarak zikretmeleri, tesbih etmeleri, salât ve selâm getirmeleri caizdir. Elini ve ağzını yıkamak kaydıyla yemek ve içmek de caizdir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 139,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre hayız (âdet) kanının en az ve en çok süresi aşağıdakilerden hangisidir?",
-    "options": ["En az 3, en çok 10 gün", "En az 1, en çok 15 gün", "En az 2, en çok 12 gün", "En az 5, en çok 10 gün", "En az 3, en çok 15 gün"],
+    "options": [
+      "En az 3, en çok 10 gün",
+      "En az 1, en çok 15 gün",
+      "En az 2, en çok 12 gün",
+      "En az 5, en çok 10 gün",
+      "En az 3, en çok 15 gün"
+    ],
     "correct": 0,
-    "explanation": "Hanefîlere göre hayız süresi en az 3, en çok 10 gündür. 3 günden az ve 10 günden sonra gelen kan istihâze (özür) kanıdır. İki adet arasındaki en az temizlik süresi 15 gündür."
+    "explanation": "Hanefîlere göre hayız süresi en az 3, en çok 10 gündür. 3 günden az ve 10 günden sonra gelen kan istihâze (özür) kanıdır. İki adet arasındaki en az temizlik süresi 15 gündür.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 140,
     "subject": "fikih-ilmihal",
     "text": "Nifas (lohusalık) kanının Hanefî ve Hanbelîlere göre en uzun süresi kaç gündür?",
-    "options": ["40 gün", "60 gün", "10 gün", "15 gün", "20 gün"],
+    "options": [
+      "40 gün",
+      "60 gün",
+      "10 gün",
+      "15 gün",
+      "20 gün"
+    ],
     "correct": 0,
-    "explanation": "Nifasın en uzun süresi Hanefî ve Hanbelîlere göre 40 gün, Şâfiî ve Mâlikîlere göre 60 gündür. Henüz organları belirmemiş düşüğe nifas hükümleri uygulanmaz."
+    "explanation": "Nifasın en uzun süresi Hanefî ve Hanbelîlere göre 40 gün, Şâfiî ve Mâlikîlere göre 60 gündür. Henüz organları belirmemiş düşüğe nifas hükümleri uygulanmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 141,
     "subject": "fikih-ilmihal",
     "text": "Hayız ve nifas hâli dışında gelen kan sebebiyle oluşan istihâze hâli için aşağıdakilerden hangisi doğrudur?",
-    "options": ["Yalnızca abdesti bozan bir özür hâlidir", "Hayız hükmündedir", "Nifas hükmündedir", "Gusül gerektirir", "Orucu bozar"],
+    "options": [
+      "Yalnızca abdesti bozan bir özür hâlidir",
+      "Hayız hükmündedir",
+      "Nifas hükmündedir",
+      "Gusül gerektirir",
+      "Orucu bozar"
+    ],
     "correct": 0,
-    "explanation": "İstihâze, tutulamayan idrar gibi yalnızca abdesti bozan bir özür hâlidir. Müstehâze kadın her namaz vakti için ayrı ayrı abdest alarak ibadetlerini yapabilir; hayız ve nifas sınırları dışında kalan süreler istihâze kanıdır."
+    "explanation": "İstihâze, tutulamayan idrar gibi yalnızca abdesti bozan bir özür hâlidir. Müstehâze kadın her namaz vakti için ayrı ayrı abdest alarak ibadetlerini yapabilir; hayız ve nifas sınırları dışında kalan süreler istihâze kanıdır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 142,
     "subject": "fikih-ilmihal",
     "text": "Namazın farzları (şartlar + rükünler) toplam kaç tanedir?",
-    "options": ["12", "6", "10", "8", "15"],
+    "options": [
+      "12",
+      "6",
+      "10",
+      "8",
+      "15"
+    ],
     "correct": 0,
-    "explanation": "Namazın farzları on ikidir. Altısı namazın dışında olup 'namazın şartları', altısı da içinde olup 'namazın rükünleri' olarak adlandırılır."
+    "explanation": "Namazın farzları on ikidir. Altısı namazın dışında olup 'namazın şartları', altısı da içinde olup 'namazın rükünleri' olarak adlandırılır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 143,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi namazın şartlarından (dışındaki farzlarından) biridir?",
-    "options": ["İstikbâl-i kıble", "Secde", "Rükû", "Kırâat", "Ka’de-i âhire"],
+    "options": [
+      "İstikbâl-i kıble",
+      "Secde",
+      "Rükû",
+      "Kırâat",
+      "Ka’de-i âhire"
+    ],
     "correct": 0,
-    "explanation": "Namazın şartları: hadesten tahâret, necâsetten tahâret, setr-i avret, istikbâl-i kıble, vakit ve niyettir. Secde, rükû, kırâat ve ka’de-i âhire rükünlerdendir."
+    "explanation": "Namazın şartları: hadesten tahâret, necâsetten tahâret, setr-i avret, istikbâl-i kıble, vakit ve niyettir. Secde, rükû, kırâat ve ka’de-i âhire rükünlerdendir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 144,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre aşağıdakilerden hangisi namazın rükünlerindendir?",
-    "options": ["Kıyâm", "Vakit", "Niyet", "Setr-i avret", "Necâsetten tahâret"],
+    "options": [
+      "Kıyâm",
+      "Vakit",
+      "Niyet",
+      "Setr-i avret",
+      "Necâsetten tahâret"
+    ],
     "correct": 0,
-    "explanation": "Hanefîlere göre namazın rükünleri: iftitâh tekbiri, kıyâm, kırâat, rükû, secde ve ka’de-i âhiredir. Vakit, niyet, setr-i avret ve tahâret şartlardandır."
+    "explanation": "Hanefîlere göre namazın rükünleri: iftitâh tekbiri, kıyâm, kırâat, rükû, secde ve ka’de-i âhiredir. Vakit, niyet, setr-i avret ve tahâret şartlardandır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 145,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi namazın vâciplerindendir?",
-    "options": ["Vitir namazında kunut duâsını okumak", "Ezân okumak", "Rükûda üç kez tesbih getirmek", "Sübhâneke duâsını okumak", "Sessizce âmîn demek"],
+    "options": [
+      "Vitir namazında kunut duâsını okumak",
+      "Ezân okumak",
+      "Rükûda üç kez tesbih getirmek",
+      "Sübhâneke duâsını okumak",
+      "Sessizce âmîn demek"
+    ],
     "correct": 0,
-    "explanation": "Vitirde kunut tekbiri almak ve kunut duâsını okumak namazın vâciplerindendir. Ezân-kâmet, rükû tesbihleri, Sübhâneke ve âmîn sünnetlerdendir."
+    "explanation": "Vitirde kunut tekbiri almak ve kunut duâsını okumak namazın vâciplerindendir. Ezân-kâmet, rükû tesbihleri, Sübhâneke ve âmîn sünnetlerdendir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 146,
     "subject": "fikih-ilmihal",
     "text": "Arefe günü öğle vaktinde, önce öğle namazının peşinden de ikindi namazının bir ezan ve iki ikametle birlikte kılınmasına ne denir?",
-    "options": ["Cem-i takdîm", "Cem-i te’hîr", "Cem-i sûrî", "İhtilâf-ı metâli", "Küsûf"],
+    "options": [
+      "Cem-i takdîm",
+      "Cem-i te’hîr",
+      "Cem-i sûrî",
+      "İhtilâf-ı metâli",
+      "Küsûf"
+    ],
     "correct": 0,
-    "explanation": "Arafat’ta ikindi vakti girmeden ikindinin öğle vaktinde öğle namazıyla birlikte kılınmasına cem-i takdîm denir. Müzdelife’de akşamın yatsı vaktinde kılınmasına ise cem-i te’hîr denir."
+    "explanation": "Arafat’ta ikindi vakti girmeden ikindinin öğle vaktinde öğle namazıyla birlikte kılınmasına cem-i takdîm denir. Müzdelife’de akşamın yatsı vaktinde kılınmasına ise cem-i te’hîr denir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 147,
     "subject": "fikih-ilmihal",
     "text": "Arefe gecesi Müzdelife’de akşam namazının, yatsı vaktinde bir ezan ve bir ikametle kılınmasına ne ad verilir?",
-    "options": ["Cem-i te’hîr", "Cem-i takdîm", "Cem-i sûrî", "Kazâ", "İstihlâf"],
+    "options": [
+      "Cem-i te’hîr",
+      "Cem-i takdîm",
+      "Cem-i sûrî",
+      "Kazâ",
+      "İstihlâf"
+    ],
     "correct": 0,
-    "explanation": "Müzdelife’de akşam namazı kendi vaktinde kılınmayıp yatsı vaktinde, bir ezan ve bir ikametle kılınır; buna cem-i te’hîr denir."
+    "explanation": "Müzdelife’de akşam namazı kendi vaktinde kılınmayıp yatsı vaktinde, bir ezan ve bir ikametle kılınır; buna cem-i te’hîr denir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 148,
     "subject": "fikih-ilmihal",
     "text": "Vakt-i şurûk, istivâ ve gurûb vakitlerinde hiçbir farz, vâcip ve nafile namaz kılınmaz. Bu vakitlerde yalnızca hangi namaz kerâheten câizdir?",
-    "options": ["O günün ikindi namazı", "Sabah namazının sünneti", "Vitir namazı", "Tahiyyetü’l-mescid", "Kuşluk namazı"],
+    "options": [
+      "O günün ikindi namazı",
+      "Sabah namazının sünneti",
+      "Vitir namazı",
+      "Tahiyyetü’l-mescid",
+      "Kuşluk namazı"
+    ],
     "correct": 0,
-    "explanation": "Şurûk, istivâ ve gurûb vakitlerinde hiçbir namaz kılınmaz, kılınırsa iade edilir. Yalnızca o günün ikindi namazı kerâheten câizdir."
+    "explanation": "Şurûk, istivâ ve gurûb vakitlerinde hiçbir namaz kılınmaz, kılınırsa iade edilir. Yalnızca o günün ikindi namazı kerâheten câizdir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 149,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi namazı bozan durumlardan biridir?",
-    "options": ["Amel-i kesîr (çok iş yapmak)", "Gülmeksizin tebessüm etmek", "Namaz kılanın önünden geçilmesi", "Nohuttan küçük bir şeyi yutmak", "İşaretle selâm almak"],
+    "options": [
+      "Amel-i kesîr (çok iş yapmak)",
+      "Gülmeksizin tebessüm etmek",
+      "Namaz kılanın önünden geçilmesi",
+      "Nohuttan küçük bir şeyi yutmak",
+      "İşaretle selâm almak"
+    ],
     "correct": 0,
-    "explanation": "Amel-i kesîr, namazı bozan durumlardandır. Tebessüm etmek, önünden geçilmesi ve nohuttan küçük şeyleri yutmak namazı bozmaz."
+    "explanation": "Amel-i kesîr, namazı bozan durumlardandır. Tebessüm etmek, önünden geçilmesi ve nohuttan küçük şeyleri yutmak namazı bozmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 150,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi namazı bozmaz?",
-    "options": ["Gülmeksizin tebessüm etmek", "Konuşmak", "Bir şeyi üflemek", "Dünyevî bir nedenle sesli ağlamak", "Kıbleden göğsü çevirmek"],
+    "options": [
+      "Gülmeksizin tebessüm etmek",
+      "Konuşmak",
+      "Bir şeyi üflemek",
+      "Dünyevî bir nedenle sesli ağlamak",
+      "Kıbleden göğsü çevirmek"
+    ],
     "correct": 0,
-    "explanation": "Gülmeksizin tebessüm etmek namazı bozmaz. Konuşmak, bir şeye üflemek, dünyevî nedenle sesli ağlamak ve kıbleden göğsü çevirmek namazı bozar."
+    "explanation": "Gülmeksizin tebessüm etmek namazı bozmaz. Konuşmak, bir şeye üflemek, dünyevî nedenle sesli ağlamak ve kıbleden göğsü çevirmek namazı bozar.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 151,
     "subject": "fikih-ilmihal",
     "text": "İmama ilk rekâtın rükûundan sonra uyan, yani namazın başlangıcına yetişemeyen kişiye ne denir?",
-    "options": ["Mesbûk", "Müdrik", "Lâhik", "Müstehâz", "Müftedî"],
+    "options": [
+      "Mesbûk",
+      "Müdrik",
+      "Lâhik",
+      "Müstehâz",
+      "Müftedî"
+    ],
     "correct": 0,
-    "explanation": "Mesbûk, imama ilk rekâtın rükûundan sonra uyan kimsedir. Müdrik, en geç ilk rekâtın rükûunda imama yetişen; lâhik ise namaza imamla başlayıp meşrû sebeple cemaati kaçırandır."
+    "explanation": "Mesbûk, imama ilk rekâtın rükûundan sonra uyan kimsedir. Müdrik, en geç ilk rekâtın rükûunda imama yetişen; lâhik ise namaza imamla başlayıp meşrû sebeple cemaati kaçırandır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 152,
     "subject": "fikih-ilmihal",
     "text": "Namaz kıldırırken abdesti bozulan imamın, yerine cemaatten birini geçirmesine ne ad verilir?",
-    "options": ["İstihlâf", "İhsâr", "İstidrâc", "İftitâh", "İlticâ"],
+    "options": [
+      "İstihlâf",
+      "İhsâr",
+      "İstidrâc",
+      "İftitâh",
+      "İlticâ"
+    ],
     "correct": 0,
-    "explanation": "Namazda abdesti bozulan imam burnunu tutarak yerinden ayrılır ve cemaatten imamlık yapabilecek birini işaretle veya tutup getirerek yerine geçirir; buna istihlâf denir. Sözle geçirmek namazı bozar."
+    "explanation": "Namazda abdesti bozulan imam burnunu tutarak yerinden ayrılır ve cemaatten imamlık yapabilecek birini işaretle veya tutup getirerek yerine geçirir; buna istihlâf denir. Sözle geçirmek namazı bozar.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 153,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi cuma namazının sıhhat şartlarındandır?",
-    "options": ["İmamdan başka en az üç cemaatin bulunması", "Erkek olmak", "Hür olmak", "Mukim olmak", "Kör olmamak"],
+    "options": [
+      "İmamdan başka en az üç cemaatin bulunması",
+      "Erkek olmak",
+      "Hür olmak",
+      "Mukim olmak",
+      "Kör olmamak"
+    ],
     "correct": 0,
-    "explanation": "Namazdan önce hutbe okunması, öğle vaktinde, şehirde, devletçe görevlendirilen birinin kıldırması, açık yerde ve imamdan başka en az üç cemaatle kılınması sıhhat şartlarıdandır. Erkek, hür, mukim ve sağlıklı olmak ise farziyet şartlarıdandır."
+    "explanation": "Namazdan önce hutbe okunması, öğle vaktinde, şehirde, devletçe görevlendirilen birinin kıldırması, açık yerde ve imamdan başka en az üç cemaatle kılınması sıhhat şartlarıdandır. Erkek, hür, mukim ve sağlıklı olmak ise farziyet şartlarıdandır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 154,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre hutbenin rüknü aşağıdakilerden hangisidir?",
-    "options": ["Allah’ı zikretmekten ibarettir", "İki hutbede ayrı ayrı hamd etmektir", "En az bir âyet okumaktır", "Takvayı tavsiye etmektir", "Müminlere duâ etmektir"],
+    "options": [
+      "Allah’ı zikretmekten ibarettir",
+      "İki hutbede ayrı ayrı hamd etmektir",
+      "En az bir âyet okumaktır",
+      "Takvayı tavsiye etmektir",
+      "Müminlere duâ etmektir"
+    ],
     "correct": 0,
-    "explanation": "Hanefî mezhebine göre hutbenin rüknü, Allah’ı zikretmekten ibarettir. Şâfiî mezhebine göre ise hamd, salavat, takva tavsiyesi, âyet okumak ve duâ gibi rükünler vardır."
+    "explanation": "Hanefî mezhebine göre hutbenin rüknü, Allah’ı zikretmekten ibarettir. Şâfiî mezhebine göre ise hamd, salavat, takva tavsiyesi, âyet okumak ve duâ gibi rükünler vardır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 155,
     "subject": "fikih-ilmihal",
     "text": "Kurban bayramının arefe günü sabah namazından bayramın dördüncü günü ikindi namazına kadar yirmi üç vakitte okunan teşrik tekbirlerinin hükmü nedir?",
-    "options": ["Vâciptir", "Sünnettir", "Menduptur", "Farz-ı ayn", "Mübah"],
+    "options": [
+      "Vâciptir",
+      "Sünnettir",
+      "Menduptur",
+      "Farz-ı ayn",
+      "Mübah"
+    ],
     "correct": 0,
-    "explanation": "Teşrik tekbirleri, arefe sabahından bayramın dördüncü günü ikindi namazına kadar yirmi üç vakit farz namazlardan sonra okunur ve vâciptir."
+    "explanation": "Teşrik tekbirleri, arefe sabahından bayramın dördüncü günü ikindi namazına kadar yirmi üç vakit farz namazlardan sonra okunur ve vâciptir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 156,
     "subject": "fikih-ilmihal",
     "text": "Bir insanın yerleşmek maksadı olmadan en az 15 gün veya daha fazla geçici olarak kalmaya niyet ettiği yere ne denir?",
-    "options": ["Vatan-ı ikâmet", "Vatan-ı aslî", "Vatan-ı süknâ", "Mikât", "Harem"],
+    "options": [
+      "Vatan-ı ikâmet",
+      "Vatan-ı aslî",
+      "Vatan-ı süknâ",
+      "Mikât",
+      "Harem"
+    ],
     "correct": 0,
-    "explanation": "Vatan-ı aslî, doğduğu veya evlendiği ya da geçim için yerleştiği yerdir. Vatan-ı ikâmet, en az 15 gün kalmaya niyet edilen yerdir. Vatan-ı süknâ ise 15 gün dolmadan ayrılmak üzere bulunulan yerdir."
+    "explanation": "Vatan-ı aslî, doğduğu veya evlendiği ya da geçim için yerleştiği yerdir. Vatan-ı ikâmet, en az 15 gün kalmaya niyet edilen yerdir. Vatan-ı süknâ ise 15 gün dolmadan ayrılmak üzere bulunulan yerdir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 157,
     "subject": "fikih-ilmihal",
     "text": "Hanefîlerin yolcunun 4 rekâtlı farz namazları 2 rekât kılması konusundaki görüşü aşağıdakilerden hangisidir?",
-    "options": ["Kısaltmayı azîmet olarak değerlendirmişlerdir", "Ruhsat olarak değerlendirmişlerdir", "Kişinin tercihine bırakmışlardır", "Mekruh saymışlardır", "Sadece sünnette caiz görmüşlerdir"],
+    "options": [
+      "Kısaltmayı azîmet olarak değerlendirmişlerdir",
+      "Ruhsat olarak değerlendirmişlerdir",
+      "Kişinin tercihine bırakmışlardır",
+      "Mekruh saymışlardır",
+      "Sadece sünnette caiz görmüşlerdir"
+    ],
     "correct": 0,
-    "explanation": "Hanefîler yolcunun namazı kısaltmasını ruhsat değil azîmet olarak değerlendirmişlerdir. Şâfiîler ise ruhsat olarak görüp kişinin tercihine bırakmıştır. Yolcu, 3 rekâtlı namazları tam kılar."
+    "explanation": "Hanefîler yolcunun namazı kısaltmasını ruhsat değil azîmet olarak değerlendirmişlerdir. Şâfiîler ise ruhsat olarak görüp kişinin tercihine bırakmıştır. Yolcu, 3 rekâtlı namazları tam kılar.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 158,
     "subject": "fikih-ilmihal",
     "text": "Vaktinde kılınmayan teravih namazı hakkında aşağıdakilerden hangisi doğrudur?",
-    "options": ["Sonradan kaza edilmez", "Kaza edilir", "Keffâret gerekir", "Vitir ile birlikte kaza edilir", "Her durumda iade edilir"],
+    "options": [
+      "Sonradan kaza edilmez",
+      "Kaza edilir",
+      "Keffâret gerekir",
+      "Vitir ile birlikte kaza edilir",
+      "Her durumda iade edilir"
+    ],
     "correct": 0,
-    "explanation": "Teravih, vaktinde kılınmayan bir namaz olarak sonradan kaza edilmez. Teravihi cemaatle kılmanın şartı, yatsı namazının cemaatle kılınmış olmasıdır; hatim ile kılmak sünnettir."
+    "explanation": "Teravih, vaktinde kılınmayan bir namaz olarak sonradan kaza edilmez. Teravihi cemaatle kılmanın şartı, yatsı namazının cemaatle kılınmış olmasıdır; hatim ile kılmak sünnettir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 159,
     "subject": "fikih-ilmihal",
     "text": "Güneşin doğuşundan yaklaşık 50 dakika sonra başlayıp zeval vaktine kadar devam eden, duhâ da denilen kuşluk namazının hükmü nedir?",
-    "options": ["Menduptur", "Farzdır", "Vâciptir", "Sünnet-i müekkededir", "Haramdır"],
+    "options": [
+      "Menduptur",
+      "Farzdır",
+      "Vâciptir",
+      "Sünnet-i müekkededir",
+      "Haramdır"
+    ],
     "correct": 0,
-    "explanation": "Kuşluk (duhâ) namazının vakti güneş doğuşundan yaklaşık 50 dakika sonra başlar ve zeval vaktine kadar devam eder. Bu namaz menduptur ve Peygamberimizin fiili ile sabittir."
+    "explanation": "Kuşluk (duhâ) namazının vakti güneş doğuşundan yaklaşık 50 dakika sonra başlar ve zeval vaktine kadar devam eder. Bu namaz menduptur ve Peygamberimizin fiili ile sabittir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 160,
     "subject": "fikih-ilmihal",
     "text": "Güneş tutulduğu zaman kılınan küsuf namazı ile ilgili aşağıdakilerden hangisi doğrudur?",
-    "options": ["Cemaatle iki rekât kılınır, ezan ve ikamet yoktur", "Tek başına kılınır", "Kıraat açıktan yapılır", "Sadece imam kılar", "Vakit çıkınca kazâ edilir"],
+    "options": [
+      "Cemaatle iki rekât kılınır, ezan ve ikamet yoktur",
+      "Tek başına kılınır",
+      "Kıraat açıktan yapılır",
+      "Sadece imam kılar",
+      "Vakit çıkınca kazâ edilir"
+    ],
     "correct": 0,
-    "explanation": "Güneş tutulduğunda cemaatle iki rekât namaz kılınır; ezan ve ikamet yoktur, kıraat açıktan yapılmaz ve genellikle cuma imamı kıldırır."
+    "explanation": "Güneş tutulduğunda cemaatle iki rekât namaz kılınır; ezan ve ikamet yoktur, kıraat açıktan yapılmaz ve genellikle cuma imamı kıldırır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 161,
     "subject": "fikih-ilmihal",
     "text": "Ay tutulduğu zaman kılınan hüsuf namazı nasıl kılınır?",
-    "options": ["Evde tek başına iki veya dört rekât kılınır", "Camide cemaatle kılınır", "Yalnızca gündüz kılınır", "Küsuf namazıyla aynıdır", "Kazâ edilmesi gerekir"],
+    "options": [
+      "Evde tek başına iki veya dört rekât kılınır",
+      "Camide cemaatle kılınır",
+      "Yalnızca gündüz kılınır",
+      "Küsuf namazıyla aynıdır",
+      "Kazâ edilmesi gerekir"
+    ],
     "correct": 0,
-    "explanation": "Ay tutulduğunda iki veya dört rekât kılınan hüsuf namazı, cemaatle değil evde tek başına kılınır. Şiddetli rüzgâr, deprem ve salgın gibi olaylarda da namaz kılınır."
+    "explanation": "Ay tutulduğunda iki veya dört rekât kılınan hüsuf namazı, cemaatle değil evde tek başına kılınır. Şiddetli rüzgâr, deprem ve salgın gibi olaylarda da namaz kılınır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 162,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre cenaze namazının rükünleri aşağıdakilerden hangisidir?",
-    "options": ["Kıyâm ve dört tekbir", "Niyet ve kıyâm", "Selâm ve duâ", "Sübhâneke okumak", "Allâhümme Salli getirmek"],
+    "options": [
+      "Kıyâm ve dört tekbir",
+      "Niyet ve kıyâm",
+      "Selâm ve duâ",
+      "Sübhâneke okumak",
+      "Allâhümme Salli getirmek"
+    ],
     "correct": 0,
-    "explanation": "Hanefîlere göre cenaze namazının farzlarından kıyâm ile dört tekbir rükündür; niyet şart, selâm vermek ise vâciptir. Sübhâneke, Salli ve Bârik ile duâ okumak sünnettir."
+    "explanation": "Hanefîlere göre cenaze namazının farzlarından kıyâm ile dört tekbir rükündür; niyet şart, selâm vermek ise vâciptir. Sübhâneke, Salli ve Bârik ile duâ okumak sünnettir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 163,
     "subject": "fikih-ilmihal",
     "text": "İntihar eden kişinin cenaze namazı hakkında aşağıdakilerden hangisi doğrudur?",
-    "options": ["Namazı kılınır", "Namazı kılınmaz", "Yalnızca camide kılınır", "Sadece yakınları kılabilir", "Kılınması haramdır"],
+    "options": [
+      "Namazı kılınır",
+      "Namazı kılınmaz",
+      "Yalnızca camide kılınır",
+      "Sadece yakınları kılabilir",
+      "Kılınması haramdır"
+    ],
     "correct": 0,
-    "explanation": "İntihar edenin cenaze namazı kılınır. Yine zaruret olmadıkça cenaze namazını camide kılmak Hanefîlerde mekruhtur; Şâfiîlerde kılınabilir."
+    "explanation": "İntihar edenin cenaze namazı kılınır. Yine zaruret olmadıkça cenaze namazını camide kılmak Hanefîlerde mekruhtur; Şâfiîlerde kılınabilir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 164,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdaki oruçlardan hangisinde niyetin imsak vaktine kadar yapılması gerekir?",
-    "options": ["Ramazan orucunun kazası", "Ramazan orucu", "Belli günlerde tutulmak üzere adanan oruç", "Nafile oruç", "Şevval ayında tutulan oruç"],
+    "options": [
+      "Ramazan orucunun kazası",
+      "Ramazan orucu",
+      "Belli günlerde tutulmak üzere adanan oruç",
+      "Nafile oruç",
+      "Şevval ayında tutulan oruç"
+    ],
     "correct": 0,
-    "explanation": "Ramazan orucunun kazası, keffâret oruçları, bozulan nafile oruçlar ve zamanı belirlenmemiş adak oruçları için niyet imsak vaktine kadar yapılmalıdır. Ramazan orucu, belli adaklar ve nafileler için niyet istivâ vaktine kadardır."
+    "explanation": "Ramazan orucunun kazası, keffâret oruçları, bozulan nafile oruçlar ve zamanı belirlenmemiş adak oruçları için niyet imsak vaktine kadar yapılmalıdır. Ramazan orucu, belli adaklar ve nafileler için niyet istivâ vaktine kadardır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 165,
     "subject": "fikih-ilmihal",
     "text": "Kasten bozulan bir gün orucun yerine tutulması gereken keffâret orucu nasıl tutulur?",
-    "options": ["İki kameri ay veya 60 gün peş peşe oruç tutulur", "Otuz gün oruç tutulur", "Bir kameri ay oruç tutulur", "Altmış gün aralıklı oruç tutulur", "On gün oruç tutulur"],
+    "options": [
+      "İki kameri ay veya 60 gün peş peşe oruç tutulur",
+      "Otuz gün oruç tutulur",
+      "Bir kameri ay oruç tutulur",
+      "Altmış gün aralıklı oruç tutulur",
+      "On gün oruç tutulur"
+    ],
     "correct": 0,
-    "explanation": "Oruç keffâreti; kadınların hayız hâli dışında araya ara vermeden iki kameri ay veya 60 gün peş peşe oruç tutmaktır. Ayrıca bozulan orucun kazası da gerekir."
+    "explanation": "Oruç keffâreti; kadınların hayız hâli dışında araya ara vermeden iki kameri ay veya 60 gün peş peşe oruç tutmaktır. Ayrıca bozulan orucun kazası da gerekir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 166,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi orucu bozup yalnızca kazayı gerektiren durumlardandır?",
-    "options": ["Kendi isteğiyle ağız dolusu kusmak", "Mazeretsiz bilerek yemek ve içmek", "Oruçlu olduğunu bile bile cinsî münasebet", "Sigara içmek", "Enfiye çekmek"],
+    "options": [
+      "Kendi isteğiyle ağız dolusu kusmak",
+      "Mazeretsiz bilerek yemek ve içmek",
+      "Oruçlu olduğunu bile bile cinsî münasebet",
+      "Sigara içmek",
+      "Enfiye çekmek"
+    ],
     "correct": 0,
-    "explanation": "Kendi isteğiyle ağız dolusu kusmak, yalnızca kazayı gerektirir. Bilerek yemek-içmek, cinsî münasebet, sigara ve enfiye ise Hanefîlerde kaza ve keffâreti birlikte gerektirir."
+    "explanation": "Kendi isteğiyle ağız dolusu kusmak, yalnızca kazayı gerektirir. Bilerek yemek-içmek, cinsî münasebet, sigara ve enfiye ise Hanefîlerde kaza ve keffâreti birlikte gerektirir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 167,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi orucu bozmaz?",
-    "options": ["Oruçlu olduğunu unutarak yemek ve içmek", "Mazeretsiz bilerek bir şey yemek", "Bilerek cinsî münasebette bulunmak", "Sigara içmek", "Az miktarda tuz yemek"],
+    "options": [
+      "Oruçlu olduğunu unutarak yemek ve içmek",
+      "Mazeretsiz bilerek bir şey yemek",
+      "Bilerek cinsî münasebette bulunmak",
+      "Sigara içmek",
+      "Az miktarda tuz yemek"
+    ],
     "correct": 0,
-    "explanation": "Oruçlu olduğunu unutarak yemek, içmek ve cinsî münasebette bulunmak orucu bozmaz. Hz. Peygamber: 'Onu Allah yedirmiş, içirmiştir' buyurmuştur (Buhârî, Savm, 7)."
+    "explanation": "Oruçlu olduğunu unutarak yemek, içmek ve cinsî münasebette bulunmak orucu bozmaz. Hz. Peygamber: 'Onu Allah yedirmiş, içirmiştir' buyurmuştur (Buhârî, Savm, 7).",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 168,
     "subject": "fikih-ilmihal",
     "text": "Ramazan orucunda keffâret gerektiren durum Şâfiî mezhebine göre hangisidir?",
-    "options": ["Yalnızca cinsî münasebet", "Yeme ve içme", "Sigara içme", "İlaç yutma", "Kan aldırma"],
+    "options": [
+      "Yalnızca cinsî münasebet",
+      "Yeme ve içme",
+      "Sigara içme",
+      "İlaç yutma",
+      "Kan aldırma"
+    ],
     "correct": 0,
-    "explanation": "Hanefîler de dahil fakihlerin çoğunluğuna göre cinsî münasebet ile yeme-içme orucu bozmada aynı hükme tâbidir. Şâfiîlere göre ise yalnızca cinsî münasebetle bozma keffâret gerektirir."
+    "explanation": "Hanefîler de dahil fakihlerin çoğunluğuna göre cinsî münasebet ile yeme-içme orucu bozmada aynı hükme tâbidir. Şâfiîlere göre ise yalnızca cinsî münasebetle bozma keffâret gerektirir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 169,
     "subject": "fikih-ilmihal",
     "text": "Zekâtın sahih olmasının şartı ile ilgili aşağıdakilerden hangisi doğrudur?",
-    "options": ["Zekâta niyet edilmesi ve temlik edilmesi şarttır", "Niyet şart değildir", "Sadece dil ile söylenmesi yeterlidir", "Zekâtın aynen verilmesi zorunludur", "Malın bir yıl geçmesi aranmaz"],
+    "options": [
+      "Zekâta niyet edilmesi ve temlik edilmesi şarttır",
+      "Niyet şart değildir",
+      "Sadece dil ile söylenmesi yeterlidir",
+      "Zekâtın aynen verilmesi zorunludur",
+      "Malın bir yıl geçmesi aranmaz"
+    ],
     "correct": 0,
-    "explanation": "Namaz ve oruçta olduğu gibi zekâtın sahih olması için de niyet şarttır; fakire verirken veya ayırırken niyet edilir. Ayrıca zekâtın temlik edilmesi (mülkiyete geçirilmesi) de şarttır."
+    "explanation": "Namaz ve oruçta olduğu gibi zekâtın sahih olması için de niyet şarttır; fakire verirken veya ayırırken niyet edilir. Ayrıca zekâtın temlik edilmesi (mülkiyete geçirilmesi) de şarttır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 170,
     "subject": "fikih-ilmihal",
     "text": "Fakihlerin çoğunluğuna göre toprak ürünlerinin zekâtında (öşürde) nisap miktarı kaç kilogramdır?",
-    "options": ["653 kg", "500 kg", "750 kg", "445 kg", "850 kg"],
+    "options": [
+      "653 kg",
+      "500 kg",
+      "750 kg",
+      "445 kg",
+      "850 kg"
+    ],
     "correct": 0,
-    "explanation": "Fakihlerin çoğunluğu toprak mahsullerinde nisabı 653 kg olarak ifade eder. Ebû Hanîfe’ye göre ise toprak mahsullerinde nisap şartı aranmaz."
+    "explanation": "Fakihlerin çoğunluğu toprak mahsullerinde nisabı 653 kg olarak ifade eder. Ebû Hanîfe’ye göre ise toprak mahsullerinde nisap şartı aranmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 171,
     "subject": "fikih-ilmihal",
     "text": "Altın ve gümüşten yapılmış kadın süs eşyalarının zekâtı konusunda Hanefî mezhebinin görüşü nedir?",
-    "options": ["Süs eşyaları zekâta tâbidir", "Süs eşyaları zekâta tâbi değildir", "Yalnızca gümüş süsler zekâta tâbidir", "İsraf edilmedikçe zekât gerekmez", "Zekât yalnızca altın gıda maddelerinden alınır"],
+    "options": [
+      "Süs eşyaları zekâta tâbidir",
+      "Süs eşyaları zekâta tâbi değildir",
+      "Yalnızca gümüş süsler zekâta tâbidir",
+      "İsraf edilmedikçe zekât gerekmez",
+      "Zekât yalnızca altın gıda maddelerinden alınır"
+    ],
     "correct": 0,
-    "explanation": "Hanefîlere göre altın ve gümüşten yapılmış süs eşyaları zekâta tâbidir. İmam Şâfiî, Mâlik ve Ahmed b. Hanbel ise mubah kadın süs eşyasını zekâta tâbi tutmaz; ancak Şâfiîlerde israf söz konusu olursa zekât gerekir."
+    "explanation": "Hanefîlere göre altın ve gümüşten yapılmış süs eşyaları zekâta tâbidir. İmam Şâfiî, Mâlik ve Ahmed b. Hanbel ise mubah kadın süs eşyasını zekâta tâbi tutmaz; ancak Şâfiîlerde israf söz konusu olursa zekât gerekir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 172,
     "subject": "fikih-ilmihal",
     "text": "Araştırma yaparak fakir olduğu kanaatine vardığı bir kişiye zekâtını veren kimse, sonra o kişinin zengin olduğunu anlarsa ne yapmalıdır?",
-    "options": ["Zekâtını yeniden vermesi gerekmez", "Zekâtını yeniden vermesi gerekir", "Sadece kazâ etmesi gerekir", "Keffâret vermesi gerekir", "Araştırıp tekrar zekât vermesi vaciptir"],
+    "options": [
+      "Zekâtını yeniden vermesi gerekmez",
+      "Zekâtını yeniden vermesi gerekir",
+      "Sadece kazâ etmesi gerekir",
+      "Keffâret vermesi gerekir",
+      "Araştırıp tekrar zekât vermesi vaciptir"
+    ],
     "correct": 0,
-    "explanation": "Araştırarak fakir olduğu kanaatiyle zekât verilen kişinin zengin olduğu sonradan anlaşılırsa zekât yeniden verilmez. Fakat araştırma yapmadan verilirse yeniden verilmesi gerekir."
+    "explanation": "Araştırarak fakir olduğu kanaatiyle zekât verilen kişinin zengin olduğu sonradan anlaşılırsa zekât yeniden verilmez. Fakat araştırma yapmadan verilirse yeniden verilmesi gerekir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 173,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi yemin keffâretinin şıklarındandır?",
-    "options": ["On fakiri doyurmak veya giydirmek yahut köle azat etmek", "Üç ay peş peşe oruç tutmak", "Bir koyun kesmek", "Altmış fakiri doyurmak", "Yalnızca tövbe etmek"],
+    "options": [
+      "On fakiri doyurmak veya giydirmek yahut köle azat etmek",
+      "Üç ay peş peşe oruç tutmak",
+      "Bir koyun kesmek",
+      "Altmış fakiri doyurmak",
+      "Yalnızca tövbe etmek"
+    ],
     "correct": 0,
-    "explanation": "Yemin keffâreti; köle azat etme, on fakiri doyurma veya on fakiri giydirmedir. Gücü yetmezse peş peşe olması şart olmayan üç gün oruç tutar. Sıraya uyması gerekmez."
+    "explanation": "Yemin keffâreti; köle azat etme, on fakiri doyurma veya on fakiri giydirmedir. Gücü yetmezse peş peşe olması şart olmayan üç gün oruç tutar. Sıraya uyması gerekmez.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 174,
     "subject": "fikih-ilmihal",
     "text": "Geleceğe ait bir şeyi yapmak veya yapmamak üzere yapılan ve bozulursa keffâret gerektiren yemin türü hangisidir?",
-    "options": ["Mün’akit yemin", "Lağv yemin", "Gamûs yemin", "Yemin-i mübâh", "Yemin-i kazâ"],
+    "options": [
+      "Mün’akit yemin",
+      "Lağv yemin",
+      "Gamûs yemin",
+      "Yemin-i mübâh",
+      "Yemin-i kazâ"
+    ],
     "correct": 0,
-    "explanation": "Mün’akit yemin, geleceğe ait bir şeyi yapmak veya yapmamak üzere yapılan yemindir; yerine getirilmezse keffâret gerekir. Lağv yeminde keffâret yoktur, gamûs yemin ise tevbe ve istiğfar gerektirir."
+    "explanation": "Mün’akit yemin, geleceğe ait bir şeyi yapmak veya yapmamak üzere yapılan yemindir; yerine getirilmezse keffâret gerekir. Lağv yeminde keffâret yoktur, gamûs yemin ise tevbe ve istiğfar gerektirir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 175,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi haccın farz olmasının şartlarından biridir?",
-    "options": ["Hac süresince kendisinin ve bakmakla yükümlü olduklarının geçimini sağlayacak mala sahip olmak", "Kadın için mahreminin bulunması", "Yol güvenliğinin olması", "Vücudun sağlıklı olması", "İddet süresinin bitmiş olması"],
+    "options": [
+      "Hac süresince kendisinin ve bakmakla yükümlü olduklarının geçimini sağlayacak mala sahip olmak",
+      "Kadın için mahreminin bulunması",
+      "Yol güvenliğinin olması",
+      "Vücudun sağlıklı olması",
+      "İddet süresinin bitmiş olması"
+    ],
     "correct": 0,
-    "explanation": "Haccın farz olmasının şartları; Müslüman, akıllı, ergenlik çağına gelmiş, geçimini sağlayacak ve hac yolculuğu parasına sahip olmak ve haccın vakti gelmiş olmaktır. Sağlık, mahrem ve yol güvenliği edâ şartlarındandır."
+    "explanation": "Haccın farz olmasının şartları; Müslüman, akıllı, ergenlik çağına gelmiş, geçimini sağlayacak ve hac yolculuğu parasına sahip olmak ve haccın vakti gelmiş olmaktır. Sağlık, mahrem ve yol güvenliği edâ şartlarındandır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 176,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi haccın rükünlerinden (farzlarından) biridir?",
-    "options": ["Arafat’ta vakfe yapmak", "Sa’y etmek", "Müzdelife vakfesi", "Veda tavafı", "Şeytan taşlamak"],
+    "options": [
+      "Arafat’ta vakfe yapmak",
+      "Sa’y etmek",
+      "Müzdelife vakfesi",
+      "Veda tavafı",
+      "Şeytan taşlamak"
+    ],
     "correct": 0,
-    "explanation": "Haccın farzları (rükünleri): ihrama girmek (şart), Arafat’ta vakfe (rükün) ve ziyaret tavafıdır (rükün). Sa’y, Müzdelife vakfesi, tıraş, şeytan taşlama ve veda tavafı haccın vâciplerindendir."
+    "explanation": "Haccın farzları (rükünleri): ihrama girmek (şart), Arafat’ta vakfe (rükün) ve ziyaret tavafıdır (rükün). Sa’y, Müzdelife vakfesi, tıraş, şeytan taşlama ve veda tavafı haccın vâciplerindendir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 177,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi haccın vâciplerindendir?",
-    "options": ["Sa’y etmek", "İhrama girmek", "Arafat’ta vakfe yapmak", "Ziyaret tavafı", "Ölçünün rükün farzları"],
+    "options": [
+      "Sa’y etmek",
+      "İhrama girmek",
+      "Arafat’ta vakfe yapmak",
+      "Ziyaret tavafı",
+      "Ölçünün rükün farzları"
+    ],
     "correct": 0,
-    "explanation": "Haccın vâcipleri: sa’y etmek, Müzdelife vakfesi, saçları tıraş etmek, şeytan taşlamak ve veda tavafıdır. İhrama girmek şart, Arafat vakfesi ve ziyaret tavafı ise rükündür."
+    "explanation": "Haccın vâcipleri: sa’y etmek, Müzdelife vakfesi, saçları tıraş etmek, şeytan taşlamak ve veda tavafıdır. İhrama girmek şart, Arafat vakfesi ve ziyaret tavafı ise rükündür.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 178,
     "subject": "fikih-ilmihal",
     "text": "Yalnızca hac için ihrama girilerek umresiz yapılan hac türü hangisidir?",
-    "options": ["İfrad haccı", "Temettû haccı", "Kıran haccı", "Umre", "Nafile hac"],
+    "options": [
+      "İfrad haccı",
+      "Temettû haccı",
+      "Kıran haccı",
+      "Umre",
+      "Nafile hac"
+    ],
     "correct": 0,
-    "explanation": "İfrad haccı, yalnız hac için ihrama girilerek umresiz yapılan hacdır. Temettû haccında umre ve hac ayrı ihramlarla; kıran haccında ise iki ihram birleştirilerek yapılır."
+    "explanation": "İfrad haccı, yalnız hac için ihrama girilerek umresiz yapılan hacdır. Temettû haccında umre ve hac ayrı ihramlarla; kıran haccında ise iki ihram birleştirilerek yapılır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 179,
     "subject": "fikih-ilmihal",
     "text": "Umre ve haccın ihramını birleştirmek anlamına gelen hac türü hangisidir?",
-    "options": ["Kıran haccı", "İfrad haccı", "Temettû haccı", "Veda haccı", "Nafile hac"],
+    "options": [
+      "Kıran haccı",
+      "İfrad haccı",
+      "Temettû haccı",
+      "Veda haccı",
+      "Nafile hac"
+    ],
     "correct": 0,
-    "explanation": "Kıran haccı, umre ve haccın ihramını birleştirmek demektir. Kıran haccı yapan önce umre tavafını ıztıba/remel ile yapar, sa’y yapar ama ihramdan çıkmaz."
+    "explanation": "Kıran haccı, umre ve haccın ihramını birleştirmek demektir. Kıran haccı yapan önce umre tavafını ıztıba/remel ile yapar, sa’y yapar ama ihramdan çıkmaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 180,
     "subject": "fikih-ilmihal",
     "text": "Hac için ihrama girdikten sonra Arafat vakfesinden önce cinsî münasebette bulunan kimse hakkında hangisi söylenir?",
-    "options": ["Haccı bozulur, tamamlar ve bir koyun keçi keserek sonraki yıl kazâ eder", "Haccı bozulmaz", "Sadece keffâret verir", "Yalnızca umre yapar", "İhramdan hemen çıkar"],
+    "options": [
+      "Haccı bozulur, tamamlar ve bir koyun keçi keserek sonraki yıl kazâ eder",
+      "Haccı bozulmaz",
+      "Sadece keffâret verir",
+      "Yalnızca umre yapar",
+      "İhramdan hemen çıkar"
+    ],
     "correct": 0,
-    "explanation": "Arafat vakfesinden önce cinsî münasebet haccı bozar; kişi haccı bırakmaz, tamamlar, cinayet sebebiyle bir koyun veya keçi keser ve sonraki yıllarda haccı kazâ eder."
+    "explanation": "Arafat vakfesinden önce cinsî münasebet haccı bozar; kişi haccı bırakmaz, tamamlar, cinayet sebebiyle bir koyun veya keçi keser ve sonraki yıllarda haccı kazâ eder.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 181,
     "subject": "fikih-ilmihal",
     "text": "Hac veya umre için ihrama girmiş olan kimsenin Arafat vakfesinden ve tavaftan alıkonulmasına ne denir?",
-    "options": ["İhsâr", "Fevât", "İstilâm", "Küsûf", "İstihlâf"],
+    "options": [
+      "İhsâr",
+      "Fevât",
+      "İstilâm",
+      "Küsûf",
+      "İstihlâf"
+    ],
     "correct": 0,
-    "explanation": "İhsar; hac veya umre için ihrama girmiş olan kimsenin Arafat vakfesinden ve tavaftan alıkonulmasıdır. Hanefî dışındaki mezheplerde ihsar ancak düşmanın engellemesiyle meydana gelir; ihsar hedyi kesilerek ihramdan çıkılır."
+    "explanation": "İhsar; hac veya umre için ihrama girmiş olan kimsenin Arafat vakfesinden ve tavaftan alıkonulmasıdır. Hanefî dışındaki mezheplerde ihsar ancak düşmanın engellemesiyle meydana gelir; ihsar hedyi kesilerek ihramdan çıkılır.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 182,
     "subject": "fikih-ilmihal",
     "text": "Hanefî mezhebine göre kurban kesmenin hükmü nedir?",
-    "options": ["Vâciptir", "Müekked sünnettir", "Menduptur", "Farz-ı kifâyedir", "Mübahtır"],
+    "options": [
+      "Vâciptir",
+      "Müekked sünnettir",
+      "Menduptur",
+      "Farz-ı kifâyedir",
+      "Mübahtır"
+    ],
     "correct": 0,
-    "explanation": "Hanefî mezhebine göre kurban kesmek vâciptir. Fakihlerin çoğunluğuna göre ise müekked sünnettir; Kur’an’da açık emir bulunmayışı ve Hz. Peygamber’in devamlı yapması sebebiyle sünnet denmiştir."
+    "explanation": "Hanefî mezhebine göre kurban kesmek vâciptir. Fakihlerin çoğunluğuna göre ise müekked sünnettir; Kur’an’da açık emir bulunmayışı ve Hz. Peygamber’in devamlı yapması sebebiyle sünnet denmiştir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 183,
     "subject": "fikih-ilmihal",
     "text": "Kurban nisabında aşağıdaki şartlardan hangisi aranmaz?",
-    "options": ["Malın artırıcı olması ve üzerinden bir yıl geçmesi", "Müslüman olmak", "Akıllı ve bâliğ olmak", "Mukim olmak", "Belirli bir malî güce sahip bulunmak"],
+    "options": [
+      "Malın artırıcı olması ve üzerinden bir yıl geçmesi",
+      "Müslüman olmak",
+      "Akıllı ve bâliğ olmak",
+      "Mukim olmak",
+      "Belirli bir malî güce sahip bulunmak"
+    ],
     "correct": 0,
-    "explanation": "Kurban nisabında, zekâtın aksine malın artırıcı olması ve üzerinden yıl geçmesi şartı aranmaz. Kurban yükümlülüğü için Müslüman, akıllı, bâliğ, mukim, hür ve belirli bir malî güce sahip olmak yeterlidir."
+    "explanation": "Kurban nisabında, zekâtın aksine malın artırıcı olması ve üzerinden yıl geçmesi şartı aranmaz. Kurban yükümlülüğü için Müslüman, akıllı, bâliğ, mukim, hür ve belirli bir malî güce sahip olmak yeterlidir.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 184,
     "subject": "fikih-ilmihal",
     "text": "Kurban kesen kasaba, kesim ücreti olarak kurbanın derisi veya etinden bir kısım verilebilir mi?",
-    "options": ["Verilemez; çünkü ücret, ibadetin kendisi üzerinden karşılanmış olur", "Verilebilir", "Yalnızca derisi verilebilir", "Yalnızca eti verilebilir", "Ücret kesinlikle alınamaz"],
+    "options": [
+      "Verilemez; çünkü ücret, ibadetin kendisi üzerinden karşılanmış olur",
+      "Verilebilir",
+      "Yalnızca derisi verilebilir",
+      "Yalnızca eti verilebilir",
+      "Ücret kesinlikle alınamaz"
+    ],
     "correct": 0,
-    "explanation": "Kesim işi bir kazanç olduğu için kasabın ücret alması caizdir. Ancak ücret olarak kurbanın derisi veya etinden verilemez; aksi halde kurban ibadetinin külfeti ibadetin kendisi üzerinden karşılanmış olur."
+    "explanation": "Kesim işi bir kazanç olduğu için kasabın ücret alması caizdir. Ancak ücret olarak kurbanın derisi veya etinden verilemez; aksi halde kurban ibadetinin külfeti ibadetin kendisi üzerinden karşılanmış olur.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   },
   {
     "id": 185,
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisi adak konusu olamaz?",
-    "options": ["Abdest", "Nafile oruç", "Sadaka", "Nafile namaz", "Kurban"],
+    "options": [
+      "Abdest",
+      "Nafile oruç",
+      "Sadaka",
+      "Nafile namaz",
+      "Kurban"
+    ],
     "correct": 0,
-    "explanation": "Adanan şey, bizzat hedeflenen ibadet cinsinden olmalı; başka bir ibadete vesile olduğu için farz veya vâcip sayılan ibadet adak konusu olamaz. Bu sebeple abdest, ezan gibi vesile ibadetleri adak konusu olamaz."
+    "explanation": "Adanan şey, bizzat hedeflenen ibadet cinsinden olmalı; başka bir ibadete vesile olduğu için farz veya vâcip sayılan ibadet adak konusu olamaz. Bu sebeple abdest, ezan gibi vesile ibadetleri adak konusu olamaz.",
+    "year": 2015,
+    "source": "2015 MBSTS"
   }
 ]
