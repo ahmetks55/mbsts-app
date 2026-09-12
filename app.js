@@ -9,14 +9,14 @@ const SUBJECTS = {
 };
 
 const SOURCES = [
-    { id: 1, title: "Kur'an Yolu Türkçe Meal ve Tefsiri", author: "Komisyon (Hayreddin Karaman vd.)", pub: "DİB", year: "2005", category: "tefsir", scrollTo: "kurAnYoluGrid" },
-    { id: 2, title: "İlmihal (I. ve II. Cilt)", author: "Komisyon", pub: "TDV", year: "2003", category: "fikih", scrollTo: "ilmihalGrid" },
+    { id: 1, title: "Kur'an Yolu Türkçe Meal ve Tefsiri", author: "Komisyon (Hayreddin Karaman vd.)", pub: "DİB", year: "2005", category: "tefsir", scrollTo: "kurAnYoluGrid", fileSize: "PDF" },
+    { id: 2, title: "İlmihal (I. ve II. Cilt)", author: "Komisyon", pub: "TDV", year: "2003", category: "fikih", scrollTo: "ilmihalGrid", fileSize: "2 Cilt PDF" },
     { id: 3, title: "Tefsir Usulü", author: "Prof. Dr. İsmail Cerrahoğlu", pub: "TDV", year: "1988", category: "tefsir", url: "https://archive.org/download/elmalili-muhammed-hamdi-yazir-original-hak-dini-kuran-dili/Ismail%20Cerrahoglu%20-%20Tefsir%20Usulu.pdf", fileSize: "PDF" },
     { id: 4, title: "Hadis Usûlü", author: "Prof. Dr. Talat Koçyiğit", pub: "TDV", year: "1994", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Talat%20Kocyigit%20-%20Hadis%20Usulu.pdf", fileSize: "PDF" },
     { id: 5, title: "Hadis Tarihi", author: "Prof. Dr. Talat Koçyiğit", pub: "TDV", year: "1994", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Talat%20Kocyigit%20-%20Hadis%20Tarihi.pdf", fileSize: "PDF" },
-    { id: 6, title: "Riyazü's-Sâlihîn", author: "Ebû Zekeriyya en-Nevevî", pub: "DİB", year: "2010", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Imam%20Nevevi%20-%20Riyazus%20Salihin%208-cilt.pdf", fileSize: "8 Cilt PDF" },
-    { id: 7, title: "Hz. Muhammed ve Evrensel Mesajı", author: "Prof. Dr. İbrahim Sarıçam", pub: "DİB", year: "1992", category: "siyer", url: "https://archive.org/download/diyanet-dib-yayinlari/D%C4%B0YANET.rar", fileSize: "3.8 GB (RAR)" },
-    { id: 8, title: "Dini Kavramlar Sözlüğü", author: "Komisyon (Fikret Karaman vd.)", pub: "DİB", year: "1992", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/D%C4%B0YANET.rar", fileSize: "3.8 GB (RAR)" },
+    { id: 6, title: "Riyazü's-Sâlihîn", author: "Ebû Zekeriyya en-Nevevî", pub: "DİB", year: "2010", category: "hadis", url: "https://archive.org/download/riyazus_salihin_202009/Riyazus_Salihin_tam_2_yerimli.pdf", fileSize: "PDF" },
+    { id: 7, title: "Hz. Muhammed ve Evrensel Mesajı", author: "Prof. Dr. İbrahim Sarıçam", pub: "DİB", year: "1992", category: "siyer", url: "https://archive.org/download/hazreti-muhammed-ve-evrensel-mesaji/Hazreti%20Muhammed%20ve%20Evrensel%20Mesaj%C4%B1.pdf", fileSize: "PDF" },
+    { id: 8, title: "Dini Kavramlar Sözlüğü", author: "Komisyon (Fikret Karaman vd.)", pub: "DİB", year: "1992", category: "diger", url: "https://archive.org/download/serhul-ahlakil-adudiyye-taskopruzade/D%C3%AEn%C3%AE%20Kavramlar%20S%C3%B6zl%C3%BC%C4%9F%C3%BC%20Diyanet.pdf", fileSize: "PDF" },
     { id: 9, title: "Hac İlmihali", author: "DİB Yayınları", pub: "DİB", year: "2007", category: "fikih", url: "https://archive.org/download/diyanet-ilmihal-kitaplari/Hac_ilmihali_2007_yerimli.pdf", fileSize: "PDF" },
     { id: 10, title: "Fetvalar", author: "Din İşleri Yüksek Kurulu", pub: "DİB", year: "2015", category: "fikih", url: "https://archive.org/download/diyanet-ilmihal-kitaplari/Fetvalar_Diyanet-yerimli.pdf", fileSize: "PDF" }
 ];
