@@ -10,7 +10,7 @@ const SUBJECTS = {
 
 const SOURCES = [
     { id: 1, title: "Kur'an Yolu Turkce Meal ve Tefsiri", author: "Komisyon", pub: "DIB", year: "2019", category: "tefsir", scrollTo: "meallerGrid" },
-    { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "ciltSecimi" },
+    { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "meallerGrid" },
     { id: 3, title: "Ilmihal I. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 4, title: "Ilmihal II. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 5, title: "Hac Ilmihali", author: "Doc. Dr. Ismail Karagoz vd.", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
