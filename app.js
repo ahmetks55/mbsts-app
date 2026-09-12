@@ -11,16 +11,16 @@ const SUBJECTS = {
 const SOURCES = [
     { id: 1, title: "Kur'an Yolu Turkce Meal ve Tefsiri", author: "Komisyon", pub: "DIB", year: "2019", category: "tefsir", url: "https://archive.org/details/kuran_uzerine" },
     { id: 2, title: "Tefsir Usulu", author: "Prof. Dr. Ismail Cerrahoglu", pub: "TDV", year: "2019", category: "tefsir", scrollTo: "ciltSecimi" },
-    { id: 3, title: "Ilmihal I. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
-    { id: 4, title: "Ilmihal II. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
-    { id: 5, title: "Hac Ilmihali", author: "Doc. Dr. Ismail Karagoz vd.", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
-    { id: 6, title: "Fetvalar", author: "Din Isleri Yuksek Kurulu", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
-    { id: 7, title: "Dini Kavramlar Sozlugu", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
-    { id: 8, title: "Hz. Muhammed ve Evrensel Mesaji", author: "Prof. Dr. Ibrahim Saricam", pub: "DIB", year: "2019", category: "siyer", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
+    { id: 3, title: "Ilmihal I. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
+    { id: 4, title: "Ilmihal II. Cilt", author: "Komisyon", pub: "TDV", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
+    { id: 5, title: "Hac Ilmihali", author: "Doc. Dr. Ismail Karagoz vd.", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
+    { id: 6, title: "Fetvalar", author: "Din Isleri Yuksek Kurulu", pub: "DIB", year: "2019", category: "fikih", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
+    { id: 7, title: "Dini Kavramlar Sozlugu", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
+    { id: 8, title: "Hz. Muhammed ve Evrensel Mesaji", author: "Prof. Dr. Ibrahim Saricam", pub: "DIB", year: "2019", category: "siyer", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 9, title: "Hadis Usulu", author: "Prof. Dr. Talat Kocyigit", pub: "TDV", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
     { id: 10, title: "Hadis Tarihi", author: "Prof. Dr. Talat Kocyigit", pub: "TDV", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
     { id: 11, title: "Riyazus-Salihin", author: "Imam Nevevi", pub: "DIB", year: "2019", category: "hadis", scrollTo: "hadisKitaplari" },
-    { id: 12, title: "Yasayan Dunya Dinleri", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar" },
+    { id: 12, title: "Yasayan Dunya Dinleri", author: "Komisyon", pub: "DIB", year: "2019", category: "diger", url: "https://archive.org/download/diyanet-dib-yayinlari/DİYANET.rar", fileSize: "3.8 GB" },
     { id: 13, title: "Tecvidli Kur'an Okuma Rehberi", author: "Davut Kaya", pub: "DIB", year: "2019", category: "tecvit", url: "https://archive.org/details/kuran_uzerine" },
     { id: 14, title: "Kur'an-ı Kerim'in Tecvidi", author: "Demirhan Unlu", pub: "TDV", year: "2019", category: "tecvit", url: "https://archive.org/details/kuran_uzerine" },
     { id: 15, title: "Diyanet Islam Ansiklopedisi (44 Cilt)", author: "TDV", pub: "TDV", year: "2019", category: "diger", scrollTo: "ciltSecimi" }
@@ -381,15 +381,24 @@ class MBSTSApp {
                     </div>
                 </div>`;
             }
-            const isDirectDownload = s.url && (s.url.endsWith('.rar') || s.url.endsWith('.pdf'));
-            const btnLabel = isDirectDownload ? '📥 Direkt İndir' : '📥 Collection\'ı Aç';
+            if (s.fileSize) {
+                return `
+                <div class="source-card">
+                    <h4>${s.title}</h4>
+                    <div class="s-author">${s.author}</div>
+                    <span class="s-pub">${s.pub} - ${s.year}</span>
+                    <div class="s-actions">
+                        <button class="btn btn-primary btn-sm" onclick="showDownloadModal('${s.title.replace(/'/g,"\\'")}', '${s.url}', '${s.fileSize}')">📥 İndir</button>
+                    </div>
+                </div>`;
+            }
             return `
             <div class="source-card">
                 <h4>${s.title}</h4>
                 <div class="s-author">${s.author}</div>
                 <span class="s-pub">${s.pub} - ${s.year}</span>
                 <div class="s-actions">
-                    <a href="${s.url}" ${isDirectDownload ? 'download' : 'target="_blank"'} class="btn btn-primary btn-sm">${btnLabel}</a>
+                    <a href="${s.url}" target="_blank" class="btn btn-primary btn-sm">📥 Collection'ı Aç</a>
                 </div>
             </div>`;
         }).join('');

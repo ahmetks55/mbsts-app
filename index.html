@@ -698,6 +698,34 @@
                 grid.appendChild(a);
             });
         })();
+
+        // Download confirmation modal
+        function showDownloadModal(title, url, size) {
+            const existing = document.getElementById('downloadModal');
+            if (existing) existing.remove();
+            const modal = document.createElement('div');
+            modal.id = 'downloadModal';
+            modal.className = 'modal-overlay';
+            modal.innerHTML = `
+                <div class="modal-box">
+                    <div class="modal-header">
+                        <h3>📥 İndirme Onayı</h3>
+                        <button class="modal-close" onclick="this.closest('.modal-overlay').remove()">✕</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info-row"><span>Dosya:</span><strong>${title}</strong></div>
+                        <div class="modal-info-row"><span>Boyut:</span><strong>${size}</strong></div>
+                        <div class="modal-info-row"><span>Kaynak:</span><strong>archive.org</strong></div>
+                        <p class="modal-warn">Bu dosya archive.org sunucusundan indirilecek. İndirme işlemi cihazınızın bağlantı hızına göre uzun sürebilir.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline" onclick="this.closest('.modal-overlay').remove()">İptal</button>
+                        <a href="${url}" download class="btn btn-primary" id="modalDownloadBtn">İndir</a>
+                    </div>
+                </div>`;
+            document.body.appendChild(modal);
+            modal.addEventListener('click', function(e) { if (e.target === modal) modal.remove(); });
+        }
     </script>
 </body>
 </html>
