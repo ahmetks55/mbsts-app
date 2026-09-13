@@ -302,7 +302,7 @@
                 <div class="card-header">
                     <h3>📋 Sorularım (<span id="myQCount">0</span>)</h3>
                         <div class="card-actions">
-                            <select id="bankFilter" class="select-sm" onchange="app.renderBank()">
+                            <select id="bankFilter" class="select-sm" onchange="app.renderBank(this.value)">
                                 <option value="all">Tümü</option>
                                 <option value="kur-an-bilgisi">Kur'an Bilgisi</option>
                                 <option value="tefsir">Tefsir</option>
