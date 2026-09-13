@@ -313,11 +313,10 @@
                                 <option value="dinler-tarihi">Dinler Tarihi</option>
                             </select>
                             <button class="btn btn-sm btn-outline" onclick="app.exportQuestions()">📥 Dışa Aktar</button>
-                            <label class="btn btn-sm btn-outline" style="cursor:pointer;">
+                            <label class="btn btn-sm btn-outline" id="importBtnLabel" style="cursor:pointer;">
                                 📤 İçeri Aktar
-                                <input type="file" accept=".json" onchange="app.importQuestions(event)" hidden>
+                                <input type="file" accept=".json" id="importFileInput" hidden>
                             </label>
-                            <span style="font-size:0.7rem;color:var(--text-secondary);align-self:center">.json</span>
                         </div>
                     </div>
                 <div class="card-body" id="bankList">

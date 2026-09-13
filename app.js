@@ -195,6 +195,12 @@ class MBSTSApp {
             });
         });
 
+        document.getElementById('importBtnLabel').addEventListener('click', (e) => {
+            e.preventDefault();
+            showImportModal();
+        });
+        document.getElementById('importFileInput').addEventListener('change', (e) => this.importQuestions(e));
+
     }
 
     navigate(page, opts) {
@@ -640,6 +646,35 @@ function showDownloadModal(title, url, size) {
         </div>`;
     document.body.appendChild(modal);
     modal.addEventListener('click', function(e) { if (e.target === modal) modal.remove(); });
+}
+
+function showImportModal() {
+    const existing = document.getElementById('importModal');
+    if (existing) existing.remove();
+    const modal = document.createElement('div');
+    modal.id = 'importModal';
+    modal.className = 'modal-overlay';
+    modal.innerHTML = `
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>📤 Dosya İçe Aktarma</h3>
+                <button class="modal-close" onclick="this.closest('.modal-overlay').remove()">✕</button>
+            </div>
+            <div class="modal-body">
+                <p>Sadece <strong>.json</strong> formatında dosya yükleyebilirsiniz.</p>
+                <p class="modal-warn">Dosya, mevcut sorularla aynı formatta olmalıdır (id, subject, text, options, correct, explanation alanları).</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="this.closest('.modal-overlay').remove()">İptal</button>
+                <button class="btn btn-primary" id="importModalContinue">Devam</button>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', function(e) { if (e.target === modal) modal.remove(); });
+    document.getElementById('importModalContinue').addEventListener('click', function() {
+        modal.remove();
+        document.getElementById('importFileInput').click();
+    });
 }
 
 const app = new MBSTSApp();
