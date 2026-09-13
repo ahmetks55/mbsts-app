@@ -58,6 +58,10 @@
                 <span class="nav-icon">🗃️</span>
                 <span class="nav-label">Soru Bankası</span>
             </a>
+            <a href="#" class="nav-link" data-page="past">
+                <span class="nav-icon">📋</span>
+                <span class="nav-label">Çıkmış Sorular</span>
+            </a>
             <a href="#" class="nav-link" data-page="sources">
                 <span class="nav-icon">📖</span>
                 <span class="nav-label">Kaynaklar</span>
@@ -298,20 +302,17 @@
                 <p>Soruları filtreleyin, dışa/içe aktarın</p>
             </div>
 
+            <div class="past-filters">
+                <div class="filter-group">
+                    <label class="filter-label">📚 Konu</label>
+                    <div class="chip-group" id="bankSubjectChips"></div>
+                </div>
+            </div>
+
             <div class="card">
                 <div class="card-header">
                     <h3>📋 Sorularım (<span id="myQCount">0</span>)</h3>
                         <div class="card-actions">
-                            <select id="bankFilter" class="select-sm" onchange="app.renderBank(this.value)">
-                                <option value="all">Tümü</option>
-                                <option value="kur-an-bilgisi">Kur'an Bilgisi</option>
-                                <option value="tefsir">Tefsir</option>
-                                <option value="akaid-kelam">Akaid ve Kelam</option>
-                                <option value="fikih-ilmihal">Fıkıh ve İlmihal</option>
-                                <option value="hadis">Hadis</option>
-                                <option value="siyer">Siyer</option>
-                                <option value="dinler-tarihi">Dinler Tarihi</option>
-                            </select>
                             <button class="btn btn-sm btn-outline" onclick="app.exportQuestions()">📥 Dışa Aktar</button>
                             <label class="btn btn-sm btn-outline" id="importBtnLabel" style="cursor:pointer;">
                                 📤 İçeri Aktar
@@ -323,6 +324,48 @@
                     <!-- Filled by JS -->
                 </div>
             </div>
+        </section>
+
+        <!-- ==================== PAST EXAM QUESTIONS ==================== -->
+        <section class="page" id="page-past">
+            <div class="page-title">
+                <h1>📋 Çıkmış Sorular</h1>
+                <p>Yıllara ve konulara göre filtreleme yaparak test çözün</p>
+            </div>
+
+            <div class="past-filters">
+                <div class="filter-group">
+                    <label class="filter-label">📅 Yıl</label>
+                    <div class="chip-group" id="pastYearChips"></div>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">📚 Konu</label>
+                    <div class="chip-group" id="pastSubjectChips"></div>
+                </div>
+            </div>
+
+            <div class="past-result-bar">
+                <span id="pastResultCount">0 soru bulundu</span>
+                <div class="past-quiz-options">
+                    <select id="pastQuizCount" class="select-sm">
+                        <option value="10">10 Soru</option>
+                        <option value="20">20 Soru</option>
+                        <option value="30">30 Soru</option>
+                        <option value="50">50 Soru</option>
+                        <option value="0">Tümü</option>
+                    </select>
+                    <select id="pastQuizTimer" class="select-sm">
+                        <option value="15">15 dk</option>
+                        <option value="30">30 dk</option>
+                        <option value="45">45 dk</option>
+                        <option value="60">60 dk</option>
+                        <option value="90">90 dk</option>
+                    </select>
+                    <button class="btn btn-primary" id="pastStartQuiz">🚀 Test Başlat</button>
+                </div>
+            </div>
+
+            <div class="past-preview" id="pastPreview"></div>
         </section>
 
         <!-- ==================== SOURCES ==================== -->

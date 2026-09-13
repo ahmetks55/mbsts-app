@@ -505,6 +505,54 @@ body {
 .result-item strong { font-size: 1.4rem; }
 .results-actions { display: flex; gap: 12px; justify-content: center; }
 
+/* ===== PAST EXAM QUESTIONS ===== */
+.past-filters { display: flex; flex-direction: column; gap: 16px; margin-bottom: 20px; }
+.filter-group { display: flex; flex-direction: column; gap: 8px; }
+.filter-label { font-size: 0.85rem; font-weight: 600; color: var(--text); }
+.chip-group { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+}
+.chip:hover { border-color: var(--primary); color: var(--primary); }
+.chip.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.past-result-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 14px 18px;
+    background: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+.past-result-bar span { font-size: 0.9rem; font-weight: 600; color: var(--primary); }
+.past-quiz-options { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.select-sm {
+    padding: 6px 12px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.past-preview { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.past-preview .bank-item { border-left-color: var(--purple); }
+@media (max-width: 768px) {
+    .past-preview { grid-template-columns: 1fr; }
+    .past-result-bar { flex-direction: column; align-items: flex-start; }
+}
 /* ===== SOURCES ===== */
 .source-info-card {
     display: flex;

@@ -215,6 +215,7 @@ class MBSTSApp {
         if (page === 'dashboard') this.renderDashboard();
         if (page === 'stats') this.renderStats();
         if (page === 'bank') this.renderBank();
+        if (page === 'past') this.renderPastPage();
         if (page === 'quiz' && opts) {
             if (opts.count) document.getElementById('qCount').value = opts.count;
             if (opts.timer) document.getElementById('qTimer').value = opts.timer;
@@ -282,10 +283,43 @@ class MBSTSApp {
         `).join('');
     }
 
-    renderBank(filter = 'all') {
-        this._bankFilter = filter;
+    renderBank() {
+        this._bankSelectedSubjects = this._bankSelectedSubjects || new Set();
         this._bankPage = 0;
-        this._bankData = filter === 'all' ? this.questions : this.questions.filter(q => q.subject === filter);
+        this._buildBankChips();
+        this._filterBankQuestions();
+    }
+
+    _buildBankChips() {
+        const chipContainer = document.getElementById('bankSubjectChips');
+        if (!chipContainer) return;
+        const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
+        chipContainer.innerHTML = '<div class="chip active" data-subject="all">Tümü</div>' + subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
+
+        chipContainer.querySelectorAll('.chip').forEach(c => {
+            c.addEventListener('click', () => {
+                const s = c.dataset.subject;
+                if (s === 'all') {
+                    this._bankSelectedSubjects.clear();
+                    chipContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                    c.classList.add('active');
+                } else {
+                    chipContainer.querySelector('[data-subject="all"]').classList.remove('active');
+                    if (this._bankSelectedSubjects.has(s)) { this._bankSelectedSubjects.delete(s); c.classList.remove('active'); }
+                    else { this._bankSelectedSubjects.add(s); c.classList.add('active'); }
+                    if (this._bankSelectedSubjects.size === 0) chipContainer.querySelector('[data-subject="all"]').classList.add('active');
+                }
+                this._filterBankQuestions();
+            });
+        });
+    }
+
+    _filterBankQuestions() {
+        if (this._bankSelectedSubjects && this._bankSelectedSubjects.size > 0) {
+            this._bankData = this.questions.filter(q => this._bankSelectedSubjects.has(q.subject));
+        } else {
+            this._bankData = [...this.questions];
+        }
         document.getElementById('myQCount').textContent = this._bankData.length;
         this._renderBankPage();
     }
@@ -326,6 +360,88 @@ class MBSTSApp {
         this.saveToStorage('mbsts_questions', this.questions);
         this.renderBank();
         this.showToast('Soru silindi!');
+    }
+
+    renderPastPage() {
+        this._pastSelectedYears = new Set();
+        this._pastSelectedSubjects = new Set();
+        this._buildPastChips();
+        this._filterPastQuestions();
+    }
+
+    _buildPastChips() {
+        const years = [...new Set(this.questions.filter(q => q.year).map(q => q.year))].sort();
+        const yearChips = document.getElementById('pastYearChips');
+        yearChips.innerHTML = years.map(y => '<div class="chip" data-year="' + y + '">' + y + '</div>').join('');
+
+        const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
+        const subjectChips = document.getElementById('pastSubjectChips');
+        subjectChips.innerHTML = subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
+
+        yearChips.querySelectorAll('.chip').forEach(c => {
+            c.addEventListener('click', () => {
+                const y = c.dataset.year;
+                if (this._pastSelectedYears.has(y)) { this._pastSelectedYears.delete(y); c.classList.remove('active'); }
+                else { this._pastSelectedYears.add(y); c.classList.add('active'); }
+                this._filterPastQuestions();
+            });
+        });
+
+        subjectChips.querySelectorAll('.chip').forEach(c => {
+            c.addEventListener('click', () => {
+                const s = c.dataset.subject;
+                if (this._pastSelectedSubjects.has(s)) { this._pastSelectedSubjects.delete(s); c.classList.remove('active'); }
+                else { this._pastSelectedSubjects.add(s); c.classList.add('active'); }
+                this._filterPastQuestions();
+            });
+        });
+
+        document.getElementById('pastStartQuiz').addEventListener('click', () => this._startPastQuiz());
+    }
+
+    _filterPastQuestions() {
+        let filtered = this.questions;
+        if (this._pastSelectedYears.size > 0) {
+            filtered = filtered.filter(q => this._pastSelectedYears.has(String(q.year)));
+        }
+        if (this._pastSelectedSubjects.size > 0) {
+            filtered = filtered.filter(q => this._pastSelectedSubjects.has(q.subject));
+        }
+        this._pastFiltered = filtered;
+        document.getElementById('pastResultCount').textContent = filtered.length + ' soru bulundu';
+        this._renderPastPreview(filtered);
+    }
+
+    _renderPastPreview(data) {
+        const preview = document.getElementById('pastPreview');
+        const show = data.slice(0, 100);
+        preview.innerHTML = show.map(q => '<div class="bank-item"><div class="bi-head"><span class="bi-badge">' + (SUBJECTS[q.subject]?.name || q.subject) + '</span>' + (q.year ? '<span class="bi-badge" style="background:var(--purple);color:#fff">' + q.year + '</span>' : '') + '</div><div class="bi-text">' + q.text + '</div></div>').join('');
+        if (data.length > 100) {
+            preview.innerHTML += '<div style="grid-column:1/-1;text-align:center;color:var(--text-secondary);font-size:0.85rem;padding:12px;">... ve ' + (data.length - 100) + ' soru daha</div>';
+        }
+    }
+
+    _startPastQuiz() {
+        const count = parseInt(document.getElementById('pastQuizCount').value);
+        const timer = parseInt(document.getElementById('pastQuizTimer').value);
+        let pool = [...this._pastFiltered];
+        if (pool.length === 0) { this.showToast('Filtreye uygun soru yok!', true); return; }
+        pool = this.shuffle(pool);
+        if (count > 0) pool = pool.slice(0, Math.min(count, pool.length));
+        this.quizState = {
+            questions: pool,
+            currentIndex: 0,
+            answers: {},
+            timer: timer * 60,
+            timerMax: timer * 60
+        };
+        document.getElementById('quizSetup').style.display = 'none';
+        document.getElementById('quizActive').style.display = 'block';
+        document.getElementById('quizResults').style.display = 'none';
+        document.getElementById('quizQTotal').textContent = pool.length;
+        this.navigate('quiz');
+        if (timer > 0) this.startTimer();
+        this.renderQuestion();
     }
 
     exportQuestions() {
