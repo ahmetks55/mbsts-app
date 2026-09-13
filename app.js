@@ -284,52 +284,34 @@ class MBSTSApp {
     }
 
     renderBank() {
-        this._bankSelectedYear = 'all';
-        this._bankSelectedSubject = 'all';
-        this._bankPage = 0;
-        this._buildBankChips();
+        this._populateBankFilters();
         this._filterBankQuestions();
     }
 
-    _buildBankChips() {
-        const yearContainer = document.getElementById('bankYearChips');
-        if (!yearContainer) return;
+    _populateBankFilters() {
+        const yearSelect = document.getElementById('bankYearFilter');
+        const subjectSelect = document.getElementById('bankSubjectFilter');
+        if (!yearSelect || !subjectSelect) return;
+
+        const currentYear = yearSelect.value;
+        const currentSubject = subjectSelect.value;
+
         const years = [...new Set(this.questions.filter(q => q.year).map(q => q.year))].sort();
-        yearContainer.innerHTML = '<div class="chip active" data-year="all">Tümü</div>' + years.map(y => '<div class="chip" data-year="' + y + '">' + y + '</div>').join('');
+        yearSelect.innerHTML = '<option value="all">Tüm Yıllar</option>' + years.map(y => '<option value="' + y + '">' + y + '</option>').join('');
+        yearSelect.value = currentYear || 'all';
 
-        yearContainer.querySelectorAll('.chip').forEach(c => {
-            c.addEventListener('click', () => {
-                yearContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
-                c.classList.add('active');
-                this._bankSelectedYear = c.dataset.year;
-                this._filterBankQuestions();
-            });
-        });
-
-        const subjectContainer = document.getElementById('bankSubjectChips');
-        if (!subjectContainer) return;
-        const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
-        subjectContainer.innerHTML = '<div class="chip active" data-subject="all">Tümü</div>' + subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
-
-        subjectContainer.querySelectorAll('.chip').forEach(c => {
-            c.addEventListener('click', () => {
-                subjectContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
-                c.classList.add('active');
-                this._bankSelectedSubject = c.dataset.subject;
-                this._filterBankQuestions();
-            });
-        });
+        subjectSelect.innerHTML = '<option value="all">Tüm Konular</option>' + Object.entries(SUBJECTS).map(([k, v]) => '<option value="' + k + '">' + v.icon + ' ' + v.name + '</option>').join('');
+        subjectSelect.value = currentSubject || 'all';
     }
 
     _filterBankQuestions() {
+        const year = document.getElementById('bankYearFilter')?.value || 'all';
+        const subject = document.getElementById('bankSubjectFilter')?.value || 'all';
         let filtered = this.questions;
-        if (this._bankSelectedYear !== 'all') {
-            filtered = filtered.filter(q => String(q.year) === this._bankSelectedYear);
-        }
-        if (this._bankSelectedSubject !== 'all') {
-            filtered = filtered.filter(q => q.subject === this._bankSelectedSubject);
-        }
+        if (year !== 'all') filtered = filtered.filter(q => String(q.year) === year);
+        if (subject !== 'all') filtered = filtered.filter(q => q.subject === subject);
         this._bankData = filtered;
+        this._bankPage = 0;
         document.getElementById('myQCount').textContent = this._bankData.length;
         this._renderBankPage();
     }
@@ -373,53 +355,38 @@ class MBSTSApp {
     }
 
     renderPastPage() {
-        this._pastSelectedYear = 'all';
-        this._pastSelectedSubject = 'all';
-        this._buildPastChips();
+        this._populatePastFilters();
         this._filterPastQuestions();
     }
 
-    _buildPastChips() {
+    _populatePastFilters() {
+        const yearSelect = document.getElementById('pastYearFilter');
+        const subjectSelect = document.getElementById('pastSubjectFilter');
+        if (!yearSelect || !subjectSelect) return;
+
+        const currentYear = yearSelect.value;
+        const currentSubject = subjectSelect.value;
+
         const years = [...new Set(this.questions.filter(q => q.year).map(q => q.year))].sort();
-        const yearChips = document.getElementById('pastYearChips');
-        yearChips.innerHTML = '<div class="chip active" data-year="all">Tümü</div>' + years.map(y => '<div class="chip" data-year="' + y + '">' + y + '</div>').join('');
+        yearSelect.innerHTML = '<option value="all">Tüm Yıllar</option>' + years.map(y => '<option value="' + y + '">' + y + '</option>').join('');
+        yearSelect.value = currentYear || 'all';
 
-        const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
-        const subjectChips = document.getElementById('pastSubjectChips');
-        subjectChips.innerHTML = '<div class="chip active" data-subject="all">Tümü</div>' + subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
-
-        yearChips.querySelectorAll('.chip').forEach(c => {
-            c.addEventListener('click', () => {
-                yearChips.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
-                c.classList.add('active');
-                this._pastSelectedYear = c.dataset.year;
-                this._filterPastQuestions();
-            });
-        });
-
-        subjectChips.querySelectorAll('.chip').forEach(c => {
-            c.addEventListener('click', () => {
-                subjectChips.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
-                c.classList.add('active');
-                this._pastSelectedSubject = c.dataset.subject;
-                this._filterPastQuestions();
-            });
-        });
+        subjectSelect.innerHTML = '<option value="all">Tüm Konular</option>' + Object.entries(SUBJECTS).map(([k, v]) => '<option value="' + k + '">' + v.icon + ' ' + v.name + '</option>').join('');
+        subjectSelect.value = currentSubject || 'all';
 
         document.getElementById('pastStartQuiz').addEventListener('click', () => this._startPastQuiz());
     }
 
     _filterPastQuestions() {
+        const year = document.getElementById('pastYearFilter')?.value || 'all';
+        const subject = document.getElementById('pastSubjectFilter')?.value || 'all';
         let filtered = this.questions;
-        if (this._pastSelectedYear !== 'all') {
-            filtered = filtered.filter(q => String(q.year) === this._pastSelectedYear);
-        }
-        if (this._pastSelectedSubject !== 'all') {
-            filtered = filtered.filter(q => q.subject === this._pastSelectedSubject);
-        }
+        if (year !== 'all') filtered = filtered.filter(q => String(q.year) === year);
+        if (subject !== 'all') filtered = filtered.filter(q => q.subject === subject);
         this._pastFiltered = filtered;
         document.getElementById('pastResultCount').textContent = filtered.length + ' soru bulundu';
         this._renderPastPreview(filtered);
+    }
     }
 
     _renderPastPreview(data) {
