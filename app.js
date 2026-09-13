@@ -284,6 +284,7 @@ class MBSTSApp {
     }
 
     renderBank() {
+        this._bankSelectedYears = this._bankSelectedYears || new Set();
         this._bankSelectedSubjects = this._bankSelectedSubjects || new Set();
         this._bankPage = 0;
         this._buildBankChips();
@@ -291,23 +292,45 @@ class MBSTSApp {
     }
 
     _buildBankChips() {
-        const chipContainer = document.getElementById('bankSubjectChips');
-        if (!chipContainer) return;
-        const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
-        chipContainer.innerHTML = '<div class="chip active" data-subject="all">Tümü</div>' + subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
+        const yearContainer = document.getElementById('bankYearChips');
+        if (!yearContainer) return;
+        const years = [...new Set(this.questions.filter(q => q.year).map(q => q.year))].sort();
+        yearContainer.innerHTML = '<div class="chip active" data-year="all">Tümü</div>' + years.map(y => '<div class="chip" data-year="' + y + '">' + y + '</div>').join('');
 
-        chipContainer.querySelectorAll('.chip').forEach(c => {
+        yearContainer.querySelectorAll('.chip').forEach(c => {
+            c.addEventListener('click', () => {
+                const y = c.dataset.year;
+                if (y === 'all') {
+                    this._bankSelectedYears.clear();
+                    yearContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                    c.classList.add('active');
+                } else {
+                    yearContainer.querySelector('[data-year="all"]').classList.remove('active');
+                    if (this._bankSelectedYears.has(y)) { this._bankSelectedYears.delete(y); c.classList.remove('active'); }
+                    else { this._bankSelectedYears.add(y); c.classList.add('active'); }
+                    if (this._bankSelectedYears.size === 0) yearContainer.querySelector('[data-year="all"]').classList.add('active');
+                }
+                this._filterBankQuestions();
+            });
+        });
+
+        const subjectContainer = document.getElementById('bankSubjectChips');
+        if (!subjectContainer) return;
+        const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
+        subjectContainer.innerHTML = '<div class="chip active" data-subject="all">Tümü</div>' + subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
+
+        subjectContainer.querySelectorAll('.chip').forEach(c => {
             c.addEventListener('click', () => {
                 const s = c.dataset.subject;
                 if (s === 'all') {
                     this._bankSelectedSubjects.clear();
-                    chipContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                    subjectContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
                     c.classList.add('active');
                 } else {
-                    chipContainer.querySelector('[data-subject="all"]').classList.remove('active');
+                    subjectContainer.querySelector('[data-subject="all"]').classList.remove('active');
                     if (this._bankSelectedSubjects.has(s)) { this._bankSelectedSubjects.delete(s); c.classList.remove('active'); }
                     else { this._bankSelectedSubjects.add(s); c.classList.add('active'); }
-                    if (this._bankSelectedSubjects.size === 0) chipContainer.querySelector('[data-subject="all"]').classList.add('active');
+                    if (this._bankSelectedSubjects.size === 0) subjectContainer.querySelector('[data-subject="all"]').classList.add('active');
                 }
                 this._filterBankQuestions();
             });
@@ -315,11 +338,14 @@ class MBSTSApp {
     }
 
     _filterBankQuestions() {
-        if (this._bankSelectedSubjects && this._bankSelectedSubjects.size > 0) {
-            this._bankData = this.questions.filter(q => this._bankSelectedSubjects.has(q.subject));
-        } else {
-            this._bankData = [...this.questions];
+        let filtered = this.questions;
+        if (this._bankSelectedYears && this._bankSelectedYears.size > 0) {
+            filtered = filtered.filter(q => this._bankSelectedYears.has(String(q.year)));
         }
+        if (this._bankSelectedSubjects && this._bankSelectedSubjects.size > 0) {
+            filtered = filtered.filter(q => this._bankSelectedSubjects.has(q.subject));
+        }
+        this._bankData = filtered;
         document.getElementById('myQCount').textContent = this._bankData.length;
         this._renderBankPage();
     }
