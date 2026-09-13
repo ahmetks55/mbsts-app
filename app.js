@@ -195,10 +195,6 @@ class MBSTSApp {
             });
         });
 
-        document.getElementById('addQuestionForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            this.addQuestion();
-        });
     }
 
     navigate(page, opts) {
@@ -302,28 +298,6 @@ class MBSTSApp {
                 </div>
             </div>
         `).join('');
-    }
-
-    addQuestion() {
-        const q = {
-            id: Date.now(),
-            subject: document.getElementById('aSubject').value,
-            text: document.getElementById('aText').value,
-            options: [
-                document.getElementById('aA').value,
-                document.getElementById('aB').value,
-                document.getElementById('aC').value,
-                document.getElementById('aD').value,
-                document.getElementById('aE').value
-            ],
-            correct: 'ABCDE'.indexOf(document.getElementById('aCorrect').value),
-            explanation: document.getElementById('aExpl').value
-        };
-        this.questions.push(q);
-        this.saveToStorage('mbsts_questions', this.questions);
-        document.getElementById('addQuestionForm').reset();
-        this.renderBank();
-        this.showToast('Soru eklendi!');
     }
 
     deleteQuestion(id) {

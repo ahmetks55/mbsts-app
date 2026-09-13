@@ -295,65 +295,12 @@
         <section class="page" id="page-bank">
             <div class="page-title">
                 <h1>🗃️ Soru Bankası</h1>
-                <p>Kendi sorularınızı ekleyin, yönetin, dışa/içe aktarın</p>
+                <p>Soruları filtreleyin, dışa/içe aktarın</p>
             </div>
 
-            <div class="grid-2">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>➕ Yeni Soru Ekle</h3>
-                    </div>
-                    <div class="card-body">
-                        <form id="addQuestionForm">
-                            <div class="form-group">
-                                <label>Konu</label>
-                                <select id="aSubject" required>
-                                    <option value="">Seçiniz...</option>
-                                    <option value="kur-an-bilgisi">Kur'an Bilgisi</option>
-                                    <option value="tefsir">Tefsir</option>
-                                    <option value="akaid-kelam">Akaid ve Kelam</option>
-                                    <option value="fikih-ilmihal">Fıkıh ve İlmihal</option>
-                                    <option value="hadis">Hadis</option>
-                                    <option value="siyer">Siyer ve İslam Tarihi</option>
-                                    <option value="dinler-tarihi">Dinler ve Mezhepler Tarihi</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Soru Metni</label>
-                                <textarea id="aText" rows="3" required placeholder="Sorunuzu yazın..."></textarea>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group"><label>A)</label><input id="aA" required placeholder="Seçenek A"></div>
-                                <div class="form-group"><label>B)</label><input id="aB" required placeholder="Seçenek B"></div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group"><label>C)</label><input id="aC" required placeholder="Seçenek C"></div>
-                                <div class="form-group"><label>D)</label><input id="aD" required placeholder="Seçenek D"></div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group"><label>E)</label><input id="aE" required placeholder="Seçenek E"></div>
-                                <div class="form-group">
-                                    <label>Doğru Cevap</label>
-                                    <select id="aCorrect" required>
-                                        <option value="">Seçiniz</option>
-                                        <option value="A">A</option><option value="B">B</option>
-                                        <option value="C">C</option><option value="D">D</option>
-                                        <option value="E">E</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label>Açıklama (Opsiyonel)</label>
-                                <textarea id="aExpl" rows="2" placeholder="Doğru cevabın açıklaması..."></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-success btn-full">✅ Soruyu Ekle</button>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header">
-                        <h3>📋 Sorularım (<span id="myQCount">0</span>)</h3>
+            <div class="card">
+                <div class="card-header">
+                    <h3>📋 Sorularım (<span id="myQCount">0</span>)</h3>
                         <div class="card-actions">
                             <select id="bankFilter" class="select-sm" onchange="app.renderBank()">
                                 <option value="all">Tümü</option>
@@ -372,9 +319,8 @@
                             </label>
                         </div>
                     </div>
-                    <div class="card-body" id="bankList">
-                        <!-- Filled by JS -->
-                    </div>
+                <div class="card-body" id="bankList">
+                    <!-- Filled by JS -->
                 </div>
             </div>
         </section>
