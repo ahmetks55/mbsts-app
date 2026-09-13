@@ -830,12 +830,18 @@ function applyCustomTheme(settings) {
     let radius = settings.radius || 14;
     let sidebarStyle = settings.sidebarStyle || 'gradient';
 
+    // Generate sidebar colors from primary
+    let hsl = hexToHSL(primary);
+    let sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
+    let sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
+
     // Auto-adjust for dark mode
     if (isDark && !settings.darkMode) {
-        let hsl = hexToHSL(primary);
         primary = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 20)}%, ${Math.min(70, hsl.l + 30)}%)`;
         bg = '#0f0f1a';
         surface = '#1a1a2e';
+        sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
+        sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
     }
 
     root.style.setProperty('--primary', primary);
@@ -845,6 +851,8 @@ function applyCustomTheme(settings) {
     root.style.setProperty('--bg', bg);
     root.style.setProperty('--surface', surface);
     root.style.setProperty('--radius', radius + 'px');
+    root.style.setProperty('--sidebar-start', sidebarStart);
+    root.style.setProperty('--sidebar-end', sidebarEnd);
 
     // Sidebar style
     const sidebar = document.querySelector('.sidebar');
