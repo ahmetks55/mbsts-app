@@ -1214,12 +1214,58 @@ class CustomColorPicker {
         this._dragging = null;
 
         this.overlay.classList.add('open');
+        this.renderSavedInModal();
         this.updateAll();
     }
 
     close() {
         this.overlay.classList.remove('open');
         this._dragging = null;
+    }
+
+    renderSavedInModal() {
+        const container = document.getElementById('cpSavedColors');
+        const saved = JSON.parse(localStorage.getItem(`mbsts_palette_${this.targetPrefix}`) || '[]');
+        container.innerHTML = '';
+
+        if (saved.length === 0) {
+            container.innerHTML = '<div class="cp-saved-empty">Henüz renk kaydedilmedi</div>';
+            return;
+        }
+
+        saved.forEach(color => {
+            const btn = document.createElement('button');
+            btn.className = 'cp-saved-btn';
+            btn.style.background = color;
+            btn.title = color;
+            btn.dataset.color = color;
+
+            // Tek tıkla → rengi seç
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const hsl = this.hexToHSL(color);
+                this.h = hsl.h; this.s = hsl.s; this.l = hsl.l;
+                this.updateAll();
+                container.querySelectorAll('.cp-saved-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+
+            // Çift tıkla → sil
+            btn.addEventListener('dblclick', (e) => {
+                e.stopPropagation();
+                let savedArr = JSON.parse(localStorage.getItem(`mbsts_palette_${this.targetPrefix}`) || '[]');
+                savedArr = savedArr.filter(c => c !== color);
+                localStorage.setItem(`mbsts_palette_${this.targetPrefix}`, JSON.stringify(savedArr));
+
+                // Hover paletindekini de güncelle
+                const palette = document.getElementById(`picker-${this.targetPrefix}`).querySelector('.hover-palette');
+                if (window.themeCustomizer) window.themeCustomizer.renderSavedColors(this.targetPrefix, palette);
+
+                this.renderSavedInModal();
+            });
+
+            container.appendChild(btn);
+        });
     }
 
     apply() {
