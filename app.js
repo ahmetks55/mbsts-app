@@ -284,8 +284,8 @@ class MBSTSApp {
     }
 
     renderBank() {
-        this._bankSelectedYears = this._bankSelectedYears || new Set();
-        this._bankSelectedSubjects = this._bankSelectedSubjects || new Set();
+        this._bankSelectedYear = 'all';
+        this._bankSelectedSubject = 'all';
         this._bankPage = 0;
         this._buildBankChips();
         this._filterBankQuestions();
@@ -299,17 +299,9 @@ class MBSTSApp {
 
         yearContainer.querySelectorAll('.chip').forEach(c => {
             c.addEventListener('click', () => {
-                const y = c.dataset.year;
-                if (y === 'all') {
-                    this._bankSelectedYears.clear();
-                    yearContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
-                    c.classList.add('active');
-                } else {
-                    yearContainer.querySelector('[data-year="all"]').classList.remove('active');
-                    if (this._bankSelectedYears.has(y)) { this._bankSelectedYears.delete(y); c.classList.remove('active'); }
-                    else { this._bankSelectedYears.add(y); c.classList.add('active'); }
-                    if (this._bankSelectedYears.size === 0) yearContainer.querySelector('[data-year="all"]').classList.add('active');
-                }
+                yearContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                c.classList.add('active');
+                this._bankSelectedYear = c.dataset.year;
                 this._filterBankQuestions();
             });
         });
@@ -321,17 +313,9 @@ class MBSTSApp {
 
         subjectContainer.querySelectorAll('.chip').forEach(c => {
             c.addEventListener('click', () => {
-                const s = c.dataset.subject;
-                if (s === 'all') {
-                    this._bankSelectedSubjects.clear();
-                    subjectContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
-                    c.classList.add('active');
-                } else {
-                    subjectContainer.querySelector('[data-subject="all"]').classList.remove('active');
-                    if (this._bankSelectedSubjects.has(s)) { this._bankSelectedSubjects.delete(s); c.classList.remove('active'); }
-                    else { this._bankSelectedSubjects.add(s); c.classList.add('active'); }
-                    if (this._bankSelectedSubjects.size === 0) subjectContainer.querySelector('[data-subject="all"]').classList.add('active');
-                }
+                subjectContainer.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                c.classList.add('active');
+                this._bankSelectedSubject = c.dataset.subject;
                 this._filterBankQuestions();
             });
         });
@@ -339,11 +323,11 @@ class MBSTSApp {
 
     _filterBankQuestions() {
         let filtered = this.questions;
-        if (this._bankSelectedYears && this._bankSelectedYears.size > 0) {
-            filtered = filtered.filter(q => this._bankSelectedYears.has(String(q.year)));
+        if (this._bankSelectedYear !== 'all') {
+            filtered = filtered.filter(q => String(q.year) === this._bankSelectedYear);
         }
-        if (this._bankSelectedSubjects && this._bankSelectedSubjects.size > 0) {
-            filtered = filtered.filter(q => this._bankSelectedSubjects.has(q.subject));
+        if (this._bankSelectedSubject !== 'all') {
+            filtered = filtered.filter(q => q.subject === this._bankSelectedSubject);
         }
         this._bankData = filtered;
         document.getElementById('myQCount').textContent = this._bankData.length;
@@ -389,8 +373,8 @@ class MBSTSApp {
     }
 
     renderPastPage() {
-        this._pastSelectedYears = new Set();
-        this._pastSelectedSubjects = new Set();
+        this._pastSelectedYear = 'all';
+        this._pastSelectedSubject = 'all';
         this._buildPastChips();
         this._filterPastQuestions();
     }
@@ -398,26 +382,26 @@ class MBSTSApp {
     _buildPastChips() {
         const years = [...new Set(this.questions.filter(q => q.year).map(q => q.year))].sort();
         const yearChips = document.getElementById('pastYearChips');
-        yearChips.innerHTML = years.map(y => '<div class="chip" data-year="' + y + '">' + y + '</div>').join('');
+        yearChips.innerHTML = '<div class="chip active" data-year="all">Tümü</div>' + years.map(y => '<div class="chip" data-year="' + y + '">' + y + '</div>').join('');
 
         const subjects = Object.entries(SUBJECTS).map(([k, v]) => ({ key: k, name: v.icon + ' ' + v.name }));
         const subjectChips = document.getElementById('pastSubjectChips');
-        subjectChips.innerHTML = subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
+        subjectChips.innerHTML = '<div class="chip active" data-subject="all">Tümü</div>' + subjects.map(s => '<div class="chip" data-subject="' + s.key + '">' + s.name + '</div>').join('');
 
         yearChips.querySelectorAll('.chip').forEach(c => {
             c.addEventListener('click', () => {
-                const y = c.dataset.year;
-                if (this._pastSelectedYears.has(y)) { this._pastSelectedYears.delete(y); c.classList.remove('active'); }
-                else { this._pastSelectedYears.add(y); c.classList.add('active'); }
+                yearChips.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                c.classList.add('active');
+                this._pastSelectedYear = c.dataset.year;
                 this._filterPastQuestions();
             });
         });
 
         subjectChips.querySelectorAll('.chip').forEach(c => {
             c.addEventListener('click', () => {
-                const s = c.dataset.subject;
-                if (this._pastSelectedSubjects.has(s)) { this._pastSelectedSubjects.delete(s); c.classList.remove('active'); }
-                else { this._pastSelectedSubjects.add(s); c.classList.add('active'); }
+                subjectChips.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
+                c.classList.add('active');
+                this._pastSelectedSubject = c.dataset.subject;
                 this._filterPastQuestions();
             });
         });
@@ -427,11 +411,11 @@ class MBSTSApp {
 
     _filterPastQuestions() {
         let filtered = this.questions;
-        if (this._pastSelectedYears.size > 0) {
-            filtered = filtered.filter(q => this._pastSelectedYears.has(String(q.year)));
+        if (this._pastSelectedYear !== 'all') {
+            filtered = filtered.filter(q => String(q.year) === this._pastSelectedYear);
         }
-        if (this._pastSelectedSubjects.size > 0) {
-            filtered = filtered.filter(q => this._pastSelectedSubjects.has(q.subject));
+        if (this._pastSelectedSubject !== 'all') {
+            filtered = filtered.filter(q => q.subject === this._pastSelectedSubject);
         }
         this._pastFiltered = filtered;
         document.getElementById('pastResultCount').textContent = filtered.length + ' soru bulundu';
