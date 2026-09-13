@@ -919,6 +919,7 @@ class ThemeCustomizer {
                     this.setColor('bgColor', 'bgColorText', preset.bg);
                     this.setColor('surfaceColor', 'surfaceColorText', preset.surface);
                     applyCustomTheme({ ...this.settings, ...preset });
+                    this.livePreview();
                 }
             });
         });
@@ -995,13 +996,36 @@ class ThemeCustomizer {
     }
 
     livePreview() {
-        applyCustomTheme({
-            primary: document.getElementById('primaryColor').value,
-            accent: document.getElementById('accentColor').value,
-            bg: document.getElementById('bgColor').value,
-            surface: document.getElementById('surfaceColor').value,
-            radius: parseInt(document.getElementById('radiusSlider').value)
-        });
+        const primary = document.getElementById('primaryColor').value;
+        const accent = document.getElementById('accentColor').value;
+        const bg = document.getElementById('bgColor').value;
+        const surface = document.getElementById('surfaceColor').value;
+        const radius = parseInt(document.getElementById('radiusSlider').value);
+
+        applyCustomTheme({ primary, accent, bg, surface, radius });
+
+        // Update preview color dots and hex codes
+        const previewPrimaryDot = document.getElementById('previewPrimaryDot');
+        const previewAccentDot = document.getElementById('previewAccentDot');
+        const previewBgDot = document.getElementById('previewBgDot');
+        const previewSurfaceDot = document.getElementById('previewSurfaceDot');
+
+        if (previewPrimaryDot) {
+            previewPrimaryDot.style.background = primary;
+            document.getElementById('previewPrimaryHex').textContent = primary;
+        }
+        if (previewAccentDot) {
+            previewAccentDot.style.background = accent;
+            document.getElementById('previewAccentHex').textContent = accent;
+        }
+        if (previewBgDot) {
+            previewBgDot.style.background = bg;
+            document.getElementById('previewBgHex').textContent = bg;
+        }
+        if (previewSurfaceDot) {
+            previewSurfaceDot.style.background = surface;
+            document.getElementById('previewSurfaceHex').textContent = surface;
+        }
     }
 
     showToast(msg) {

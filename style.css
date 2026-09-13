@@ -1127,6 +1127,150 @@ body {
     border-top: 1px solid var(--border);
 }
 
+/* ===== THEME LIVE PREVIEW ===== */
+.theme-preview {
+    display: flex;
+    height: 180px;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    border: 2px solid var(--border);
+}
+
+.preview-sidebar {
+    width: 100px;
+    background: linear-gradient(180deg, var(--sidebar-start) 0%, var(--sidebar-end) 100%);
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.preview-sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 6px;
+    font-size: 0.65em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.preview-icon {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+}
+
+.preview-nav-item {
+    padding: 5px 6px;
+    border-radius: 5px;
+    font-size: 0.55em;
+    color: rgba(255,255,255,0.5);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.preview-nav-item.active {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+}
+
+.preview-main {
+    flex: 1;
+    background: var(--bg);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.preview-card {
+    background: var(--surface);
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+    border: 1px solid var(--border);
+}
+
+.preview-card-title {
+    font-size: 0.7em;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.preview-card-text {
+    font-size: 0.55em;
+    color: var(--text-secondary);
+}
+
+.preview-btn-row {
+    display: flex;
+    gap: 6px;
+}
+
+.preview-btn {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.55em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.preview-btn.primary {
+    background: var(--primary);
+    color: #fff;
+}
+
+.preview-btn.outline {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background: transparent;
+}
+
+/* Color Info Grid */
+.color-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.color-info-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 8px;
+    background: var(--bg);
+    border-radius: var(--radius-sm);
+    font-size: 0.75em;
+}
+
+.color-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+}
+
+.color-info-item span {
+    flex: 1;
+    color: var(--text-secondary);
+}
+
+.color-info-item code {
+    font-family: monospace;
+    font-size: 0.9em;
+    color: var(--text);
+}
+
 /* ===== MBSTS STATISTICS PAGE ===== */
 .answer-dist-grid {
     display: flex;
