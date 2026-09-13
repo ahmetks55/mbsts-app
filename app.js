@@ -899,6 +899,11 @@ class ThemeCustomizer {
             if (!this.panel.contains(e.target) && !e.target.closest('#themeSettingsBtn')) {
                 this.panel.classList.remove('open');
             }
+            // Close color dropdowns
+            if (!e.target.closest('.custom-color-picker')) {
+                document.querySelectorAll('.color-dropdown').forEach(d => d.classList.remove('open'));
+                document.querySelectorAll('.color-selected').forEach(s => s.classList.remove('open'));
+            }
         });
 
         // Color pickers
@@ -932,25 +937,11 @@ class ThemeCustomizer {
             });
         });
 
-        // Color palette - Primary
-        document.querySelectorAll('#colorPalette .palette-color').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('#colorPalette .palette-color').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                this.setColor('primaryColor', 'primaryColorText', btn.dataset.color);
-                this.livePreview();
-            });
-        });
-
-        // Color palette - Accent
-        document.querySelectorAll('#accentPalette .palette-color').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('#accentPalette .palette-color').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                this.setColor('accentColor', 'accentColorText', btn.dataset.color);
-                this.livePreview();
-            });
-        });
+        // Custom Color Pickers
+        this.setupCustomColorPicker('primary', 'primaryColor', 'primaryColorText', 'primaryPreview', 'primarySelected', 'primaryDropdown', 'primaryColorCustom');
+        this.setupCustomColorPicker('accent', 'accentColor', 'accentColorText', 'accentPreview', 'accentSelected', 'accentDropdown', 'accentColorCustom');
+        this.setupCustomColorPicker('bg', 'bgColor', 'bgColorText', 'bgPreview', 'bgSelected', 'bgDropdown', 'bgColorCustom');
+        this.setupCustomColorPicker('surface', 'surfaceColor', 'surfaceColorText', 'surfacePreview', 'surfaceSelected', 'surfaceDropdown', 'surfaceColorCustom');
 
         // Radius slider
         const radiusSlider = document.getElementById('radiusSlider');
@@ -987,6 +978,66 @@ class ThemeCustomizer {
         });
     }
 
+    setupCustomColorPicker(prefix, colorId, textId, previewId, selectedId, dropdownId, customId) {
+        const colorInput = document.getElementById(colorId);
+        const textInput = document.getElementById(textId);
+        const preview = document.getElementById(previewId);
+        const selected = document.getElementById(selectedId);
+        const dropdown = document.getElementById(dropdownId);
+        const customInput = document.getElementById(customId);
+
+        if (!selected || !dropdown) return;
+
+        // Toggle dropdown
+        selected.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Close other dropdowns
+            document.querySelectorAll('.color-dropdown').forEach(d => d.classList.remove('open'));
+            document.querySelectorAll('.color-selected').forEach(s => s.classList.remove('open'));
+            dropdown.classList.toggle('open');
+            selected.classList.toggle('open');
+        });
+
+        // Palette buttons
+        dropdown.querySelectorAll('.pal-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdown.querySelectorAll('.pal-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const color = btn.dataset.color;
+                this.setPickerColor(prefix, colorId, textId, previewId, color);
+                this.livePreview();
+            });
+        });
+
+        // Custom native color input
+        customInput.addEventListener('input', () => {
+            this.setPickerColor(prefix, colorId, textId, previewId, customInput.value);
+            this.livePreview();
+        });
+
+        // Text input
+        textInput.addEventListener('input', () => {
+            if (/^#[0-9A-Fa-f]{6}$/.test(textInput.value)) {
+                colorInput.value = textInput.value;
+                preview.style.background = textInput.value;
+                this.livePreview();
+            }
+        });
+
+        textInput.addEventListener('blur', () => {
+            if (!/^#[0-9A-Fa-f]{6}$/.test(textInput.value)) {
+                textInput.value = colorInput.value;
+            }
+        });
+    }
+
+    setPickerColor(prefix, colorId, textId, previewId, color) {
+        document.getElementById(colorId).value = color;
+        document.getElementById(textId).value = color;
+        document.getElementById(previewId).style.background = color;
+    }
+
     setupColorPicker(colorId, textId) {
         const colorInput = document.getElementById(colorId);
         const textInput = document.getElementById(textId);
@@ -1013,6 +1064,10 @@ class ThemeCustomizer {
     setColor(colorId, textId, value) {
         document.getElementById(colorId).value = value;
         document.getElementById(textId).value = value;
+        // Also update preview if exists
+        const previewId = colorId.replace('Color', 'Preview');
+        const preview = document.getElementById(previewId);
+        if (preview) preview.style.background = value;
     }
 
     livePreview() {

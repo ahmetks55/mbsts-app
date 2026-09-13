@@ -46,36 +46,144 @@
             <!-- Primary Color -->
             <div class="theme-section">
                 <label class="theme-label">Ana Renk</label>
-                <div class="color-picker-row">
-                    <input type="color" id="primaryColor" value="#1a5276" class="color-input">
-                    <input type="text" id="primaryColorText" value="#1a5276" class="color-text-input" maxlength="7">
+                <div class="custom-color-picker">
+                    <div class="color-selected" id="primarySelected" data-target="primary">
+                        <div class="color-preview" id="primaryPreview" style="background:#1a5276"></div>
+                        <input type="text" id="primaryColorText" value="#1a5276" class="color-hex-input" maxlength="7">
+                        <span class="color-arrow">▾</span>
+                    </div>
+                    <input type="color" id="primaryColor" value="#1a5276" class="hidden-color-input">
+                    <div class="color-dropdown" id="primaryDropdown">
+                        <div class="dropdown-palette">
+                            <button class="pal-btn" data-color="#1a5276" style="background:#1a5276"></button>
+                            <button class="pal-btn" data-color="#2980b9" style="background:#2980b9"></button>
+                            <button class="pal-btn" data-color="#3498db" style="background:#3498db"></button>
+                            <button class="pal-btn" data-color="#1abc9c" style="background:#1abc9c"></button>
+                            <button class="pal-btn" data-color="#16a085" style="background:#16a085"></button>
+                            <button class="pal-btn" data-color="#27ae60" style="background:#27ae60"></button>
+                            <button class="pal-btn" data-color="#2ecc71" style="background:#2ecc71"></button>
+                            <button class="pal-btn" data-color="#8e44ad" style="background:#8e44ad"></button>
+                            <button class="pal-btn" data-color="#9b59b6" style="background:#9b59b6"></button>
+                            <button class="pal-btn" data-color="#e74c3c" style="background:#e74c3c"></button>
+                            <button class="pal-btn" data-color="#c0392b" style="background:#c0392b"></button>
+                            <button class="pal-btn" data-color="#e67e22" style="background:#e67e22"></button>
+                            <button class="pal-btn" data-color="#d35400" style="background:#d35400"></button>
+                            <button class="pal-btn" data-color="#f39c12" style="background:#f39c12"></button>
+                            <button class="pal-btn" data-color="#f1c40f" style="background:#f1c40f"></button>
+                            <button class="pal-btn" data-color="#e91e63" style="background:#e91e63"></button>
+                            <button class="pal-btn" data-color="#c2185b" style="background:#c2185b"></button>
+                            <button class="pal-btn" data-color="#00bcd4" style="background:#00bcd4"></button>
+                            <button class="pal-btn" data-color="#009688" style="background:#009688"></button>
+                            <button class="pal-btn" data-color="#3f51b5" style="background:#3f51b5"></button>
+                            <button class="pal-btn" data-color="#673ab7" style="background:#673ab7"></button>
+                            <button class="pal-btn" data-color="#795548" style="background:#795548"></button>
+                            <button class="pal-btn" data-color="#607d8b" style="background:#607d8b"></button>
+                            <button class="pal-btn" data-color="#9e9e9e" style="background:#9e9e9e"></button>
+                        </div>
+                        <div class="dropdown-custom">
+                            <label>Özel Renk:</label>
+                            <input type="color" id="primaryColorCustom" value="#1a5276" class="native-color picker-native">
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Accent Color -->
             <div class="theme-section">
                 <label class="theme-label">Vurgu Rengi</label>
-                <div class="color-picker-row">
-                    <input type="color" id="accentColor" value="#1abc9c" class="color-input">
-                    <input type="text" id="accentColorText" value="#1abc9c" class="color-text-input" maxlength="7">
+                <div class="custom-color-picker">
+                    <div class="color-selected" id="accentSelected" data-target="accent">
+                        <div class="color-preview" id="accentPreview" style="background:#1abc9c"></div>
+                        <input type="text" id="accentColorText" value="#1abc9c" class="color-hex-input" maxlength="7">
+                        <span class="color-arrow">▾</span>
+                    </div>
+                    <input type="color" id="accentColor" value="#1abc9c" class="hidden-color-input">
+                    <div class="color-dropdown" id="accentDropdown">
+                        <div class="dropdown-palette">
+                            <button class="pal-btn" data-color="#1abc9c" style="background:#1abc9c"></button>
+                            <button class="pal-btn" data-color="#2ecc71" style="background:#2ecc71"></button>
+                            <button class="pal-btn" data-color="#3498db" style="background:#3498db"></button>
+                            <button class="pal-btn" data-color="#9b59b6" style="background:#9b59b6"></button>
+                            <button class="pal-btn" data-color="#e74c3c" style="background:#e74c3c"></button>
+                            <button class="pal-btn" data-color="#e67e22" style="background:#e67e22"></button>
+                            <button class="pal-btn" data-color="#f39c12" style="background:#f39c12"></button>
+                            <button class="pal-btn" data-color="#e91e63" style="background:#e91e63"></button>
+                            <button class="pal-btn" data-color="#00bcd4" style="background:#00bcd4"></button>
+                            <button class="pal-btn" data-color="#8e44ad" style="background:#8e44ad"></button>
+                            <button class="pal-btn" data-color="#16a085" style="background:#16a085"></button>
+                            <button class="pal-btn" data-color="#27ae60" style="background:#27ae60"></button>
+                        </div>
+                        <div class="dropdown-custom">
+                            <label>Özel Renk:</label>
+                            <input type="color" id="accentColorCustom" value="#1abc9c" class="native-color picker-native">
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Background Color -->
             <div class="theme-section">
                 <label class="theme-label">Arka Plan Rengi</label>
-                <div class="color-picker-row">
-                    <input type="color" id="bgColor" value="#f0f2f5" class="color-input">
-                    <input type="text" id="bgColorText" value="#f0f2f5" class="color-text-input" maxlength="7">
+                <div class="custom-color-picker">
+                    <div class="color-selected" id="bgSelected" data-target="bg">
+                        <div class="color-preview" id="bgPreview" style="background:#f0f2f5"></div>
+                        <input type="text" id="bgColorText" value="#f0f2f5" class="color-hex-input" maxlength="7">
+                        <span class="color-arrow">▾</span>
+                    </div>
+                    <input type="color" id="bgColor" value="#f0f2f5" class="hidden-color-input">
+                    <div class="color-dropdown" id="bgDropdown">
+                        <div class="dropdown-palette">
+                            <button class="pal-btn" data-color="#f0f2f5" style="background:#f0f2f5;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#ffffff" style="background:#ffffff;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#ecf0f1" style="background:#ecf0f1;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#f5f6fa" style="background:#f5f6fa;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#dfe6e9" style="background:#dfe6e9;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#ffeaa7" style="background:#ffeaa7"></button>
+                            <button class="pal-btn" data-color="#dfe6e9" style="background:#dfe6e9;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#fab1a0" style="background:#fab1a0"></button>
+                            <button class="pal-btn" data-color="#81ecec" style="background:#81ecec"></button>
+                            <button class="pal-btn" data-color="#a29bfe" style="background:#a29bfe"></button>
+                            <button class="pal-btn" data-color="#0f0f1a" style="background:#0f0f1a"></button>
+                            <button class="pal-btn" data-color="#1a1a2e" style="background:#1a1a2e"></button>
+                        </div>
+                        <div class="dropdown-custom">
+                            <label>Özel Renk:</label>
+                            <input type="color" id="bgColorCustom" value="#f0f2f5" class="native-color picker-native">
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Surface Color -->
             <div class="theme-section">
                 <label class="theme-label">Kart Rengi</label>
-                <div class="color-picker-row">
-                    <input type="color" id="surfaceColor" value="#ffffff" class="color-input">
-                    <input type="text" id="surfaceColorText" value="#ffffff" class="color-text-input" maxlength="7">
+                <div class="custom-color-picker">
+                    <div class="color-selected" id="surfaceSelected" data-target="surface">
+                        <div class="color-preview" id="surfacePreview" style="background:#ffffff"></div>
+                        <input type="text" id="surfaceColorText" value="#ffffff" class="color-hex-input" maxlength="7">
+                        <span class="color-arrow">▾</span>
+                    </div>
+                    <input type="color" id="surfaceColor" value="#ffffff" class="hidden-color-input">
+                    <div class="color-dropdown" id="surfaceDropdown">
+                        <div class="dropdown-palette">
+                            <button class="pal-btn" data-color="#ffffff" style="background:#ffffff;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#f8f9fa" style="background:#f8f9fa;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#ecf0f1" style="background:#ecf0f1;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#ffffff" style="background:#ffffff;border:1px solid #ddd"></button>
+                            <button class="pal-btn" data-color="#ffeaa7" style="background:#ffeaa7"></button>
+                            <button class="pal-btn" data-color="#fab1a0" style="background:#fab1a0"></button>
+                            <button class="pal-btn" data-color="#81ecec" style="background:#81ecec"></button>
+                            <button class="pal-btn" data-color="#a29bfe" style="background:#a29bfe"></button>
+                            <button class="pal-btn" data-color="#1a1a2e" style="background:#1a1a2e"></button>
+                            <button class="pal-btn" data-color="#2d2d44" style="background:#2d2d44"></button>
+                            <button class="pal-btn" data-color="#22223a" style="background:#22223a"></button>
+                            <button class="pal-btn" data-color="#2a2a3e" style="background:#2a2a3e"></button>
+                        </div>
+                        <div class="dropdown-custom">
+                            <label>Özel Renk:</label>
+                            <input type="color" id="surfaceColorCustom" value="#ffffff" class="native-color picker-native">
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -96,58 +204,6 @@
                     <input type="range" id="radiusSlider" min="0" max="24" value="14" class="radius-slider">
                     <span id="radiusValue">14px</span>
                 </div>
-            </div>
-
-            <!-- Quick Color Palette -->
-            <div class="theme-section">
-                <label class="theme-label">Hızlı Renk Seçimi (Tıkla → Ana Renk Olarak Seç)</label>
-                <div class="color-palette" id="colorPalette">
-                    <button class="palette-color" data-color="#1a5276" style="background:#1a5276" title="Lacivert"></button>
-                    <button class="palette-color" data-color="#2980b9" style="background:#2980b9" title="Mavi"></button>
-                    <button class="palette-color" data-color="#3498db" style="background:#3498db" title="Açık Mavi"></button>
-                    <button class="palette-color" data-color="#1abc9c" style="background:#1abc9c" title="Turkuaz"></button>
-                    <button class="palette-color" data-color="#16a085" style="background:#16a085" title="Koyu Turkuaz"></button>
-                    <button class="palette-color" data-color="#27ae60" style="background:#27ae60" title="Yeşil"></button>
-                    <button class="palette-color" data-color="#2ecc71" style="background:#2ecc71" title="Açık Yeşil"></button>
-                    <button class="palette-color" data-color="#8e44ad" style="background:#8e44ad" title="Mor"></button>
-                    <button class="palette-color" data-color="#9b59b6" style="background:#9b59b6" title="Açık Mor"></button>
-                    <button class="palette-color" data-color="#e74c3c" style="background:#e74c3c" title="Kırmızı"></button>
-                    <button class="palette-color" data-color="#c0392b" style="background:#c0392b" title="Koyu Kırmızı"></button>
-                    <button class="palette-color" data-color="#e67e22" style="background:#e67e22" title="Turuncu"></button>
-                    <button class="palette-color" data-color="#d35400" style="background:#d35400" title="Koyu Turuncu"></button>
-                    <button class="palette-color" data-color="#f39c12" style="background:#f39c12" title="Sarı"></button>
-                    <button class="palette-color" data-color="#f1c40f" style="background:#f1c40f" title="Altın"></button>
-                    <button class="palette-color" data-color="#e91e63" style="background:#e91e63" title="Pembe"></button>
-                    <button class="palette-color" data-color="#c2185b" style="background:#c2185b" title="Koyu Pembe"></button>
-                    <button class="palette-color" data-color="#00bcd4" style="background:#00bcd4" title="Cyan"></button>
-                    <button class="palette-color" data-color="#009688" style="background:#009688" title="Teal"></button>
-                    <button class="palette-color" data-color="#3f51b5" style="background:#3f51b5" title="İndigo"></button>
-                    <button class="palette-color" data-color="#673ab7" style="background:#673ab7" title="Koyu Mor"></button>
-                    <button class="palette-color" data-color="#795548" style="background:#795548" title="Kahverengi"></button>
-                    <button class="palette-color" data-color="#607d8b" style="background:#607d8b" title="Gri Mavi"></button>
-                    <button class="palette-color" data-color="#9e9e9e" style="background:#9e9e9e" title="Gri"></button>
-                </div>
-                <div class="palette-hint">⬆️ Üstteki renklere tıklayarak Ana Rengi değiştirin</div>
-            </div>
-
-            <!-- Vurgu Renk Paleti -->
-            <div class="theme-section">
-                <label class="theme-label">Vurgu Rengi Seçimi (Tıkla → Vurgu Rengi Olarak Seç)</label>
-                <div class="color-palette" id="accentPalette">
-                    <button class="palette-color accent-pick" data-color="#1abc9c" style="background:#1abc9c" title="Turkuaz"></button>
-                    <button class="palette-color accent-pick" data-color="#2ecc71" style="background:#2ecc71" title="Yeşil"></button>
-                    <button class="palette-color accent-pick" data-color="#3498db" style="background:#3498db" title="Mavi"></button>
-                    <button class="palette-color accent-pick" data-color="#9b59b6" style="background:#9b59b6" title="Mor"></button>
-                    <button class="palette-color accent-pick" data-color="#e74c3c" style="background:#e74c3c" title="Kırmızı"></button>
-                    <button class="palette-color accent-pick" data-color="#e67e22" style="background:#e67e22" title="Turuncu"></button>
-                    <button class="palette-color accent-pick" data-color="#f39c12" style="background:#f39c12" title="Sarı"></button>
-                    <button class="palette-color accent-pick" data-color="#e91e63" style="background:#e91e63" title="Pembe"></button>
-                    <button class="palette-color accent-pick" data-color="#00bcd4" style="background:#00bcd4" title="Cyan"></button>
-                    <button class="palette-color accent-pick" data-color="#8e44ad" style="background:#8e44ad" title="Mor"></button>
-                    <button class="palette-color accent-pick" data-color="#16a085" style="background:#16a085" title="Koyu Turkuaz"></button>
-                    <button class="palette-color accent-pick" data-color="#27ae60" style="background:#27ae60" title="Koyu Yeşil"></button>
-                </div>
-                <div class="palette-hint">⬆️ Üstteki renklere tıklayarak Vurgu Rengini değiştirin</div>
             </div>
 
             <!-- Live Preview -->
