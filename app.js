@@ -374,7 +374,7 @@ class MBSTSApp {
                     <div class="s-author">${s.author}</div>
                     <span class="s-pub">${s.pub} - ${s.year}</span>
                     <div class="s-actions">
-                        <button class="btn btn-primary btn-sm" onclick="document.getElementById('${s.scrollTo}').classList.remove('hidden-section'); document.getElementById('${s.scrollTo}').scrollIntoView({behavior:'smooth',block:'start'})">📥 İndir</button>
+                        <button class="btn btn-primary btn-sm source-dl-btn" data-scroll="${s.scrollTo}">📥 İndir</button>
                     </div>
                 </div>`;
             }
@@ -385,7 +385,7 @@ class MBSTSApp {
                     <div class="s-author">${s.author}</div>
                     <span class="s-pub">${s.pub} - ${s.year}</span>
                     <div class="s-actions">
-                        <button class="btn btn-primary btn-sm" onclick="showDownloadModal('${s.title.replace(/'/g,"\\'")}', '${s.url}', '${s.fileSize}')">📥 İndir</button>
+                        <button class="btn btn-primary btn-sm source-dl-btn" data-url="${s.url}" data-title="${s.title}" data-size="${s.fileSize}">📥 İndir</button>
                     </div>
                 </div>`;
             }
@@ -399,6 +399,16 @@ class MBSTSApp {
                 </div>
             </div>`;
         }).join('');
+        grid.querySelectorAll('.source-dl-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (btn.dataset.scroll) {
+                    const el = document.getElementById(btn.dataset.scroll);
+                    if (el) { el.classList.remove('hidden-section'); el.scrollIntoView({behavior:'smooth',block:'start'}); }
+                } else if (btn.dataset.url) {
+                    showDownloadModal(btn.dataset.title, btn.dataset.url, btn.dataset.size);
+                }
+            });
+        });
     }
 
     startQuiz() {
@@ -614,6 +624,33 @@ class MBSTSApp {
         toast.classList.add('show');
         setTimeout(() => toast.classList.remove('show'), 3000);
     }
+}
+
+function showDownloadModal(title, url, size) {
+    const existing = document.getElementById('downloadModal');
+    if (existing) existing.remove();
+    const modal = document.createElement('div');
+    modal.id = 'downloadModal';
+    modal.className = 'modal-overlay';
+    modal.innerHTML = `
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>📥 İndirme Onayı</h3>
+                <button class="modal-close" onclick="this.closest('.modal-overlay').remove()">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-info-row"><span>Dosya:</span><strong>${title}</strong></div>
+                <div class="modal-info-row"><span>Boyut:</span><strong>${size}</strong></div>
+                <div class="modal-info-row"><span>Kaynak:</span><strong>archive.org</strong></div>
+                <p class="modal-warn">Bu dosya archive.org sunucusundan indirilecek. İndirme işlemi cihazınızın bağlantı hızına göre uzun sürebilir.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="this.closest('.modal-overlay').remove()">İptal</button>
+                <a href="${url}" download class="btn btn-primary" id="modalDownloadBtn">İndir</a>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', function(e) { if (e.target === modal) modal.remove(); });
 }
 
 const app = new MBSTSApp();
