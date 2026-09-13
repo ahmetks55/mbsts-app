@@ -1127,8 +1127,13 @@ class CustomColorPicker {
         this.previewOld = document.getElementById('cpPreviewOld');
         this.satTrack = document.getElementById('cpSatTrack');
         this.lightTrack = document.getElementById('cpLightTrack');
-        this.shadesGrid = document.getElementById('cpShadesGrid');
+        this.shadesGrid = document.getElementById('cpShadesViewport');
         this.shadesTitle = document.getElementById('cpShadesTitle');
+        this.shadesLeft = document.getElementById('cpShadesLeft');
+        this.shadesRight = document.getElementById('cpShadesRight');
+        this._shadeOffset = 0;
+        this._shadeTotal = 0;
+        this._visibleCount = 7;
 
         this.h = 210; this.s = 70; this.l = 40;
         this.targetPrefix = null;
@@ -1203,10 +1208,25 @@ class CustomColorPicker {
         // Apply
         document.getElementById('cpApply').addEventListener('click', () => this.apply());
         document.getElementById('cpCancel').addEventListener('click', () => this.close());
+
+        // Shade arrow buttons
+        this.shadesLeft.addEventListener('click', () => {
+            if (this._shadeOffset > 0) {
+                this._shadeOffset--;
+                this.renderShades();
+            }
+        });
+        this.shadesRight.addEventListener('click', () => {
+            if (this._shadeOffset < this._shadeTotal - this._visibleCount) {
+                this._shadeOffset++;
+                this.renderShades();
+            }
+        });
     }
 
     open(prefix) {
         this.targetPrefix = prefix;
+        this._shadeOffset = 0;
         const colorInput = document.getElementById(prefix + 'Color');
         const oldColor = colorInput.value;
         this.previewOld.style.background = oldColor;
@@ -1229,24 +1249,37 @@ class CustomColorPicker {
         const container = this.shadesGrid;
         container.innerHTML = '';
 
-        // Mevcut rengin tonlarını üret
-        // 13 ton: çok koyu → koyu → orta → açık → çok açık
-        const shades = [];
         const h = this.h;
         const s = this.s;
 
-        // Koyu tonlar (lightness: 10, 15, 20, 25, 30)
+        // Tüm tonları üret
+        const allShades = [];
         for (let l = 10; l <= 30; l += 5) {
-            shades.push({ h, s, l, label: `%${l}` });
+            allShades.push({ h, s, l });
         }
-        // Mevcut renk (ortada)
-        shades.push({ h, s, l: this.l, label: 'Mevcut', current: true });
-        // Açık tonlar (lightness: 60, 65, 70, 75, 80, 85, 90)
+        allShades.push({ h, s, l: this.l, current: true });
         for (let l = 60; l <= 90; l += 5) {
-            shades.push({ h, s, l, label: `%${l}` });
+            allShades.push({ h, s, l });
         }
 
-        shades.forEach(shade => {
+        this._shadeTotal = allShades.length;
+
+        // Mevcut rengin indeksini bul
+        const currentIdx = allShades.findIndex(sh => sh.current);
+
+        // Offset'i ayarla: mevcut renk ortada görünsün
+        if (this._shadeOffset === 0 && currentIdx >= 0) {
+            this._shadeOffset = Math.max(0, currentIdx - Math.floor(this._visibleCount / 2));
+        }
+
+        // Offset sınırları
+        const maxOffset = Math.max(0, this._shadeTotal - this._visibleCount);
+        this._shadeOffset = Math.min(this._shadeOffset, maxOffset);
+
+        // Görünür tonları al
+        const visible = allShades.slice(this._shadeOffset, this._shadeOffset + this._visibleCount);
+
+        visible.forEach(shade => {
             const hex = this.hslToHex(shade.h, shade.s, shade.l);
             const btn = document.createElement('button');
             btn.className = 'cp-shade-btn' + (shade.current ? ' active' : '');
@@ -1263,12 +1296,14 @@ class CustomColorPicker {
                 e.stopPropagation();
                 this.h = shade.h; this.s = shade.s; this.l = shade.l;
                 this.updateAll();
-                container.querySelectorAll('.cp-shade-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
             });
 
             container.appendChild(btn);
         });
+
+        // Ok butonlarını güncelle
+        this.shadesLeft.disabled = this._shadeOffset <= 0;
+        this.shadesRight.disabled = this._shadeOffset >= maxOffset;
     }
 
     apply() {
