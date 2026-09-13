@@ -277,27 +277,42 @@ class MBSTSApp {
     }
 
     renderBank(filter = 'all') {
-        const f = filter === 'all' ? this.questions : this.questions.filter(q => q.subject === filter);
-        document.getElementById('myQCount').textContent = this.questions.length;
-        const list = document.getElementById('bankList');
+        this._bankFilter = filter;
+        this._bankPage = 0;
+        this._bankData = filter === 'all' ? this.questions : this.questions.filter(q => q.subject === filter);
+        document.getElementById('myQCount').textContent = this._bankData.length;
+        this._renderBankPage();
+    }
 
-        if (f.length === 0) {
-            list.innerHTML = '<div class="empty-state"><div class="empty-icon">🗃️</div><p>Henuz soru yok</p></div>';
+    _renderBankPage() {
+        const list = document.getElementById('bankList');
+        const PAGE_SIZE = 50;
+        const start = this._bankPage * PAGE_SIZE;
+        const slice = this._bankData.slice(start, start + PAGE_SIZE);
+        if (start === 0) list.innerHTML = '';
+        if (this._bankData.length === 0) {
+            list.innerHTML = '<div class="empty-state"><div class="empty-icon">📦</div><p>Henuz soru yok</p></div>';
             return;
         }
-        list.innerHTML = f.map(q => `
-            <div class="bank-item">
-                <div class="bi-head">
-                    <span class="bi-badge">${SUBJECTS[q.subject]?.name || q.subject}</span>
-                    ${q.year ? `<span class="bi-badge" style="background:var(--primary);color:#fff">${q.source || q.year}</span>` : ''}
-                    <button class="btn btn-sm btn-danger" onclick="app.deleteQuestion(${q.id})">Sil</button>
-                </div>
-                <div class="bi-text">${q.text}</div>
-                <div class="bi-opts">
-                    ${q.options.map((o, i) => `<div class="bi-opt ${i === q.correct ? 'is-correct' : ''}">${'ABCDE'[i]}) ${o}</div>`).join('')}
-                </div>
-            </div>
-        `).join('');
+        const fragment = document.createDocumentFragment();
+        slice.forEach(q => {
+            const div = document.createElement('div');
+            div.className = 'bank-item';
+            div.innerHTML = '<div class="bi-head"><span class="bi-badge">' + (SUBJECTS[q.subject]?.name || q.subject) + '</span>' + (q.year ? '<span class="bi-badge" style="background:var(--primary);color:#fff">' + (q.source || q.year) + '</span>' : '') + '<button class="btn btn-sm btn-danger" onclick="app.deleteQuestion(' + q.id + ')">Sil</button></div><div class="bi-text">' + q.text + '</div><div class="bi-opts">' + q.options.map((o, i) => '<div class="bi-opt ' + (i === q.correct ? 'is-correct' : '') + '">' + 'ABCDE'[i] + ') ' + o + '</div>').join('') + '</div>';
+            fragment.appendChild(div);
+        });
+        const oldBtn = document.getElementById('bankLoadMore');
+        if (oldBtn) oldBtn.remove();
+        list.appendChild(fragment);
+        if (start + PAGE_SIZE < this._bankData.length) {
+            const btn = document.createElement('button');
+            btn.id = 'bankLoadMore';
+            btn.className = 'btn btn-primary btn-full';
+            btn.style.marginTop = '12px';
+            btn.textContent = 'Daha Fazla Göster (' + (start + slice.length) + ' / ' + this._bankData.length + ')';
+            btn.onclick = () => { this._bankPage++; this._renderBankPage(); };
+            list.parentNode.insertBefore(btn, list.nextSibling);
+        }
     }
 
     deleteQuestion(id) {
