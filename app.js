@@ -988,32 +988,38 @@ class ThemeCustomizer {
 
         if (!selected || !dropdown) return;
 
+        // Load saved custom colors
+        this.loadSavedColors(prefix, dropdown);
+
         // Toggle dropdown
         selected.addEventListener('click', (e) => {
             e.stopPropagation();
-            // Close other dropdowns
             document.querySelectorAll('.color-dropdown').forEach(d => d.classList.remove('open'));
             document.querySelectorAll('.color-selected').forEach(s => s.classList.remove('open'));
             dropdown.classList.toggle('open');
             selected.classList.toggle('open');
         });
 
-        // Palette buttons
-        dropdown.querySelectorAll('.pal-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                dropdown.querySelectorAll('.pal-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                const color = btn.dataset.color;
-                this.setPickerColor(prefix, colorId, textId, previewId, color);
-                this.livePreview();
-            });
+        // Palette buttons (both preset and saved)
+        dropdown.addEventListener('click', (e) => {
+            const btn = e.target.closest('.pal-btn');
+            if (!btn) return;
+            e.stopPropagation();
+            dropdown.querySelectorAll('.pal-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const color = btn.dataset.color;
+            this.setPickerColor(prefix, colorId, textId, previewId, color);
+            this.livePreview();
         });
 
-        // Custom native color input
+        // Custom native color input - save to palette
         customInput.addEventListener('input', () => {
             this.setPickerColor(prefix, colorId, textId, previewId, customInput.value);
             this.livePreview();
+        });
+
+        customInput.addEventListener('change', () => {
+            this.saveCustomColor(prefix, customInput.value, dropdown);
         });
 
         // Text input
@@ -1030,6 +1036,45 @@ class ThemeCustomizer {
                 textInput.value = colorInput.value;
             }
         });
+    }
+
+    loadSavedColors(prefix, dropdown) {
+        const saved = JSON.parse(localStorage.getItem(`mbsts_palette_${prefix}`) || '[]');
+        const savedContainer = dropdown.querySelector('.saved-colors');
+        if (!savedContainer || saved.length === 0) return;
+
+        savedContainer.innerHTML = '';
+        saved.forEach(color => {
+            const btn = document.createElement('button');
+            btn.className = 'pal-btn saved';
+            btn.dataset.color = color;
+            btn.style.background = color;
+            btn.title = color + ' (Sil: çift tıkla)';
+            btn.addEventListener('dblclick', (e) => {
+                e.stopPropagation();
+                this.removeSavedColor(prefix, color, dropdown);
+            });
+            savedContainer.appendChild(btn);
+        });
+    }
+
+    saveCustomColor(prefix, color, dropdown) {
+        let saved = JSON.parse(localStorage.getItem(`mbsts_palette_${prefix}`) || '[]');
+        // Max 8 saved colors
+        if (saved.length >= 8) saved = saved.slice(1);
+        // Don't duplicate
+        if (!saved.includes(color)) {
+            saved.push(color);
+            localStorage.setItem(`mbsts_palette_${prefix}`, JSON.stringify(saved));
+            this.loadSavedColors(prefix, dropdown);
+        }
+    }
+
+    removeSavedColor(prefix, color, dropdown) {
+        let saved = JSON.parse(localStorage.getItem(`mbsts_palette_${prefix}`) || '[]');
+        saved = saved.filter(c => c !== color);
+        localStorage.setItem(`mbsts_palette_${prefix}`, JSON.stringify(saved));
+        this.loadSavedColors(prefix, dropdown);
     }
 
     setPickerColor(prefix, colorId, textId, previewId, color) {
