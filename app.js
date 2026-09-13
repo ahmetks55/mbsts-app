@@ -216,10 +216,20 @@ class MBSTSApp {
         if (page === 'stats') this.renderStats();
         if (page === 'bank') this.renderBank();
         if (page === 'past') this.renderPastPage();
-        if (page === 'quiz' && opts) {
-            if (opts.count) document.getElementById('qCount').value = opts.count;
-            if (opts.timer) document.getElementById('qTimer').value = opts.timer;
+        if (page === 'quiz') {
+            this._populateQuizYearFilter();
+            if (opts) {
+                if (opts.count) document.getElementById('qCount').value = opts.count;
+                if (opts.timer) document.getElementById('qTimer').value = opts.timer;
+            }
         }
+    }
+
+    _populateQuizYearFilter() {
+        const yearSelect = document.getElementById('qYear');
+        if (!yearSelect) return;
+        const years = [...new Set(this.questions.filter(q => q.year).map(q => q.year))].sort();
+        yearSelect.innerHTML = '<option value="all">Tüm Yıllar</option>' + years.map(y => '<option value="' + y + '">' + y + '</option>').join('');
     }
 
     renderDashboard() {
@@ -501,12 +511,15 @@ class MBSTSApp {
     startQuiz() {
         const count = parseInt(document.getElementById('qCount').value);
         const subject = document.getElementById('qSubject').value;
+        const year = document.getElementById('qYear').value;
         const timer = parseInt(document.getElementById('qTimer').value);
         const order = document.getElementById('qOrder').value;
 
-        let pool = subject === 'all' ? [...this.questions] : this.questions.filter(q => q.subject === subject);
+        let pool = [...this.questions];
+        if (subject !== 'all') pool = pool.filter(q => q.subject === subject);
+        if (year !== 'all') pool = pool.filter(q => String(q.year) === year);
         if (pool.length === 0) {
-            this.showToast('Bu konuda yeterli soru yok!', true);
+            this.showToast('Bu filtrelere uygun soru yok!', true);
             return;
         }
         pool = this.shuffle(pool).slice(0, Math.min(count, pool.length));
