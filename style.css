@@ -506,6 +506,19 @@ body {
 .results-actions { display: flex; gap: 12px; justify-content: center; }
 
 /* ===== SOURCES ===== */
+.source-info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--primary-bg);
+    border: 1px solid var(--primary-light);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+.source-info-icon { font-size: 1.4rem; margin-top: 2px; }
+.source-info-text strong { display: block; margin-bottom: 4px; color: var(--primary); font-size: 0.95rem; }
+.source-info-text p { margin: 0; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; }
 .filter-bar { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
 .filter-btn {
     padding: 8px 18px;
