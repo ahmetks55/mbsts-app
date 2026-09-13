@@ -894,15 +894,10 @@ class ThemeCustomizer {
             this.panel.classList.remove('open');
         });
 
-        // Close on outside click
+        // Close panel on outside click
         document.addEventListener('click', (e) => {
             if (!this.panel.contains(e.target) && !e.target.closest('#themeSettingsBtn')) {
                 this.panel.classList.remove('open');
-            }
-            // Close color dropdowns
-            if (!e.target.closest('.custom-color-picker')) {
-                document.querySelectorAll('.color-dropdown').forEach(d => d.classList.remove('open'));
-                document.querySelectorAll('.color-selected').forEach(s => s.classList.remove('open'));
             }
         });
 
@@ -937,11 +932,11 @@ class ThemeCustomizer {
             });
         });
 
-        // Custom Color Pickers
-        this.setupCustomColorPicker('primary', 'primaryColor', 'primaryColorText', 'primaryPreview', 'primarySelected', 'primaryDropdown', 'primaryColorCustom');
-        this.setupCustomColorPicker('accent', 'accentColor', 'accentColorText', 'accentPreview', 'accentSelected', 'accentDropdown', 'accentColorCustom');
-        this.setupCustomColorPicker('bg', 'bgColor', 'bgColorText', 'bgPreview', 'bgSelected', 'bgDropdown', 'bgColorCustom');
-        this.setupCustomColorPicker('surface', 'surfaceColor', 'surfaceColorText', 'surfacePreview', 'surfaceSelected', 'surfaceDropdown', 'surfaceColorCustom');
+        // Hover Color Pickers
+        this.setupHoverPicker('primary', 'primaryColor', 'primaryColorText', 'primaryPreview', 'primaryColorCustom');
+        this.setupHoverPicker('accent', 'accentColor', 'accentColorText', 'accentPreview', 'accentColorCustom');
+        this.setupHoverPicker('bg', 'bgColor', 'bgColorText', 'bgPreview', 'bgColorCustom');
+        this.setupHoverPicker('surface', 'surfaceColor', 'surfaceColorText', 'surfacePreview', 'surfaceColorCustom');
 
         // Radius slider
         const radiusSlider = document.getElementById('radiusSlider');
@@ -978,48 +973,36 @@ class ThemeCustomizer {
         });
     }
 
-    setupCustomColorPicker(prefix, colorId, textId, previewId, selectedId, dropdownId, customId) {
+    setupHoverPicker(prefix, colorId, textId, previewId, customId) {
+        const picker = document.getElementById(`picker-${prefix}`);
         const colorInput = document.getElementById(colorId);
         const textInput = document.getElementById(textId);
         const preview = document.getElementById(previewId);
-        const selected = document.getElementById(selectedId);
-        const dropdown = document.getElementById(dropdownId);
         const customInput = document.getElementById(customId);
+        const palette = picker.querySelector('.hover-palette');
 
-        if (!selected || !dropdown) return;
+        // Load saved colors
+        this.renderSavedColors(prefix, palette);
 
-        // Load saved custom colors
-        this.loadSavedColors(prefix, dropdown);
-
-        // Toggle dropdown
-        selected.addEventListener('click', (e) => {
-            e.stopPropagation();
-            document.querySelectorAll('.color-dropdown').forEach(d => d.classList.remove('open'));
-            document.querySelectorAll('.color-selected').forEach(s => s.classList.remove('open'));
-            dropdown.classList.toggle('open');
-            selected.classList.toggle('open');
-        });
-
-        // Palette buttons (both preset and saved)
-        dropdown.addEventListener('click', (e) => {
+        // Palette buttons (preset + saved)
+        palette.addEventListener('click', (e) => {
             const btn = e.target.closest('.pal-btn');
             if (!btn) return;
             e.stopPropagation();
-            dropdown.querySelectorAll('.pal-btn').forEach(b => b.classList.remove('active'));
+            palette.querySelectorAll('.pal-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             const color = btn.dataset.color;
-            this.setPickerColor(prefix, colorId, textId, previewId, color);
+            this.setPickerColor(colorId, textId, previewId, color);
             this.livePreview();
         });
 
-        // Custom native color input - save to palette
+        // Custom native color
         customInput.addEventListener('input', () => {
-            this.setPickerColor(prefix, colorId, textId, previewId, customInput.value);
+            this.setPickerColor(colorId, textId, previewId, customInput.value);
             this.livePreview();
         });
-
         customInput.addEventListener('change', () => {
-            this.saveCustomColor(prefix, customInput.value, dropdown);
+            this.addSavedColor(prefix, customInput.value, palette);
         });
 
         // Text input
@@ -1030,7 +1013,6 @@ class ThemeCustomizer {
                 this.livePreview();
             }
         });
-
         textInput.addEventListener('blur', () => {
             if (!/^#[0-9A-Fa-f]{6}$/.test(textInput.value)) {
                 textInput.value = colorInput.value;
@@ -1038,46 +1020,47 @@ class ThemeCustomizer {
         });
     }
 
-    loadSavedColors(prefix, dropdown) {
+    renderSavedColors(prefix, palette) {
         const saved = JSON.parse(localStorage.getItem(`mbsts_palette_${prefix}`) || '[]');
-        const savedContainer = dropdown.querySelector('.saved-colors');
-        if (!savedContainer || saved.length === 0) return;
-
-        savedContainer.innerHTML = '';
+        let container = palette.querySelector('.saved-colors');
+        if (!container) {
+            container = document.createElement('div');
+            container.className = 'saved-colors';
+            palette.prepend(container);
+        }
+        container.innerHTML = '';
         saved.forEach(color => {
             const btn = document.createElement('button');
             btn.className = 'pal-btn saved';
             btn.dataset.color = color;
             btn.style.background = color;
-            btn.title = color + ' (Sil: çift tıkla)';
+            btn.title = color + ' (çift tıkla = sil)';
             btn.addEventListener('dblclick', (e) => {
                 e.stopPropagation();
-                this.removeSavedColor(prefix, color, dropdown);
+                this.removeSavedColor(prefix, color, palette);
             });
-            savedContainer.appendChild(btn);
+            container.appendChild(btn);
         });
     }
 
-    saveCustomColor(prefix, color, dropdown) {
+    addSavedColor(prefix, color, palette) {
         let saved = JSON.parse(localStorage.getItem(`mbsts_palette_${prefix}`) || '[]');
-        // Max 8 saved colors
         if (saved.length >= 8) saved = saved.slice(1);
-        // Don't duplicate
         if (!saved.includes(color)) {
             saved.push(color);
             localStorage.setItem(`mbsts_palette_${prefix}`, JSON.stringify(saved));
-            this.loadSavedColors(prefix, dropdown);
+            this.renderSavedColors(prefix, palette);
         }
     }
 
-    removeSavedColor(prefix, color, dropdown) {
+    removeSavedColor(prefix, color, palette) {
         let saved = JSON.parse(localStorage.getItem(`mbsts_palette_${prefix}`) || '[]');
         saved = saved.filter(c => c !== color);
         localStorage.setItem(`mbsts_palette_${prefix}`, JSON.stringify(saved));
-        this.loadSavedColors(prefix, dropdown);
+        this.renderSavedColors(prefix, palette);
     }
 
-    setPickerColor(prefix, colorId, textId, previewId, color) {
+    setPickerColor(colorId, textId, previewId, color) {
         document.getElementById(colorId).value = color;
         document.getElementById(textId).value = color;
         document.getElementById(previewId).style.background = color;

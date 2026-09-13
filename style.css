@@ -1127,12 +1127,12 @@ body {
     border-top: 1px solid var(--border);
 }
 
-/* ===== CUSTOM COLOR PICKER ===== */
-.custom-color-picker {
+/* ===== HOVER COLOR PICKER ===== */
+.hover-picker {
     position: relative;
 }
 
-.color-selected {
+.hover-picker .color-selected {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1143,9 +1143,9 @@ body {
     cursor: pointer;
     transition: border-color 0.2s;
 }
-.color-selected:hover { border-color: var(--primary); }
+.hover-picker:hover .color-selected { border-color: var(--primary); }
 
-.color-preview {
+.hover-picker .color-preview {
     width: 32px;
     height: 32px;
     border-radius: 8px;
@@ -1153,7 +1153,7 @@ body {
     flex-shrink: 0;
 }
 
-.color-hex-input {
+.hover-picker .color-hex-input {
     flex: 1;
     border: none;
     background: transparent;
@@ -1163,15 +1163,7 @@ body {
     outline: none;
 }
 
-.color-arrow {
-    font-size: 0.8em;
-    color: var(--text-secondary);
-    transition: transform 0.2s;
-}
-
-.color-selected.open .color-arrow { transform: rotate(180deg); }
-
-.hidden-color-input {
+.hover-picker .hidden-color-input {
     position: absolute;
     width: 0;
     height: 0;
@@ -1179,12 +1171,14 @@ body {
     pointer-events: none;
 }
 
-.color-dropdown {
+/* Hover Palette - Fare gelince açılır */
+.hover-palette {
     display: none;
     position: absolute;
-    top: calc(100% + 4px);
+    top: 100%;
     left: 0;
     right: 0;
+    margin-top: 4px;
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
@@ -1192,49 +1186,59 @@ body {
     z-index: 100;
     padding: 10px;
 }
-.color-dropdown.open { display: block; }
 
-.dropdown-palette {
+/* Kopma olmaması için pseudo-element */
+.hover-picker::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 6px;
+}
+
+.hover-picker:hover .hover-palette,
+.hover-palette:hover {
+    display: block;
+}
+
+.palette-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 10px;
+    gap: 5px;
+    margin-bottom: 8px;
 }
 
 .pal-btn {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     border-radius: 6px;
     border: 2px solid transparent;
     cursor: pointer;
-    transition: all 0.15s;
+    transition: all 0.12s;
 }
 .pal-btn:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
     border-color: rgba(255,255,255,0.9);
-    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    z-index: 1;
 }
 .pal-btn.active {
     border-color: var(--text);
     box-shadow: 0 0 0 2px var(--primary);
-    transform: scale(1.1);
 }
 
-.dropdown-custom {
+.palette-custom {
     display: flex;
     align-items: center;
     gap: 8px;
     padding-top: 8px;
     border-top: 1px solid var(--border);
 }
-.dropdown-custom label {
-    font-size: 0.75em;
-    color: var(--text-secondary);
-    white-space: nowrap;
-}
+
 .native-color {
-    width: 40px;
-    height: 28px;
+    width: 36px;
+    height: 26px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -1244,31 +1248,21 @@ body {
 .native-color::-webkit-color-swatch { border: 1px solid var(--border); border-radius: 3px; }
 
 /* Saved Colors */
-.dropdown-section {
-    margin-bottom: 10px;
-}
-.dropdown-section:last-child { margin-bottom: 0; }
-
-.dropdown-section-label {
-    display: block;
-    font-size: 0.7em;
-    font-weight: 600;
-    color: var(--text-secondary);
-    margin-bottom: 6px;
-}
-
 .saved-colors {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    min-height: 28px;
+    gap: 4px;
+    margin-bottom: 6px;
 }
 
-.saved-colors:empty::before {
-    content: 'Henüz renk kaydedilmedi';
-    font-size: 0.65em;
+.saved-colors:empty { display: none; }
+
+.saved-colors:not(:empty)::before {
+    content: 'Kayıtlı:';
+    font-size: 0.6em;
     color: var(--text-secondary);
-    font-style: italic;
+    margin-right: 4px;
+    line-height: 22px;
 }
 
 .pal-btn.saved {
@@ -1291,13 +1285,6 @@ body {
     line-height: 1;
 }
 .pal-btn.saved:hover::after { display: flex; }
-
-.dropdown-hint {
-    font-size: 0.6em;
-    color: var(--text-secondary);
-    margin-top: 4px;
-    font-style: italic;
-}
 
 /* ===== THEME LIVE PREVIEW ===== */
 .theme-preview {
