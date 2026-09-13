@@ -932,6 +932,26 @@ class ThemeCustomizer {
             });
         });
 
+        // Color palette - Primary
+        document.querySelectorAll('#colorPalette .palette-color').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#colorPalette .palette-color').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                this.setColor('primaryColor', 'primaryColorText', btn.dataset.color);
+                this.livePreview();
+            });
+        });
+
+        // Color palette - Accent
+        document.querySelectorAll('#accentPalette .palette-color').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#accentPalette .palette-color').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                this.setColor('accentColor', 'accentColorText', btn.dataset.color);
+                this.livePreview();
+            });
+        });
+
         // Radius slider
         const radiusSlider = document.getElementById('radiusSlider');
         const radiusValue = document.getElementById('radiusValue');

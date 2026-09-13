@@ -1127,6 +1127,40 @@ body {
     border-top: 1px solid var(--border);
 }
 
+/* ===== COLOR PALETTE ===== */
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.palette-color {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+.palette-color:hover {
+    transform: scale(1.2);
+    border-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.palette-color.active {
+    border-color: #fff;
+    box-shadow: 0 0 0 2px var(--primary);
+    transform: scale(1.15);
+}
+
+.palette-hint {
+    font-size: 0.7em;
+    color: var(--text-secondary);
+    margin-top: 6px;
+    text-align: center;
+}
+
 /* ===== THEME LIVE PREVIEW ===== */
 .theme-preview {
     display: flex;
