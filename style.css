@@ -913,3 +913,241 @@ body {
     padding: 14px 20px;
     border-top: 1px solid var(--border);
 }
+
+/* ===== MBSTS STATISTICS PAGE ===== */
+.answer-dist-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.answer-dist-item {
+    display: grid;
+    grid-template-columns: 40px 1fr 60px 50px;
+    align-items: center;
+    gap: 12px;
+}
+
+.answer-letter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.answer-bar-wrap {
+    height: 24px;
+    background: var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.answer-bar {
+    height: 100%;
+    border-radius: 12px;
+    transition: width 0.5s ease;
+}
+
+.answer-pct {
+    font-weight: 600;
+    font-size: 0.95em;
+    text-align: right;
+}
+
+.answer-count {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+/* Year Distribution Table */
+.year-dist-table {
+    overflow-x: auto;
+}
+
+.ydt-header, .ydt-row {
+    display: grid;
+    grid-template-columns: 60px repeat(5, 1fr);
+    gap: 4px;
+    padding: 8px 4px;
+    font-size: 0.9em;
+}
+
+.ydt-header {
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+    color: var(--text-secondary);
+}
+
+.ydt-row {
+    border-bottom: 1px solid var(--border);
+}
+
+.ydt-row:hover {
+    background: var(--surface-hover);
+}
+
+.ydt-row span:first-child {
+    font-weight: 600;
+}
+
+/* Repeat Info Grid */
+.repeat-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.repeat-card {
+    padding: 16px;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.repeat-value {
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.repeat-label {
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.repeat-desc {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+}
+
+/* Streak List */
+.streak-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.streak-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    background: var(--card-bg);
+    border-radius: var(--radius-sm);
+}
+
+.streak-year {
+    font-weight: 600;
+    min-width: 50px;
+}
+
+.streak-detail {
+    flex: 1;
+    font-size: 0.9em;
+}
+
+.streak-badge {
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: var(--primary-bg);
+    color: var(--primary);
+}
+
+.streak-badge.danger {
+    background: #fee;
+    color: #e74c3c;
+}
+
+/* Subject Distribution */
+.subject-dist-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subject-dist-item {
+    display: grid;
+    grid-template-columns: 180px 1fr 50px 50px;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.sd-name {
+    font-weight: 500;
+}
+
+.sd-bar {
+    height: 20px;
+    background: var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sd-fill {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sd-count {
+    font-weight: 600;
+    text-align: right;
+}
+
+.sd-pct {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+/* Name Distribution */
+.name-dist-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.name-dist-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--card-bg);
+    border-radius: var(--radius-sm);
+}
+
+.nd-count {
+    font-weight: 700;
+    color: var(--primary);
+    min-width: 24px;
+}
+
+.nd-name {
+    font-size: 0.9em;
+}
+
+/* Responsive for stats page */
+@media (max-width: 700px) {
+    .answer-dist-item {
+        grid-template-columns: 36px 1fr 50px 40px;
+    }
+    .repeat-info-grid {
+        grid-template-columns: 1fr;
+    }
+    .subject-dist-item {
+        grid-template-columns: 120px 1fr 40px 40px;
+    }
+    .name-dist-grid {
+        grid-template-columns: 1fr;
+    }
+    .ydt-header, .ydt-row {
+        font-size: 0.8em;
+    }
+}
