@@ -11,7 +11,7 @@ const SUBJECTS = {
 const SOURCES = [
     { id: 1, title: "Kur'an Yolu Türkçe Meal ve Tefsiri", author: "Komisyon (Hayreddin Karaman vd.)", pub: "DİB", year: "2005", category: "tefsir", scrollTo: "kurAnYoluGrid", fileSize: "PDF" },
     { id: 2, title: "İlmihal (I. ve II. Cilt)", author: "Komisyon", pub: "TDV", year: "2003", category: "fikih", scrollTo: "ilmihalGrid", fileSize: "2 Cilt PDF" },
-    { id: 3, title: "Tefsir Usulü", author: "Prof. Dr. İsmail Cerrahoğlu", pub: "TDV", year: "1988", category: "tefsir", url: "https://archive.org/download/elmalili-muhammed-hamdi-yazir-original-hak-dini-kuran-dili/Ismail%20Cerrahoglu%20-%20Tefsir%20Usulu.pdf", fileSize: "PDF" },
+    { id: 3, title: "Tefsir Usulü", author: "Prof. Dr. İsmail Cerrahoğlu", pub: "TDV", year: "1988", category: "tefsir", url: "https://archive.org/download/ismail-cerrahoglu-tefsir-usulu/Ismail-Cerrahoglu-Tefsir-Usulu.pdf", fileSize: "PDF" },
     { id: 4, title: "Hadis Usûlü", author: "Prof. Dr. Talat Koçyiğit", pub: "TDV", year: "1994", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Talat%20Kocyigit%20-%20Hadis%20Usulu.pdf", fileSize: "PDF" },
     { id: 5, title: "Hadis Tarihi", author: "Prof. Dr. Talat Koçyiğit", pub: "TDV", year: "1994", category: "hadis", url: "https://archive.org/download/HadisKitapligi/Talat%20Kocyigit%20-%20Hadis%20Tarihi.pdf", fileSize: "PDF" },
     { id: 6, title: "Riyazü's-Sâlihîn", author: "Ebû Zekeriyya en-Nevevî", pub: "DİB", year: "2010", category: "hadis", url: "https://archive.org/download/riyazus_salihin_202009/Riyazus_Salihin_tam_2_yerimli.pdf", fileSize: "PDF" },
