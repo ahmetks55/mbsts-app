@@ -901,12 +901,6 @@ class ThemeCustomizer {
             }
         });
 
-        // Color pickers
-        this.setupColorPicker('primaryColor', 'primaryColorText');
-        this.setupColorPicker('accentColor', 'accentColorText');
-        this.setupColorPicker('bgColor', 'bgColorText');
-        this.setupColorPicker('surfaceColor', 'surfaceColorText');
-
         // Preset buttons
         document.querySelectorAll('.preset-btn').forEach(btn => {
             btn.addEventListener('click', () => {
@@ -933,10 +927,10 @@ class ThemeCustomizer {
         });
 
         // Hover Color Pickers
-        this.setupHoverPicker('primary', 'primaryColor', 'primaryColorText', 'primaryPreview', 'primaryColorCustom');
-        this.setupHoverPicker('accent', 'accentColor', 'accentColorText', 'accentPreview', 'accentColorCustom');
-        this.setupHoverPicker('bg', 'bgColor', 'bgColorText', 'bgPreview', 'bgColorCustom');
-        this.setupHoverPicker('surface', 'surfaceColor', 'surfaceColorText', 'surfacePreview', 'surfaceColorCustom');
+        this.setupHoverPicker('primary', 'primaryColor', 'primaryColorText', 'primaryPreview');
+        this.setupHoverPicker('accent', 'accentColor', 'accentColorText', 'accentPreview');
+        this.setupHoverPicker('bg', 'bgColor', 'bgColorText', 'bgPreview');
+        this.setupHoverPicker('surface', 'surfaceColor', 'surfaceColorText', 'surfacePreview');
 
         // Radius slider
         const radiusSlider = document.getElementById('radiusSlider');
@@ -973,12 +967,11 @@ class ThemeCustomizer {
         });
     }
 
-    setupHoverPicker(prefix, colorId, textId, previewId, customId) {
+    setupHoverPicker(prefix, colorId, textId, previewId) {
         const picker = document.getElementById(`picker-${prefix}`);
         const colorInput = document.getElementById(colorId);
         const textInput = document.getElementById(textId);
         const preview = document.getElementById(previewId);
-        const customInput = document.getElementById(customId);
         const palette = picker.querySelector('.hover-palette');
 
         // Load saved colors
@@ -994,15 +987,6 @@ class ThemeCustomizer {
             const color = btn.dataset.color;
             this.setPickerColor(colorId, textId, previewId, color);
             this.livePreview();
-        });
-
-        // Custom native color
-        customInput.addEventListener('input', () => {
-            this.setPickerColor(colorId, textId, previewId, customInput.value);
-            this.livePreview();
-        });
-        customInput.addEventListener('change', () => {
-            this.addSavedColor(prefix, customInput.value, palette);
         });
 
         // Text input
@@ -1066,29 +1050,6 @@ class ThemeCustomizer {
         document.getElementById(previewId).style.background = color;
     }
 
-    setupColorPicker(colorId, textId) {
-        const colorInput = document.getElementById(colorId);
-        const textInput = document.getElementById(textId);
-
-        colorInput.addEventListener('input', () => {
-            textInput.value = colorInput.value;
-            this.livePreview();
-        });
-
-        textInput.addEventListener('input', () => {
-            if (/^#[0-9A-Fa-f]{6}$/.test(textInput.value)) {
-                colorInput.value = textInput.value;
-                this.livePreview();
-            }
-        });
-
-        textInput.addEventListener('blur', () => {
-            if (!/^#[0-9A-Fa-f]{6}$/.test(textInput.value)) {
-                textInput.value = colorInput.value;
-            }
-        });
-    }
-
     setColor(colorId, textId, value) {
         document.getElementById(colorId).value = value;
         document.getElementById(textId).value = value;
@@ -1144,5 +1105,280 @@ class ThemeCustomizer {
     }
 }
 
+// ===== ÖZEL RENK SEÇİCİ =====
+class CustomColorPicker {
+    constructor() {
+        this.overlay = document.getElementById('customPickerOverlay');
+        this.canvas = document.getElementById('cpGradientCanvas');
+        this.ctx = this.canvas.getContext('2d');
+        this.cursor = document.getElementById('cpGradientCursor');
+
+        this.hueSlider = document.getElementById('cpHueSlider');
+        this.satSlider = document.getElementById('cpSatSlider');
+        this.lightSlider = document.getElementById('cpLightSlider');
+        this.hueThumb = document.getElementById('cpHueThumb');
+        this.satThumb = document.getElementById('cpSatThumb');
+        this.lightThumb = document.getElementById('cpLightThumb');
+        this.hueInput = document.getElementById('cpHueValue');
+        this.satInput = document.getElementById('cpSatValue');
+        this.lightInput = document.getElementById('cpLightValue');
+        this.hexInput = document.getElementById('cpHexInput');
+        this.previewNew = document.getElementById('cpPreviewNew');
+        this.previewOld = document.getElementById('cpPreviewOld');
+        this.satTrack = document.getElementById('cpSatTrack');
+        this.lightTrack = document.getElementById('cpLightTrack');
+
+        this.h = 210; this.s = 70; this.l = 40;
+        this.targetPrefix = null;
+        this.onChange = null;
+
+        this.init();
+    }
+
+    init() {
+        // Open buttons
+        document.querySelectorAll('.open-custom-picker-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const target = e.target.dataset.target;
+                this.open(target);
+            });
+        });
+
+        // Close
+        document.getElementById('customPickerClose').addEventListener('click', () => this.close());
+        this.overlay.addEventListener('click', (e) => { if (e.target === this.overlay) this.close(); });
+
+        // Gradient area drag
+        this.canvas.addEventListener('mousedown', (e) => this.startGradientDrag(e));
+        document.addEventListener('mousemove', (e) => this.dragGradient(e));
+        document.addEventListener('mouseup', () => this.stopDrag());
+
+        // Hue slider
+        this.hueSlider.addEventListener('mousedown', (e) => this.startHueDrag(e));
+        document.addEventListener('mousemove', (e) => this.dragHue(e));
+        document.addEventListener('mouseup', () => this.stopDrag());
+
+        // Sat slider
+        this.satSlider.addEventListener('mousedown', (e) => this.startSatDrag(e));
+        document.addEventListener('mousemove', (e) => this.dragSat(e));
+        document.addEventListener('mouseup', () => this.stopDrag());
+
+        // Light slider
+        this.lightSlider.addEventListener('mousedown', (e) => this.startLightDrag(e));
+        document.addEventListener('mousemove', (e) => this.dragLight(e));
+        document.addEventListener('mouseup', () => this.stopDrag());
+
+        // Touch support
+        this.canvas.addEventListener('touchstart', (e) => { e.preventDefault(); this.startGradientDrag(e.touches[0]); });
+        document.addEventListener('touchmove', (e) => { if (this._dragging === 'gradient') this.dragGradient(e.touches[0]); });
+        document.addEventListener('touchend', () => this.stopDrag());
+
+        this.hueSlider.addEventListener('touchstart', (e) => { e.preventDefault(); this.startHueDrag(e.touches[0]); });
+        this.satSlider.addEventListener('touchstart', (e) => { e.preventDefault(); this.startSatDrag(e.touches[0]); });
+        this.lightSlider.addEventListener('touchstart', (e) => { e.preventDefault(); this.startLightDrag(e.touches[0]); });
+
+        // HEX input
+        this.hexInput.addEventListener('input', () => {
+            const hex = this.hexInput.value;
+            if (/^#[0-9A-Fa-f]{6}$/.test(hex)) {
+                const hsl = this.hexToHSL(hex);
+                this.h = hsl.h; this.s = hsl.s; this.l = hsl.l;
+                this.updateAll();
+            }
+        });
+
+        // Value inputs
+        this.hueInput.addEventListener('change', () => { this.h = Math.min(360, Math.max(0, parseInt(this.hueInput.value) || 0)); this.updateAll(); });
+        this.satInput.addEventListener('change', () => { this.s = Math.min(100, Math.max(0, parseInt(this.satInput.value) || 0)); this.updateAll(); });
+        this.lightInput.addEventListener('change', () => { this.l = Math.min(100, Math.max(0, parseInt(this.lightInput.value) || 0)); this.updateAll(); });
+
+        // Copy
+        document.getElementById('cpCopyBtn').addEventListener('click', () => {
+            navigator.clipboard.writeText(this.hexInput.value);
+        });
+
+        // Apply
+        document.getElementById('cpApply').addEventListener('click', () => this.apply());
+        document.getElementById('cpCancel').addEventListener('click', () => this.close());
+    }
+
+    open(prefix) {
+        this.targetPrefix = prefix;
+        const colorInput = document.getElementById(prefix + 'Color');
+        const oldColor = colorInput.value;
+        this.previewOld.style.background = oldColor;
+
+        const hsl = this.hexToHSL(oldColor);
+        this.h = hsl.h; this.s = hsl.s; this.l = hsl.l;
+        this._dragging = null;
+
+        this.overlay.classList.add('open');
+        this.updateAll();
+    }
+
+    close() {
+        this.overlay.classList.remove('open');
+        this._dragging = null;
+    }
+
+    apply() {
+        const hex = this.hexInput.value;
+        const colorId = this.targetPrefix + 'Color';
+        const textId = this.targetPrefix + 'ColorText';
+        const previewId = this.targetPrefix + 'Preview';
+
+        document.getElementById(colorId).value = hex;
+        document.getElementById(textId).value = hex;
+        document.getElementById(previewId).style.background = hex;
+
+        // Trigger livePreview
+        if (window.themeCustomizer) {
+            window.themeCustomizer.livePreview();
+        }
+
+        // Add to saved colors
+        if (window.themeCustomizer) {
+            const palette = document.getElementById(`picker-${this.targetPrefix}`).querySelector('.hover-palette');
+            window.themeCustomizer.addSavedColor(this.targetPrefix, hex, palette);
+        }
+
+        this.close();
+    }
+
+    // Gradient area
+    startGradientDrag(e) {
+        this._dragging = 'gradient';
+        this.dragGradient(e);
+    }
+    dragGradient(e) {
+        if (this._dragging !== 'gradient') return;
+        const rect = this.canvas.getBoundingClientRect();
+        const x = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        const y = Math.max(0, Math.min(1, (e.clientY - rect.top) / rect.height));
+
+        // X axis: saturation (0-100)
+        // Y axis: lightness (100-0)
+        this.s = Math.round(x * 100);
+        this.l = Math.round((1 - y) * 100);
+        this.updateAll();
+    }
+
+    // Hue slider
+    startHueDrag(e) { this._dragging = 'hue'; this.dragHue(e); }
+    dragHue(e) {
+        if (this._dragging !== 'hue') return;
+        const rect = this.hueSlider.getBoundingClientRect();
+        const x = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        this.h = Math.round(x * 360);
+        this.updateAll();
+    }
+
+    // Sat slider
+    startSatDrag(e) { this._dragging = 'sat'; this.dragSat(e); }
+    dragSat(e) {
+        if (this._dragging !== 'sat') return;
+        const rect = this.satSlider.getBoundingClientRect();
+        const x = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        this.s = Math.round(x * 100);
+        this.updateAll();
+    }
+
+    // Light slider
+    startLightDrag(e) { this._dragging = 'light'; this.dragLight(e); }
+    dragLight(e) {
+        if (this._dragging !== 'light') return;
+        const rect = this.lightSlider.getBoundingClientRect();
+        const x = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        this.l = Math.round(x * 100);
+        this.updateAll();
+    }
+
+    stopDrag() { this._dragging = null; }
+
+    updateAll() {
+        const hex = this.hslToHex(this.h, this.s, this.l);
+
+        // Update preview
+        this.previewNew.style.background = hex;
+        this.hexInput.value = hex;
+
+        // Update inputs
+        this.hueInput.value = this.h;
+        this.satInput.value = this.s;
+        this.lightInput.value = this.l;
+
+        // Update thumb positions
+        this.hueThumb.style.left = (this.h / 360 * 100) + '%';
+        this.satThumb.style.left = this.s + '%';
+        this.lightThumb.style.left = this.l + '%';
+
+        // Update gradient canvas
+        this.drawGradient();
+
+        // Update slider track colors
+        this.satTrack.style.background = `linear-gradient(to right, hsl(${this.h},0%,50%), hsl(${this.h},100%,50%))`;
+        this.lightTrack.style.background = `linear-gradient(to right, hsl(${this.h},${this.s}%,0%), hsl(${this.h},${this.s}%,50%), hsl(${this.h},${this.s}%,100%))`;
+
+        // Update gradient cursor position
+        this.cursor.style.left = (this.s) + '%';
+        this.cursor.style.top = (100 - this.l) + '%';
+    }
+
+    drawGradient() {
+        const w = this.canvas.width;
+        const h = this.canvas.height;
+        const imageData = this.ctx.createImageData(w, h);
+
+        for (let y = 0; y < h; y++) {
+            for (let x = 0; x < w; x++) {
+                const s = (x / w) * 100;
+                const l = (1 - y / h) * 100;
+                const rgb = this.hslToRGB(this.h, s, l);
+                const i = (y * w + x) * 4;
+                imageData.data[i] = rgb.r;
+                imageData.data[i + 1] = rgb.g;
+                imageData.data[i + 2] = rgb.b;
+                imageData.data[i + 3] = 255;
+            }
+        }
+        this.ctx.putImageData(imageData, 0, 0);
+    }
+
+    // Color conversion
+    hexToHSL(hex) {
+        let r = parseInt(hex.slice(1, 3), 16) / 255;
+        let g = parseInt(hex.slice(3, 5), 16) / 255;
+        let b = parseInt(hex.slice(5, 7), 16) / 255;
+        let max = Math.max(r, g, b), min = Math.min(r, g, b);
+        let h, s, l = (max + min) / 2;
+        if (max === min) { h = s = 0; }
+        else {
+            let d = max - min;
+            s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+            switch (max) {
+                case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;
+                case g: h = ((b - r) / d + 2) / 6; break;
+                case b: h = ((r - g) / d + 4) / 6; break;
+            }
+        }
+        return { h: Math.round(h * 360), s: Math.round(s * 100), l: Math.round(l * 100) };
+    }
+
+    hslToHex(h, s, l) {
+        const rgb = this.hslToRGB(h, s, l);
+        return '#' + [rgb.r, rgb.g, rgb.b].map(x => x.toString(16).padStart(2, '0')).join('');
+    }
+
+    hslToRGB(h, s, l) {
+        s /= 100; l /= 100;
+        const a = s * Math.min(l, 1 - l);
+        const f = n => { const k = (n + h / 30) % 12; return l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1); };
+        return { r: Math.round(f(0) * 255), g: Math.round(f(8) * 255), b: Math.round(f(4) * 255) };
+    }
+}
+
 const app = new MBSTSApp();
 const themeCustomizer = new ThemeCustomizer();
+const customColorPicker = new CustomColorPicker();
+window.themeCustomizer = themeCustomizer;
