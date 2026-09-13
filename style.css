@@ -1473,88 +1473,74 @@ body {
 }
 .cp-actions .btn { flex: 1; padding: 8px; font-size: 0.85em; }
 
-/* Kayıtlı Renkler (Modal İçi) */
-.cp-saved-section {
+/* Renk Tonları (Modal İçi) */
+.cp-shades-section {
     padding: 0 16px 12px;
 }
-.cp-saved-header {
+.cp-shades-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6px;
 }
-.cp-saved-header span:first-child {
+.cp-shades-header span {
     font-size: 0.72em;
     font-weight: 600;
     color: var(--text-secondary);
 }
-.cp-saved-hint {
-    font-size: 0.6em;
-    color: var(--text-secondary);
-    opacity: 0.6;
-    font-style: italic;
-}
-.cp-saved-scroll {
+.cp-shades-scroll {
     display: flex;
-    gap: 6px;
+    gap: 5px;
     overflow-x: auto;
     padding: 4px 0;
     scrollbar-width: thin;
     scrollbar-color: var(--border) transparent;
 }
-.cp-saved-scroll::-webkit-scrollbar {
+.cp-shades-scroll::-webkit-scrollbar {
     height: 4px;
 }
-.cp-saved-scroll::-webkit-scrollbar-track {
+.cp-shades-scroll::-webkit-scrollbar-track {
     background: transparent;
 }
-.cp-saved-scroll::-webkit-scrollbar-thumb {
+.cp-shades-scroll::-webkit-scrollbar-thumb {
     background: var(--border);
     border-radius: 2px;
 }
-.cp-saved-empty {
-    font-size: 0.65em;
-    color: var(--text-secondary);
-    font-style: italic;
-    opacity: 0.5;
-    padding: 4px 0;
-}
-.cp-saved-btn {
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
+.cp-shade-btn {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
     border-radius: 6px;
     border: 2px solid transparent;
     cursor: pointer;
     transition: all 0.15s;
     position: relative;
 }
-.cp-saved-btn:hover {
-    transform: scale(1.15);
+.cp-shade-btn:hover {
+    transform: scale(1.2);
     border-color: rgba(255,255,255,0.8);
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    z-index: 1;
 }
-.cp-saved-btn.active {
+.cp-shade-btn.active {
     border-color: var(--text);
     box-shadow: 0 0 0 2px var(--primary);
 }
-.cp-saved-btn::after {
-    content: '×';
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    width: 14px;
-    height: 14px;
-    background: var(--danger, #e74c3c);
-    color: #fff;
-    border-radius: 50%;
-    font-size: 9px;
+.cp-shade-btn .cp-shade-hex {
     display: none;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.55em;
+    font-family: monospace;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    background: var(--surface);
+    padding: 1px 3px;
+    border-radius: 3px;
 }
-.cp-saved-btn:hover::after { display: flex; }
+.cp-shade-btn:hover .cp-shade-hex { display: block; }
 
 /* Saved Colors */
 .saved-colors {

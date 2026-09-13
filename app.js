@@ -1127,6 +1127,8 @@ class CustomColorPicker {
         this.previewOld = document.getElementById('cpPreviewOld');
         this.satTrack = document.getElementById('cpSatTrack');
         this.lightTrack = document.getElementById('cpLightTrack');
+        this.shadesGrid = document.getElementById('cpShadesGrid');
+        this.shadesTitle = document.getElementById('cpShadesTitle');
 
         this.h = 210; this.s = 70; this.l = 40;
         this.targetPrefix = null;
@@ -1214,7 +1216,7 @@ class CustomColorPicker {
         this._dragging = null;
 
         this.overlay.classList.add('open');
-        this.renderSavedInModal();
+        this.renderShades();
         this.updateAll();
     }
 
@@ -1223,45 +1225,46 @@ class CustomColorPicker {
         this._dragging = null;
     }
 
-    renderSavedInModal() {
-        const container = document.getElementById('cpSavedColors');
-        const saved = JSON.parse(localStorage.getItem(`mbsts_palette_${this.targetPrefix}`) || '[]');
+    renderShades() {
+        const container = this.shadesGrid;
         container.innerHTML = '';
 
-        if (saved.length === 0) {
-            container.innerHTML = '<div class="cp-saved-empty">Henüz renk kaydedilmedi</div>';
-            return;
+        // Mevcut rengin tonlarını üret
+        // 13 ton: çok koyu → koyu → orta → açık → çok açık
+        const shades = [];
+        const h = this.h;
+        const s = this.s;
+
+        // Koyu tonlar (lightness: 10, 15, 20, 25, 30)
+        for (let l = 10; l <= 30; l += 5) {
+            shades.push({ h, s, l, label: `%${l}` });
+        }
+        // Mevcut renk (ortada)
+        shades.push({ h, s, l: this.l, label: 'Mevcut', current: true });
+        // Açık tonlar (lightness: 60, 65, 70, 75, 80, 85, 90)
+        for (let l = 60; l <= 90; l += 5) {
+            shades.push({ h, s, l, label: `%${l}` });
         }
 
-        saved.forEach(color => {
+        shades.forEach(shade => {
+            const hex = this.hslToHex(shade.h, shade.s, shade.l);
             const btn = document.createElement('button');
-            btn.className = 'cp-saved-btn';
-            btn.style.background = color;
-            btn.title = color;
-            btn.dataset.color = color;
+            btn.className = 'cp-shade-btn' + (shade.current ? ' active' : '');
+            btn.style.background = hex;
+            btn.dataset.color = hex;
+            btn.title = hex;
 
-            // Tek tıkla → rengi seç
+            const hexLabel = document.createElement('span');
+            hexLabel.className = 'cp-shade-hex';
+            hexLabel.textContent = hex;
+            btn.appendChild(hexLabel);
+
             btn.addEventListener('click', (e) => {
                 e.stopPropagation();
-                const hsl = this.hexToHSL(color);
-                this.h = hsl.h; this.s = hsl.s; this.l = hsl.l;
+                this.h = shade.h; this.s = shade.s; this.l = shade.l;
                 this.updateAll();
-                container.querySelectorAll('.cp-saved-btn').forEach(b => b.classList.remove('active'));
+                container.querySelectorAll('.cp-shade-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-            });
-
-            // Çift tıkla → sil
-            btn.addEventListener('dblclick', (e) => {
-                e.stopPropagation();
-                let savedArr = JSON.parse(localStorage.getItem(`mbsts_palette_${this.targetPrefix}`) || '[]');
-                savedArr = savedArr.filter(c => c !== color);
-                localStorage.setItem(`mbsts_palette_${this.targetPrefix}`, JSON.stringify(savedArr));
-
-                // Hover paletindekini de güncelle
-                const palette = document.getElementById(`picker-${this.targetPrefix}`).querySelector('.hover-palette');
-                if (window.themeCustomizer) window.themeCustomizer.renderSavedColors(this.targetPrefix, palette);
-
-                this.renderSavedInModal();
             });
 
             container.appendChild(btn);
@@ -1369,6 +1372,18 @@ class CustomColorPicker {
         // Update gradient cursor position
         this.cursor.style.left = (this.s) + '%';
         this.cursor.style.top = (100 - this.l) + '%';
+
+        // Update shades only if hue or saturation changed
+        if (this._lastH !== this.h || this._lastS !== this.s) {
+            this.renderShades();
+            this._lastH = this.h;
+            this._lastS = this.s;
+        } else {
+            // Just update active state
+            this.shadesGrid.querySelectorAll('.cp-shade-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.color === this.hslToHex(this.h, this.s, this.l));
+            });
+        }
     }
 
     drawGradient() {
