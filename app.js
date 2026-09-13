@@ -387,7 +387,6 @@ class MBSTSApp {
         document.getElementById('pastResultCount').textContent = filtered.length + ' soru bulundu';
         this._renderPastPreview(filtered);
     }
-    }
 
     _renderPastPreview(data) {
         const preview = document.getElementById('pastPreview');
