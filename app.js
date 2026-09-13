@@ -1227,6 +1227,8 @@ class CustomColorPicker {
     open(prefix) {
         this.targetPrefix = prefix;
         this._shadeOffset = 0;
+        this._applied = false;
+        this._originalColor = document.getElementById(prefix + 'Color').value;
         const colorInput = document.getElementById(prefix + 'Color');
         const oldColor = colorInput.value;
         this.previewOld.style.background = oldColor;
@@ -1241,6 +1243,16 @@ class CustomColorPicker {
     }
 
     close() {
+        // Uygulanmadıysa eski renge dön
+        if (!this._applied && this._originalColor && this.targetPrefix) {
+            this.setPickerColor(
+                this.targetPrefix + 'Color',
+                this.targetPrefix + 'ColorText',
+                this.targetPrefix + 'Preview',
+                this._originalColor
+            );
+            if (window.themeCustomizer) window.themeCustomizer.livePreview();
+        }
         this.overlay.classList.remove('open');
         this._dragging = null;
     }
@@ -1307,21 +1319,10 @@ class CustomColorPicker {
     }
 
     apply() {
+        this._applied = true;
         const hex = this.hexInput.value;
-        const colorId = this.targetPrefix + 'Color';
-        const textId = this.targetPrefix + 'ColorText';
-        const previewId = this.targetPrefix + 'Preview';
 
-        document.getElementById(colorId).value = hex;
-        document.getElementById(textId).value = hex;
-        document.getElementById(previewId).style.background = hex;
-
-        // Trigger livePreview
-        if (window.themeCustomizer) {
-            window.themeCustomizer.livePreview();
-        }
-
-        // Add to saved colors
+        // Kayıtlı renklere ekle
         if (window.themeCustomizer) {
             const palette = document.getElementById(`picker-${this.targetPrefix}`).querySelector('.hover-palette');
             window.themeCustomizer.addSavedColor(this.targetPrefix, hex, palette);
@@ -1418,6 +1419,17 @@ class CustomColorPicker {
             this.shadesGrid.querySelectorAll('.cp-shade-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.color === this.hslToHex(this.h, this.s, this.l));
             });
+        }
+
+        // Canlı önizleme - siteyi hemen güncelle
+        if (this.targetPrefix && window.themeCustomizer) {
+            this.setPickerColor(
+                this.targetPrefix + 'Color',
+                this.targetPrefix + 'ColorText',
+                this.targetPrefix + 'Preview',
+                hex
+            );
+            window.themeCustomizer.livePreview();
         }
     }
 
