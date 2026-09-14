@@ -827,13 +827,6 @@ function applyCustomTheme(settings) {
     let radius = settings.radius || 14;
     let sidebarStyle = settings.sidebarStyle || 'gradient';
 
-    // Dark mode ise ve darkMode flag'i yoksa, dark mode default renklerini kullan
-    if (isDark && !settings.darkMode) {
-        primary = settings.primary || '#5dade2';
-        bg = settings.bg || '#0f0f1a';
-        surface = settings.surface || '#1a1a2e';
-    }
-
     // Generate sidebar colors from primary
     let hsl = hexToHSL(primary);
     let sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
@@ -848,6 +841,19 @@ function applyCustomTheme(settings) {
     root.style.setProperty('--radius', radius + 'px');
     root.style.setProperty('--sidebar-start', sidebarStart);
     root.style.setProperty('--sidebar-end', sidebarEnd);
+
+    // Dark mode extra variables - inline style CSS'den güçlü olduğu için burada set etmek zorunlu
+    if (isDark) {
+        root.style.setProperty('--surface-hover', '#22223a');
+        root.style.setProperty('--text', '#e8e8e8');
+        root.style.setProperty('--text-secondary', '#9ca3af');
+        root.style.setProperty('--border', '#2a2a3e');
+    } else {
+        root.style.removeProperty('--surface-hover');
+        root.style.removeProperty('--text');
+        root.style.removeProperty('--text-secondary');
+        root.style.removeProperty('--border');
+    }
 
     // Sidebar style
     const sidebar = document.querySelector('.sidebar');
