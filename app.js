@@ -827,19 +827,17 @@ function applyCustomTheme(settings) {
     let radius = settings.radius || 14;
     let sidebarStyle = settings.sidebarStyle || 'gradient';
 
+    // Dark mode ise ve darkMode flag'i yoksa, dark mode default renklerini kullan
+    if (isDark && !settings.darkMode) {
+        primary = settings.primary || '#5dade2';
+        bg = settings.bg || '#0f0f1a';
+        surface = settings.surface || '#1a1a2e';
+    }
+
     // Generate sidebar colors from primary
     let hsl = hexToHSL(primary);
     let sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
     let sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
-
-    // Auto-adjust for dark mode
-    if (isDark && !settings.darkMode) {
-        primary = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 20)}%, ${Math.min(70, hsl.l + 30)}%)`;
-        bg = '#0f0f1a';
-        surface = '#1a1a2e';
-        sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
-        sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
-    }
 
     root.style.setProperty('--primary', primary);
     root.style.setProperty('--primary-light', adjustColor(primary, 10));
@@ -962,8 +960,26 @@ class ThemeCustomizer {
             document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
             darkIcon.textContent = dark ? '🌙' : '☀️';
             darkLabel.textContent = dark ? 'Karanlık' : 'Açık';
-            // Mevcut tema ayarlarıyla birlikte kaydet
-            const currentSettings = {
+
+            if (dark) {
+                // Dark mode tema renklerini uygula
+                applyCustomTheme({ primary: '#5dade2', accent: '#1abc9c', bg: '#0f0f1a', surface: '#1a1a2e', radius: parseInt(document.getElementById('radiusSlider').value), darkMode: true });
+                // Input'ları da güncelle
+                this.setColor('primaryColor', 'primaryColorText', '#5dade2');
+                this.setColor('accentColor', 'accentColorText', '#1abc9c');
+                this.setColor('bgColor', 'bgColorText', '#0f0f1a');
+                this.setColor('surfaceColor', 'surfaceColorText', '#1a1a2e');
+            } else {
+                // Light mode tema renklerini uygula
+                applyCustomTheme({ primary: '#1a5276', accent: '#1abc9c', bg: '#f0f2f5', surface: '#ffffff', radius: parseInt(document.getElementById('radiusSlider').value) });
+                this.setColor('primaryColor', 'primaryColorText', '#1a5276');
+                this.setColor('accentColor', 'accentColorText', '#1abc9c');
+                this.setColor('bgColor', 'bgColorText', '#f0f2f5');
+                this.setColor('surfaceColor', 'surfaceColorText', '#ffffff');
+            }
+
+            // Kaydet
+            this.saveSettings({
                 primary: document.getElementById('primaryColor').value,
                 accent: document.getElementById('accentColor').value,
                 bg: document.getElementById('bgColor').value,
@@ -971,14 +987,7 @@ class ThemeCustomizer {
                 radius: parseInt(document.getElementById('radiusSlider').value),
                 sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
                 darkMode: dark
-            };
-            this.saveSettings(currentSettings);
-            // Tema renklerini de güncelle
-            if (dark) {
-                applyCustomTheme({ ...currentSettings, primary: '#5dade2', accent: '#1abc9c', bg: '#0f0f1a', surface: '#1a1a2e' });
-            } else {
-                applyCustomTheme({ ...currentSettings, primary: '#1a5276', accent: '#1abc9c', bg: '#f0f2f5', surface: '#ffffff' });
-            }
+            });
         });
 
         // Reset button
