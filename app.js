@@ -64,7 +64,13 @@ class MBSTSApp {
         this.history = this.loadFromStorage('mbsts_history', []);
         this.quizState = null;
         this.timerInterval = null;
-        this.theme = localStorage.getItem('mbsts_theme') || 'light';
+        this.theme = (() => {
+            try {
+                const settings = JSON.parse(localStorage.getItem('mbsts_theme_settings'));
+                if (settings && settings.darkMode) return 'dark';
+            } catch {}
+            return localStorage.getItem('mbsts_theme') || 'light';
+        })();
         this.currentPage = 'dashboard';
         this.init();
     }
@@ -157,18 +163,9 @@ class MBSTSApp {
 
     applyTheme() {
         document.documentElement.setAttribute('data-theme', this.theme);
-        document.getElementById('themeToggle').textContent = this.theme === 'dark' ? '☀️' : '🌙';
-    }
-
-    toggleTheme() {
-        this.theme = this.theme === 'light' ? 'dark' : 'light';
-        localStorage.setItem('mbsts_theme', this.theme);
-        this.applyTheme();
     }
 
     setupEventListeners() {
-        document.getElementById('themeToggle').addEventListener('click', () => this.toggleTheme());
-
         document.getElementById('mobileMenuBtn').addEventListener('click', () => {
             document.getElementById('sidebar').classList.toggle('open');
             document.getElementById('mobileOverlay').classList.toggle('show');
@@ -918,6 +915,13 @@ class ThemeCustomizer {
                     this.setColor('surfaceColor', 'surfaceColorText', preset.surface);
                     applyCustomTheme({ ...this.settings, ...preset });
                     this.livePreview();
+                    // Temayı kaydet
+                    this.saveSettings({
+                        ...preset,
+                        radius: parseInt(document.getElementById('radiusSlider').value),
+                        sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
+                        darkMode: document.getElementById('darkModeToggle').checked
+                    });
                 }
             });
         });
@@ -958,12 +962,22 @@ class ThemeCustomizer {
             document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
             darkIcon.textContent = dark ? '🌙' : '☀️';
             darkLabel.textContent = dark ? 'Karanlık' : 'Açık';
-            localStorage.setItem('mbsts_theme', dark ? 'dark' : 'light');
+            // Mevcut tema ayarlarıyla birlikte kaydet
+            const currentSettings = {
+                primary: document.getElementById('primaryColor').value,
+                accent: document.getElementById('accentColor').value,
+                bg: document.getElementById('bgColor').value,
+                surface: document.getElementById('surfaceColor').value,
+                radius: parseInt(document.getElementById('radiusSlider').value),
+                sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
+                darkMode: dark
+            };
+            this.saveSettings(currentSettings);
             // Tema renklerini de güncelle
             if (dark) {
-                applyCustomTheme({ primary: '#5dade2', accent: '#1abc9c', bg: '#0f0f1a', surface: '#1a1a2e', radius: parseInt(document.getElementById('radiusSlider').value) });
+                applyCustomTheme({ ...currentSettings, primary: '#5dade2', accent: '#1abc9c', bg: '#0f0f1a', surface: '#1a1a2e' });
             } else {
-                applyCustomTheme({ primary: '#1a5276', accent: '#1abc9c', bg: '#f0f2f5', surface: '#ffffff', radius: parseInt(document.getElementById('radiusSlider').value) });
+                applyCustomTheme({ ...currentSettings, primary: '#1a5276', accent: '#1abc9c', bg: '#f0f2f5', surface: '#ffffff' });
             }
         });
 

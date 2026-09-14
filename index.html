@@ -17,8 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Theme Toggle -->
-    <button class="theme-toggle" id="themeToggle" title="Tema Değiştir">🌙</button>
+    <!-- Theme Settings -->
     <button class="theme-settings-btn" id="themeSettingsBtn" title="Tema Özelleştir">🎨</button>
 
     <!-- Theme Customizer Panel -->
@@ -28,6 +27,19 @@
             <button class="theme-panel-close" id="themePanelClose">✕</button>
         </div>
         <div class="theme-panel-body">
+            <!-- Karanlık Mod -->
+            <div class="theme-section">
+                <label class="theme-label">Karanlık Mod</label>
+                <div class="dark-mode-row">
+                    <span class="dark-mode-icon" id="darkModeIcon">☀️</span>
+                    <label class="dark-mode-switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="dark-mode-slider"></span>
+                    </label>
+                    <span class="dark-mode-label" id="darkModeLabel">Açık</span>
+                </div>
+            </div>
+
             <!-- Preset Themes -->
             <div class="theme-section">
                 <label class="theme-label">Hazır Temalar</label>
@@ -123,19 +135,6 @@
                 <div class="radius-slider-wrap">
                     <input type="range" id="radiusSlider" min="0" max="24" value="14" class="radius-slider">
                     <span id="radiusValue">14px</span>
-                </div>
-            </div>
-
-            <!-- Karanlık Mod -->
-            <div class="theme-section">
-                <label class="theme-label">Karanlık Mod</label>
-                <div class="dark-mode-row">
-                    <span class="dark-mode-icon" id="darkModeIcon">☀️</span>
-                    <label class="dark-mode-switch">
-                        <input type="checkbox" id="darkModeToggle">
-                        <span class="dark-mode-slider"></span>
-                    </label>
-                    <span class="dark-mode-label" id="darkModeLabel">Açık</span>
                 </div>
             </div>
 
