@@ -1042,6 +1042,16 @@ class ThemeCustomizer {
             const color = btn.dataset.color;
             this.setPickerColor(colorId, textId, previewId, color);
             this.livePreview();
+            // Temayı kaydet
+            this.saveSettings({
+                primary: document.getElementById('primaryColor').value,
+                accent: document.getElementById('accentColor').value,
+                bg: document.getElementById('bgColor').value,
+                surface: document.getElementById('surfaceColor').value,
+                radius: parseInt(document.getElementById('radiusSlider').value),
+                sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
+                darkMode: document.getElementById('darkModeToggle').checked
+            });
         });
 
         // Text input
@@ -1050,6 +1060,16 @@ class ThemeCustomizer {
                 colorInput.value = textInput.value;
                 preview.style.background = textInput.value;
                 this.livePreview();
+                // Temayı kaydet
+                this.saveSettings({
+                    primary: document.getElementById('primaryColor').value,
+                    accent: document.getElementById('accentColor').value,
+                    bg: document.getElementById('bgColor').value,
+                    surface: document.getElementById('surfaceColor').value,
+                    radius: parseInt(document.getElementById('radiusSlider').value),
+                    sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
+                    darkMode: document.getElementById('darkModeToggle').checked
+                });
             }
         });
         textInput.addEventListener('blur', () => {
@@ -1422,6 +1442,17 @@ class CustomColorPicker {
         if (window.themeCustomizer) {
             const palette = document.getElementById(`picker-${this.targetPrefix}`).querySelector('.hover-palette');
             window.themeCustomizer.addSavedColor(this.targetPrefix, hex, palette);
+
+            // Tema ayarlarını kaydet
+            window.themeCustomizer.saveSettings({
+                primary: document.getElementById('primaryColor').value,
+                accent: document.getElementById('accentColor').value,
+                bg: document.getElementById('bgColor').value,
+                surface: document.getElementById('surfaceColor').value,
+                radius: parseInt(document.getElementById('radiusSlider').value),
+                sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
+                darkMode: document.getElementById('darkModeToggle').checked
+            });
         }
 
         this.close();
