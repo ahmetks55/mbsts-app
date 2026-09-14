@@ -827,6 +827,9 @@ function applyCustomTheme(settings) {
     let radius = settings.radius || 14;
     let sidebarStyle = settings.sidebarStyle || 'gradient';
 
+    // ÖNCE tüm inline style'ları temizle (eski mode'dan kalanları siler)
+    root.removeAttribute('style');
+
     // Generate sidebar colors from primary
     let hsl = hexToHSL(primary);
     let sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
@@ -842,17 +845,12 @@ function applyCustomTheme(settings) {
     root.style.setProperty('--sidebar-start', sidebarStart);
     root.style.setProperty('--sidebar-end', sidebarEnd);
 
-    // Dark mode extra variables - inline style CSS'den güçlü olduğu için burada set etmek zorunlu
+    // Dark mode extra variables
     if (isDark) {
         root.style.setProperty('--surface-hover', '#22223a');
         root.style.setProperty('--text', '#e8e8e8');
         root.style.setProperty('--text-secondary', '#9ca3af');
         root.style.setProperty('--border', '#2a2a3e');
-    } else {
-        root.style.removeProperty('--surface-hover');
-        root.style.removeProperty('--text');
-        root.style.removeProperty('--text-secondary');
-        root.style.removeProperty('--border');
     }
 
     // Sidebar style
