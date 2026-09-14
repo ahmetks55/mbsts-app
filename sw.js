@@ -44,8 +44,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cached) => {
-      // app.js and style.css are never served from cache – always fresh from network
-      if (event.request.url.includes('app.js') || event.request.url.includes('style.css')) {
+      // app.js, style.css and index.html are never served from cache – always fresh
+      if (event.request.url.includes('app.js') || event.request.url.includes('style.css') || event.request.destination === 'document') {
         return fetch(event.request);
       }
       if (cached) {

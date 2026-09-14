@@ -64,9 +64,19 @@ class MBSTSApp {
         this.history = this.loadFromStorage('mbsts_history', []);
         this.quizState = null;
         this.timerInterval = null;
-        this.theme = 'light';
+        this.theme = this.loadTheme();
         this.currentPage = 'dashboard';
         this.init();
+    }
+
+    loadTheme() {
+        try {
+            const settings = JSON.parse(localStorage.getItem('mbsts_theme_settings'));
+            if (settings && typeof settings.darkMode === 'boolean') {
+                return settings.darkMode ? 'dark' : 'light';
+            }
+        } catch {}
+        return 'light';
     }
 
     init() {
@@ -875,9 +885,12 @@ class ThemeCustomizer {
     }
 
     init() {
-        // Varsayılan her zaman açık tema
-        document.documentElement.setAttribute('data-theme', 'light');
-        document.documentElement.removeAttribute('style');
+        // Kaydedilmiş temayı uygula
+        const savedDark = this.settings.darkMode === true;
+        document.documentElement.setAttribute('data-theme', savedDark ? 'dark' : 'light');
+        if (Object.keys(this.settings).length > 0) {
+            applyCustomTheme(this.settings);
+        }
 
         // Panel toggle
         document.getElementById('themeSettingsBtn').addEventListener('click', () => {
