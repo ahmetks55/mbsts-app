@@ -837,7 +837,7 @@ function applyCustomTheme(settings) {
 
     root.style.setProperty('--primary', primary);
     root.style.setProperty('--primary-light', adjustColor(primary, 10));
-    root.style.setProperty('--primary-bg', adjustColor(primary, 40));
+    root.style.setProperty('--primary-bg', isDark ? adjustColor(primary, -25) : adjustColor(primary, 40));
     root.style.setProperty('--accent', accent);
     root.style.setProperty('--bg', bg);
     root.style.setProperty('--surface', surface);
