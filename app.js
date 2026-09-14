@@ -1319,14 +1319,22 @@ class CustomColorPicker {
             btn.addEventListener('mouseover', (e) => {
                 e.stopPropagation();
                 const hex = this.hslToHex(shade.h, shade.s, shade.l);
-                if (this.targetPrefix && window.themeCustomizer) {
-                    this.setPickerColor(
-                        this.targetPrefix + 'Color',
-                        this.targetPrefix + 'ColorText',
-                        this.targetPrefix + 'Preview',
-                        hex
-                    );
-                    window.themeCustomizer.livePreview();
+                if (this.targetPrefix) {
+                    // Doğrudan CSS variable'ı güncelle
+                    const propMap = {
+                        primary: '--primary',
+                        accent: '--accent',
+                        bg: '--bg',
+                        surface: '--surface'
+                    };
+                    const prop = propMap[this.targetPrefix];
+                    if (prop) {
+                        document.documentElement.style.setProperty(prop, hex);
+                    }
+                    // Input'ları da güncelle
+                    document.getElementById(this.targetPrefix + 'Color').value = hex;
+                    document.getElementById(this.targetPrefix + 'ColorText').value = hex;
+                    document.getElementById(this.targetPrefix + 'Preview').style.background = hex;
                 }
             });
 
@@ -1442,14 +1450,31 @@ class CustomColorPicker {
         }
 
         // Canlı önizleme - siteyi hemen güncelle
-        if (this.targetPrefix && window.themeCustomizer) {
+        if (this.targetPrefix) {
+            const propMap = {
+                primary: '--primary',
+                accent: '--accent',
+                bg: '--bg',
+                surface: '--surface'
+            };
+            const prop = propMap[this.targetPrefix];
+            if (prop) {
+                document.documentElement.style.setProperty(prop, hex);
+                // Primary ise sidebar'ı da güncelle
+                if (this.targetPrefix === 'primary') {
+                    const hsl = this.hexToHSL(hex);
+                    const sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
+                    const sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
+                    document.documentElement.style.setProperty('--sidebar-start', sidebarStart);
+                    document.documentElement.style.setProperty('--sidebar-end', sidebarEnd);
+                }
+            }
             this.setPickerColor(
                 this.targetPrefix + 'Color',
                 this.targetPrefix + 'ColorText',
                 this.targetPrefix + 'Preview',
                 hex
             );
-            window.themeCustomizer.livePreview();
         }
     }
 
