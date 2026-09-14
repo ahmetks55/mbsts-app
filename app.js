@@ -977,7 +977,7 @@ class ThemeCustomizer {
         // Load saved colors
         this.renderSavedColors(prefix, palette);
 
-        // Palette buttons (preset + saved) - tıklama ve hover
+        // Palette buttons (preset + saved) - sadece tıklama
         palette.addEventListener('click', (e) => {
             const btn = e.target.closest('.pal-btn');
             if (!btn) return;
@@ -986,13 +986,6 @@ class ThemeCustomizer {
             btn.classList.add('active');
             const color = btn.dataset.color;
             this.setPickerColor(colorId, textId, previewId, color);
-            this.livePreview();
-        });
-
-        palette.addEventListener('mouseover', (e) => {
-            const btn = e.target.closest('.pal-btn');
-            if (!btn || !btn.dataset.color) return;
-            this.setPickerColor(colorId, textId, previewId, btn.dataset.color);
             this.livePreview();
         });
 
