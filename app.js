@@ -851,6 +851,7 @@ function applyCustomTheme(settings) {
         root.style.setProperty('--text', '#e8e8e8');
         root.style.setProperty('--text-secondary', '#9ca3af');
         root.style.setProperty('--border', '#2a2a3e');
+        root.style.setProperty('--primary-bg', adjustColor(primary, -20));
     }
 
     // Sidebar style

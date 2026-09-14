@@ -2022,6 +2022,165 @@ body {
     font-size: 0.9em;
 }
 
+/* ===== DARK MODE FIXES v2 ===== */
+
+/* Mobile menu (baklava menü) */
+[data-theme="dark"] .mobile-menu-btn {
+    background: #1a1a2e;
+    border-color: #2a2a3e;
+    color: #e8e8e8;
+}
+
+/* Hızlı işlemler butonları */
+[data-theme="dark"] .quick-action {
+    background: #1a1a2e;
+    border-color: #2a2a3e;
+}
+[data-theme="dark"] .quick-action:hover {
+    background: #1a2a3a;
+    border-color: #5dade2;
+}
+[data-theme="dark"] .qa-text {
+    color: #e8e8e8;
+}
+[data-theme="dark"] .qa-desc {
+    color: #9ca3af;
+}
+
+/* Bilgi balonuğu (source-info-card) */
+[data-theme="dark"] .source-info-card {
+    background: #1a2a3a;
+    border-color: #2a4a6a;
+}
+[data-theme="dark"] .source-info-text strong {
+    color: #5dade2;
+}
+[data-theme="dark"] .source-info-text p {
+    color: #9ca3af;
+}
+
+/* Stat kartları */
+[data-theme="dark"] .stat-card {
+    background: #1a1a2e;
+    border: 1px solid #2a2a3e;
+}
+[data-theme="dark"] .gradient-blue .stat-value { color: #5dade2; }
+[data-theme="dark"] .gradient-green .stat-value { color: #27ae60; }
+[data-theme="dark"] .gradient-purple .stat-value { color: #9b59b6; }
+[data-theme="dark"] .gradient-orange .stat-value { color: #e67e22; }
+
+/* Kartlar */
+[data-theme="dark"] .card {
+    background: #1a1a2e;
+    border: 1px solid #2a2a3e;
+}
+[data-theme="dark"] .card-header {
+    border-bottom-color: #2a2a3e;
+}
+
+/* Form elemanları */
+[data-theme="dark"] .form-group select,
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .form-group textarea {
+    background: #0f0f1a;
+    border-color: #2a2a3e;
+    color: #e8e8e8;
+}
+
+/* Filter butonları */
+[data-theme="dark"] .filter-btn {
+    background: #1a1a2e;
+    border-color: #2a2a3e;
+    color: #9ca3af;
+}
+[data-theme="dark"] .filter-btn:hover,
+[data-theme="dark"] .filter-btn.active {
+    background: #5dade2;
+    color: #fff;
+    border-color: #5dade2;
+}
+
+/* Source kartları */
+[data-theme="dark"] .source-card {
+    background: #1a1a2e;
+    border: 1px solid #2a2a3e;
+}
+[data-theme="dark"] .source-card:hover {
+    background: #22223a;
+}
+[data-theme="dark"] .source-card .s-pub {
+    background: #1a2a3a;
+    color: #5dade2;
+}
+
+/* Sidebar */
+[data-theme="dark"] .sidebar {
+    background: linear-gradient(180deg, #0a0a15 0%, #12122a 100%);
+}
+
+/* Theme settings butonu */
+[data-theme="dark"] .theme-settings-btn {
+    background: #1a1a2e;
+    border-color: #2a2a3e;
+}
+
+/* PWA install banner */
+[data-theme="dark"] .pwa-install {
+    background: #1a1a2e;
+    border-color: #5dade2;
+}
+
+/* Timeline */
+[data-theme="dark"] .timeline::before {
+    background: #2a2a3e;
+}
+[data-theme="dark"] .timeline-dot {
+    background: #2a2a3e;
+    border-color: #1a1a2e;
+}
+
+/* Chip (past exam) */
+[data-theme="dark"] .chip {
+    background: #1a1a2e;
+    border-color: #2a2a3e;
+    color: #9ca3af;
+}
+[data-theme="dark"] .chip:hover,
+[data-theme="dark"] .chip.active {
+    background: #5dade2;
+    color: #fff;
+    border-color: #5dade2;
+}
+
+/* Subject bars */
+[data-theme="dark"] .sbar-track {
+    background: #22223a;
+}
+[data-theme="dark"] .sbar-label {
+    color: #9ca3af;
+}
+
+/* Download modal */
+[data-theme="dark"] .modal-box {
+    background: #1a1a2e;
+    border-color: #2a2a3e;
+}
+[data-theme="dark"] .modal-header {
+    border-bottom-color: #2a2a3e;
+}
+[data-theme="dark"] .modal-info-row {
+    border-bottom-color: #2a2a3e;
+}
+[data-theme="dark"] .modal-footer {
+    border-top-color: #2a2a3e;
+}
+
+/* Theme panel */
+[data-theme="dark"] .theme-panel {
+    background: #1a1a2e;
+    border-left-color: #2a2a3e;
+}
+
 /* Responsive for stats page */
 @media (max-width: 700px) {
     .answer-dist-item {
