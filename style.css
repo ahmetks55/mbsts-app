@@ -1256,22 +1256,20 @@ body {
 .custom-picker-overlay {
     display: none;
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.3);
+    top: 0; right: 0; bottom: 0;
+    width: 320px;
     z-index: 10000;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0;
 }
 .custom-picker-overlay.open {
-    display: flex;
+    display: block;
 }
 
 .custom-picker-panel {
     width: 320px;
     height: 100vh;
     background: var(--surface);
-    box-shadow: -4px 0 24px rgba(0,0,0,0.2);
+    border-left: 1px solid var(--border);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.15);
     padding: 0;
     overflow-y: auto;
     animation: cpSlideIn 0.25s ease;

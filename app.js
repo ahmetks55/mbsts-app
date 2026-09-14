@@ -977,7 +977,7 @@ class ThemeCustomizer {
         // Load saved colors
         this.renderSavedColors(prefix, palette);
 
-        // Palette buttons (preset + saved)
+        // Palette buttons (preset + saved) - tıklama ve hover
         palette.addEventListener('click', (e) => {
             const btn = e.target.closest('.pal-btn');
             if (!btn) return;
@@ -986,6 +986,13 @@ class ThemeCustomizer {
             btn.classList.add('active');
             const color = btn.dataset.color;
             this.setPickerColor(colorId, textId, previewId, color);
+            this.livePreview();
+        });
+
+        palette.addEventListener('mouseover', (e) => {
+            const btn = e.target.closest('.pal-btn');
+            if (!btn || !btn.dataset.color) return;
+            this.setPickerColor(colorId, textId, previewId, btn.dataset.color);
             this.livePreview();
         });
 
@@ -1154,7 +1161,6 @@ class CustomColorPicker {
 
         // Close
         document.getElementById('customPickerClose').addEventListener('click', () => this.close());
-        this.overlay.addEventListener('click', (e) => { if (e.target === this.overlay) this.close(); });
 
         // Gradient area drag
         this.canvas.addEventListener('mousedown', (e) => this.startGradientDrag(e));
@@ -1308,6 +1314,20 @@ class CustomColorPicker {
                 e.stopPropagation();
                 this.h = shade.h; this.s = shade.s; this.l = shade.l;
                 this.updateAll();
+            });
+
+            btn.addEventListener('mouseover', (e) => {
+                e.stopPropagation();
+                const hex = this.hslToHex(shade.h, shade.s, shade.l);
+                if (this.targetPrefix && window.themeCustomizer) {
+                    this.setPickerColor(
+                        this.targetPrefix + 'Color',
+                        this.targetPrefix + 'ColorText',
+                        this.targetPrefix + 'Preview',
+                        hex
+                    );
+                    window.themeCustomizer.livePreview();
+                }
             });
 
             container.appendChild(btn);
