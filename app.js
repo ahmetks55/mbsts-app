@@ -1249,31 +1249,35 @@ class CustomColorPicker {
     }
 
     close() {
-        // Uygulanmadıysa eski renge dön
-        if (!this._applied && this._originalColor && this.targetPrefix) {
-            const propMap = {
-                primary: '--primary',
-                accent: '--accent',
-                bg: '--bg',
-                surface: '--surface'
-            };
-            const prop = propMap[this.targetPrefix];
-            if (prop) {
-                document.documentElement.style.setProperty(prop, this._originalColor);
-                if (this.targetPrefix === 'primary') {
-                    const hsl = this.hexToHSL(this._originalColor);
-                    const sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
-                    const sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
-                    document.documentElement.style.setProperty('--sidebar-start', sidebarStart);
-                    document.documentElement.style.setProperty('--sidebar-end', sidebarEnd);
+        try {
+            // Uygulanmadıysa eski renge dön
+            if (!this._applied && this._originalColor && this.targetPrefix) {
+                const propMap = {
+                    primary: '--primary',
+                    accent: '--accent',
+                    bg: '--bg',
+                    surface: '--surface'
+                };
+                const prop = propMap[this.targetPrefix];
+                if (prop) {
+                    document.documentElement.style.setProperty(prop, this._originalColor);
+                    if (this.targetPrefix === 'primary') {
+                        const hsl = this.hexToHSL(this._originalColor);
+                        const sidebarStart = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(5, hsl.l - 35)}%)`;
+                        const sidebarEnd = `hsl(${hsl.h}, ${Math.min(80, hsl.s + 10)}%, ${Math.max(10, hsl.l - 25)}%)`;
+                        document.documentElement.style.setProperty('--sidebar-start', sidebarStart);
+                        document.documentElement.style.setProperty('--sidebar-end', sidebarEnd);
+                    }
                 }
+                this.setPickerColor(
+                    this.targetPrefix + 'Color',
+                    this.targetPrefix + 'ColorText',
+                    this.targetPrefix + 'Preview',
+                    this._originalColor
+                );
             }
-            this.setPickerColor(
-                this.targetPrefix + 'Color',
-                this.targetPrefix + 'ColorText',
-                this.targetPrefix + 'Preview',
-                this._originalColor
-            );
+        } catch (err) {
+            console.error('Close error:', err);
         }
         this.overlay.classList.remove('open');
         this._dragging = null;
@@ -1551,3 +1555,4 @@ const app = new MBSTSApp();
 const themeCustomizer = new ThemeCustomizer();
 const customColorPicker = new CustomColorPicker();
 window.themeCustomizer = themeCustomizer;
+window.customColorPicker = customColorPicker;
