@@ -884,6 +884,10 @@ class ThemeCustomizer {
         // Apply saved settings
         if (Object.keys(this.settings).length > 0) {
             applyCustomTheme(this.settings);
+            // Dark mode durumunu geri yükle
+            if (this.settings.darkMode) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
         }
 
         // Panel toggle
@@ -940,12 +944,39 @@ class ThemeCustomizer {
             document.documentElement.style.setProperty('--radius', radiusSlider.value + 'px');
         });
 
+        // Dark mode toggle
+        const darkToggle = document.getElementById('darkModeToggle');
+        const darkIcon = document.getElementById('darkModeIcon');
+        const darkLabel = document.getElementById('darkModeLabel');
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        darkToggle.checked = isDark;
+        darkIcon.textContent = isDark ? '🌙' : '☀️';
+        darkLabel.textContent = isDark ? 'Karanlık' : 'Açık';
+
+        darkToggle.addEventListener('change', () => {
+            const dark = darkToggle.checked;
+            document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+            darkIcon.textContent = dark ? '🌙' : '☀️';
+            darkLabel.textContent = dark ? 'Karanlık' : 'Açık';
+            localStorage.setItem('mbsts_theme', dark ? 'dark' : 'light');
+            // Tema renklerini de güncelle
+            if (dark) {
+                applyCustomTheme({ primary: '#5dade2', accent: '#1abc9c', bg: '#0f0f1a', surface: '#1a1a2e', radius: parseInt(document.getElementById('radiusSlider').value) });
+            } else {
+                applyCustomTheme({ primary: '#1a5276', accent: '#1abc9c', bg: '#f0f2f5', surface: '#ffffff', radius: parseInt(document.getElementById('radiusSlider').value) });
+            }
+        });
+
         // Reset button
         document.getElementById('themeReset').addEventListener('click', () => {
             localStorage.removeItem('mbsts_theme_settings');
             this.settings = {};
             document.documentElement.removeAttribute('style');
+            document.documentElement.setAttribute('data-theme', 'light');
             document.querySelector('.sidebar').classList.remove('sidebar-gradient', 'sidebar-solid', 'sidebar-glass');
+            document.getElementById('darkModeToggle').checked = false;
+            document.getElementById('darkModeIcon').textContent = '☀️';
+            document.getElementById('darkModeLabel').textContent = 'Açık';
             this.panel.classList.remove('open');
             this.showToast('Tema varsayılana döndü');
         });
@@ -958,7 +989,8 @@ class ThemeCustomizer {
                 bg: document.getElementById('bgColor').value,
                 surface: document.getElementById('surfaceColor').value,
                 radius: parseInt(document.getElementById('radiusSlider').value),
-                sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient'
+                sidebarStyle: document.querySelector('.sidebar-style-btn.active')?.dataset.style || 'gradient',
+                darkMode: document.getElementById('darkModeToggle').checked
             };
             this.saveSettings(settings);
             applyCustomTheme(settings);
