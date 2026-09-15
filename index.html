@@ -1180,11 +1180,11 @@
         </section>
     </main>
 
-    <script src="app.js?v=21"></script>
+    <script src="app.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js?v=56').catch(() => {});
+                navigator.serviceWorker.register('sw.js').catch(() => {});
             });
         }
 

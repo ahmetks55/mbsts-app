@@ -1,8 +1,9 @@
-const CACHE_NAME = 'mbsts-v56';
+const CACHE_NAME = 'mbsts-v57';
 const ASSETS = [
   '/',
   '/index.html',
   '/style.css',
+  '/app.js',
   '/questions.json',
   '/questions-2025.json',
   '/questions-ek.json',
@@ -44,13 +45,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cached) => {
-      // app.js, style.css, index.html and sw.js are never served from cache – always fresh
-      if (event.request.url.includes('app.js') || event.request.url.includes('style.css') || event.request.url.includes('sw.js') || event.request.destination === 'document') {
-        return fetch(event.request);
-      }
-      if (cached) {
-        return cached;
-      }
+      if (cached) return cached;
       return fetch(event.request).then((response) => {
         if (response.status === 200 && response.type === 'basic') {
           const clone = response.clone();
