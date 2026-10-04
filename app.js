@@ -84,11 +84,26 @@ class MBSTSApp {
         window.scrollTo(0, 0);
         this.applyTheme();
         this.setupEventListeners();
+        this.setupHistory();
         this.renderSources();
         this.renderBank();
         this.renderStats();
         this.renderDashboard();
         this.loadExtraQuestions();
+    }
+
+    setupHistory() {
+        const h = (location.hash || '').replace('#', '');
+        if (h && document.getElementById('page-' + h)) {
+            this.navigate(h, null, true);
+        } else {
+            history.replaceState({ mbstsPage: this.currentPage }, '', location.href);
+        }
+        window.addEventListener('popstate', (e) => {
+            let page = (e.state && e.state.mbstsPage) || (location.hash || '').replace('#', '');
+            if (!page || !document.getElementById('page-' + page)) page = 'dashboard';
+            if (page !== this.currentPage) this.navigate(page, null, true);
+        });
     }
 
     async loadExtraQuestions() {
@@ -204,7 +219,11 @@ class MBSTSApp {
 
     }
 
-    navigate(page, opts) {
+    navigate(page, opts, fromHistory) {
+        if (!document.getElementById('page-' + page)) return;
+        if (!fromHistory && page !== this.currentPage) {
+            history.pushState({ mbstsPage: page }, '', '#' + page);
+        }
         this.currentPage = page;
         document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
         document.getElementById('page-' + page).classList.add('active');
