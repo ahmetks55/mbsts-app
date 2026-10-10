@@ -2,15 +2,15 @@
   {
     "id": 1126,
     "subject": "kur-an-bilgisi",
-    "text": "Tecvid ilmine göre (4) zamiri hangi durumda uzatılarak okunur?",
+    "text": "Tecvid ilmine göre (ه) zamiri hangi durumda uzatılarak okunur?",
     "options": [
-      "(4) zamiri harekesiz olursa",
-      "(4) zamirinden önceki harf harekeli olursa",
-      "(4) zamirinden önceki harf harekesiz olursa",
-      "(4) zamirinden önceki harf kalın harf olursa",
+      "(ه) zamiri harekesiz olursa",
+      "(ه) zamirinden önceki harf harekeli olursa",
+      "(ه) zamirinden önceki harf harekesiz olursa",
+      "(ه) zamirinden önceki harf kalın harf olursa",
       ""
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
@@ -20,10 +20,10 @@
     "subject": "kur-an-bilgisi",
     "text": "Tecvid kaidelerine göre Vakf-ı Mutlak hangi harfle gösterilir?",
     "options": [
-      "Mim (ۧ)",
-      "Cim ( Jamal)",
-      "Sad (ş)",
-      "Kaf (ğじ)",
+      "Tı (ط)",
+      "Cim (ج)",
+      "Sâd (ص)",
+      "Kâf (ق)",
       ""
     ],
     "correct": 0,
@@ -34,10 +34,10 @@
   {
     "id": 1128,
     "subject": "kur-an-bilgisi",
-    "text": "Lam-ı Tarif (ال) takısından sonra (ن) harfi gelmesi halinde ortaya çıkan tecvid hükmü aşağıdakilerden hangisidir?",
+    "text": "Lam-ı Tarif (ال) takısından sonra (ق) harfi gelmesi halinde ortaya çıkan tecvid hükmü aşağıdakilerden hangisidir?",
     "options": [
-      "İdgam-ı Mitekâribeyn",
-      "İdgam-ı Mütrecâniseyn",
+      "İdgam-ı Mütekâribeyn",
+      "İdgam-ı Mütacâniseyn",
       "İzhar-ı Kameriye",
       "İdgam-ı Şemsiye",
       ""
@@ -50,7 +50,7 @@
   {
     "id": 1129,
     "subject": "kur-an-bilgisi",
-    "text": "(الله) ve (الرحمن) kelimeleri üzerinde durulduğunda (ح) harfi nasıl okunur?",
+    "text": "(خَيْرْ) ve (سَيْرْ) kelimeleri üzerinde durulduğunda (ر) harfi nasıl okunur?",
     "options": [
       "İnce",
       "Kalın",
@@ -66,12 +66,12 @@
   {
     "id": 1130,
     "subject": "kur-an-bilgisi",
-    "text": "Sâkin Nûn'dan (ن) sonra aynı kelimede (ر) veya (ل) harflerinden birisi geldiğinde ortaya çıkan tecvid hükmü aşağıdakilerden hangisidir?",
+    "text": "Sâkin Nûn'dan (ن) sonra aynı kelimede (و) veya (ى) harflerinden birisi geldiğinde ortaya çıkan tecvid hükmü aşağıdakilerden hangisidir?",
     "options": [
       "İklab",
-      "İdgam-ı Bilâ Cünne",
-      "İdgam-ı Maal Cünne",
-      "İzhar-ı Kelime-i Vâhıde",
+      "İdgam-ı Bilâ Gunne",
+      "İdgam-ı Maal Gunne",
+      "İzhar-ı Kelime-i Vâhide",
       ""
     ],
     "correct": 3,
@@ -86,8 +86,8 @@
     "options": [
       "İdgam-ı Misleyn",
       "İdgam-ı Şemsiye",
-      "İdgam-ı Mitekâribeyn",
-      "İdgam-ı Mütrecâniseyn",
+      "İdgam-ı Mütekâribeyn",
+      "İdgam-ı Mütacâniseyn",
       ""
     ],
     "correct": 2,
@@ -98,12 +98,12 @@
   {
     "id": 1132,
     "subject": "kur-an-bilgisi",
-    "text": "Aşağıdakilerden hangisinde İdgam-ı Misleyn Maal Cünne vardır?",
+    "text": "Aşağıdakilerden hangisinde İdgam-ı Misleyn Maal Gunne vardır?",
     "options": [
+      "Sâkin Mîm'den sonra, (د) harfi gelirse",
       "Sâkin Mîm'den sonra, (ب) harfi gelirse",
-      "Sâkin Mîm'den sonra, (م) harfi gelirse",
-      "Sâkin Mîm'den sonra, (ن) harfi gelirse",
-      "Sâkin Nûn'dan sonra, (ل) harfi gelirse",
+      "Sâkin Mîm'den sonra, (ى) harfi gelirse",
+      "Sâkin Nûn'dan sonra, (ن) harfi gelirse",
       ""
     ],
     "correct": 3,
@@ -162,12 +162,12 @@
   {
     "id": 1136,
     "subject": "kur-an-bilgisi",
-    "text": "Mushaf'ın tedvini ve göğaltılmasında komisyon başkanlığı yapan Sahabi aşağıdakilerden hangisidir?",
+    "text": "Mushaf'ın tedvini ve çoğaltılmasında komisyon başkanlığı yapan Sahabi aşağıdakilerden hangisidir?",
     "options": [
       "Zübeyr b. Avvam",
       "Zeyd b. Sâbit",
       "Ebû Hüreyre",
-      "Hüzeyfe b. Yeman",
+      "Huzeyfe b. Yemân",
       ""
     ],
     "correct": 1,
@@ -202,7 +202,7 @@
       "Tevbe",
       ""
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
@@ -213,7 +213,7 @@
     "text": "Aşağıdakilerden hangisi Kur'an'ın ana konuları arasında yer almamaktadır?",
     "options": [
       "İman",
-      "Avianma",
+      "Avlanma",
       "İbadet",
       "Ahlâk",
       ""
@@ -262,7 +262,7 @@
     "options": [
       "Siyak-Sibâk",
       "Tahsis",
-      "Te'sânid",
+      "Tesânüd",
       "Sebeb-i Nüzûl",
       ""
     ],
@@ -295,7 +295,7 @@
       "Hurûf-ı Mukattaa",
       "Hurûf-ı Seb'a",
       "Hurûf-ı Safîre",
-      "Hurûf-ı Mintefiha",
+      "Hurûf-ı Müntefiha",
       ""
     ],
     "correct": 0,
@@ -326,7 +326,7 @@
     "options": [
       "Zekât vermek",
       "İffeti korumak",
-      "Namazıhusû ile kılmak",
+      "Namazı huşû ile kılmak",
       "Boş ve anlamsız şeylerden yüz çevirmek",
       ""
     ],
@@ -340,13 +340,13 @@
     "subject": "kur-an-bilgisi",
     "text": "Aşağıdakilerden hangisi bir sureye ad olarak verilen Ahzâb kelimesinin anlamını içermektedir?",
     "options": [
-      "Tevkifilik",
+      "Müttefik güçler",
       "Hendekler",
       "Mü'min topluluklar",
-      "Kur'an'daki mucizeler",
+      "Kur'an'daki cüzler",
       ""
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
@@ -354,12 +354,12 @@
   {
     "id": 1148,
     "subject": "hadis",
-    "text": "Bir ravinin 'güvenilir, muteber kimse' olduğunu ifade etmek için kullanılan hadis terimi aşağıdakilerden hangisidir?",
+    "text": "Bir ravinin 'güvenilir, mutemet kimse' olduğunu ifade etmek için kullanılan hadis terimi aşağıdakilerden hangisidir?",
     "options": [
       "Zâhid",
       "Kâvî",
       "Emin",
-      "Sıkā",
+      "Sika",
       ""
     ],
     "correct": 3,
@@ -426,7 +426,7 @@
       "Sened kısımı düşürülmüş hadis",
       ""
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
@@ -455,7 +455,7 @@
       "Tedvin",
       "Tevhîd",
       "Cem'",
-      "Telvîh",
+      "Telîf",
       ""
     ],
     "correct": 0,
@@ -469,7 +469,7 @@
     "text": "Aşağıdakilerden hangisi Mâlik b. Enes tarafından tasnif edilmiştir?",
     "options": [
       "Ümm",
-      "Muvatta",
+      "Muvattâ",
       "Kitâbü'z-Zühd",
       "Müsned",
       ""
@@ -498,12 +498,12 @@
   {
     "id": 1157,
     "subject": "hadis",
-    "text": "'Kim Allah için hacceder de (Allah'ın rızasına uymayan) kötü söz ve davranışlardan, Allah'a karşı gelmekten sakınırsa, (kul hakkı hariç) cennettenöü olarak döner.' hadisinde boş bırakılan yere gelecek doğru ifade aşağıdakilerden hangisidir?",
+    "text": "'Kim Allah için hacceder de (Allah'ın rızasına uymayan) kötü söz ve davranışlardan, Allah'a karşı gelmekten sakınırsa, (kul hakkı hariç) .........' hadisinde boş bırakılan yere gelecek doğru ifade aşağıdakilerden hangisidir?",
     "options": [
       "Kârlı bir ticaretle döner.",
       "Cehennemden kurtulmuş olarak döner.",
       "Affedilmiş ve müjdelenmiş olarak döner.",
-      "Annesinden doğduğu gün gibi (günahtız) döner.",
+      "Annesinden doğduğu günkü gibi (günahsız) döner.",
       ""
     ],
     "correct": 3,
@@ -570,7 +570,7 @@
       "Nüşûr",
       ""
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
@@ -594,12 +594,12 @@
   {
     "id": 1163,
     "subject": "akaid-kelam",
-    "text": "Allah'ın varlığını ispat etmek için İslam bilginleri tarafından ortaya konulan ve 'Varlığı ve yokluğu eşit bir varlık olan alemın var olması için bir sebebe ihtiyaç vardır' şeklinde tanımlanan delil aşağıdakilerden hangisidir?",
+    "text": "Allah'ın varlığını ispat etmek için İslam bilginleri tarafından ortaya konulan ve 'Varlığı ve yokluğu eşit bir varlık olan âlemin var olması için bir sebebe ihtiyaç vardır' şeklinde tanımlanan delil aşağıdakilerden hangisidir?",
     "options": [
       "İmkân",
       "Nizam",
       "Hüdûs",
-      "Temanu'",
+      "Temânu",
       ""
     ],
     "correct": 0,
@@ -661,9 +661,9 @@
     "text": "Aşağıdakilerden hangisi kaynaklardan hüküm çıkarılırken kullanılan yöntemlerden biri değildir?",
     "options": [
       "İstişâre",
-      "İştihâb",
-      "İstinsân",
-      "İstişhâd",
+      "İstishâb",
+      "İstihsân",
+      "İstislâh",
       ""
     ],
     "correct": 0,
@@ -740,10 +740,10 @@
     "subject": "fikih-ilmihal",
     "text": "Aşağıdakilerden hangisinde, oruç keffaretiyle ilgili yaptırımlar sırasıyla verilmiştir?",
     "options": [
-      "Kulûl azâd etmek — 60 fakiri doyurmak — İki ay peşpeşe oruç tutmak",
-      "Kulûl azâd etmek — İki ay peşpeşe oruç tutmak — 60 fakiri doyurmak",
-      "60 fakiri doyurmak — İki ay peşpeşe oruç tutmak — Kulûl azâd etmek",
-      "İki ay peşpeşe oruç tutmak — Kulûl azâd etmek — 60 fakiri doyurmak",
+      "Köle âzâd etmek — 60 fakiri doyurmak — İki ay peşpeşe oruç tutmak",
+      "Köle âzâd etmek — İki ay peşpeşe oruç tutmak — 60 fakiri doyurmak",
+      "60 fakiri doyurmak — İki ay peşpeşe oruç tutmak — Köle âzâd etmek",
+      "İki ay peşpeşe oruç tutmak — Köle âzâd etmek — 60 fakiri doyurmak",
       ""
     ],
     "correct": 0,
@@ -788,7 +788,7 @@
     "subject": "fikih-ilmihal",
     "text": "Tevbe Suresi'nin 60. ayeti, hangi konuyu düzenlemektedir?",
     "options": [
-      "Sadaka-i Fır",
+      "Sadaka-i Fıtr",
       "Zekât oranları",
       "Zekât verecek kimseler",
       "Zekât verilecek kimseler",
@@ -820,10 +820,10 @@
     "subject": "fikih-ilmihal",
     "text": "Yukarıda tarifleri verilen yemin çeşitleri aşağıdakilerden hangisinde doğru olarak sıralanmıştır? I- Yanlışlıkla doğru olduğu sanılarak yapılan yemin II- Mümkün olan ve geleceğe ait bir şey hakkında yapılan yemin III- Geçmiş zamanda yapılmış veya yapılmamış bir iş hakkında bile bile kasten ve yalan yere yapılan yemin",
     "options": [
-      "I- Gammîz, II- Mün'akid, III- Lâğv",
-      "I- Lâğv, II- Mün'akid, III- Gammîz",
-      "I- Lâğv, II- Gammîz, III- Mün'akid",
-      "I- Mün'akid, II- Lâğv, III- Gammîz",
+      "I- Gamûs, II- Mün'akid, III- Lâğv",
+      "I- Lâğv, II- Mün'akid, III- Gamûs",
+      "I- Lâğv, II- Gamûs, III- Mün'akid",
+      "I- Mün'akid, II- Lâğv, III- Gamûs",
       ""
     ],
     "correct": 1,
@@ -868,8 +868,8 @@
     "subject": "fikih-ilmihal",
     "text": "Fıkıh literatüründe 'Harama düşmemek için bazı mubahları ve şüpheli şeyleri yasaklamak' anlamına gelen ilke aşağıdakilerden hangisidir?",
     "options": [
-      "İstişlâh",
-      "İstinsân",
+      "İstislâh",
+      "İstihsân",
       "Narh Koyma",
       "Sedd-i Zerâi'",
       ""
@@ -930,7 +930,7 @@
   {
     "id": 1184,
     "subject": "fikih-ilmihal",
-    "text": "Sadaka-i Fır ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "text": "Sadaka-i Fıtr ile ilgili aşağıdakilerden hangisi doğrudur?",
     "options": [
       "Nisab aranmaz.",
       "Ergenlik şartı yoktur.",
@@ -946,7 +946,7 @@
   {
     "id": 1185,
     "subject": "fikih-ilmihal",
-    "text": "Şâfiî ve Hanbelî mezheplerine göre, Bayram'ın birinci gününden şeytan taşlamanın vakti ne zaman başlar?",
+    "text": "Şâfiî ve Hanbelî mezheplerine göre, Bayram'ın birinci günü şeytan taşlamanın vakti ne zaman başlar?",
     "options": [
       "Fecri Sâdık'tan itibaren",
       "Gece yarısından itibaren",
@@ -1094,7 +1094,7 @@
     "options": [
       "Sıkâye",
       "Rifâde",
-      "İlâr",
+      "Îlâf",
       "İcâze",
       ""
     ],
@@ -1110,7 +1110,7 @@
     "options": [
       "Zekât",
       "Ramazan Orucu",
-      "Sadaka-i Fır",
+      "Sadaka-i Fıtr",
       "Hac",
       ""
     ],
@@ -1156,7 +1156,7 @@
     "subject": "siyer",
     "text": "Aşağıdaki kavramlardan hangisi 'Güzel Ahlak' anlamına gelir?",
     "options": [
-      "Killet-i Edeb",
+      "Kıllet-i Edeb",
       "Hısnü'l-Hulûk",
       "Ahlâk-ı Âlâî",
       "Ahlâk-ı Zemîme",
@@ -1318,7 +1318,7 @@
     "options": [
       "Hicret ve Getirdikleri",
       "Din ve Adalet Duygusu",
-      "Birlikte Yaşama Tecribesi",
+      "Birlikte Yaşama Tecrübesi",
       "Rahmet Peygamberi ve Aile",
       ""
     ],
@@ -1365,7 +1365,7 @@
     "text": "Aşağıdakilerden hangisi Başkanlığın yürüttüğü kamu hizmetine dahil değildir?",
     "options": [
       "İbadet ve Cami",
-      "İrsad ve Tebliğ",
+      "İrşad ve Tebliğ",
       "Fetva",
       "Vakıf",
       ""
