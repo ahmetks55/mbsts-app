@@ -1406,5 +1406,197 @@
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
+  },
+  {
+    "id": 1274,
+    "subject": "kur-an-bilgisi",
+    "text": "Ayetlerin Kur'an ve sûreler içinde yer alma sırasının Allah tarafından bildirilmesini karşılayan ifade aşağıdakilerden hangisidir?",
+    "options": [
+      "Sebeb-i Nüzul",
+      "Sebeb-i Vürud",
+      "Tevkîfîlik",
+      "Tertîl",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1275,
+    "subject": "kur-an-bilgisi",
+    "text": "\"Firavun'a gidin. Çünkü o azmıştır. Ona yumuşak söz söyleyin...\" (Tâhâ, 20/43-44) ayetlerinde geçen \"yumuşak söz\" anlamına gelen Kur'anî terim aşağıdakilerden hangisidir?",
+    "options": [
+      "Kavl-i Sedîd",
+      "Kavl-i Ma'rûf",
+      "Kavl-i Leyyin",
+      "Kavl-i Sakîl",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1276,
+    "subject": "egitim",
+    "text": "Aşağıdakilerden hangisi öğrenme-öğretme ilkeleri arasında yer almaz?",
+    "options": [
+      "Tedricîlik",
+      "Ekonomiklik",
+      "Davranışcılık",
+      "Yaşama Yakınlık",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1277,
+    "subject": "egitim",
+    "text": "Aşağıdakilerden hangisi ders işleniş süreci ile ilgili aşamalardan biri değildir?",
+    "options": [
+      "Dersi Planlama",
+      "Dersi Sunma",
+      "Dersi Özetleme",
+      "Dersi Değerlendirme",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1278,
+    "subject": "egitim",
+    "text": "Aşağıdakilerden hangisi öğrenme-öğretme yöntemlerini seçmede ve geliştirmede dikkat edilmesi gereken ilkelerden biridir?",
+    "options": [
+      "Öğrenmede yalnızca bilgiyi aktarmak değil, bilgiyi yeniden üretmek, yeni durumlara aktarmak ve sentez yapmak temel amaç olmalıdır.",
+      "Öğrencilerin geçmiş öğrenmeleri yanlış olabileceğinden dolayı, yeni öğrenmeler ve düzenlenecek etkinlikler öğrencilerin geçmiş tecrübeleriyle ilişki kurulmadan yapılmalıdır.",
+      "Öğrenme süreci, öğrenciler arasında yarışma ve rekabet gibi duyguları yansıtacak şekilde planlanmalıdır.",
+      "Öğrenme etkinlikleri/tecrübeleri, genelden özele, karmaşıktan basite ve soyuttan somuta doğru tasarlanmalıdır.",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1279,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdakilerden hangisi günümüz İslam ülkelerinden biri değildir?",
+    "options": [
+      "Brunei Sultanlığı",
+      "Kongo",
+      "Sudan",
+      "Moritanya",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1280,
+    "subject": "dinler-tarihi",
+    "text": "Minare yapımı ile ilgili yoğun tartışmalar yaşandığı ve konunun referanduma götürüldüğü ülke aşağıdakilerden hangisidir?",
+    "options": [
+      "İsveç",
+      "İskoçya",
+      "İsviçre",
+      "Danimarka",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1281,
+    "subject": "dinler-tarihi",
+    "text": "Hinduizm ve İslam'dan etkilenerek Hindistan'da ortaya çıkan dini inanç aşağıdakilerden hangisidir?",
+    "options": [
+      "Şintoizm",
+      "Sihizm",
+      "Konfüçyanizm",
+      "Taoizm",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1282,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdakilerden hangisi Hz. İsa dönemi Yahudiliğinin üç önemli mezhebinden biri değildir?",
+    "options": [
+      "Sadukîlik",
+      "Karâîlik",
+      "Ferisîlik",
+      "Essenîlik",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1283,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdakilerden hangisi Protestant reformcularından biri değildir?",
+    "options": [
+      "Luther",
+      "Zwingli",
+      "Kalvin",
+      "Akinolu Thomas",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1284,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdakilerden hangisi Hinduizmin kutsal metinlerinden değildir?",
+    "options": [
+      "Vedalar",
+      "Levililer",
+      "Brahmanalar",
+      "Upanişadlar",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
+  },
+  {
+    "id": 1285,
+    "subject": "dinler-tarihi",
+    "text": "Aşağıdaki ülkelerden hangisinde Ortodoks nüfus çoğunluğu teşkil etmektedir?",
+    "options": [
+      "Yunanistan",
+      "İtalya",
+      "İspanya",
+      "Portekiz",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2010 MBSTS",
+    "year": 2010,
+    "source": "2010 MBSTS"
   }
 ]

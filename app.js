@@ -5,7 +5,8 @@ const SUBJECTS = {
     'fikih-ilmihal': { name: 'Fikih ve Ilmihal', count: 20, color: '#e67e22', icon: '⚖️' },
     'hadis': { name: 'Hadis', count: 7, color: '#27ae60', icon: '📜' },
     'siyer': { name: 'Siyer ve Islam Tarihi', count: 7, color: '#e74c3c', icon: '🕌' },
-    'dinler-tarihi': { name: 'Dinler ve Mezhepler', count: 5, color: '#34495e', icon: '🌍' }
+    'dinler-tarihi': { name: 'Dinler ve Mezhepler', count: 5, color: '#34495e', icon: '🌍' },
+    'egitim': { name: 'Eğitim ve Öğretim', count: 3, color: '#f1c40f', icon: '🎓' }
 };
 
 const SOURCES = [
