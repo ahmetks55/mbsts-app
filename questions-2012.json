@@ -2,7 +2,7 @@
   {
     "id": 895,
     "subject": "tefsir",
-    "text": "Huruf-u mukattaadan olan kelimesinde sırasıyla hangi tecvid kuralları uygulanır?",
+    "text": "Huruf-u mukattaadan olan Alif-Lam-Mim kelimesinde sırasıyla hangi tecvid kuralları uygulanır?",
     "options": [
       "Medd-i lazım, medd-i lazım, idğam maalğunne, medd-i lazım",
       "Medd-i tabii, medd-i lazım, idğam maalğunne, medd-i lazım",
@@ -18,7 +18,7 @@
   {
     "id": 896,
     "subject": "tefsir",
-    "text": "de dan sonra hangi tecvid kuralı uygulanır?",
+    "text": "Celle'den sonra hangi tecvid kuralı uygulanır?",
     "options": [
       "Medd-i asli",
       "Medd-i tabii",
@@ -50,7 +50,7 @@
   {
     "id": 898,
     "subject": "tefsir",
-    "text": "kelimesi, kelimesine vasledilmesi hâlinde nasıl okunur?",
+    "text": "Sübhanake kelimesi, Allahümme atina kelimesine vasledilmesi halinde nasıl okunur?",
     "options": [
       "ن ötre okunarak, hemze vasledilerek",
       "ن esre okunarak, hemze vasledilerek",
@@ -66,7 +66,7 @@
   {
     "id": 899,
     "subject": "tefsir",
-    "text": "kelimelerinde sakin ب dan sonra hangi tecvid kuralı uygulanır?",
+    "text": "Besmele, Bismillah, Rahman, Rahim kelimelerinde sakin harflerden sonra hangi tecvid kuralı uygulanır?",
     "options": [
       "İdğam mütecaniseyn",
       "İdğam Mütakaribeyn",
@@ -226,15 +226,15 @@
   {
     "id": 909,
     "subject": "tefsir",
-    "text": "ayetinin meali aşağıdakilerden hangisidir?",
+    "text": "Felak ve Nas surelerinin meali aşağıdakilerden hangisidir?",
     "options": [
       "Yarattığı şeylerin şerrinden",
-      "Düğümlere üfürenlerin şerrinden",
-      "Kıskandığı zaman kıskanç kişinin şerrinden",
-      "Karanlığı çöktüğü zaman gecenin şerrinden",
+      "Söylenen iftiraların şerrinden",
+      "Kızdığı zaman kızgın kimsenin şerrinden",
+      "Karanlığı çektiği zaman gecenin şerrinden",
       ""
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "2012 MBSTS",
     "year": 2012,
     "source": "2012 MBSTS"
@@ -290,7 +290,7 @@
   {
     "id": 913,
     "subject": "tefsir",
-    "text": "ayeti ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "text": "Aşağıdaki ayetlerden hangisiyle ilgili olarak aşağıdakilerden hangisi doğrudur?",
     "options": [
       "Bu ayeti Cuma hutbesi bitiminde okumak vaciptir.",
       "Bu ayeti Cuma hutbesi bitiminde okumak sünnettir.",
@@ -418,7 +418,7 @@
   {
     "id": 921,
     "subject": "fikih-ilmihal",
-    "text": "Hanefilere göre ağır necasette namaza engel olan sıvı ve katı necaset miktarları aşağıdakilerinn hangisinde doğru olarak verilmiştir?",
+    "text": "Hanefilere göre ağır necasette namaza engel olan sıvı ve katı necaset miktarları aşağıdakilerin hangisinde doğru olarak verilmiştir?",
     "options": [
       "İki avuç içi - 1 dirhem",
       "Bir avuç içi - 1 dirhem",
@@ -1250,7 +1250,7 @@
   {
     "id": 966,
     "subject": "fikih-ilmihal",
-    "text": "ayetiyle ilgili olarak aşağıdakilerden hangisi söylenemez?",
+    "text": "Aşağıdaki ayetlerden hangisiyle ilgili olarak aşağıdakilerden hangisi söylenemez?",
     "options": [
       "Haccın farziyetine Kitaptan delil olduğu",
       "Haccın her Müslümana, ömründe bir defa farz olduğu",
@@ -1559,7 +1559,7 @@
       "Bayramın 1. günü üç cemreye de 7’şer adet taş atılır.",
       "Her bir cemreye 7 taşı peş peşe atmak sünnettir.",
       "Taşlama günlerinde toplam 70 adet taş atılır.",
-      "diyerek taşlamak sünnettir.",
+      "Bismillahi Allahu Ekber diyerek taşlamak sünnettir.",
       ""
     ],
     "correct": 0,
