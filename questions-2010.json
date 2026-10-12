@@ -146,7 +146,7 @@
   {
     "id": 1135,
     "subject": "kur-an-bilgisi",
-    "text": "'Kul hũvellâhü ehad' ve 'Kul e'ûzü bi-rabbi'l-felek' kelimelerinde Lafzatullah nasıl okunur?",
+    "text": "(اللَّهُمَّ بِاللَّهِ اللَّهُ) kelimelerinde Lafzatullah nasıl okunur?",
     "options": [
       "İnce olarak",
       "Kalın olarak",
@@ -202,7 +202,7 @@
       "Tevbe",
       ""
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
@@ -330,7 +330,7 @@
       "Boş ve anlamsız şeylerden yüz çevirmek",
       ""
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "2010 MBSTS",
     "year": 2010,
     "source": "2010 MBSTS"
