@@ -2,7 +2,7 @@
   {
     "id": 786,
     "subject": "tefsir",
-    "text": "Muhammed b. Tayfur'un Kur'an ile ilgili hizmeti aşağıdakilerden hangisidir?",
+    "text": "Muhammed b. Tayfur’un Kur’ân ile ilgili hizmeti aşağıdakilerden hangisidir?",
     "options": [
       "Kur'an'ı noktalayan kişidir.",
       "Kur'an'ı harekeleyen kişidir.",
@@ -18,7 +18,7 @@
   {
     "id": 787,
     "subject": "kur-an-bilgisi",
-    "text": "Aşağıdaki kelimelerin hangisinde 'idgam' yapılabilir?",
+    "text": "Aşağıdaki kelimelerin hangisinde “işmâm” yapılabilir?",
     "options": [
       "Gülsün",
       "Gelir",
@@ -42,7 +42,7 @@
       "İdgam mitecaniseyn vardır.",
       ""
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -66,7 +66,7 @@
   {
     "id": 790,
     "subject": "tefsir",
-    "text": "Hümeze suresinde zikredilen yasak davranışlar aşağıdakilerin hangisinde bir arada verilmiştir? I- Mal toplayıp tekrar tekrar sayıp durmak II- Arkadan çekiştirmek III- Ölülerle eğlenmek IV- Yalan söylemek",
+    "text": "I- İnsanları kandırmak için durmadan yemin etmek II- Mal toplayıp tekrar tekrar sayıp durmak III- Arkadan çekiştirmek IV- Ölülerle övünmek V- Yalan söylemek Hümeze sûresinde zikredilen yasak davranışlar, aşağıdakilerin hangisinde bir arada verilmiştir?",
     "options": [
       "I, III ve V",
       "II ve V",
@@ -74,7 +74,7 @@
       "I, III ve IV",
       ""
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -98,7 +98,7 @@
   {
     "id": 792,
     "subject": "tefsir",
-    "text": "Aşağıdakilerin hangisi Kur'an'ı tefsir eden kişide olmaması gereken bir özelliktedir?",
+    "text": "Aşağıdakilerin hangisi Kur’ân’ı tefsir eden kişide olmaması gereken bir özelliktir?",
     "options": [
       "Ulumu'l-Kur'an bilgisine sahip olmak",
       "Batini görüşlere göre hüküm istinbat etmek",
@@ -114,7 +114,7 @@
   {
     "id": 793,
     "subject": "tefsir",
-    "text": "Aşağıdakilerden hangisi Kur'an'ın indiriliş amaçlarından biri değildir?",
+    "text": "Aşağıdakilerden hangisi Kur’ân’ın indiriliş amaçlarından biri değildir?",
     "options": [
       "İnsanların inançlarını düzeltmek",
       "İnsanların ahlakını güzelleştirmek",
@@ -130,7 +130,7 @@
   {
     "id": 794,
     "subject": "kur-an-bilgisi",
-    "text": "... ayetinden hareketle aşağıdakilerden hangisi söylenemez?",
+    "text": "Ayetinden hareketle aşağıdakilerden hangisi söylenemez?",
     "options": [
       "Bir beşer olarak bilgisine ulaşamayacağımız hususlar muteşabihtir.",
       "Bazı muteşabih ayetleri 'ilimde derinleşen kimseler' anlayabilirler.",
@@ -146,7 +146,7 @@
   {
     "id": 795,
     "subject": "kur-an-bilgisi",
-    "text": "Aşağıdakilerden hangisi Kur'an'ın müteccemen (bölüm bölüm) indirilmesinin hikmetlerinden biri değildir?",
+    "text": "Aşağıdakilerden hangisi Kur’ân’ın müneccemen (bölüm bölüm) indirilmesinin hikmetlerinden biri değildir?",
     "options": [
       "Tehaddi metodunun gösterilmesi",
       "İhtiyac duyulan soruların cevabının verilmesi",
@@ -162,7 +162,7 @@
   {
     "id": 796,
     "subject": "tefsir",
-    "text": "Geçerli bir sebebe ve delile dayal olarak sözü öncelikli manasında değil de ikinci derecede akla gelen manasında almaya, böyle anlayıp yorumlamaya ne denir?",
+    "text": "Geçerli bir sebebe ve delile dayalı olarak sözü öncelikli mânasında değil de ikinci derecede akla gelen mânasında almaya, böyle anlayıp yorumlamaya ne denir?",
     "options": [
       "Tefsir",
       "Meal",
@@ -242,7 +242,7 @@
   {
     "id": 801,
     "subject": "kur-an-bilgisi",
-    "text": "Aşağıda adı geçen kişilerden hangisi İsraili rivayetlerin kaynaklarından biri olarak değerlendirilmez?",
+    "text": "Aşağıda adı geçen kişilerden hangisi İsrailî rivayetlerin kaynaklarından biri olarak değerlendirilmez?",
     "options": [
       "Ka'bu'l-Ahbar",
       "Said b. Cubeyr",
@@ -250,7 +250,7 @@
       "Abdulmelik b. Cureyc",
       ""
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -258,7 +258,7 @@
   {
     "id": 802,
     "subject": "kur-an-bilgisi",
-    "text": "Medine'de ilk nazil olan sure hangisidir?",
+    "text": "Medine’de ilk nazil olan sure hangisidir?",
     "options": [
       "Nisa",
       "Tegabun",
@@ -274,7 +274,7 @@
   {
     "id": 803,
     "subject": "kur-an-bilgisi",
-    "text": "Aşağıdaki eserlerden hangisi Kur'an'ın noktalanması ve harekelenmesi konusunda en meşhur eserlerdendir?",
+    "text": "Aşağıdaki eserlerden hangisi Kur’ân’ın noktalanması ve harekelenmesi konusunda en meşhur eserlerdendir?",
     "options": [
       "İbni'l-Cezeri - en-Nesr fi'l-kiraati'l-'asr",
       "Ebu Amr ed-Dani - el-Muhkem fi nakd'il-masahif",
@@ -290,7 +290,7 @@
   {
     "id": 804,
     "subject": "tefsir",
-    "text": "Nüzul sebepleriyle ilgili ilk eser yazan alım aşağıdakilerden hangisidir?",
+    "text": "Nüzul sebepleriyle ilgili ilk eser yazan alim aşağıdakilerden hangisidir?",
     "options": [
       "Ali b. el-Medini",
       "Suyuti",
@@ -306,7 +306,7 @@
   {
     "id": 805,
     "subject": "tefsir",
-    "text": "Tefsir usulü dallarından 'Garibu'l-Kur'an'ın konusu nedir?",
+    "text": "Tefsir usûlü dallarından “Garîbu’l-Kur’ân”ın konusu nedir?",
     "options": [
       "Kur'an-ı Kerim'deki kevni ayetler",
       "Kur'an-ı Kerim'deki farklı kıraatlar",
@@ -330,7 +330,7 @@
       "Kız kardeşin kız torunu",
       ""
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -338,7 +338,7 @@
   {
     "id": 807,
     "subject": "fikih-ilmihal",
-    "text": "Adet halindeki eşle cinsel ilişkiyi haram kılan ayet aşağıdakilerden hangisidir?",
+    "text": "Adet hâlindeki eşle cinsel ilişkiyi haram kılan ayet aşağıdakilerden hangisidir?",
     "options": [
       "Bakara, 222",
       "Hucurat, 13",
@@ -386,7 +386,7 @@
   {
     "id": 810,
     "subject": "fikih-ilmihal",
-    "text": "Rüküdan doğrulduktan sonra ayakta beklemek ve iki secde arasında bir süre beklemek, aşağıdaki kavramlardan hangileriyle ifade olunur?",
+    "text": "Rükûdan doğrulduktan sonra ayakta beklemek ve iki secde arasında bir süre beklemek, aşağıdaki kavramlardan hangileriyle ifade olunur?",
     "options": [
       "Kavme-celse",
       "Kıyam-i'timad",
@@ -402,7 +402,7 @@
   {
     "id": 811,
     "subject": "fikih-ilmihal",
-    "text": "Zekatın ödenmesi konusunda aşağıdakilerden hangisi yanlıştır?",
+    "text": "Zekâtın ödenmesi konusunda aşağıdakilerden hangisi yanlıştır?",
     "options": [
       "Altın, gümüş, para, ticaret malları ve hayvanlarda zekatın farz olabilmesi için 'havelan'ı-havl' şart koşulmuştur.",
       "Şartları gerçekleşen malda zekatın fevri olarak ödenmesi gerektığinde görüş birliğine varılmıştır.",
@@ -418,7 +418,7 @@
   {
     "id": 812,
     "subject": "fikih-ilmihal",
-    "text": "Kişi öğle namazını kılmaya başlarken diliyle ikindi diye niyet etmesi halinde, kalbinden geçirdiği niyetine mi yoksa diliyle söylediği niyetine mi itibar edilir?",
+    "text": "Kişi öğle namazını kılmaya başlarken diliyle ikindi diye niyet etmesi hâlinde, kalbinden geçirdiği niyetine mi yoksa diliyle söylediği niyetine mi itibar edilir?",
     "options": [
       "Dili ile yaptığı niyete itibar edilir.",
       "Kalbinden yaptığı niyete itibar edilir.",
@@ -450,7 +450,7 @@
   {
     "id": 814,
     "subject": "hac",
-    "text": "Hanefilere göre aşağıdakilerden hangisi hacca niyetlilik şartlarından değildir?",
+    "text": "Hanefilere göre aşağıdakilerden hangisi haccın yükümlülük şartlarından değildir?",
     "options": [
       "İstitaat",
       "Müslüman olmak",
@@ -466,7 +466,7 @@
   {
     "id": 815,
     "subject": "hac",
-    "text": "Arafat vakfesini yaptıktan sonra, gün batımını beklemeden ayrılan kişiyle ilgili olarak aşağıdaki hükümlerden hangisi yanlışa düşer?",
+    "text": "Arafat vakfesini yaptıktan sonra, gün batımını beklemeden ayrılan kişiyle ilgili olarak aşağıdaki hükümlerden hangisi yanlış olur?",
     "options": [
       "Hanefilere göre gün batımını beklemesi vaciptir.",
       "Şafii'ye göre gün batımından önce ayrılırsa ceza gerekmez.",
@@ -498,7 +498,7 @@
   {
     "id": 817,
     "subject": "fikih-ilmihal",
-    "text": "'Mekke, zaruret ve ihtiyaç gibi arızi bir sebebe bağlı olmaksızın ilkten konmuş olan ve normal durumlarda her bir mümekkile ayrı ayrı hitap eden asli hükümdür.' Yukarıda tanımı verilen kavram aşağıdakilerden hangisidir?",
+    "text": "“Meşakkat, zaruret ve ihtiyaç gibi ârızî bir sebebe bağlı olmaksızın ilkten konmuş olan ve normal durumlarda her bir mükellefe ayrı ayrı hitap eden aslî hükümdür.” Yukarıda tanımı verilen kavram aşağıdakilerden hangisidir?",
     "options": [
       "Ruhsat",
       "Azimet",
@@ -514,7 +514,7 @@
   {
     "id": 818,
     "subject": "fikih-ilmihal",
-    "text": "'Ehliyet' ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "text": "“Ehliyet” ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
     "options": [
       "Vücub ehliyetinin temelini akıl ve temyiz gücü teşkil eder.",
       "Sağ doğum kaydıyla cenin vücud ehliyetine sahiptir.",
@@ -522,7 +522,7 @@
       "Vücub ehliyeti, kişinin haklara sahip olabilme ve borç altına girebilme ehliyetidir.",
       ""
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -530,7 +530,7 @@
   {
     "id": 819,
     "subject": "fikih-ilmihal",
-    "text": "Kurbanla niyetli olmak için sart olan zenginlik ölçüsünü bildiren bir kavram aşağıdakilerden hangisidir?",
+    "text": "Aşağıdakilerden hangisi kurbanla yükümlü olmak için şart olan zenginlik ölçüsünü bildiren bir kavramdır?",
     "options": [
       "Nisab-ı istigna",
       "Saime",
@@ -546,7 +546,7 @@
   {
     "id": 820,
     "subject": "fikih-ilmihal",
-    "text": "'Harama, kötü ve zararlı bir sonuca vesile olan davranışların yasaklanması, kötülüğe giden yolların kapatılmasıdır.' Yukarıda tanımı verilen kavram aşağıdakilerden hangisidir?",
+    "text": "“Harama, kötü ve zararlı bir sonuca vasıta olan davranışların yasaklanması, kötülüğe giden yolların kapatılmasıdır.” Yukarıda tanımı verilen kavram aşağıdakilerden hangisidir?",
     "options": [
       "Tasfiye",
       "Sedd-i zerai'",
@@ -578,7 +578,7 @@
   {
     "id": 822,
     "subject": "hadis",
-    "text": "Aşağıdakilerden hangisi munkair hadis çeşitlerinden değildir?",
+    "text": "Aşağıdakilerden hangisi munkatı’ hadis çeşitlerinden değildir?",
     "options": [
       "Midebbec",
       "Müdelles",
@@ -594,7 +594,7 @@
   {
     "id": 823,
     "subject": "hadis",
-    "text": "Aşağıdakilerden hangisi ravizin zabtına yönelik tenkit sebeplerinden değildir?",
+    "text": "Aşağıdakilerden hangisi ravinin zabtına yönelik ta’n sebeplerinden değildir?",
     "options": [
       "Vehmi'r-ravi",
       "Cehaletü'r-ravi",
@@ -602,7 +602,7 @@
       "Fuhşu galati'r-ravi",
       ""
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -610,7 +610,7 @@
   {
     "id": 824,
     "subject": "hadis",
-    "text": "Herhangi bir hadis aliminin hadis almak için ileri sürdüğü şartları taşıdığı halde, kitabına almadığı hadislerin, bir başkası tarafından toplanarak oluşturulmuş eserlere hadis usulünde ne ad verilir?",
+    "text": "Herhangi bir hadis âliminin hadis almak için ileri sürdüğü şartları taşıdığı hâlde, kitabına almadığı hadislerin, bir başkası tarafından toplanarak oluşturulmuş eserlere hadis usulünde ne ad verilir?",
     "options": [
       "Mustahrec",
       "Müsned",
@@ -626,7 +626,7 @@
   {
     "id": 825,
     "subject": "hadis",
-    "text": "Aşağıdaki Hadis usulü kavramlarından hangisi yalnızca isnada değil metne de taalluk eder?",
+    "text": "Aşağıdaki Hadis usûlü kavramlarından hangisi yalnızca isnada değil metne de taalluk eder?",
     "options": [
       "Uluw-i mutlak",
       "Nazil",
@@ -658,7 +658,7 @@
   {
     "id": 827,
     "subject": "hadis",
-    "text": "'Müminin işi hayretedir. Zira her işi onun için hayırlıdır. Bu meziyet yalnız mümine mahsustur. .............' hadisinde boş bırakılan yere hangi ifade gelmelidir?",
+    "text": "“Müminin işi hayrete şayandır. Zira her işi onun için hayırlıdır. Bu meziyet yalnız mümine mahsustur. .............” hadisinde boş bırakılan yere hangi ifade gelmelidir?",
     "options": [
       "Dünyada Rabbi'nin rızasına erer bu onun için bir hayırdır; ahirette ise cennetine kavuşur bu da onun için bir hayırdır.",
       "İyilik eder sevap kazanır bu onun için bir hayırdır; günah işler istigfar eder bu da onun için bir hayırdır.",
@@ -674,7 +674,7 @@
   {
     "id": 828,
     "subject": "hadis",
-    "text": "'Allah'a ve ahiret gününe inanan kimse, ......, Allah'a ve ahiret gününe inanan kimse, ......, Allah'a ve ahiret gününe inanan kimse, ......' hadisinde boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?",
+    "text": "“Allah’a ve ahiret gününe inanan kimse, ......, Allah’a ve ahiret gününe inanan kimse, ......, Allah’a ve ahiret gününe inanan kimse,......” Hadisinde boş bırakılan yerlere sırasıyla aşağıdaki ifadelerden hangisi gelmelidir?",
     "options": [
       "Anasına babasına iyilik etsin, sılayı rahim yapsın, doğru söylesin.",
       "Anasına babasına iyilik etsin, tanıdık tanımadık herkese selam versin, sılayı rahim yapsın.",
@@ -690,7 +690,7 @@
   {
     "id": 829,
     "subject": "hadis",
-    "text": "... hadisinin tercümesinde boş bırakılan yerlere sırasyla gelmesi gereken en uygun ifadeler aşağıdakilerden hangisidir?",
+    "text": "“......, ......, hoşnutluk ve hoşnutsuzluk hâlinde, hatta ...... bile, dinle ve itaat et.” Hadisin tercümesinde boş bırakılan yerlere sırasıyla gelmesi gereken en uygun ifadeler aşağıdakilerden hangisidir?",
     "options": [
       "Zorlukta, kolaylıkta, öfkeli anında",
       "Mutlu günlerinde, mutsuz günlerinde, esir düştüğünde",
@@ -706,7 +706,7 @@
   {
     "id": 830,
     "subject": "dinler-tarihi",
-    "text": "İslami kaynaklarda, asli vahye dayanmayan 'batıl dinler' için genellikle hangi kavram kullanılır?",
+    "text": "İslamî kaynaklarda, aslı vahye dayanmayan “batıl dinler” için genellikle hangi kavram kullanılır?",
     "options": [
       "Milel",
       "Fiten",
@@ -722,7 +722,7 @@
   {
     "id": 831,
     "subject": "akaid-kelam",
-    "text": "Aşağıdaki itikadi mezheplerden hangisi görüşleri itibarıyla İslam çerçevesinde yer alır?",
+    "text": "Aşağıdaki itikâdî mezheplerden hangisi görüşleri itibarıyla İslam çerçevesi içinde yer alır?",
     "options": [
       "Hariciyye",
       "Galiyye",
@@ -754,7 +754,7 @@
   {
     "id": 833,
     "subject": "akaid-kelam",
-    "text": "Aşağıdakilerden hangisi Es'ari bilginlerinden biri değildir?",
+    "text": "Aşağıdakilerden hangisi Eş’ari bilginlerinden biri değildir?",
     "options": [
       "Gazzali",
       "Razi",
@@ -770,7 +770,7 @@
   {
     "id": 834,
     "subject": "akaid-kelam",
-    "text": "Aşağıdakilerden hangisi Maturidi ve Es'ariler'in ortak görüşüdür?",
+    "text": "Aşağıdakilerden hangisi Maturidî ve Eş’arîler’in ortak görüşüdür?",
     "options": [
       "Tekvin sıfatı ezelidir.",
       "Dini tebliğ olmasa da kişinin aklıyla Allah'ı bulması vaciptir.",
@@ -786,7 +786,7 @@
   {
     "id": 835,
     "subject": "akaid-kelam",
-    "text": "'Kulların ihtiyari fiillerini hür iradeleriyle yaptığını ve kul için en uygun olanı yaratmanın Allah'a gerekli olduğu' Mutezile mezhebinde hangi kavram ile ifade edilir?",
+    "text": "“Kulların ihtiyari fiillerini hür iradeleriyle yaptığı ve kul için en uygun olanı yaratmanın Allah’a gerekli olduğu” Mutezile mezhebinde hangi kavram ile ifade edilir?",
     "options": [
       "Va'd",
       "Adl",
@@ -802,7 +802,7 @@
   {
     "id": 836,
     "subject": "akaid-kelam",
-    "text": "'Cevher ve Araz' gibi konular hangi ilmin konuları arasında incelenir?",
+    "text": "“Cevher ve Araz” gibi konular hangi ilmin konuları arasında incelenir?",
     "options": [
       "Kelam",
       "Hadis",
@@ -818,7 +818,7 @@
   {
     "id": 837,
     "subject": "akaid-kelam",
-    "text": "Allah'ın sıfatlarından biri olan 'sani, kadri yüce ve kudreti büyük olan' anlamındaki sıfat aşağıdakilerden hangisidir?",
+    "text": "Allah’ın sıfatlarından biri olan “şânı, kadri yüce ve kudreti büyük olan” anlamındaki sıfat aşağıdakilerden hangisidir?",
     "options": [
       "Bari",
       "Alim",
@@ -842,7 +842,7 @@
       "Akaidi'n-Nesefi - Necmeddin Ömer b. Muhammed",
       ""
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -866,7 +866,7 @@
   {
     "id": 840,
     "subject": "siyer",
-    "text": "Aşağıdakilerden hangisi Siretü'n-Nebi hakkında ilk deneme eser kaleme alan müellifler arasında yer almaz?",
+    "text": "Aşağıdakilerden hangisi Sîretü’n-Nebî hakkında ilk dönem eser kaleme alan müellifler arasında yer almaz?",
     "options": [
       "Vakidi",
       "Musa b. Ukbe",
@@ -882,7 +882,7 @@
   {
     "id": 841,
     "subject": "siyer",
-    "text": "İslam'ın doğduğu sırada Mekke'nin idaresi ile ilgili görevlerden 'Egnak'ın içeriği aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "text": "İslam’ın doğduğu sırada Mekke’nin idaresi ile ilgili görevlerden “Eşnak”ın içeriği aşağıdakilerin hangisinde doğru olarak verilmiştir?",
     "options": [
       "Ka'be'nin anahtarlarının muhafazası",
       "Diyetlerin ödenmesi ve zararların tespiti",
@@ -914,7 +914,7 @@
   {
     "id": 843,
     "subject": "siyer",
-    "text": "Bi'r-i Ma'ne faciası ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "text": "Bi’ri Maûne faciası ile ilgili aşağıdakilerden hangisi doğru değildir?",
     "options": [
       "Şehit edilen sahabeler Amr b. Sa'sa kabilesine İslam'ı anlatmak üzere gönderilmişti.",
       "Gönderilen yaklaşık yetmiş Kurra'dan hepsi olay yerinde şehit edilmiştir.",
@@ -930,7 +930,7 @@
   {
     "id": 844,
     "subject": "siyer",
-    "text": "Hz. Peygamber (s.a.s.), Medine pazarını kontrol etmek için bazı sahabeleri görevlendirmiştir. Aşağıdakilerden hangisi bu sahabeler arasında yer almaz?",
+    "text": "Hz. Peygamber (s.a.s.), Medine pazarını kontrol etmek için bazı sahabîleri görevlendirmiştir. Aşağıdakilerden hangisi bu sahabîler arasında yer almaz?",
     "options": [
       "Hassan b. Sabit",
       "Ömer b. Hattab",
@@ -946,7 +946,7 @@
   {
     "id": 845,
     "subject": "siyer",
-    "text": "Medine Vesikası'na bağlı olarak Müslümanlarla iyi ilişkiler içinde olacaklarına dair antlaşma yapan Yahudilerin Medine'den çıkarılmasına, aşağıdaki olaylardan hangisi sebep olmamıştır?",
+    "text": "Medine Vesikası’na bağlı olarak Müslümanlarla iyi ilişkiler içinde olacaklarına dair antlaşma yapan Yahudilerin Medine’den çıkarılmasına, aşağıdaki olaylardan hangisi sebep olmamıştır?",
     "options": [
       "Hz. Peygamber'e suikast tertip etmeleri",
       "Müslüman bir kadına hakaret etmeleri",
@@ -962,7 +962,7 @@
   {
     "id": 846,
     "subject": "siyer",
-    "text": "Müşrikler tarafından Müslüman olduğu için hapsedilen ve Hudeybiye Antlaşması sonrasında gelip Müslümanlara sığınan hangi sahabiyi Hz. Muhammed (s.a.s.) söz konusu antlaşma gereği iade etmiştir?",
+    "text": "Müşrikler tarafından Müslüman olduğu için hapsedilen ve Hudeybiye Antlaşması sonrasında kaçıp Müslümanlara sığınan hangi sahabîyi Hz. Muhammed (s.a.s.) söz konusu antlaşma gereği iade etmiştir?",
     "options": [
       "Şeyl b. Amr",
       "Ebu Cendel",
@@ -978,7 +978,7 @@
   {
     "id": 847,
     "subject": "siyer",
-    "text": "Aşağıdakilerden hangisi Hz. Muhammed (s.a.s.)'in afetlere karşı aldığı tedbirler arasında yer almaz?",
+    "text": "Aşağıdakilerden hangisi Hz. Muhammed (s.a.s.)’in afetlere karşı aldığı tedbirler arasında yer almaz?",
     "options": [
       "Güneş tutulduğunda evlerden çıkmama",
       "Fırtınalı havalarda denize açılmama",
@@ -994,7 +994,7 @@
   {
     "id": 848,
     "subject": "siyer",
-    "text": "Hz. Peygamber'in İslam'a davet maksadıyla yaptığı Taif ziyareti ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "text": "Hz. Peygamber’in İslam’a davet maksadıyla yaptığı Tâif ziyareti ile ilgili aşağıdakilerden hangisi doğrudur?",
     "options": [
       "Burada Gatafan kabilesini İslam'a davet etmiştir.",
       "Yolculuk esnasında Hz. Ebu Bekir kendisine arkadaşlık etmiştir.",
@@ -1010,7 +1010,7 @@
   {
     "id": 849,
     "subject": "siyer",
-    "text": "Aşağıdakilerden hangisi Hz. Peygamber'in geçim kaynakları arasında yer almaz?",
+    "text": "Aşağıdakilerden hangisi Hz. Peygamber’in geçim kaynakları arasında yer almaz?",
     "options": [
       "'Safiyy' olarak isimlendirilen hakkı",
       "Kendi mülkünden elde ettiği gelirleri",
@@ -1018,7 +1018,7 @@
       "Barış yoluyla ele geçirilen gayr-i Müslümanların topraklarından elde edilen arazi geliri",
       ""
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -1042,7 +1042,7 @@
   {
     "id": 851,
     "subject": "tasavvuf",
-    "text": "Tasavvufda nefsin mertebelerinden biri olan ve insana iyiliği ve kötülüğü, hayır ve şerri birbirinden ayırdedebilecek yeteneğin verilmiş olması demek olan nefs aşağıdakilerden hangisidir?",
+    "text": "Tasavvufta nefsin mertebelerinden biri olan ve insana iyiliği ve kötülüğü, hayır ve şerri birbirinden ayırdedebilecek yeteneğin verilmiş olması demek olan nefs aşağıdakilerden hangisidir?",
     "options": [
       "Nefs-i Safiyye",
       "Nefs-i Levvame",
@@ -1074,7 +1074,7 @@
   {
     "id": 853,
     "subject": "kur-an-bilgisi",
-    "text": "Aşağıdakilerden hangisi Kur'an-ı Kerim'de ahlakla ilgili kullanılan kelimelerden değildir?",
+    "text": "Aşağıdakilerden hangisi Kur’ân-ı Kerîm’de ahlakla ilgili kullanılan kelimelerden değildir?",
     "options": [
       "Huluk",
       "İnsan",
@@ -1090,7 +1090,7 @@
   {
     "id": 854,
     "subject": "siyer",
-    "text": "Aşağıdaki kavramlardan hangisi, İslam'ın teşvik ettiği ve mü'minde bulunmasını istediği hasletlerden biridir?",
+    "text": "Aşağıdaki kavramlardan hangisi, İslam’ın teşvik ettiği ve mü’minde bulunmasını istediği hasletlerden biridir?",
     "options": [
       "Tedabir",
       "Mucazefe",
@@ -1106,7 +1106,7 @@
   {
     "id": 855,
     "subject": "din-hizmetleri",
-    "text": "Salat-i immiye'i aşağıdakilerden hangisi bestelemiştir?",
+    "text": "Salât-i ümmiyeyi aşağıdakilerden hangisi bestelemiştir?",
     "options": [
       "Dede Efendi",
       "Evliya Çelebi",
@@ -1138,7 +1138,7 @@
   {
     "id": 857,
     "subject": "din-hizmetleri",
-    "text": "Batı Trakya'da Gümülcine'nin seçilmiş müftüsü aşağıdakilerden hangisidir?",
+    "text": "Batı Trakya’da Gümülcine’nin seçilmiş müftüsü aşağıdakilerden hangisidir?",
     "options": [
       "Allahsukur Pağazade",
       "Elsad İskenderov",
@@ -1154,7 +1154,7 @@
   {
     "id": 858,
     "subject": "din-hizmetleri",
-    "text": "'Bacıyan-ı Rum' ifadesi için aşağıda verilen tariflerden hangisi doğrudur?",
+    "text": "“Bâciyan-ı Rûm” ifadesi için aşağıda verilen tariflerden hangisi doğrudur?",
     "options": [
       "Osmanlı döneminde Rumeli bölgesinde görev yapan kadın askerlere verilen isimdir.",
       "Osmanlı döneminde ahiler tarafından Anadolu'da kurulan kadınlar birliğinin adıdır.",
@@ -1178,7 +1178,7 @@
       "Eyup Sabri Hayırlıoğlu",
       ""
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -1186,7 +1186,7 @@
   {
     "id": 860,
     "subject": "hac",
-    "text": "Kur'an'da da zikri geçen, Arafat ile Mina arasında, Müzdelife'nin sonunda Kuzeh tepesinin civarına verilen isim aşağıdakilerden hangisidir?",
+    "text": "Kur’ân’da da zikri geçen, Arafat ile Mina arasında, Müzdelife’nin sonunda Kuzeh tepesinin civarına verilen isim aşağıdakilerden hangisidir?",
     "options": [
       "Muhassab",
       "Urene vadisi",
@@ -1258,7 +1258,7 @@
       "Arafat ve Müzdelife vakfelerini yapar.",
       ""
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -1266,7 +1266,7 @@
   {
     "id": 865,
     "subject": "hac",
-    "text": "'Hac görevini yapmakta olan kimsenin süresi içinde Arafat vakfesine yetişememesi ve vakfe zamanını kaçırmasına' ne ad verilir?",
+    "text": "“Hac görevini yapmakta olan kimsenin süresi içinde Arafat vakfesine yetişememesi ve vakfe zamanını kaçırması”na ne ad verilir?",
     "options": [
       "İhsar",
       "Fakd",
@@ -1282,7 +1282,7 @@
   {
     "id": 866,
     "subject": "hac",
-    "text": "Hacer-i Asved'in bulunduğu köşe ile Ka'be kapısı arasında kalan kısma ne denir?",
+    "text": "Hacer-i Esved’in bulunduğu köşe ile Ka’be kapısı arasında kalan kısma ne denir?",
     "options": [
       "Miltzem",
       "Mizab-ı Ka'be",
@@ -1298,7 +1298,7 @@
   {
     "id": 867,
     "subject": "hac",
-    "text": "Hanefilere göre, aşağıdakilerden hangisi hacca niyetlilik şartlarından değildir?",
+    "text": "Hanefilere göre, aşağıdakilerden hangisi haccın aslî vaciplerinden değildir?",
     "options": [
       "Veda tavafı",
       "Remy-i Cemar",
@@ -1314,7 +1314,7 @@
   {
     "id": 868,
     "subject": "hac",
-    "text": "'Mendik' kavramı aşağıdakilerden hangisini kapsamaz?",
+    "text": "“Menâsik” kavramı aşağıdakilerden hangisini kapsamaz?",
     "options": [
       "Mesair anlamını",
       "Ka'be'nin ortasını",
@@ -1330,7 +1330,7 @@
   {
     "id": 869,
     "subject": "hac",
-    "text": "Gücü yeten kimsenin sa'yini yürüyerek yapmasıyla ilgili aşağıdaki mezhep ve hüküm eşleştirmelerinden hangisi yanlıştır?",
+    "text": "Gücü yeten kişinin sa’yini yürüyerek yapmasıyla ilgili aşağıdaki mezhep ve hüküm eşleştirmelerinden hangisi yanlıştır?",
     "options": [
       "Hanbeliler / Şart",
       "Hanefiler / Vacip",
@@ -1346,7 +1346,7 @@
   {
     "id": 870,
     "subject": "hac",
-    "text": "İhramlı kimsenin koku kullanmasıyla ilgili aşağıdaki hükümlerden hangisi doğrudur?",
+    "text": "İhramlı kişinin koku kullanmasıyla ilgili aşağıdaki hükümlerden hangisi doğrudur?",
     "options": [
       "İhramlının ihramlıya koku sürmesi cezayı gerektirir.",
       "Hanbelilere göre kokulu sabun kullanmak caizdir.",
@@ -1378,7 +1378,7 @@
   {
     "id": 872,
     "subject": "hac",
-    "text": "... hadisiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "text": "Hadisiyle ilgili aşağıdakilerden hangisi yanlıştır?",
     "options": [
       "Mekke'de av hayvanları bile ürkütülmemelidir.",
       "Mekke'de kendiliğinden yetişen bitkilere zarar verilmez.",
@@ -1426,7 +1426,7 @@
   {
     "id": 875,
     "subject": "dinler-tarihi",
-    "text": "Dine, dini inanç ve değerlere getirdikleri yorum ve bakış açısıyla yaygın din anlayışının temel değerlerinden sapma temayülü gösterdikleri düşünülen ve sapkın inanç ve uygulamaları nedeniyle cezalandırılmayı hak ettiklerine inanılan akımlar için aşağıdaki ifadelerden hangisi kullanılır?",
+    "text": "Dine, dinî inanç ve değerlere getirdikleri yorum ve bakış açısıyla yaygın din anlayışının temel değerlerinden sapma temayülü gösterdikleri düşünülen ve sapkın inanç ve uygulamaları nedeniyle cezalandırılmayı hak ettiklerine inanılan akımlar için aşağıdaki ifadelerden hangisi kullanılır?",
     "options": [
       "Katolik akımlar",
       "Heretik akımlar",
@@ -1458,7 +1458,7 @@
   {
     "id": 877,
     "subject": "dinler-tarihi",
-    "text": "Yeni Ahit'in verdiği bilgiler ışığında, Hz. İsa hakkında aşağıdakilerden hangisi söylenemez?",
+    "text": "Yeni Ahit’in verdiği bilgiler ışığında, Hz. İsa hakkında aşağıdakilerden hangisi söylenemez?",
     "options": [
       "Yaklaşık 30 yaşlarında iken tebliğ faaliyetine başladı.",
       "Galile bölgesinde Nasıra kasabasında bir Yahudi çocuğu olarak doğdu.",
@@ -1474,7 +1474,7 @@
   {
     "id": 878,
     "subject": "dinler-tarihi",
-    "text": "Hristiyanlıktaki 'Tanrı, İsa Mesih'i yeryüzüne göndermiş ve insanlığı günahtan kurtarmak için çarmıhta onun kanının dökülmesine razı olmuştur.' öğretisi kime aittir?",
+    "text": "Hristiyanlıktaki “Tanrı, İsa Mesih’i yeryüzüne göndermiş ve insanlığı günahtan kurtarmak için çarmıhta onun kanının dökülmesine razı olmuştur.” öğretisi kime aittir?",
     "options": [
       "Pavlus'a",
       "Romalı paganlara",
@@ -1514,7 +1514,7 @@
       "Baptist Kilise",
       ""
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "2013 MBSTS",
     "year": 2013,
     "source": "2013 MBSTS"
@@ -1538,7 +1538,7 @@
   {
     "id": 882,
     "subject": "dinler-tarihi",
-    "text": "Süryanilik ve Süryanilerle ilgili verilen aşağıdaki bilgilerden hangisi yanlıştır?",
+    "text": "Süryânilik ve Süryânilerle ilgili verilen aşağıdaki bilgilerden hangisi yanlıştır?",
     "options": [
       "Sami ırkindan Hristiyan bir topluluğun adıdır.",
       "Süryanilik, Katolikliğin yanlış uygulamalarına tepki olarak doğmuştur.",
@@ -1618,7 +1618,7 @@
   {
     "id": 887,
     "subject": "dinler-tarihi",
-    "text": "'Haham baş' için aşağıda verilen tanımlardan hangisi doğrudur?",
+    "text": "“Hahambaşı” için aşağıda verilen tanımlardan hangisi doğrudur?",
     "options": [
       "Rusya'daki en üst yetkili Yahudi din adamı için kullanılan dini-resmi bir unvandır.",
       "Herhangi bir ülkedeki en üst yetkili Yahudi din adamı için kullanılan bir unvandır.",
@@ -1634,7 +1634,7 @@
   {
     "id": 888,
     "subject": "dinler-tarihi",
-    "text": "Bahailiğin kurucusu aşağıdakilerden hangisidir?",
+    "text": "Bahâiliğin kurucusu aşağıdakilerden hangisidir?",
     "options": [
       "Mirza Gulam Ahmed",
       "Abdilbaha Abbas Efendi",
@@ -1650,7 +1650,7 @@
   {
     "id": 889,
     "subject": "dinler-tarihi",
-    "text": "Makalat, Şerh-i Besmele, Şerh-i Fatiha, Makalat-ı Gaybiyye ve Kelimat-ı Ayniyye, Kitabu'l-Fevaid, Usulu'l-Hakika ve Sathiyye adlı eserlerin müellifi aşağıdakilerden hangisidir?",
+    "text": "Makâlât, Şerh-i Besmele, Şerh-i Fatiha, Makalât-ı Gaybiyye ve Kelimât-ı Ayniyye, Kitabü’l-Fevâid, Üssü’l-Hakîka ve Şathiyye adlı eserlerin müellifi aşağıdakilerden hangisidir?",
     "options": [
       "Ahmet Yesevi",
       "İmam Rabbani",
@@ -1666,7 +1666,7 @@
   {
     "id": 890,
     "subject": "dinler-tarihi",
-    "text": "Aşağıdakilerden hangisi, XVI. yüzyilda Protestant Kiliselerinin ortaya çıkmasına öncülük eden reform önderlerinden değildir?",
+    "text": "Aşağıdakilerden hangisi, XVI. yüzyılda Protestan Kiliselerinin ortaya çıkmasına öncülük eden reform önderlerinden değildir?",
     "options": [
       "Martin Luther",
       "Jonathan Edwards",
@@ -1714,7 +1714,7 @@
   {
     "id": 893,
     "subject": "dinler-tarihi",
-    "text": "İbadetlerini tıpkı Yahudiler gibi Cumartesi günü yapan, Pazar ayınının Hristiyanlığa putperest Roma'dan geçtiğine inanan ve Pazar gününü ibadet eden kiliselerin büyük günah ve küfür içinde olduğunu düşünen Hristiyan akımı aşağıdakilerden hangisidir?",
+    "text": "İbadetlerini tıpkı Yahudiler gibi Cumartesi günü yapan, Pazar ayininin Hıristiyanlığa putperest Roma’dan geçtiğine inanan ve Pazar günü ibadet eden kiliselerin büyük günah ve küfür içinde olduğunu düşünen Hristiyan akımı aşağıdakilerden hangisidir?",
     "options": [
       "Adventistler",
       "Nasturiler",
@@ -1730,12 +1730,188 @@
   {
     "id": 894,
     "subject": "dinler-tarihi",
-    "text": "Maharisi Mahes Yogi tarafından kurulan ve önce Bati'da oldukça ilgi gören daha sonra ABD'ye taşınan Transandantal Meditasyon akımı, aşağıdaki dini geleneklerin hangisinden doğmuştur?",
+    "text": "Maharişi Maheş Yogi tarafından kurulan ve önce Batı’da oldukça ilgi çeken daha sonra ABD’ye taşınan Transandantal Meditasyon akımı, aşağıdaki dinî geleneklerin hangisinden doğmuştur?",
     "options": [
       "Zerdüştlük",
       "Hinduizm",
       "Maniheizm",
       "Sintoizm",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 895,
+    "subject": "tefsir",
+    "text": "Namazdan selam vererek çıkma ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Hanefilere göre selam ile çıkmak farzdır.",
+      "Şafiilere göre birinci selamı vermek farzdır.",
+      "Malikilere göre birinci selamı vermek farzdır.",
+      "Hanbelilere göre iki tarafa selam vermek farzdır.",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 896,
+    "subject": "tefsir",
+    "text": "Seferi olan kişinin namazlarını kısaltarak kılmasının hükmü ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Hanefilere göre kısaltarak kılmak azimettir.",
+      "Hanbelilere göre kısaltarak kılmak ruhsattır.",
+      "Malikilere göre kısaltarak kılmak sünnettir.",
+      "Şafiilere göre kısaltarak kılmak farzdır.",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 897,
+    "subject": "tefsir",
+    "text": "Oruç keffâretindeki tertiple ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Hanefilere göre tertibe uymak zorunludur.",
+      "Malikilere göre tertibe uymak zorunludur.",
+      "Şafiilere göre tertibe uymak zorunludur.",
+      "Hanbelilere göre tertibe uymak zorunludur.",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 898,
+    "subject": "tefsir",
+    "text": "Borca karşılık tutulan paranın zekâttan muaf olup olmamasıyla ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Şafiilere göre borç, hiçbir malda zekâtın vücubuna engel olmaz.",
+      "Malikilere göre borçlar, sadece parada zekâtın vücubuna engeldir.",
+      "Hanefilere göre kullara olan borca karşılık tutulan para zekâttan muaftır.",
+      "Hanefilere göre zekât gibi Allah hakkı olup da kullar tarafından istenen borçlara karşılık tutulan para zekâta tabidir.",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 899,
+    "subject": "tefsir",
+    "text": "Hacda cem-i takdim ve cem-i te’hirin hükümleriyle ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Şafiilere göre cem-i takdim sünnet; cem-i te’hir vaciptir.",
+      "Şafiilere göre cem-i takdim vacip; cem-i te’hir sünnettir.",
+      "Hanefilere göre cem-i takdim sünnet; cem-i te’hir vaciptir.",
+      "Hanefilere göre cem-i takdim vacip; cem-i te’hir sünnettir.",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 900,
+    "subject": "fikih",
+    "text": "Hadis-i şeriflerden hangisi konusu bakımından diğerlerinden farklıdır?",
+    "options": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 901,
+    "subject": "fikih",
+    "text": "ayetinden aşağıdaki anlamlardan hangisi çıkartılamaz?",
+    "options": [
+      "Hac ibadeti zamanının değiştirilemeyeceği",
+      "Hac aylarının, Müslümanlar tarafından bilindiği",
+      "Hac ibadetinin, senenin belirli zamanında yapılması gerektiği",
+      "Hac ibadetinin, hac aylarından herhangi birinde tamamlanabileceği",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 902,
+    "subject": "fikih",
+    "text": "Harem bölgesi ile mîkât yerleri arasında ikamet edenler, doğrudan hacca gitmek istediklerinde aşağıdakilerden hangisinde ihrama girerler?",
+    "options": [
+      "Zülhuleyfe",
+      "Zât-ı Irk",
+      "Bulundukları yer",
+      "Yelemlem",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 903,
+    "subject": "fikih",
+    "text": "İhramla ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Malikîlere göre hac aylarından önce hac için ihrama girilemez.",
+      "Şafilere göre hac için ihrama hac ayları dışında girilemez.",
+      "Hanefilere göre ihram yasaklarıyla ilgili kasdî cinayetlerde muhayyerlik hakkı yoktur.",
+      "Hanefilere göre hac aylarından önce hac için ihrama girmek, mekruh olmakla birlikte geçerlidir.",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 904,
+    "subject": "fikih",
+    "text": "Hangi tavaftan sonra “sa’y”de “hervele” yapılır?",
+    "options": [
+      "Umre tavafı",
+      "Nezir tavafı",
+      "Sader tavafı",
+      "Tahiyyetü’l-mescid tavafı",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2013 MBSTS",
+    "year": 2013,
+    "source": "2013 MBSTS"
+  },
+  {
+    "id": 905,
+    "subject": "fikih",
+    "text": "Aşağıdakilerden hangisi hac ve umre için ihrama giren kişiye mubah değildir?",
+    "options": [
+      "İğne yaptırması",
+      "Hanbelîlere göre evlenmesi",
+      "Kümes hayvanlarını kesmesi",
+      "Şafiilere göre ihramlı olmayan kimseleri tıraş etmesi",
       ""
     ],
     "correct": 1,
