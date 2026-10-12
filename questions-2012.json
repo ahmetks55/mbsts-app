@@ -1088,118 +1088,6 @@
     "source": "2012 MBSTS"
   },
   {
-    "id": 1286,
-    "subject": "siyer",
-    "text": "Aşağıdakilerden hangisi Hz. Muhammed (s.a.s.)’in yasakladığı tedavi usullerinden biri değildir?",
-    "options": [
-      "Hacamat yaptırılması",
-      "Hastaların kâhine götürülmesi",
-      "Zehirlenen kişinin ayık tutulması",
-      "Değirmen taşına bakarak şaşılığın giderilmesi",
-      ""
-    ],
-    "correct": 0,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
-    "id": 1287,
-    "subject": "siyer",
-    "text": "İstanbul Topkapı Sarayı Müzesinde korunan hırkayı, Hz. Muhammed (s.a.s.) hangi şaire hediye olarak vermiştir?",
-    "options": [
-      "Ka’b b. Mâlik",
-      "Veysel Karanî",
-      "Ka’b b. Züheyr",
-      "Abdullah b. Revâha",
-      ""
-    ],
-    "correct": 2,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
-    "id": 1288,
-    "subject": "akaid-kelam",
-    "text": "Aşağıdakilerden hangisi tasavvufun temel ilkeleri arasında yer almaz?",
-    "options": [
-      "Zahirî hükümlere aykırı olan her bâtın bâtıldır.",
-      "İstikamet (doğruluk, dürüstlük) kerametten üstündür.",
-      "Keşf yoluyla elde edilen bilgiler veliye ve ona tabiî olanlara delil olur.",
-      "Derecesi ne kadar yüksek olursa olsun bir velî günah işleyebilir.",
-      ""
-    ],
-    "correct": 2,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
-    "id": 1289,
-    "subject": "hadis",
-    "text": "Hadis-i şerifte; “Allah’a, onu görüyormuşsun gibi ibadet etmendir, her ne kadar sen O’nu görmüyorsan da O seni görmektedir.” şeklinde açıklanan kavram aşağıdakilerden hangisidir?",
-    "options": [
-      "İslam",
-      "İhlas",
-      "Sadakat",
-      "İhsan",
-      ""
-    ],
-    "correct": 3,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
-    "id": 1290,
-    "subject": "akaid-kelam",
-    "text": "“Hikmet, insanı öteki canlılardan ayıran düşünme veya bilme gücünün sonucudur.” Bu anlayışa göre aşağıdakilerden hangisi hikmet kavramı ile alakalı değildir?",
-    "options": [
-      "Î’sâr",
-      "Mârifet",
-      "Taakkul",
-      "İrfân",
-      ""
-    ],
-    "correct": 0,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
-    "id": 1291,
-    "subject": "dinler-tarihi",
-    "text": "XIX. yüzyılda Hindistan’da kurulan ve görüşleri Mehdî, Mesih ve kıyametle ilgili haberler etrafında şekillenen mezhep aşağıdakilerden hangisidir?",
-    "options": [
-      "Kadiyanilik",
-      "Yahova Şahitleri",
-      "Nusayrilik",
-      "Yezidilik",
-      ""
-    ],
-    "correct": 0,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
-    "id": 1292,
-    "subject": "dinler-tarihi",
-    "text": "Sanskritçe’den tercüme edilerek İslam dünyasına kazandırılan Doğu klasiklerinden felsefî hikâye kitabı aşağıdakilerden hangisidir?",
-    "options": [
-      "Seyahatnâme",
-      "Kelile ve Dimne",
-      "Hayâtu’l-hayevân",
-      "Siddhanta Samhita",
-      ""
-    ],
-    "correct": 1,
-    "explanation": "2012 MBSTS",
-    "year": 2012,
-    "source": "2012 MBSTS"
-  },
-  {
     "id": 963,
     "subject": "dinler-tarihi",
     "text": "Batı kapitalizmini oluşturan sömürgeci faaliyetler, burjuva sınıfı ve sınıf mücadeleleri Müslüman Türk toplumlarında görülmemiştir. Çünkü bu toplumlarda oluşan kültür ve iktisat sistemi, talep yönlü değil arz yönlüdür. Bu, hem insan hem de toplum ve ekonomi için böyledir. Bu duruma en belirgin katkı aşağıdakilerden hangisinden gelmiştir?",
@@ -1883,6 +1771,150 @@
       ""
     ],
     "correct": 1,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1286,
+    "subject": "siyer",
+    "text": "Aşağıdakilerden hangisi Hz. Muhammed (s.a.s.)’in yasakladığı tedavi usullerinden biri değildir?",
+    "options": [
+      "Hacamat yaptırılması",
+      "Hastaların kâhine götürülmesi",
+      "Zehirlenen kişinin ayık tutulması",
+      "Değirmen taşına bakarak şaşılığın giderilmesi",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1287,
+    "subject": "siyer",
+    "text": "İstanbul Topkapı Sarayı Müzesinde korunan hırkayı, Hz. Muhammed (s.a.s.) hangi şaire hediye olarak vermiştir?",
+    "options": [
+      "Ka’b b. Mâlik",
+      "Veysel Karanî",
+      "Ka’b b. Züheyr",
+      "Abdullah b. Revâha",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1288,
+    "subject": "akaid-kelam",
+    "text": "Aşağıdakilerden hangisi tasavvufun temel ilkeleri arasında yer almaz?",
+    "options": [
+      "Zahirî hükümlere aykırı olan her bâtın bâtıldır.",
+      "İstikamet (doğruluk, dürüstlük) kerametten üstündür.",
+      "Keşf yoluyla elde edilen bilgiler veliye ve ona tabiî olanlara delil olur.",
+      "Derecesi ne kadar yüksek olursa olsun bir velî günah işleyebilir.",
+      ""
+    ],
+    "correct": 2,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1289,
+    "subject": "hadis",
+    "text": "Hadis-i şerifte; “Allah’a, onu görüyormuşsun gibi ibadet etmendir, her ne kadar sen O’nu görmüyorsan da O seni görmektedir.” şeklinde açıklanan kavram aşağıdakilerden hangisidir?",
+    "options": [
+      "İslam",
+      "İhlas",
+      "Sadakat",
+      "İhsan",
+      ""
+    ],
+    "correct": 3,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1290,
+    "subject": "akaid-kelam",
+    "text": "“Hikmet, insanı öteki canlılardan ayıran düşünme veya bilme gücünün sonucudur.” Bu anlayışa göre aşağıdakilerden hangisi hikmet kavramı ile alakalı değildir?",
+    "options": [
+      "Î’sâr",
+      "Mârifet",
+      "Taakkul",
+      "İrfân",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1291,
+    "subject": "dinler-tarihi",
+    "text": "XIX. yüzyılda Hindistan’da kurulan ve görüşleri Mehdî, Mesih ve kıyametle ilgili haberler etrafında şekillenen mezhep aşağıdakilerden hangisidir?",
+    "options": [
+      "Kadiyanilik",
+      "Yahova Şahitleri",
+      "Nusayrilik",
+      "Yezidilik",
+      ""
+    ],
+    "correct": 0,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1292,
+    "subject": "dinler-tarihi",
+    "text": "Sanskritçe’den tercüme edilerek İslam dünyasına kazandırılan Doğu klasiklerinden felsefî hikâye kitabı aşağıdakilerden hangisidir?",
+    "options": [
+      "Seyahatnâme",
+      "Kelile ve Dimne",
+      "Hayâtu’l-hayevân",
+      "Siddhanta Samhita",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1293,
+    "subject": "tasavvuf",
+    "text": "Tasavvufta, dünya hayatına âhiret hayatı kadar veya daha fazla önem vermemek esastır. Bu hususa aşağıdaki ayetlerden hangisi delil gösterilemez?",
+    "options": [
+      "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ",
+      "وَمِنَ النَّاسِ مَن يَشْحَذُ ثَلَوَاتِهِ فِي الْحَيَاةِ الدُّنْيَا",
+      "إِنَّ الْحَيَاةَ الدُّنْيَا لَعِبٌ وَلَهْوٌ",
+      "فَلَا تُعْجِبْكَ أَمْوَالَهُمْ وَلَا أَوْلَادَهُمْ بِاللَّهِ الْعُرْورُ",
+      ""
+    ],
+    "correct": 1,
+    "explanation": "2012 MBSTS",
+    "year": 2012,
+    "source": "2012 MBSTS"
+  },
+  {
+    "id": 1294,
+    "subject": "tasavvuf",
+    "text": "يَا بَنِي آدَمَ قَدْ أَنزَلْنَا عَلَيْكُمْ لِبَاسًا يُوَارِي سَوْآتِكُمْ وَرِيشًاۖ وَلِبَاسُ التَّقْوَىٰ ذَٰلِكَ خَيْرٌۚ ذَٰلِكَ مِنْ آيَاتِ اللَّهِ لَعَلَّهُمْ يَذَّكَّرُونَ ayetinde geçen \"لِبَاسُ التَّقْوَى\" ifadesi aşağıdaki terimlerden hangisiyle yakın manada kullanılmıştır?",
+    "options": [
+      "Hayâ",
+      "Sehâvet",
+      "Sükûnet",
+      "Tefâhür",
+      ""
+    ],
+    "correct": 0,
     "explanation": "2012 MBSTS",
     "year": 2012,
     "source": "2012 MBSTS"
