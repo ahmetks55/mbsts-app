@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mbsts-v72';
+const CACHE_NAME = 'mbsts-v73';
 const ASSETS = [
   './',
   './index.html',

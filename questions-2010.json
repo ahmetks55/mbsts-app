@@ -290,7 +290,7 @@
   {
     "id": 1144,
     "subject": "kur-an-bilgisi",
-    "text": "Bazı surelerin başında bulunan 'Elif-Lam-Mim' (الام) gibi harflerden oluşan ayetlere ne ad verilir?",
+    "text": "Bazı surelerin başında bulunan 'Elif-Lam-Mim' (الم) gibi harflerden oluşan ayetlere ne ad verilir?",
     "options": [
       "Hurûf-ı Mukattaa",
       "Hurûf-ı Seb'a",
@@ -610,7 +610,7 @@
   {
     "id": 1164,
     "subject": "akaid-kelam",
-    "text": "Mutezile'nin gücü olduğu dönemde yetişmiş, akılcılık konusunda önde gelenlerden olmuş ve Beyti'l-Hikme'ye girmiştir. 'Risâle fi'l-Akl' adlı eseri yazarak akıl konusunu müstakil bir kitap olarak ele alan ilk alimdir. İlimleri ilk tasnif eden odur.",
+    "text": "Mutezile'nin gücü olduğu dönemde yetişmiş, akılcılık konusunda önde gelenlerden olmuş ve Beyti'l-Hikme'ye girmiştir. 'Risâle fi'l-Akl' adlı eseri yazarak İlimleri ilk tasnif eden kimdir?",
     "options": [
       "İbn Sînâ",
       "İbn Rüşd",
@@ -932,7 +932,7 @@
     "subject": "fikih-ilmihal",
     "text": "Sadaka-i Fıtr ile ilgili aşağıdakilerden hangisi doğrudur?",
     "options": [
-      "Nisab aranmaz.",
+      "Nisab aranır.",
       "Ergenlik şartı yoktur.",
       "Malda yıllanma şartı yoktur.",
       "Verilecek miktarın alt sınırı belli değildir.",
@@ -1266,7 +1266,7 @@
   {
     "id": 1205,
     "subject": "dinler-tarihi",
-    "text": "İslam kültür ve medeniyetine hizmet eden Buhâra, Semerkant, Taşkent ve Mergînân gibi kentlerin yer aldığı ülke aşağıdakilerden hangisidir?",
+    "text": "İslam kültür ve medeniyetine hizmet eden Buhâra, Semerkant, Taşkent ve Hîve gibi kentlerin yer aldığı ülke aşağıdakilerden hangisidir?",
     "options": [
       "Türkmenistan",
       "Afganistan",
