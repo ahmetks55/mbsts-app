@@ -2,7 +2,7 @@
   {
     "id": 895,
     "subject": "tefsir",
-    "text": "Huruf-u mukattaadan olan Alif-Lam-Mim kelimesinde sırasıyla hangi tecvid kuralları uygulanır?",
+    "text": "Huruf-u mukattaadan olan الٓمٓ kelimesinde sırasyla hangi tecvid kuralları uygulanır?",
     "options": [
       "Medd-i lazım, medd-i lazım, idğam maalğunne, medd-i lazım",
       "Medd-i tabii, medd-i lazım, idğam maalğunne, medd-i lazım",
@@ -18,7 +18,7 @@
   {
     "id": 896,
     "subject": "tefsir",
-    "text": "Celle'den sonra hangi tecvid kuralı uygulanır?",
+    "text": "جَلَّ ذِكْرُهُ de اَفْ dan sonra hangi tecvid kuralı uygulanır?",
     "options": [
       "Medd-i asli",
       "Medd-i tabii",
@@ -50,7 +50,7 @@
   {
     "id": 898,
     "subject": "tefsir",
-    "text": "Sübhanake kelimesi, Allahümme atina kelimesine vasledilmesi halinde nasıl okunur?",
+    "text": "سُبْحَانَكَ kelimesi, اللَّهُمَّ آتِنَا kelimesine vasledilmesi halinde nasıl okunur?",
     "options": [
       "ن ötre okunarak, hemze vasledilerek",
       "ن esre okunarak, hemze vasledilerek",
@@ -66,7 +66,7 @@
   {
     "id": 899,
     "subject": "tefsir",
-    "text": "Besmele, Bismillah, Rahman, Rahim kelimelerinde sakin harflerden sonra hangi tecvid kuralı uygulanır?",
+    "text": "فَشَرِبْ بِهِ kelimelerinde sakin ٍب dan sonra hangi tecvid kuralı uygulanır?",
     "options": [
       "İdğam mütecaniseyn",
       "İdğam Mütakaribeyn",
@@ -114,7 +114,7 @@
   {
     "id": 902,
     "subject": "tefsir",
-    "text": "Yüce Allah, Hz. Peygamber (s.a.s.)’i hangi tasarrufundan dolayı yukarıdaki ayet-i kerîme ile ikaz etmiştir?",
+    "text": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ تَبْتَغِي مَرْضَاتَ أَزْوَاجِكَ وَاللَّهُ غَفُورٌ رَّحِيمٌ Yüce Allah, Hz. Peygamber (s.a.s.)’i hangi tasarrufundan dolayı yukarıdaki ayet-i kerîme ile ikaz etmiştir?",
     "options": [
       "Eşlerinin rızasını kazanmak için Allah’ın helal kıldığı şeyi kendisine yasaklaması",
       "Israrla kendisine soru soran birisine karşı surat asması, başını çevirmesi",
@@ -226,15 +226,15 @@
   {
     "id": 909,
     "subject": "tefsir",
-    "text": "Felak ve Nas surelerinin meali aşağıdakilerden hangisidir?",
+    "text": "وَمِنْ شَرِّ الْغَاسِقِ إِذَا وَقَبَ ayetinin meali aşağıdakilerden hangisidir?",
     "options": [
       "Yarattığı şeylerin şerrinden",
-      "Söylenen iftiraların şerrinden",
-      "Kızdığı zaman kızgın kimsenin şerrinden",
-      "Karanlığı çektiği zaman gecenin şerrinden",
+      "Düğümlere üfürenlerin şerrinden",
+      "Kıskandığı zaman kıskanç kişinin şerrinden",
+      "Karanlığı çöktüğü zaman gecenin şerrinden",
       ""
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "2012 MBSTS",
     "year": 2012,
     "source": "2012 MBSTS"
@@ -290,7 +290,7 @@
   {
     "id": 913,
     "subject": "tefsir",
-    "text": "Aşağıdaki ayetlerden hangisiyle ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "text": "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ وَإِيْتَاءِ ذِي الْقُرْبَىٰ وَيَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ وَيَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ ayeti ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
     "options": [
       "Bu ayeti Cuma hutbesi bitiminde okumak vaciptir.",
       "Bu ayeti Cuma hutbesi bitiminde okumak sünnettir.",
@@ -738,7 +738,7 @@
   {
     "id": 941,
     "subject": "hadis",
-    "text": "'İnsanların arasını bozmak için yalan söyleyen yalancıların en kötüsüdür' hadisine anlamca en yakın olan ifade aşağıdakilerden hangisidir?",
+    "text": "مَنْ كَذَبَ عَلَيَّ مُتَعَمِّدًا فَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ hadisine anlamca en yakın olan ifade aşağıdakilerden hangisidir?",
     "options": [
       "İnsanların arasını bozmak için yalan söyleyen yalancıların en kötüsüdür.",
       "İnsanların arasını ıslah etmek için de olsa söylenen yalandan hayır elde edilmez veya yalan söylenmez.",
@@ -1250,7 +1250,7 @@
   {
     "id": 966,
     "subject": "fikih-ilmihal",
-    "text": "Aşağıdaki ayetlerden hangisiyle ilgili olarak aşağıdakilerden hangisi söylenemez?",
+    "text": "وَاللَّهُ عَلَى النَّاسِ حَجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا ayetiyle ilgili olarak aşağıdakilerden hangisi söylenemez?",
     "options": [
       "Haccın farziyetine Kitaptan delil olduğu",
       "Haccın her Müslümana, ömründe bir defa farz olduğu",
@@ -1268,13 +1268,13 @@
     "subject": "fikih-ilmihal",
     "text": "Aşağıdaki ayetlerden hangisinin hac ibadeti ile doğrudan ilgisi yoktur?",
     "options": [
-      "Bakara, 196",
-      "Bakara, 158",
-      "Al-i İmran, 97",
-      "Hac, 1-2",
+      "وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ",
+      "مِنْ أَيْنَ حَلَلْتَ فَحَجَّ بِالْبَيْتِ وَعْتَمِرْ مِنْهُ",
+      "وَلِيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ",
+      "وَمَا عَلَيْكُمْ فِي الدِّينِ مِنْ حَجٍّ",
       ""
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "2012 MBSTS",
     "year": 2012,
     "source": "2012 MBSTS"
@@ -1559,7 +1559,7 @@
       "Bayramın 1. günü üç cemreye de 7’şer adet taş atılır.",
       "Her bir cemreye 7 taşı peş peşe atmak sünnettir.",
       "Taşlama günlerinde toplam 70 adet taş atılır.",
-      "Bismillahi Allahu Ekber diyerek taşlamak sünnettir.",
+      "بِسْمِ اللهِ اللهُ اَكْبَر diyerek taşlamak sünnettir.",
       ""
     ],
     "correct": 0,
